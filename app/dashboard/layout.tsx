@@ -1,12 +1,17 @@
-import { requireAuth } from "@/lib/auth";
+import { checkAuth } from "@/lib/auth";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 
 export default async function DashboardLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  await requireAuth();
+  const isAuth = await checkAuth();
+
+  if (!isAuth) {
+    redirect("/dashboard-login");
+  }
 
   return (
     <div className="flex min-h-screen bg-[#f5f5f2]">
