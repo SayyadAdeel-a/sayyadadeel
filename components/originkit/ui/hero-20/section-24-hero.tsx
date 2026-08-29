@@ -195,7 +195,7 @@ export const Section24Hero = () => (
         }}
       >
         <img
-          src={asset("mobile-hero.png")}
+          src={asset("mobile-hero.webp")}
           alt=""
           width={753}
           height={571}

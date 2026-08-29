@@ -104,10 +104,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${interTight.variable} ${instrumentSerif.variable} ${lato.variable} h-full antialiased`}
     >
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preload" as="image" href="/originkit/hero-20/building.png" imageSizes="(max-width: 768px) 100vw, 50vw" />
-        <link rel="preload" as="image" href="/originkit/hero-20/mobile-hero.png" imageSizes="(max-width: 768px) 100vw, 50vw" />
+        <link rel="preload" as="image" href="/building.webp" imageSizes="(max-width: 768px) 100vw, 50vw" />
+        <link rel="preload" as="image" href="/mobile-hero.webp" imageSizes="(max-width: 768px) 100vw, 50vw" />
       </head>
       <body className="min-h-full flex flex-col bg-[#f5f5f2] text-[#121212]">
         {children}

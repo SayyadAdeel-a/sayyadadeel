@@ -125,7 +125,7 @@ export const BuildingParticles = () => {
           repulsionRadius: 60,
         }}
         imageConfig={{
-          image: asset("building.png"),
+          image: asset("building.webp"),
           mode: "fill",
           scale: 10,
         }}

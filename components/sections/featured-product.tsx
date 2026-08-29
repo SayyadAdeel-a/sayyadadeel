@@ -131,19 +131,19 @@ const featureData = {
   fieldVisits: {
     title: "Field Visits",
     body: "Plan visits with intelligent routing, real-time tracking, and automated scheduling that adapts to your team's workflow.",
-    image: "/sections/features/Field-Visits.jpeg",
+    image: "/field-visits.webp",
     alt: "Field visit routing illustration",
   },
   evidence: {
     title: "Evidence Capture",
     body: "Photos, notes, GPS — all tagged and organized automatically. Never lose critical field data again.",
-    image: "/sections/features/Evidence-Capture.jpg",
+    image: "/evidence-capture.webp",
     alt: "Evidence capture illustration",
   },
   reports: {
     title: "Reports",
     body: "Generate professional PDF reports from your field data in seconds. From data to deliverables, instantly.",
-    image: "/sections/features/Reports.jpeg",
+    image: "/reports.webp",
     alt: "Report generation illustration",
   },
 };
