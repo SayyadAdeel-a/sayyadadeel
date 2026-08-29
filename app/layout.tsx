@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Inter, Inter_Tight, Instrument_Serif, Lato } from "next/font/google";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -147,7 +149,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <link rel="preload" as="image" href="/originkit/hero-20/mobile-hero.webp" imageSizes="(max-width: 768px) 100vw, 50vw" />
       </head>
       <body className="min-h-full flex flex-col bg-[#f5f5f2] text-[#121212]">
-        {children}
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );

@@ -17,19 +17,7 @@ export const metadata: Metadata = {
 
 export default function UseCasesHub() {
   return (
-    <main className="min-h-screen bg-[#f5f5f2]">
-      <nav className="mx-auto flex max-w-4xl items-center justify-between px-6 py-6">
-        <Link href="/" className="font-sans text-[18px] font-semibold tracking-[-0.36px] text-[#121212]">
-          Sayyad Adeel
-        </Link>
-        <div className="flex items-center gap-6 font-tight text-[14px] text-black/50">
-          <Link href="/use-cases" className="text-[#121212]">Use Cases</Link>
-          <Link href="/glossary" className="hover:text-[#121212] transition-colors">Glossary</Link>
-          <Link href="/compare" className="hover:text-[#121212] transition-colors">Compare</Link>
-        </div>
-      </nav>
-
-      <section className="mx-auto max-w-3xl px-6 pb-24">
+    <section className="mx-auto max-w-3xl px-6 py-12 pb-24">
         <nav className="mb-8 font-tight text-[13px] text-black/40">
           <Link href="/" className="hover:text-[#121212]">Home</Link>
           <span className="mx-2">/</span>
@@ -69,6 +57,5 @@ export default function UseCasesHub() {
           ))}
         </div>
       </section>
-    </main>
   );
 }
