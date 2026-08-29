@@ -5,6 +5,14 @@ import comparisons from "@/data/seo/comparisons.json";
 export const metadata: Metadata = {
   title: "FieldOS Comparisons | See How FieldOS Compares",
   description: "Compare FieldOS with other field data collection and environmental software platforms. Feature comparisons and recommendations.",
+  alternates: {
+    canonical: "https://adeelsayyad.tech/compare",
+  },
+  openGraph: {
+    title: "FieldOS Comparisons | See How FieldOS Compares",
+    description: "Compare FieldOS with other field data collection and environmental software platforms.",
+    url: "https://adeelsayyad.tech/compare",
+  },
 };
 
 export default function CompareHub() {

@@ -5,6 +5,14 @@ import useCases from "@/data/seo/use-cases.json";
 export const metadata: Metadata = {
   title: "FieldOS Use Cases | Environmental Fieldwork Software",
   description: "Explore how FieldOS serves environmental consulting, site inspections, construction monitoring, and more. Find the workflow that fits your team.",
+  alternates: {
+    canonical: "https://adeelsayyad.tech/use-cases",
+  },
+  openGraph: {
+    title: "FieldOS Use Cases | Environmental Fieldwork Software",
+    description: "Explore how FieldOS serves environmental consulting, site inspections, construction monitoring, and more.",
+    url: "https://adeelsayyad.tech/use-cases",
+  },
 };
 
 export default function UseCasesHub() {

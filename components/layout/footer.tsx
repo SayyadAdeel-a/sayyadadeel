@@ -3,8 +3,8 @@
 import Link from "next/link";
 
 const footerLinks = [
-  { label: "FieldOS", href: "https://fieldos.adeelsawyad.tech" },
-  { label: "App", href: "https://app.adeelsawyad.tech" },
+  { label: "FieldOS", href: "https://fieldos.adeelsayyad.tech" },
+  { label: "App", href: "https://app.adeelsayyad.tech" },
   { label: "GitHub", href: "https://github.com/adeelsayyad" },
 ];
 

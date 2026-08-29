@@ -5,6 +5,14 @@ import glossary from "@/data/seo/glossary.json";
 export const metadata: Metadata = {
   title: "Environmental Fieldwork Glossary | Key Terms Explained",
   description: "Understand environmental fieldwork terminology — Phase I assessments, compliance, monitoring, data collection, and more.",
+  alternates: {
+    canonical: "https://adeelsayyad.tech/glossary",
+  },
+  openGraph: {
+    title: "Environmental Fieldwork Glossary | Key Terms Explained",
+    description: "Understand environmental fieldwork terminology — Phase I assessments, compliance, monitoring, data collection, and more.",
+    url: "https://adeelsayyad.tech/glossary",
+  },
 };
 
 export default function GlossaryHub() {

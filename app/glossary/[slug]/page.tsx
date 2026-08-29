@@ -21,6 +21,9 @@ export async function generateMetadata({
     title: item.metaTitle,
     description: item.metaDescription,
     openGraph: { title: item.metaTitle, description: item.metaDescription },
+    alternates: {
+      canonical: `https://adeelsayyad.tech/glossary/${item.slug}`,
+    },
   };
 }
 
@@ -42,7 +45,7 @@ export default async function GlossaryPage({
     "@type": "DefinedTerm",
     name: item.h1,
     description: item.definition,
-    url: `https://adeelsawyad.tech/glossary/${item.slug}`,
+    url: `https://adeelsayyad.tech/glossary/${item.slug}`,
     inLanguage: "en",
     termCode: item.slug,
   };
@@ -135,7 +138,7 @@ export default async function GlossaryPage({
           {/* CTA */}
           <div className="mb-16 flex flex-col items-center gap-4 text-center">
             <a
-              href="https://fieldos.adeelsawyad.tech"
+              href="https://fieldos.adeelsayyad.tech"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-[46px] items-center gap-2 rounded-[36px] border border-black bg-[linear-gradient(180deg,#4d4d4d_0%,#0a0a0a_100%)] px-8 text-[15px] font-medium text-white shadow-[0_4px_12px_rgba(0,0,0,0.12)] transition-opacity hover:opacity-90"

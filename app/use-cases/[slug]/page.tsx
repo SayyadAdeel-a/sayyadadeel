@@ -21,6 +21,9 @@ export async function generateMetadata({
     title: item.metaTitle,
     description: item.metaDescription,
     openGraph: { title: item.metaTitle, description: item.metaDescription },
+    alternates: {
+      canonical: `https://adeelsayyad.tech/use-cases/${item.slug}`,
+    },
   };
 }
 
@@ -46,11 +49,11 @@ export default async function UseCasePage({
     publisher: {
       "@type": "Organization",
       name: "FieldOS",
-      url: "https://fieldos.adeelsawyad.tech",
+      url: "https://fieldos.adeelsayyad.tech",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://adeelsawyad.tech/use-cases/${item.slug}`,
+      "@id": `https://adeelsayyad.tech/use-cases/${item.slug}`,
     },
   };
 
@@ -147,7 +150,7 @@ export default async function UseCasePage({
           {/* CTA */}
           <div className="mb-16 flex flex-col items-center gap-4 text-center">
             <a
-              href="https://fieldos.adeelsawyad.tech"
+              href="https://fieldos.adeelsayyad.tech"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-[46px] items-center gap-2 rounded-[36px] border border-black bg-[linear-gradient(180deg,#4d4d4d_0%,#0a0a0a_100%)] px-8 text-[15px] font-medium text-white shadow-[0_4px_12px_rgba(0,0,0,0.12)] transition-opacity hover:opacity-90"
