@@ -49,61 +49,6 @@ export const Section24Hero = () => (
       <GridRail className="left-0" />
       <GridRail className="right-0" />
 
-      {/* Nav */}
-      <Reveal className="w-full">
-        <nav className="relative z-10 mx-8 flex h-14 items-center justify-between p-4 ipad:mx-13 ipad:h-[74px] ipad:p-6 desktop-sm:mx-auto desktop-sm:h-[50px] desktop-sm:w-full desktop-sm:max-w-[752px] desktop-sm:p-0 desktop-sm:mt-[18px] full-hd:max-w-[1000px] full-hd:h-[64px] full-hd:mt-6 ultrawide:max-w-[1240px] ultrawide:h-[76px] ultrawide:mt-8">
-          <a
-            href="#home"
-            className="flex items-center gap-[6.154px] transition-opacity duration-200 ease-out ipad:gap-2 [@media(hover:hover)]:hover:opacity-70"
-          >
-            <span className="font-sans text-[15.385px] leading-[19.615px] font-semibold tracking-[-0.3077px] text-[#121212] ipad:text-[20px] ipad:leading-[25.5px] ipad:tracking-[-0.4px] full-hd:text-[24px] full-hd:leading-[30px] full-hd:tracking-[-0.48px] ultrawide:text-[28px] ultrawide:leading-[36px] ultrawide:tracking-[-0.56px]">
-              Sayyad Adeel
-            </span>
-          </a>
-
-          {/* desktop links */}
-          <ul className="hidden items-center gap-6 font-tight text-[17px] leading-[25.5px] tracking-[-0.34px] text-black desktop-sm:flex full-hd:gap-8 full-hd:text-[19px] ultrawide:gap-10 ultrawide:text-[22px] ultrawide:leading-[30px]">
-            {["Products", "About", "Contact"].map((item) => (
-              <li key={item}>
-                <a
-                  href={`#${item.toLowerCase()}`}
-                  className="relative whitespace-nowrap text-black/50 transition-colors duration-200 ease-out after:absolute after:-bottom-0.5 after:left-0 after:h-px after:w-full after:origin-right after:scale-x-0 after:bg-current after:transition-transform after:duration-200 after:ease-out [@media(hover:hover)]:hover:text-black [@media(hover:hover)]:hover:after:origin-left [@media(hover:hover)]:hover:after:scale-x-100"
-                >
-                  {item}
-                </a>
-              </li>
-            ))}
-          </ul>
-
-          {/* desktop CTA */}
-          <a
-            href="https://app.adeelsayyad.tech"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group hidden cursor-pointer items-center justify-center gap-[10px] rounded-[10px] border border-black/10 bg-black/[0.02] py-[14px] pr-[12px] pl-[20px] transition-colors duration-200 ease-out desktop-sm:flex [@media(hover:hover)]:hover:border-black/20 [@media(hover:hover)]:hover:bg-black/[0.05]"
-          >
-            <span className="font-lato text-[14px] leading-[1.5] font-bold tracking-[-0.42px] whitespace-nowrap text-[#121212]">
-              FieldOS
-            </span>
-            <ArrowIcon src={asset("arrow-dark.svg")} />
-          </a>
-
-          <button
-            type="button"
-            aria-label="Open menu"
-            className="size-6 cursor-pointer transition-opacity duration-200 ease-out desktop-sm:hidden [@media(hover:hover)]:hover:opacity-60"
-          >
-            <img
-              src={asset("menu.svg")}
-              alt=""
-              width={24}
-              height={24}
-              className="size-6"
-            />
-          </button>
-        </nav>
-      </Reveal>
-
       {/* Hero */}
       <section className="relative z-10 mx-auto mt-[113px] flex w-full max-w-[402px] flex-col items-center gap-8 px-[43.5px] ipad:mt-[126px] ipad:max-w-[745px] ipad:px-[73px] desktop-sm:mt-[95.5px] desktop-sm:max-w-[599px] desktop-sm:px-0 full-hd:mt-[128px] full-hd:max-w-[760px] full-hd:gap-10 ultrawide:mt-[176px] ultrawide:max-w-[940px] ultrawide:gap-12">
         <RevealGroup className="flex flex-col items-center gap-5" delay={0.15}>
