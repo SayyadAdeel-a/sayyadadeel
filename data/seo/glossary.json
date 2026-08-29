@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "phase-i-assessment",
+    "title": "What is a Phase I Environmental Site Assessment?",
+    "metaTitle": "Phase I Environmental Site Assessment Explained | FieldOS Guide",
+    "metaDescription": "Learn what a Phase I Environmental Site Assessment is, why it matters, and how FieldOS helps streamline the assessment process.",
+    "h1": "Phase I Environmental Site Assessment",
+    "definition": "A Phase I Environmental Site Assessment (ESA) is a preliminary investigation of a property to identify potential or existing environmental contamination liabilities. It's typically required during commercial real estate transactions.",
+    "whatItInvolves": [
+      "Review of historical land use and records",
+      "Site reconnaissance and visual inspection",
+      "Interviews with current and past owners/operators",
+      "Evaluation of nearby properties for potential contamination sources"
+    ],
+    "whyItMatters": "A Phase I ESA protects buyers from inheriting environmental liabilities. If contamination is found, a Phase II investigation may be needed to characterize the extent and cost of remediation.",
+    "howFieldOSHelps": "FieldOS streamlines Phase I assessments by providing structured data collection templates, GPS-tagged evidence capture, and automated report generation — reducing the time from fieldwork to final deliverable.",
+    "relatedTerms": ["environmental-consulting", "site-investigation", "environmental-audits"]
+  },
+  {
+    "slug": "environmental-compliance",
+    "title": "What is Environmental Compliance?",
+    "metaTitle": "Environmental Compliance Guide | Regulations & Best Practices",
+    "metaDescription": "Understanding environmental compliance — what it means, key regulations, and how organizations stay compliant with FieldOS.",
+    "h1": "Environmental Compliance",
+    "definition": "Environmental compliance means conforming to environmental laws, regulations, and standards. It applies to businesses, government agencies, and organizations that may impact the environment through their operations.",
+    "whatItInvolves": [
+      "Monitoring emissions, discharges, and waste streams",
+      "Maintaining permits and filing regulatory reports",
+      "Implementing pollution prevention measures",
+      "Conducting regular environmental audits"
+    ],
+    "whyItMatters": "Non-compliance can result in fines, legal action, operational shutdowns, and reputational damage. Strong compliance programs also reduce operational costs through efficiency improvements.",
+    "howFieldOSHelps": "FieldOS helps organizations maintain compliance by providing structured audit templates, automated deadline tracking, and report generation that maps directly to regulatory requirements.",
+    "relatedTerms": ["environmental-audits", "compliance-reporting", "environmental-monitoring"]
+  },
+  {
+    "slug": "field-data-collection",
+    "title": "What is Field Data Collection?",
+    "metaTitle": "Field Data Collection Methods & Best Practices | FieldOS",
+    "metaDescription": "Learn about field data collection methods, challenges, and how digital tools like FieldOS improve data quality and efficiency.",
+    "h1": "Field Data Collection",
+    "definition": "Field data collection is the process of gathering information outdoors or at remote locations — typically for environmental monitoring, construction inspection, surveying, or scientific research.",
+    "whatItInvolves": [
+      "GPS-stamped measurements and observations",
+      "Photo and video evidence capture",
+      "Sample collection with chain of custody documentation",
+      "Real-time data transmission to central databases"
+    ],
+    "whyItMatters": "Accurate field data is the foundation of environmental decision-making. Poor data quality leads to unreliable assessments, compliance risks, and costly rework.",
+    "howFieldOSHelps": "FieldOS replaces paper-based data collection with digital forms, automatic GPS tagging, and cloud sync — ensuring data accuracy, reducing transcription errors, and enabling real-time visibility.",
+    "relatedTerms": ["environmental-monitoring", "water-sampling", "site-inspections"]
+  },
+  {
+    "slug": "environmental-monitoring",
+    "title": "What is Environmental Monitoring?",
+    "metaTitle": "Environmental Monitoring Programs | Methods & Software",
+    "metaDescription": "Guide to environmental monitoring — what it covers, methods used, and how FieldOS helps manage monitoring programs.",
+    "h1": "Environmental Monitoring",
+    "definition": "Environmental monitoring is the systematic collection and analysis of data about environmental conditions — air, water, soil, and biological systems — to detect changes and ensure compliance.",
+    "whatItInvolves": [
+      "Air quality measurements at fixed or portable stations",
+      "Water quality sampling at discharge points or water bodies",
+      "Soil sampling and contamination assessment",
+      "Noise, light, and vibration monitoring"
+    ],
+    "whyItMatters": "Monitoring provides the evidence needed to demonstrate compliance, detect contamination early, and make informed decisions about environmental management.",
+    "howFieldOSHelps": "FieldOS manages the full monitoring workflow — from scheduling visits and collecting data to analyzing trends and generating regulatory reports.",
+    "relatedTerms": ["air-quality-monitoring", "water-sampling", "compliance-reporting"]
+  },
+  {
+    "slug": "site-investigation",
+    "title": "What is a Site Investigation?",
+    "metaTitle": "Site Investigation Process | Environmental Assessment Guide",
+    "metaDescription": "Understanding site investigations — what they involve, why they're needed, and how FieldOS supports investigation workflows.",
+    "h1": "Site Investigation",
+    "definition": "A site investigation is a detailed study of a property's environmental condition, typically following a Phase I ESA that identified potential contamination. It involves sampling and analysis to characterize the nature and extent of contamination.",
+    "whatItInvolves": [
+      "Designing a sampling plan based on suspected contaminants",
+      "Collecting soil, groundwater, and soil gas samples",
+      "Laboratory analysis against regulatory criteria",
+      "Risk assessment and remediation planning"
+    ],
+    "whyItMatters": "Site investigations determine whether contamination exists, its extent, and the cost of cleanup. The results drive regulatory decisions and property transaction values.",
+    "howFieldOSHelps": "FieldOS supports site investigations by providing sampling plan templates, sample tracking from field to lab, and data visualization tools for mapping contamination extent.",
+    "relatedTerms": ["phase-i-assessment", "soil-testing", "environmental-consulting"]
+  },
+  {
+    "slug": "report-generation",
+    "title": "What is Automated Report Generation?",
+    "metaTitle": "Automated Report Generation for Field Work | FieldOS",
+    "metaDescription": "How automated report generation works for environmental fieldwork, and why it saves time while improving report quality.",
+    "h1": "Automated Report Generation",
+    "definition": "Automated report generation uses software to compile field data into structured, professional reports — eliminating manual data entry and ensuring consistency across deliverables.",
+    "whatItInvolves": [
+      "Templates mapped to report section requirements",
+      "Auto-population of data from field collection",
+      "Photo and evidence embedding with captions",
+      "Review and approval workflows before final delivery"
+    ],
+    "whyItMatters": "Manual report writing is one of the biggest time sinks in environmental consulting. Automation can reduce report preparation time by 50-70% while improving accuracy and consistency.",
+    "howFieldOSHelps": "FieldOS generates reports directly from field-collected data — maps, photos, measurements, and notes flow into pre-built templates, producing client-ready deliverables in minutes instead of days.",
+    "relatedTerms": ["compliance-reporting", "field-data-collection", "environmental-consulting"]
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "environmental-consulting",
+    "title": "FieldOS for Environmental Consulting",
+    "metaTitle": "FieldOS for Environmental Consulting | Field Operations Software",
+    "metaDescription": "Streamline environmental consulting workflows with FieldOS. Manage site visits, evidence capture, and compliance reporting in one platform.",
+    "h1": "Environmental Consulting, Simplified",
+    "intro": "Environmental consultants juggle site visits, sample collection, regulatory compliance, and report writing — often across multiple projects simultaneously. FieldOS brings it all into one workflow.",
+    "painPoints": [
+      "Scattered field notes across notebooks, phones, and spreadsheets",
+      "Manual report generation eating into billable hours",
+      "Difficulty tracking compliance across multiple sites",
+      "Client expectations for faster turnaround on deliverables"
+    ],
+    "features": [
+      "Multi-site project management with real-time status tracking",
+      "GPS-tagged evidence capture with photo and note organization",
+      "Automated report generation from field data",
+      "Compliance checklists tied to specific regulations"
+    ],
+    "useCase": "Environmental consultants use FieldOS to manage site investigations, track sampling activities, and generate professional deliverables — reducing report time by 60%.",
+    "cta": "Start your environmental consulting workflow",
+    "relatedTerms": ["phase-i-assessment", "environmental-compliance", "site-investigation"]
+  },
+  {
+    "slug": "site-inspections",
+    "title": "FieldOS for Site Inspections",
+    "metaTitle": "FieldOS for Site Inspections | Inspection Management Software",
+    "metaDescription": "Plan, execute, and document site inspections with FieldOS. GPS tracking, photo evidence, and instant report generation.",
+    "h1": "Site Inspections, Done Right",
+    "intro": "Whether you're inspecting construction sites, environmental compliance, or industrial facilities, FieldOS gives you the tools to document everything accurately and efficiently.",
+    "painPoints": [
+      "Forgetting to capture critical evidence during inspections",
+      "Disorganized photos and notes that are hard to reference later",
+      "Time-consuming report writing after site visits",
+      "No centralized history of inspection findings"
+    ],
+    "features": [
+      "Inspection checklists with customizable templates",
+      "Photo, video, and audio evidence with automatic tagging",
+      "GPS-stamped inspection records",
+      "Before/after comparison tracking"
+    ],
+    "useCase": "Inspection teams use FieldOS to standardize their process, capture evidence in the field, and generate same-day reports — improving consistency and client satisfaction.",
+    "cta": "Streamline your inspection process",
+    "relatedTerms": ["environmental-monitoring", "compliance-reporting", "field-data-collection"]
+  },
+  {
+    "slug": "construction-monitoring",
+    "title": "FieldOS for Construction Monitoring",
+    "metaTitle": "FieldOS for Construction Monitoring | Track Progress Remotely",
+    "metaDescription": "Monitor construction progress with FieldOS. Real-time site updates, photo documentation, and automated progress reports.",
+    "h1": "Construction Monitoring Without the Site Visits",
+    "intro": "Keeping track of construction progress across multiple sites is demanding. FieldOS lets you monitor activity, document conditions, and report progress — whether you're on-site or remote.",
+    "painPoints": [
+      "Traveling to multiple sites just to check progress",
+      "Difficulty communicating site conditions to stakeholders",
+      "No centralized record of construction milestones",
+      "Manual progress reporting that delays decision-making"
+    ],
+    "features": [
+      "Scheduled site visit workflows with task assignment",
+      "Photo-based progress documentation with timeline view",
+      "Automated progress reports for stakeholders",
+      "Weather and condition logging tied to site activities"
+    ],
+    "useCase": "Construction managers use FieldOS to reduce site visits, keep stakeholders informed with automated reports, and maintain a visual record of project progress.",
+    "cta": "Monitor construction remotely",
+    "relatedTerms": ["site-inspections", "field-data-collection", "report-generation"]
+  },
+  {
+    "slug": "environmental-audits",
+    "title": "FieldOS for Environmental Audits",
+    "metaTitle": "FieldOS for Environmental Audits | Audit Management Software",
+    "metaDescription": "Conduct environmental audits efficiently with FieldOS. Structured data collection, compliance tracking, and audit-ready reports.",
+    "h1": "Environmental Audits Made Efficient",
+    "intro": "Environmental audits demand thorough documentation, regulatory knowledge, and organized reporting. FieldOS provides the structure to conduct audits confidently and deliver findings clearly.",
+    "painPoints": [
+      "Audit checklists that don't adapt to different facility types",
+      "Finding evidence from previous audits buried in files",
+      "Generating audit reports that meet regulatory standards",
+      "Tracking corrective actions across audit cycles"
+    ],
+    "features": [
+      "Audit templates for different regulatory frameworks",
+      "Evidence linking to specific audit criteria",
+      "Corrective action tracking with deadline management",
+      "Historical audit comparison views"
+    ],
+    "useCase": "Environmental auditors use FieldOS to standardize audit processes, maintain evidence trails, and track corrective actions — ensuring audit readiness at all times.",
+    "cta": "Conduct your next audit with FieldOS",
+    "relatedTerms": ["environmental-compliance", "phase-i-assessment", "report-generation"]
+  },
+  {
+    "slug": "water-sampling",
+    "title": "FieldOS for Water Sampling",
+    "metaTitle": "FieldOS for Water Sampling | Field Data Collection Software",
+    "metaDescription": "Document water sampling activities with FieldOS. GPS coordinates, sample tracking, chain of custody, and lab coordination.",
+    "h1": "Water Sampling Documentation, Automated",
+    "intro": "Water sampling requires precise documentation — locations, conditions, chain of custody, and lab coordination. FieldOS captures it all in one place, reducing errors and saving time.",
+    "painPoints": [
+      "Manual chain of custody forms prone to transcription errors",
+      "Difficulty tracking which samples went to which lab",
+      "Scattered GPS coordinates and field notes",
+      "Time-consuming data entry from field sheets to lab reports"
+    ],
+    "features": [
+      "Digital chain of custody with barcode support",
+      "GPS-stamped sample locations on interactive maps",
+      "Sample condition logging (temperature, pH, turbidity)",
+      "Lab submission tracking with result integration"
+    ],
+    "useCase": "Water quality teams use FieldOS to digitize their sampling workflow, from field collection through lab analysis — eliminating paper forms and reducing data entry errors.",
+    "cta": "Digitize your sampling workflow",
+    "relatedTerms": ["field-data-collection", "environmental-monitoring", "chain-of-custody"]
+  },
+  {
+    "slug": "air-quality-monitoring",
+    "title": "FieldOS for Air Quality Monitoring",
+    "metaTitle": "FieldOS for Air Quality Monitoring | Environmental Monitoring Software",
+    "metaDescription": "Track air quality monitoring activities with FieldOS. Equipment calibration logs, field measurements, and compliance reporting.",
+    "h1": "Air Quality Monitoring, Organized",
+    "intro": "Air quality monitoring involves equipment calibration, field measurements, regulatory limits, and detailed reporting. FieldOS keeps everything organized so you can focus on the science.",
+    "painPoints": [
+      "Equipment calibration logs maintained separately from field data",
+      "Difficulty correlating measurements across monitoring stations",
+      "Manual data compilation for regulatory submissions",
+      "No easy way to visualize trends over time"
+    ],
+    "features": [
+      "Equipment calibration tracking with expiration alerts",
+      "Measurement logging with automatic unit conversion",
+      "Regulatory limit comparison against collected data",
+      "Trend visualization and export for regulatory reports"
+    ],
+    "useCase": "Air quality teams use FieldOS to manage their monitoring programs — from equipment setup through data submission — with full traceability and compliance documentation.",
+    "cta": "Organize your monitoring program",
+    "relatedTerms": ["environmental-monitoring", "compliance-reporting", "equipment-management"]
+  },
+  {
+    "slug": "soil-testing",
+    "title": "FieldOS for Soil Testing",
+    "metaTitle": "FieldOS for Soil Testing | Soil Sampling & Analysis Software",
+    "metaDescription": "Manage soil testing workflows with FieldOS. Sampling plans, lab coordination, contamination assessment, and reporting.",
+    "h1": "Soil Testing Workflows, Simplified",
+    "intro": "Soil testing spans planning, collection, analysis, and interpretation. FieldOS connects each step so nothing falls through the cracks and your data tells a complete story.",
+    "painPoints": [
+      "Sampling plans that don't account for site history",
+      "Difficulty matching lab results to sample locations",
+      "No centralized record of contamination assessments",
+      "Report writing that takes longer than the fieldwork"
+    ],
+    "features": [
+      "Sampling grid planning with spatial visualization",
+      "Sample tracking from field to lab to results",
+      "Contamination threshold alerts against regulatory limits",
+      "Geospatial mapping of soil conditions"
+    ],
+    "useCase": "Environmental teams use FieldOS to plan sampling campaigns, track samples through analysis, and generate contamination assessment reports with geospatial context.",
+    "cta": "Plan your soil testing campaign",
+    "relatedTerms": ["site-investigation", "environmental-consulting", "field-data-collection"]
+  },
+  {
+    "slug": "waste-management",
+    "title": "FieldOS for Waste Management",
+    "metaTitle": "FieldOS for Waste Management | Waste Tracking Software",
+    "metaDescription": "Track waste generation, transport, and disposal with FieldOS. Manifest management, compliance documentation, and reporting.",
+    "h1": "Waste Management, Tracked",
+    "intro": "From generation to disposal, waste management requires documentation at every step. FieldOS provides the tracking and compliance tools to keep your waste programs audit-ready.",
+    "painPoints": [
+      "Paper manifests that are easy to lose or damage",
+      "Difficulty tracking waste streams across multiple generators",
+      "Compliance deadlines that sneak up without alerts",
+      "No easy way to audit waste disposal records"
+    ],
+    "features": [
+      "Digital waste manifests with generation tracking",
+      "Transport and disposal documentation",
+      "Compliance deadline alerts and calendar integration",
+      "Waste stream analytics and reporting"
+    ],
+    "useCase": "Facility managers and waste haulers use FieldOS to digitize manifest management, track waste streams, and maintain compliance documentation for regulatory audits.",
+    "cta": "Track your waste streams",
+    "relatedTerms": ["environmental-compliance", "report-generation", "field-data-collection"]
+  },
+  {
+    "slug": "environmental-impact-assessment",
+    "title": "FieldOS for Environmental Impact Assessment",
+    "metaTitle": "FieldOS for Environmental Impact Assessment | EIA Software",
+    "metaDescription": "Support environmental impact assessments with FieldOS. Baseline data collection, stakeholder consultation tracking, and impact documentation.",
+    "h1": "Environmental Impact Assessments, Supported",
+    "intro": "EIAs require baseline studies, impact prediction, mitigation planning, and public consultation. FieldOS helps you organize the fieldwork that feeds into your impact assessments.",
+    "painPoints": [
+      "Baseline data scattered across different team members",
+      "Difficulty tracking consultation activities and public feedback",
+      "No centralized repository for impact evidence",
+      "Report compilation taking weeks instead of days"
+    ],
+    "features": [
+      "Baseline data collection with standardized templates",
+      "Stakeholder consultation logging and tracking",
+      "Impact evidence linking to assessment criteria",
+      "Collaborative report drafting with team review"
+    ],
+    "useCase": "EIA consultants use FieldOS to coordinate baseline studies, document impact evidence, and maintain consultation records — streamlining the path from fieldwork to final assessment.",
+    "cta": "Support your EIA with field data",
+    "relatedTerms": ["environmental-consulting", "site-investigation", "report-generation"]
+  },
+  {
+    "slug": "compliance-reporting",
+    "title": "FieldOS for Compliance Reporting",
+    "metaTitle": "FieldOS for Compliance Reporting | Regulatory Compliance Software",
+    "metaDescription": "Generate compliance reports from field data with FieldOS. Automated report templates, regulatory tracking, and submission management.",
+    "h1": "Compliance Reports, Generated Automatically",
+    "intro": "Regulatory compliance requires timely, accurate reporting. FieldOS turns your field data into compliance-ready reports — so you meet deadlines without the last-minute scramble.",
+    "painPoints": [
+      "Spending days compiling field data into report format",
+      "Missing submission deadlines due to report delays",
+      "Inconsistent report formats across team members",
+      "Difficulty tracking which data points feed which reports"
+    ],
+    "features": [
+      "Report templates mapped to regulatory requirements",
+      "Auto-population from field-collected data",
+      "Submission deadline tracking with alerts",
+      "Report version control and approval workflows"
+    ],
+    "useCase": "Compliance teams use FieldOS to generate regulatory reports directly from field data — reducing report preparation time and ensuring consistency across submissions.",
+    "cta": "Automate your compliance reporting",
+    "relatedTerms": ["environmental-compliance", "report-generation", "environmental-audits"]
+  }
+]

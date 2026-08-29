@@ -1,0 +1,125 @@
+[
+  {
+    "slug": "vs-safetymediax",
+    "title": "FieldOS vs SafetyMediaX",
+    "metaTitle": "FieldOS vs SafetyMediaX | Environmental Field Software Comparison",
+    "metaDescription": "Compare FieldOS and SafetyMediaX for environmental field operations. Feature comparison, pricing, and which platform fits your workflow.",
+    "h1": "FieldOS vs SafetyMediaX",
+    "intro": "Both FieldOS and SafetyMediaX serve environmental and safety professionals, but they take different approaches to field data collection and reporting.",
+    "comparison": {
+      "fieldOS": {
+        "strengths": [
+          "Purpose-built for environmental fieldwork workflows",
+          "Integrated evidence capture with GPS and media tagging",
+          "Automated report generation from field data",
+          "Real-time team coordination and status tracking"
+        ],
+        "bestFor": "Environmental consultants and field teams who need an end-to-end workflow from site visit to report delivery."
+      },
+      "competitor": {
+        "strengths": [
+          "Broader safety compliance focus",
+          "Established in industrial safety market",
+          "Wide range of safety training content"
+        ],
+        "bestFor": "Organizations primarily focused on workplace safety compliance rather than environmental fieldwork."
+      }
+    },
+    "verdict": "Choose FieldOS if your primary need is environmental field operations with integrated reporting. Choose SafetyMediaX if workplace safety compliance is your main focus.",
+    "cta": "Try FieldOS for your environmental workflow",
+    "relatedTerms": ["field-data-collection", "report-generation"]
+  },
+  {
+    "slug": "vs-fulcrum",
+    "title": "FieldOS vs Fulcrum",
+    "metaTitle": "FieldOS vs Fulcrum | Field Data Collection Platform Comparison",
+    "metaDescription": "Compare FieldOS and Fulcrum for environmental data collection. See which platform better suits your field operations.",
+    "h1": "FieldOS vs Fulcrum",
+    "intro": "Fulcrum is a general-purpose field data collection platform. FieldOS is purpose-built for environmental fieldwork with domain-specific features.",
+    "comparison": {
+      "fieldOS": {
+        "strengths": [
+          "Environmental workflows built into the platform",
+          "Compliance reporting templates out of the box",
+          "Field-to-report pipeline with minimal configuration",
+          "Designed for teams, not just individual data collectors"
+        ],
+        "bestFor": "Environmental teams who want a complete fieldwork-to-report solution without extensive customization."
+      },
+      "competitor": {
+        "strengths": [
+          "Highly customizable form builder",
+          "Large template marketplace",
+          "Strong offline capabilities",
+          "Established platform with large user base"
+        ],
+        "bestFor": "Organizations that need a flexible, general-purpose data collection tool and have resources to customize it."
+      }
+    },
+    "verdict": "Choose FieldOS if you work in environmental consulting and want ready-made workflows. Choose Fulcrum if you need maximum flexibility and have technical resources to configure it.",
+    "cta": "See FieldOS in action",
+    "relatedTerms": ["field-data-collection", "environmental-consulting"]
+  },
+  {
+    "slug": "vs-fulcrum-app",
+    "title": "FieldOS vs Fulcrum App",
+    "metaTitle": "FieldOS vs Fulcrum App | Field Inspection Software Comparison",
+    "metaDescription": "FieldOS and Fulcrum App both handle field data, but which is right for environmental inspections and compliance?",
+    "h1": "FieldOS vs Fulcrum App",
+    "intro": "Fulcrum App focuses on mobile data collection with strong offline support. FieldOS adds environmental domain intelligence on top of field collection.",
+    "comparison": {
+      "fieldOS": {
+        "strengths": [
+          "Environmental inspection checklists pre-built",
+          "Automated compliance report generation",
+          "Team coordination with assignment tracking",
+          "Evidence management with chain of custody"
+        ],
+        "bestFor": "Environmental inspection teams who need structured workflows and automated reporting."
+      },
+      "competitor": {
+        "strengths": [
+          "Excellent offline-first architecture",
+          "Drag-and-drop form builder",
+          "Strong GPS and mapping features",
+          "Good integration ecosystem"
+        ],
+        "bestFor": "Field teams in any industry who need reliable offline data collection with flexible forms."
+      }
+    },
+    "verdict": "Choose FieldOS for environmental inspections with compliance reporting. Choose Fulcrum App if offline reliability and form flexibility are your top priorities.",
+    "cta": "Try FieldOS for inspections",
+    "relatedTerms": ["site-inspections", "environmental-compliance"]
+  },
+  {
+    "slug": "vs-jotform",
+    "title": "FieldOS vs Jotform",
+    "metaTitle": "FieldOS vs Jotform | Environmental Data Collection Comparison",
+    "metaDescription": "Compare FieldOS and Jotform for environmental data collection. Which platform handles field workflows better?",
+    "h1": "FieldOS vs Jotform",
+    "intro": "Jotform is a versatile form builder that can be adapted for field use. FieldOS is purpose-built for environmental fieldwork from the ground up.",
+    "comparison": {
+      "fieldOS": {
+        "strengths": [
+          "Environmental workflows, not just forms",
+          "Integrated evidence and media management",
+          "Team coordination and assignment features",
+          "Report generation tied to collected data"
+        ],
+        "bestFor": "Environmental professionals who need more than forms — they need a complete fieldwork platform."
+      },
+      "competitor": {
+        "strengths": [
+          "Extremely flexible form builder",
+          "Thousands of templates for any use case",
+          "Wide integration options",
+          "Low barrier to entry"
+        ],
+        "bestFor": "Organizations that need simple data collection forms and already use Jotform for other purposes."
+      }
+    },
+    "verdict": "Choose FieldOS if environmental fieldwork is your primary activity. Choose Jotform if you need occasional field forms and already use it for other workflows.",
+    "cta": "See why FieldOS beats forms",
+    "relatedTerms": ["field-data-collection", "site-inspections"]
+  }
+]
