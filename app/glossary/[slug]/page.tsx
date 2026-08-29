@@ -50,12 +50,31 @@ export default async function GlossaryPage({
     termCode: item.slug,
   };
 
+  const faqSchema = item.faq?.length ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: item.faq.map((f) => ({
+      "@type": "Question",
+      name: f.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: f.answer,
+      },
+    })),
+  } : null;
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <main className="min-h-screen bg-[#f5f5f2]">
         {/* Nav */}
@@ -134,6 +153,30 @@ export default async function GlossaryPage({
               {item.howFieldOSHelps}
             </p>
           </section>
+
+          {/* FAQ */}
+          {item.faq?.length ? (
+            <section className="mb-16">
+              <h2 className="mb-6 font-instrument-serif text-[24px] tracking-[-0.72px] text-[#121212]">
+                Frequently Asked Questions
+              </h2>
+              <div className="flex flex-col gap-4">
+                {item.faq.map((faq, i) => (
+                  <details key={i} className="group rounded-[16px] border border-black/[0.06] bg-white p-6">
+                    <summary className="cursor-pointer font-tight text-[15px] font-medium text-[#121212] list-none flex items-center justify-between">
+                      {faq.question}
+                      <svg className="size-[14px] shrink-0 text-black/30 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                      </svg>
+                    </summary>
+                    <p className="mt-4 text-[15px] leading-[1.7] text-black/60">
+                      {faq.answer}
+                    </p>
+                  </details>
+                ))}
+              </div>
+            </section>
+          ) : null}
 
           {/* CTA */}
           <div className="mb-16 flex flex-col items-center gap-4 text-center">

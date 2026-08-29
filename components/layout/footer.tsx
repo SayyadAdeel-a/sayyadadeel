@@ -9,6 +9,7 @@ const footerLinks = [
 ];
 
 const seoLinks = [
+  { label: "Blog", href: "/blog" },
   { label: "Use Cases", href: "/use-cases" },
   { label: "Glossary", href: "/glossary" },
   { label: "Compare", href: "/compare" },
