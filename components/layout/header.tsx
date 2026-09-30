@@ -12,7 +12,7 @@ export function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-black/[0.06] bg-[#f5f5f2]/80 backdrop-blur-xl">
+    <header className="site-header sticky top-0 z-50 border-b border-black/[0.06] bg-[#f5f5f2]/80 backdrop-blur-xl">
       <nav className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2">
           <span className="text-lg">&#x2726;</span>
@@ -28,7 +28,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`rounded-[8px] px-3 py-1.5 font-tight text-[14px] transition-colors ${
+                className={`rounded-[8px] px-3 py-1.5 font-tight text-[14px] transition-colors active:scale-[0.96] active:bg-black/[0.05] ${
                   isActive
                     ? "bg-black/[0.05] text-[#121212] font-medium"
                     : "text-black/50 hover:text-[#121212]"

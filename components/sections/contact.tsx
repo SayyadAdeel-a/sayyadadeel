@@ -12,10 +12,11 @@ export function Contact() {
 
   const animateProps = (delay: number) =>
     reducedMotion
-      ? { initial: { opacity: 1 }, animate: { opacity: 1 } }
+      ? {}
       : {
           initial: { opacity: 0, y: 12, filter: "blur(3px)" },
-          animate: { opacity: 1, y: 0, filter: "blur(0px)" },
+          whileInView: { opacity: 1, y: 0, filter: "blur(0px)" },
+          viewport: { once: true, margin: "-60px" as const },
           transition: { type: "tween" as const, duration: 0.5, ease: EASE_CUBIC, delay },
         };
 

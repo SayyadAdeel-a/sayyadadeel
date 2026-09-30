@@ -1,6 +1,7 @@
 "use client";
 
-import { Fragment, useRef, useCallback, useEffect, type PointerEvent as ReactPointerEvent } from "react";
+import { Fragment, useRef, useCallback, useEffect } from "react";
+import { motion, useReducedMotion } from "framer-motion";
 import { GridRail } from "@/components/originkit/ui/hero-20/grid-rail";
 
 // ─── Card Tilt Hook (transitions.dev #19) ───────────────────────────────────
@@ -22,6 +23,7 @@ function useCardTilt() {
   }, []);
 
   const track = useCallback((e: PointerEvent) => {
+    if (e.pointerType !== "mouse") return;
     if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const w = wrapperRef.current;
     const c = cardRef.current;
@@ -132,19 +134,19 @@ const featureData = {
     title: "Web Design & Builds",
     body: "High-quality websites designed and built end-to-end — from first concept and direction to the finished, live site.",
     image: "/what-i-do/web-design.webp",
-    alt: "Laptop on a bright desk showing a website in progress",
+    alt: "Collage of website wireframes, devices, and design materials",
   },
   evidence: {
     title: "AI-Assisted Development",
     body: "Coding agents, AI tools, and modern frameworks — used to turn ideas into working products fast, with taste making the final call.",
     image: "/what-i-do/ai-development.webp",
-    alt: "Laptop showing an AI workflow interface",
+    alt: "Friendly robot assistant surrounded by floating interface panels",
   },
   reports: {
     title: "Motion & Interaction",
     body: "Animation, transitions, and interaction details that make a website feel considered, polished, and alive.",
     image: "/what-i-do/motion-interaction.webp",
-    alt: "Close-up of layered interface panels floating over a laptop screen",
+    alt: "Glass interface panels with flowing motion ribbons",
   },
 };
 
@@ -341,6 +343,49 @@ const PhoneCorners = () => (
 
 // ─── Main Section ───────────────────────────────────────────────────────────
 
+// ─── Section Header (scroll reveal, matches About/Contact) ─────────────────
+
+const SectionHeader = () => {
+  const reducedMotion = useReducedMotion();
+
+  const revealProps = reducedMotion
+    ? {}
+    : {
+        initial: { opacity: 0, y: 16, filter: "blur(4px)" },
+        whileInView: { opacity: 1, y: 0, filter: "blur(0px)" },
+        viewport: { once: true, margin: "-60px" as const },
+        transition: { type: "tween" as const, duration: 0.6, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
+      };
+
+  return (
+    <header className="flex w-full flex-col items-center gap-[20px] ipad:w-[502px]">
+      <motion.div
+        {...revealProps}
+        className="relative flex items-center justify-center gap-[8px] border-[0.722px] border-dashed border-[rgba(2,2,2,0.1)] px-4 py-3"
+      >
+        <CornerTicks />
+        <span className="flex items-center gap-[10px]">
+          <svg className="size-[16px] ipad:size-[18px]" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
+          </svg>
+          <span className="font-lato text-[14px] leading-[1.5] font-bold tracking-[-0.42px] text-[#121212]">
+            What I Do
+          </span>
+        </span>
+      </motion.div>
+
+      <motion.div {...revealProps} className="flex w-full flex-col items-center gap-[12px] text-center leading-[1.2] text-[#121212]">
+        <h2 className="max-w-[282px] font-instrument-serif text-[24px] tracking-[-0.48px] ipad:max-w-none ipad:text-[32px] ipad:tracking-[-0.64px] desktop-sm:text-[42px] desktop-sm:tracking-[-0.84px] ultrawide:text-[52px] ultrawide:tracking-[-1.04px]">
+          Websites, experiences, and AI-assisted builds.
+        </h2>
+        <p className="max-w-[238px] font-tight text-[16px] tracking-[-0.32px] opacity-60 ipad:max-w-none ipad:text-[18px] ipad:tracking-[-0.36px] ipad:whitespace-nowrap desktop-sm:text-[21px] desktop-sm:tracking-[-0.42px] ultrawide:text-[25px] ultrawide:tracking-[-0.5px]">
+          Designed and built through Sayyad Studio.
+        </p>
+      </motion.div>
+    </header>
+  );
+};
+
 export function FeaturesSection() {
   return (
     <section id="products" className="relative w-full overflow-hidden bg-[#f5f5f2]">
@@ -358,29 +403,7 @@ export function FeaturesSection() {
 
         <div className="relative mx-auto flex w-[71.22%] max-w-[286.301px] flex-col items-center gap-[32px] ipad:w-[80.51%] ipad:max-w-[599px] ipad:gap-[52px] desktop-sm:w-[82.78%] desktop-sm:max-w-[1192px] desktop-sm:gap-[72px]">
           {/* Header — matches Hero 20 badge style */}
-          <header className="flex w-full flex-col items-center gap-[20px] ipad:w-[502px]">
-            {/* Badge with CornerTicks — same as Hero 20 */}
-            <div className="relative flex items-center justify-center gap-[8px] border-[0.722px] border-dashed border-[rgba(2,2,2,0.1)] px-4 py-3">
-              <CornerTicks />
-              <span className="flex items-center gap-[10px]">
-                <svg className="size-[16px] ipad:size-[18px]" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
-                </svg>
-                <span className="font-lato text-[14px] leading-[1.5] font-bold tracking-[-0.42px] text-[#121212]">
-                  What I Do
-                </span>
-              </span>
-            </div>
-
-            <div className="flex w-full flex-col items-center gap-[12px] text-center leading-[1.2] text-[#121212]">
-              <h2 className="max-w-[282px] font-instrument-serif text-[24px] tracking-[-0.48px] ipad:max-w-none ipad:text-[32px] ipad:tracking-[-0.64px] desktop-sm:text-[42px] desktop-sm:tracking-[-0.84px] ultrawide:text-[52px] ultrawide:tracking-[-1.04px]">
-                Websites, experiences, and AI-assisted builds.
-              </h2>
-              <p className="max-w-[238px] font-tight text-[16px] tracking-[-0.32px] opacity-60 ipad:max-w-none ipad:text-[18px] ipad:tracking-[-0.36px] ipad:whitespace-nowrap desktop-sm:text-[21px] desktop-sm:tracking-[-0.42px] ultrawide:text-[25px] ultrawide:tracking-[-0.5px]">
-                Designed and built through Sayyad Studio.
-              </p>
-            </div>
-          </header>
+          <SectionHeader />
 
           {/* Cards Grid */}
           <div className="flex w-full flex-col gap-[12px] ipad:gap-[16px] desktop-sm:grid desktop-sm:grid-cols-3 desktop-sm:items-stretch">

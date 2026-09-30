@@ -3,7 +3,7 @@
 import Link from "next/link";
 
 const footerLinks = [
-  { label: "GitHub", href: "https://github.com/adeelsayyad" },
+  { label: "GitHub", href: "https://github.com/SayyadAdeel-a" },
   { label: "Email", href: "mailto:hello@adeelsayyad.tech" },
 ];
 

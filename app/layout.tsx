@@ -125,7 +125,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       "Rapid prototyping",
       "Digital products",
     ],
-    sameAs: ["https://github.com/adeelsayyad"],
+    sameAs: ["https://github.com/SayyadAdeel-a"],
   };
 
   const websiteSchema = {
