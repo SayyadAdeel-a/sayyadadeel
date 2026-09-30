@@ -3,16 +3,8 @@
 import Link from "next/link";
 
 const footerLinks = [
-  { label: "FieldOS", href: "https://fieldos.adeelsayyad.tech" },
-  { label: "App", href: "https://app.adeelsayyad.tech" },
   { label: "GitHub", href: "https://github.com/adeelsayyad" },
-];
-
-const seoLinks = [
-  { label: "Blog", href: "/blog" },
-  { label: "Use Cases", href: "/use-cases" },
-  { label: "Glossary", href: "/glossary" },
-  { label: "Compare", href: "/compare" },
+  { label: "Email", href: "mailto:hello@adeelsayyad.tech" },
 ];
 
 export function Footer() {
@@ -29,7 +21,8 @@ export function Footer() {
               </span>
             </div>
             <p className="font-tight text-[14px] text-black/40">
-              Independent builder creating intelligent software for real-world work.
+              Independent builder designing and building digital experiences with AI.
+              Currently building Sayyad Studio.
             </p>
           </div>
 
@@ -39,27 +32,20 @@ export function Footer() {
               <a
                 key={link.label}
                 href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
+                target={link.href.startsWith("http") ? "_blank" : undefined}
+                rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
                 className="font-tight text-[14px] text-black/40 transition-colors hover:text-[#121212]"
               >
                 {link.label}
               </a>
             ))}
-          </div>
-        </div>
-
-        {/* SEO Links */}
-        <div className="mt-6 flex items-center gap-6">
-          {seoLinks.map((link) => (
             <Link
-              key={link.label}
-              href={link.href}
-              className="font-tight text-[13px] text-black/30 transition-colors hover:text-[#121212]"
+              href="/blog"
+              className="font-tight text-[14px] text-black/40 transition-colors hover:text-[#121212]"
             >
-              {link.label}
+              Blog
             </Link>
-          ))}
+          </div>
         </div>
 
         {/* Bottom bar */}
@@ -68,7 +54,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Sayyad Adeel. All rights reserved.
           </p>
           <p className="font-tight text-[12px] text-black/30">
-            Built with care.
+            Designed &amp; built with AI, by hand.
           </p>
         </div>
       </div>

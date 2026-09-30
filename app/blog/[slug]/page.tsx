@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import blogPosts from "@/data/seo/blog.json";
-
-type BlogPost = (typeof blogPosts)[number];
+import { getPost, getPosts } from "@/lib/posts";
 
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+  return getPosts().map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({
@@ -15,14 +13,14 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug) as BlogPost | undefined;
+  const post = getPost(slug);
   if (!post) return {};
   return {
     title: post.metaTitle,
     description: post.metaDescription,
     openGraph: { title: post.metaTitle, description: post.metaDescription },
     alternates: {
-      canonical: `https://adeelsayyad.tech/blog/${post.slug}`,
+      canonical: `/blog/${post.slug}`,
     },
   };
 }
@@ -33,10 +31,10 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug) as BlogPost | undefined;
+  const post = getPost(slug);
   if (!post) notFound();
 
-  const relatedPosts = blogPosts.filter(
+  const relatedPosts = getPosts().filter(
     (p) => post.relatedSlugs?.includes(p.slug) && p.slug !== post.slug
   ).slice(0, 2);
 
@@ -76,7 +74,7 @@ export default async function BlogPostPage({
           </nav>
 
           <div className="mb-6 flex items-center gap-3">
-            <span className="font-lato text-[12px] font-bold uppercase tracking-[0.5px] text-[#c8ff00]">
+            <span className="font-lato text-[12px] font-bold uppercase tracking-[0.5px] text-black/40">
               {post.category}
             </span>
             <span className="text-black/20">|</span>
@@ -108,7 +106,7 @@ export default async function BlogPostPage({
                   <ul key={i} className="mb-6 flex flex-col gap-2">
                     {items.map((item, j) => (
                       <li key={j} className="flex items-start gap-3 text-[15px] leading-[1.6] text-black/60">
-                        <span className="mt-1.5 size-[6px] shrink-0 rounded-full bg-[#c8ff00]" />
+                        <span className="mt-1.5 size-[6px] shrink-0 rounded-full bg-black/30" />
                         {item.replace("- ", "")}
                       </li>
                     ))}
@@ -137,17 +135,15 @@ export default async function BlogPostPage({
 
           {/* CTA */}
           <div className="mt-16 mb-16 flex flex-col items-center gap-4 text-center">
-            <a
-              href="https://fieldos.adeelsayyad.tech"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/#work"
               className="inline-flex h-[46px] items-center gap-2 rounded-[36px] border border-black bg-[linear-gradient(180deg,#4d4d4d_0%,#0a0a0a_100%)] px-8 text-[15px] font-medium text-white shadow-[0_4px_12px_rgba(0,0,0,0.12)] transition-opacity hover:opacity-90"
             >
-              Try FieldOS Free
+              See what I&apos;m building
               <svg className="size-[14px]" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>
-            </a>
+            </Link>
           </div>
 
           {/* Related */}
@@ -164,7 +160,7 @@ export default async function BlogPostPage({
                     className="group flex items-center justify-between rounded-[12px] border border-black/[0.06] bg-white px-6 py-4 transition-colors hover:border-black/10"
                   >
                     <div>
-                      <span className="font-lato text-[11px] font-bold uppercase tracking-[0.5px] text-[#c8ff00]">
+                      <span className="font-lato text-[11px] font-bold uppercase tracking-[0.5px] text-black/40">
                         {related.category}
                       </span>
                       <span className="ml-3 font-tight text-[15px] text-[#121212]">{related.title}</span>
