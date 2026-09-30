@@ -131,22 +131,30 @@ const featureData = {
   fieldVisits: {
     title: "Web Design & Builds",
     body: "High-quality websites designed and built end-to-end — from first concept and direction to the finished, live site.",
+    image: "/what-i-do/web-design.webp",
+    alt: "Laptop on a bright desk showing a website in progress",
   },
   evidence: {
     title: "AI-Assisted Development",
     body: "Coding agents, AI tools, and modern frameworks — used to turn ideas into working products fast, with taste making the final call.",
+    image: "/what-i-do/ai-development.webp",
+    alt: "Laptop showing an AI workflow interface",
   },
   reports: {
     title: "Motion & Interaction",
     body: "Animation, transitions, and interaction details that make a website feel considered, polished, and alive.",
+    image: "/what-i-do/motion-interaction.webp",
+    alt: "Close-up of layered interface panels floating over a laptop screen",
   },
 };
 
 // ─── Mobile Card ────────────────────────────────────────────────────────────
 
-const MobileCard = ({ title, body }: {
+const MobileCard = ({ title, body, image, alt }: {
   title: string;
   body: string;
+  image: string;
+  alt: string;
 }) => {
   const { wrapperRef, cardRef } = useCardTilt();
   return (
@@ -154,18 +162,18 @@ const MobileCard = ({ title, body }: {
       <div ref={cardRef} className="t-tilt-card">
         <Card
           outerClassName="ipad:h-[373px]"
-          innerClassName="relative flex-col justify-end overflow-hidden p-[20px] bg-[#121212] ipad:min-h-px ipad:flex-1"
+          innerClassName="relative flex-col justify-end overflow-hidden p-[20px] ipad:min-h-px ipad:flex-1"
         >
-          <div
-            aria-hidden
-            className="absolute inset-0 opacity-[0.06]"
-            style={{
-              backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 23px, rgba(255,255,255,0.5) 23px, rgba(255,255,255,0.5) 24px), repeating-linear-gradient(90deg, transparent, transparent 23px, rgba(255,255,255,0.5) 23px, rgba(255,255,255,0.5) 24px)`,
-            }}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={image}
+            alt={alt}
+            className="absolute inset-0 h-full w-full object-cover"
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
           <div className="relative flex flex-col gap-[8px]">
             <h3 className="text-[18px] font-medium leading-[1.2] text-white desktop-sm:text-[20px]">{title}</h3>
-            <p className="text-[14px] leading-[1.4] text-white/70 desktop-sm:text-[16px]">{body}</p>
+            <p className="text-[14px] leading-[1.4] text-white/80 desktop-sm:text-[16px]">{body}</p>
             <LearnMoreLink href="#contact" label="Get in touch" />
           </div>
           <div className="t-tilt-glare" />
@@ -177,9 +185,11 @@ const MobileCard = ({ title, body }: {
 
 // ─── Desktop Card ───────────────────────────────────────────────────────────
 
-const DesktopCard = ({ title, body }: {
+const DesktopCard = ({ title, body, image, alt }: {
   title: string;
   body: string;
+  image: string;
+  alt: string;
 }) => {
   const { wrapperRef, cardRef } = useCardTilt();
   return (
@@ -187,18 +197,18 @@ const DesktopCard = ({ title, body }: {
       <div ref={cardRef} className="t-tilt-card h-full">
         <Card
           outerClassName="desktop-sm:h-full"
-          innerClassName="relative flex-col justify-end overflow-hidden p-[20px] bg-[#121212] desktop-sm:min-h-px desktop-sm:flex-1 desktop-sm:p-[32px]"
+          innerClassName="relative flex-col justify-end overflow-hidden p-[20px] desktop-sm:min-h-px desktop-sm:flex-1 desktop-sm:p-[32px]"
         >
-          <div
-            aria-hidden
-            className="absolute inset-0 opacity-[0.06]"
-            style={{
-              backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 23px, rgba(255,255,255,0.5) 23px, rgba(255,255,255,0.5) 24px), repeating-linear-gradient(90deg, transparent, transparent 23px, rgba(255,255,255,0.5) 23px, rgba(255,255,255,0.5) 24px)`,
-            }}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={image}
+            alt={alt}
+            className="absolute inset-0 h-full w-full object-cover"
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
           <div className="relative flex flex-col gap-[8px]">
             <h3 className="text-[18px] font-medium leading-[1.2] text-white desktop-sm:text-[20px]">{title}</h3>
-            <p className="text-[14px] leading-[1.4] text-white/70 desktop-sm:text-[16px]">{body}</p>
+            <p className="text-[14px] leading-[1.4] text-white/80 desktop-sm:text-[16px]">{body}</p>
             <LearnMoreLink href="#contact" label="Get in touch" />
           </div>
           <div className="t-tilt-glare" />
@@ -378,9 +388,14 @@ export function FeaturesSection() {
             <div className="flex flex-col gap-[12px] ipad:flex-row ipad:items-center ipad:gap-[16px] desktop-sm:contents">
               <div className="flex flex-col gap-[12px] ipad:w-[286px] ipad:shrink-0 ipad:gap-[16px] desktop-sm:w-auto">
                 <Card innerClassName="h-[76px] items-center gap-[10px] px-[20px] py-[12px]">
-                  <span className="flex size-[32px] shrink-0 items-center justify-center rounded-full bg-[#121212] text-[14px] text-white desktop-sm:size-[42px]">
-                    &#x2726;
-                  </span>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/studio/logo-mark.webp"
+                    alt="Sayyad Studio logo"
+                    width={32}
+                    height={32}
+                    className="size-[32px] shrink-0 rounded-full object-cover desktop-sm:size-[42px]"
+                  />
                   <p className="w-[154px] font-tight text-[16px] leading-[1.2] font-medium text-black desktop-sm:w-auto desktop-sm:text-[18px] desktop-sm:whitespace-nowrap">
                     Sayyad Studio
                   </p>
