@@ -1,8 +1,20 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Inter_Tight, Instrument_Serif, Lato } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Inter_Tight, Instrument_Serif, Lato } from "next/font/google";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const inter = Inter({
   variable: "--font-inter",
@@ -37,47 +49,46 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://adeelsayyad.tech"),
   title: {
-    default: "Sayyad Adeel — Independent Builder & Designer",
+    default: "Sayyad Adeel — Builder & AI Engineer",
     template: "%s | Sayyad Adeel",
   },
   description:
-    "I design and build digital experiences with AI — websites, products, and experiments. Currently building Sayyad Studio.",
+    "I build AI-powered software for real-world problems. From environmental field operations to intelligent workflows — I design and build tools that turn complicated work into simple systems.",
   keywords: [
     "Sayyad Adeel",
-    "independent builder",
-    "web designer",
-    "AI-assisted development",
-    "Sayyad Studio",
-    "creative technologist",
-    "portfolio",
+    "AI engineer",
+    "software builder",
+    "FieldOS",
+    "environmental field operations",
+    "web developer",
+    "full-stack developer",
   ],
   authors: [{ name: "Sayyad Adeel" }],
   creator: "Sayyad Adeel",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "/",
+    url: "https://adeelsayyad.tech",
     siteName: "Sayyad Adeel",
-    title: "Sayyad Adeel — Independent Builder & Designer",
+    title: "Sayyad Adeel — Builder & AI Engineer",
     description:
-      "I design and build digital experiences with AI — websites, products, and experiments. Currently building Sayyad Studio.",
+      "I build AI-powered software for real-world problems. From environmental field operations to intelligent workflows.",
     images: [
       {
-        url: "/opengraph-image",
+        url: "https://adeelsayyad.tech/og.png",
         width: 1200,
         height: 630,
-        alt: "Sayyad Adeel — Independent Builder & Designer",
+        alt: "Sayyad Adeel — Builder & AI Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sayyad Adeel — Independent Builder & Designer",
+    title: "Sayyad Adeel — Builder & AI Engineer",
     description:
-      "I design and build digital experiences with AI — websites, products, and experiments.",
-    images: ["/opengraph-image"],
+      "I build AI-powered software for real-world problems. From environmental field operations to intelligent workflows.",
+    images: ["https://adeelsayyad.tech/og.png"],
   },
   robots: {
     index: true,
@@ -91,7 +102,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "/",
+    canonical: "https://adeelsayyad.tech",
   },
 };
 
@@ -101,19 +112,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     "@type": "Person",
     name: "Sayyad Adeel",
     url: "https://adeelsayyad.tech",
-    jobTitle: "Independent Builder & Designer",
-    description:
-      "Designs and builds digital experiences with AI — websites, products, and experiments. Currently building Sayyad Studio.",
-    knowsAbout: [
-      "Web design",
-      "UI/UX",
-      "AI-assisted development",
-      "AI agents",
-      "Automation",
-      "Motion design",
-      "Rapid prototyping",
-      "Digital products",
-    ],
+    jobTitle: "AI Engineer & Software Builder",
     sameAs: ["https://github.com/adeelsayyad"],
   };
 
@@ -123,14 +122,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     name: "Sayyad Adeel",
     url: "https://adeelsayyad.tech",
     description:
-      "Portfolio of Sayyad Adeel — independent builder designing and building digital experiences with AI.",
+      "I build AI-powered software for real-world problems. From environmental field operations to intelligent workflows.",
     author: { "@type": "Person", name: "Sayyad Adeel" },
   };
 
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${interTight.variable} ${instrumentSerif.variable} ${lato.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${interTight.variable} ${instrumentSerif.variable} ${lato.variable} h-full antialiased`}
     >
       <head>
         <script
@@ -158,6 +157,8 @@ gtag('config', 'G-G4C4YM1RPX');`,
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preload" as="image" href="/originkit/hero-20/building.webp" imageSizes="(max-width: 768px) 100vw, 50vw" />
+        <link rel="preload" as="image" href="/originkit/hero-20/mobile-hero.webp" imageSizes="(max-width: 768px) 100vw, 50vw" />
       </head>
       <body className="min-h-full flex flex-col bg-[#f5f5f2] text-[#121212]">
         <Header />

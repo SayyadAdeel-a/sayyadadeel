@@ -4,9 +4,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navLinks = [
-  { label: "Work", href: "/#work" },
-  { label: "About", href: "/#about" },
   { label: "Blog", href: "/blog" },
+  { label: "Use Cases", href: "/use-cases" },
+  { label: "Glossary", href: "/glossary" },
+  { label: "Compare", href: "/compare" },
 ];
 
 export function Header() {
@@ -24,8 +25,7 @@ export function Header() {
 
         <div className="flex items-center gap-1">
           {navLinks.map((link) => {
-            const isBlog = link.href === "/blog";
-            const isActive = isBlog && (pathname === "/blog" || pathname.startsWith("/blog/"));
+            const isActive = pathname === link.href || pathname.startsWith(link.href + "/");
             return (
               <Link
                 key={link.href}
@@ -40,12 +40,6 @@ export function Header() {
               </Link>
             );
           })}
-          <a
-            href="mailto:hello@adeelsayyad.tech"
-            className="ml-2 inline-flex h-[34px] items-center rounded-[8px] border border-black bg-[#121212] px-4 font-tight text-[13px] font-medium text-white transition-opacity hover:opacity-85"
-          >
-            Contact
-          </a>
         </div>
       </nav>
     </header>
