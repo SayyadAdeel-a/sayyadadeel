@@ -1,16 +1,32 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import blogPosts from "@/data/seo/blog.json";
+import blogPostsJson from "@/data/blog/posts.json";
+
+type BlogPost = {
+  slug: string;
+  title: string;
+  metaTitle: string;
+  metaDescription: string;
+  h1: string;
+  excerpt: string;
+  date: string;
+  readTime: string;
+  category: string;
+  content: string;
+  relatedSlugs?: string[];
+};
+
+const blogPosts = blogPostsJson as BlogPost[];
 
 export const metadata: Metadata = {
-  title: "Blog | Environmental Fieldwork Insights",
-  description: "Practical guides, best practices, and insights for environmental professionals. Field data collection, compliance reporting, and site investigation tips.",
+  title: "Blog | Sayyad Adeel",
+  description: "Notes on building websites and digital experiences with AI — experiments, workflows, tools, and lessons from building in public.",
   alternates: {
     canonical: "https://adeelsayyad.tech/blog",
   },
   openGraph: {
-    title: "Blog | Environmental Fieldwork Insights",
-    description: "Practical guides, best practices, and insights for environmental professionals.",
+    title: "Blog | Sayyad Adeel",
+    description: "Notes on building websites and digital experiences with AI — experiments, workflows, tools, and lessons from building in public.",
     url: "https://adeelsayyad.tech/blog",
   },
 };
@@ -34,10 +50,10 @@ export default function BlogHub() {
         </div>
 
         <h1 className="mb-4 font-instrument-serif text-[36px] leading-[1.1] tracking-[-1.08px] text-[#121212] md:text-[48px] md:tracking-[-1.44px]">
-          Environmental Fieldwork Insights
+          Building in Public
         </h1>
         <p className="mb-12 text-[17px] leading-[1.7] tracking-[-0.34px] text-black/60">
-          Practical guides, best practices, and lessons learned from environmental consulting, field data collection, and compliance reporting.
+          What I&apos;m making, experiments with AI tools and agents, design/build workflows, and lessons from project work.
         </p>
 
         <div className="flex flex-col gap-6">

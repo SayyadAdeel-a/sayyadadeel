@@ -23,7 +23,7 @@ export default function NotFound() {
       </p>
 
       <div className="flex flex-col gap-4 sm:flex-row">
-        <a
+        <Link
           href="/"
           className="inline-flex h-[46px] items-center gap-2 rounded-[36px] border border-black bg-[linear-gradient(180deg,#4d4d4d_0%,#0a0a0a_100%)] px-8 text-[15px] font-medium text-white shadow-[0_4px_12px_rgba(0,0,0,0.12)] transition-opacity hover:opacity-90"
         >
@@ -31,19 +31,18 @@ export default function NotFound() {
           <svg className="size-[14px]" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
           </svg>
-        </a>
-        <a
-          href="/use-cases"
+        </Link>
+        <Link
+          href="/"
           className="inline-flex h-[46px] items-center gap-2 rounded-[36px] border border-black/10 bg-white px-8 text-[15px] font-medium text-[#121212] transition-colors hover:border-black/20"
         >
-          Browse Use Cases
-        </a>
+          Back to Home
+        </Link>
       </div>
 
       <nav className="mt-16 flex items-center gap-6 font-tight text-[14px] text-black/40">
-        <Link href="/use-cases" className="hover:text-[#121212] transition-colors">Use Cases</Link>
-        <Link href="/glossary" className="hover:text-[#121212] transition-colors">Glossary</Link>
-        <Link href="/compare" className="hover:text-[#121212] transition-colors">Compare</Link>
+        <Link href="/blog" className="hover:text-[#121212] transition-colors">Blog</Link>
+        <a href="mailto:hello@adeelsayyad.tech" className="hover:text-[#121212] transition-colors">Email</a>
       </nav>
     </main>
   );

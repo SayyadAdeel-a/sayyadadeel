@@ -66,7 +66,7 @@ export function Contact() {
             <span className="absolute bottom-0 right-0 h-2 w-2 border-b border-r border-black/20" />
             <span className="text-lg">&#x2726;</span>
             <span className="font-lato text-[14px] font-bold tracking-[-0.42px] text-[#121212]">
-              Stay Updated
+              Get in Touch
             </span>
           </motion.div>
 
@@ -75,7 +75,7 @@ export function Contact() {
             {...animateProps(0.08)}
             className="max-w-2xl font-instrument-serif text-[32px] leading-[1.1] tracking-[-0.96px] text-[#121212] md:text-[48px] md:tracking-[-1.44px]"
           >
-            Get early access to what I&apos;m building.
+            Have a website or project in mind?
           </motion.h2>
 
           {/* Subtitle */}
@@ -83,7 +83,7 @@ export function Contact() {
             {...animateProps(0.12)}
             className="max-w-md font-tight text-[16px] leading-[1.6] tracking-[-0.32px] text-black/50 md:text-[18px] md:tracking-[-0.36px]"
           >
-            Join the inner circle. Be the first to know about new products, features, and updates.
+            Want to talk about a website, a project, or what I&apos;m building? My inbox is always open.
           </motion.p>
 
           {/* Email Form */}
@@ -106,7 +106,7 @@ export function Contact() {
                 className="group relative flex h-[40px] items-center gap-2 overflow-hidden rounded-[32px] border border-black bg-[linear-gradient(180deg,#4d4d4d_0%,#0a0a0a_100%)] px-6 text-[14px] font-medium leading-none tracking-[-0.42px] text-white shadow-[0_2px_8px_rgba(0,0,0,0.12)] transition-[opacity,transform] duration-200 ease hover:opacity-90 active:scale-[0.98] disabled:opacity-60 disabled:cursor-not-allowed"
               >
                 <span className="relative z-[1] whitespace-nowrap">
-                  {isSubmitting ? "Sending..." : "Get Updates"}
+                  {isSubmitting ? "Sending..." : "Send"}
                 </span>
                 {!isSubmitting && (
                   <svg className="relative z-[1] size-[14px] transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
@@ -134,21 +134,12 @@ export function Contact() {
             className="flex items-center gap-2 pt-1"
           >
             <div className="flex -space-x-1.5">
-              {[
-                "bg-[#c8ff00]",
-                "bg-[#121212]",
-                "bg-[#666666]",
-              ].map((bg, i) => (
-                <div
-                  key={i}
-                  className={`size-[20px] rounded-full border-2 border-[#f8f5ee] ${bg} flex items-center justify-center text-[8px] font-bold text-white`}
-                >
-                  {["A", "M", "S"][i]}
-                </div>
-              ))}
+              <div className="size-[20px] rounded-full border-2 border-[#f8f5ee] bg-[#121212] flex items-center justify-center text-[8px] text-white">
+                &#x2726;
+              </div>
             </div>
             <span className="font-tight text-[13px] text-black/40">
-              Join other builders &amp; early testers
+              hello@adeelsayyad.tech
             </span>
           </motion.div>
         </div>

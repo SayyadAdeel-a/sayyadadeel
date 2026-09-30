@@ -50,19 +50,19 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Sayyad Adeel — Builder & AI Engineer",
+    default: "Sayyad Adeel — Independent Builder & Designer",
     template: "%s | Sayyad Adeel",
   },
   description:
-    "I build AI-powered software for real-world problems. From environmental field operations to intelligent workflows — I design and build tools that turn complicated work into simple systems.",
+    "I design and build websites and digital experiences with AI — combining design, modern workflows, automation, and rapid iteration. Currently building Sayyad Studio.",
   keywords: [
     "Sayyad Adeel",
-    "AI engineer",
-    "software builder",
-    "FieldOS",
-    "environmental field operations",
-    "web developer",
-    "full-stack developer",
+    "independent builder",
+    "web design",
+    "AI-assisted development",
+    "Sayyad Studio",
+    "digital experiences",
+    "creative technology",
   ],
   authors: [{ name: "Sayyad Adeel" }],
   creator: "Sayyad Adeel",
@@ -71,23 +71,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://adeelsayyad.tech",
     siteName: "Sayyad Adeel",
-    title: "Sayyad Adeel — Builder & AI Engineer",
+    title: "Sayyad Adeel — Independent Builder & Designer",
     description:
-      "I build AI-powered software for real-world problems. From environmental field operations to intelligent workflows.",
+      "I design and build websites and digital experiences with AI — combining design, modern workflows, automation, and rapid iteration.",
     images: [
       {
         url: "https://adeelsayyad.tech/og.png",
         width: 1200,
         height: 630,
-        alt: "Sayyad Adeel — Builder & AI Engineer",
+        alt: "Sayyad Adeel — Independent Builder & Designer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sayyad Adeel — Builder & AI Engineer",
+    title: "Sayyad Adeel — Independent Builder & Designer",
     description:
-      "I build AI-powered software for real-world problems. From environmental field operations to intelligent workflows.",
+      "I design and build websites and digital experiences with AI — combining design, modern workflows, automation, and rapid iteration.",
     images: ["https://adeelsayyad.tech/og.png"],
   },
   robots: {
@@ -112,7 +112,19 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     "@type": "Person",
     name: "Sayyad Adeel",
     url: "https://adeelsayyad.tech",
-    jobTitle: "AI Engineer & Software Builder",
+    jobTitle: "Independent Builder & Designer",
+    description:
+      "Designs and builds websites and digital experiences with AI — combining design, modern workflows, automation, and rapid iteration. Currently building Sayyad Studio.",
+    knowsAbout: [
+      "Web design",
+      "UI/UX",
+      "AI-assisted development",
+      "AI agents",
+      "Automation",
+      "Motion & interaction design",
+      "Rapid prototyping",
+      "Digital products",
+    ],
     sameAs: ["https://github.com/adeelsayyad"],
   };
 
@@ -122,7 +134,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     name: "Sayyad Adeel",
     url: "https://adeelsayyad.tech",
     description:
-      "I build AI-powered software for real-world problems. From environmental field operations to intelligent workflows.",
+      "Portfolio of Sayyad Adeel — independent builder designing and building websites and digital experiences with AI.",
     author: { "@type": "Person", name: "Sayyad Adeel" },
   };
 

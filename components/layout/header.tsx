@@ -5,9 +5,7 @@ import { usePathname } from "next/navigation";
 
 const navLinks = [
   { label: "Blog", href: "/blog" },
-  { label: "Use Cases", href: "/use-cases" },
-  { label: "Glossary", href: "/glossary" },
-  { label: "Compare", href: "/compare" },
+  { label: "Sayyad Studio", href: "/#products" },
 ];
 
 export function Header() {

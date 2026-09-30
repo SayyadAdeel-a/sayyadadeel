@@ -1,9 +1,23 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import blogPosts from "@/data/seo/blog.json";
+import blogPostsJson from "@/data/blog/posts.json";
 
-type BlogPost = (typeof blogPosts)[number];
+type BlogPost = {
+  slug: string;
+  title: string;
+  metaTitle: string;
+  metaDescription: string;
+  h1: string;
+  excerpt: string;
+  date: string;
+  readTime: string;
+  category: string;
+  content: string;
+  relatedSlugs?: string[];
+};
+
+const blogPosts = blogPostsJson as BlogPost[];
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -137,17 +151,15 @@ export default async function BlogPostPage({
 
           {/* CTA */}
           <div className="mt-16 mb-16 flex flex-col items-center gap-4 text-center">
-            <a
-              href="https://fieldos.adeelsayyad.tech"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/"
               className="inline-flex h-[46px] items-center gap-2 rounded-[36px] border border-black bg-[linear-gradient(180deg,#4d4d4d_0%,#0a0a0a_100%)] px-8 text-[15px] font-medium text-white shadow-[0_4px_12px_rgba(0,0,0,0.12)] transition-opacity hover:opacity-90"
             >
-              Try FieldOS Free
+              See what I&apos;m building
               <svg className="size-[14px]" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>
-            </a>
+            </Link>
           </div>
 
           {/* Related */}

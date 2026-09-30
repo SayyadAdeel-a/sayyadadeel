@@ -66,7 +66,7 @@ export const Section24Hero = () => (
             <span className="relative flex items-center gap-[10px]">
               <span className="text-lg">&#x2726;</span>
               <span className="font-lato text-[14px] leading-[1.5] font-bold tracking-[-0.42px] text-[#121212]">
-                Independent Builder &amp; AI Engineer
+                Independent Builder &amp; Designer
               </span>
             </span>
           </Reveal>
@@ -74,16 +74,17 @@ export const Section24Hero = () => (
           <div className="flex flex-col items-center gap-4">
             <Reveal>
               <h1 className="text-center font-instrument-serif text-[44px] leading-[1.1] tracking-[-1.32px] text-[#121212] ipad:text-[68px] ipad:leading-[77px] ipad:tracking-[-2.04px] full-hd:text-[86px] full-hd:leading-[97px] full-hd:tracking-[-2.58px] ultrawide:text-[106px] ultrawide:leading-[120px] ultrawide:tracking-[-3.18px]">
-                I build AI-powered software<br />
-                for real-world problems
+                I design and build<br />
+                digital experiences<br />
+                with AI
               </h1>
             </Reveal>
 
             <Reveal>
               <p className="w-[316px] text-center font-tight text-[16px] leading-[27px] tracking-[-0.32px] text-[#121212] opacity-60 ipad:w-[415px] ipad:text-[18px] ipad:tracking-[-0.36px] full-hd:w-[520px] full-hd:text-[21px] full-hd:leading-[32px] full-hd:tracking-[-0.42px] ultrawide:w-[640px] ultrawide:text-[25px] ultrawide:leading-[38px] ultrawide:tracking-[-0.5px]">
-                From environmental field operations to intelligent
-                workflows &mdash; I design and build tools that
-                turn complicated work into simple systems.
+                Websites, products, and AI-assisted experiments —
+                designed with taste, built fast with modern
+                tools, and shipped until they feel right.
               </p>
             </Reveal>
           </div>
@@ -92,9 +93,7 @@ export const Section24Hero = () => (
         {/* Buttons */}
         <Reveal className="flex items-center gap-4 px-2">
           <a
-            href="https://fieldos.adeelsayyad.tech"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#products"
             className="group relative flex cursor-pointer items-center justify-between overflow-hidden rounded-[12px] border-t border-white/15 transition-transform duration-200 ease-out [@media(hover:hover)]:hover:-translate-y-[2px] py-[14px] pr-[14px] pl-[24px] shadow-[0px_63px_18px_0px_rgba(16,16,16,0),0px_40px_16px_0px_rgba(11,11,11,0.01),0px_23px_14px_0px_rgba(8,8,8,0.05),0px_10px_10px_0px_rgba(5,5,5,0.09),0px_3px_6px_0px_rgba(0,0,0,0.1)]"
           >
             <span
@@ -110,7 +109,7 @@ export const Section24Hero = () => (
               className="pointer-events-none absolute inset-0 rounded-[inherit] shadow-[inset_0px_1px_1px_0px_rgba(255,255,255,0.3)]"
             />
             <span className="relative font-lato text-[16px] leading-[1.5] font-bold tracking-[-0.32px] whitespace-nowrap text-white">
-              Explore FieldOS
+              View My Work
             </span>
             <span className="relative">
               <ArrowIcon src={asset("arrow-light.svg")} />
@@ -141,7 +140,7 @@ export const Section24Hero = () => (
       >
         <img
           src={asset("mobile-hero.webp")}
-          alt="Sayyad Adeel — AI-powered environmental fieldwork platform"
+          alt="Sayyad Adeel — independent builder designing and building digital experiences with AI"
           width={753}
           height={571}
           className="size-full object-contain ipad:hidden"

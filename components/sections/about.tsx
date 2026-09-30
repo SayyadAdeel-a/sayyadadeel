@@ -62,7 +62,7 @@ export function About() {
             {...animateProps(0.08)}
             className="max-w-2xl font-instrument-serif text-[32px] leading-[1.1] tracking-[-0.96px] text-[#121212] md:text-[42px] md:tracking-[-1.26px]"
           >
-            I&apos;m Sayyad Adeel &mdash; an independent builder creating intelligent software for real-world work.
+            I&apos;m Sayyad Adeel &mdash; an independent builder designing and building digital experiences with AI.
           </motion.h2>
 
           {/* Body */}
@@ -71,13 +71,10 @@ export function About() {
             className="flex max-w-xl flex-col gap-5 text-[16px] leading-[1.6] tracking-[-0.32px] text-black/50 md:text-[18px] md:tracking-[-0.36px]"
           >
             <p>
-              I focus on building tools that solve actual problems &mdash; not just demo-ware. From environmental field operations to AI-powered workflows, I design systems that turn complicated work into simple, repeatable processes.
+              I&apos;m currently building Sayyad Studio &mdash; designing and building high-quality websites and digital experiences using modern design workflows, AI tools, coding agents, automation, and rapid iteration.
             </p>
             <p>
-              My flagship product is FieldOS, an environmental field operations platform that connects site visits, evidence capture, QA review, and reporting into one seamless workflow.
-            </p>
-            <p>
-              When I&apos;m not building products, I&apos;m exploring new AI capabilities, experimenting with emerging technologies, and thinking about how software can make physical-world work more efficient.
+              I care less about fitting into one traditional job title and more about being able to take an idea, learn whatever is needed, and turn it into something real &mdash; through constant experimentation with AI tools, agents, and modern creative technology.
             </p>
           </motion.div>
 

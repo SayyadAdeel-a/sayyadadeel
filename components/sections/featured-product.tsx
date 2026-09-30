@@ -129,32 +129,24 @@ const CardContent = ({ title, body }: { title: string; body: string }) => (
 
 const featureData = {
   fieldVisits: {
-    title: "Field Visits",
-    body: "Plan visits with intelligent routing, real-time tracking, and automated scheduling that adapts to your team's workflow.",
-    image: "/field-visits.webp",
-    alt: "Field visit routing illustration",
+    title: "Web Design & Builds",
+    body: "High-quality websites designed and built end-to-end — from first concept and direction to the finished, live site.",
   },
   evidence: {
-    title: "Evidence Capture",
-    body: "Photos, notes, GPS — all tagged and organized automatically. Never lose critical field data again.",
-    image: "/evidence-capture.webp",
-    alt: "Evidence capture illustration",
+    title: "AI-Assisted Development",
+    body: "Coding agents, AI tools, and modern frameworks — used to turn ideas into working products fast, with taste making the final call.",
   },
   reports: {
-    title: "Reports",
-    body: "Generate professional PDF reports from your field data in seconds. From data to deliverables, instantly.",
-    image: "/reports.webp",
-    alt: "Report generation illustration",
+    title: "Motion & Interaction",
+    body: "Animation, transitions, and interaction details that make a website feel considered, polished, and alive.",
   },
 };
 
 // ─── Mobile Card ────────────────────────────────────────────────────────────
 
-const MobileCard = ({ title, body, image, alt }: {
+const MobileCard = ({ title, body }: {
   title: string;
   body: string;
-  image: string;
-  alt: string;
 }) => {
   const { wrapperRef, cardRef } = useCardTilt();
   return (
@@ -162,18 +154,19 @@ const MobileCard = ({ title, body, image, alt }: {
       <div ref={cardRef} className="t-tilt-card">
         <Card
           outerClassName="ipad:h-[373px]"
-          innerClassName="relative flex-col justify-end overflow-hidden p-[20px] ipad:min-h-px ipad:flex-1"
+          innerClassName="relative flex-col justify-end overflow-hidden p-[20px] bg-[#121212] ipad:min-h-px ipad:flex-1"
         >
-          <img
-            src={image}
-            alt={alt}
-            className="absolute inset-0 h-full w-full object-cover"
+          <div
+            aria-hidden
+            className="absolute inset-0 opacity-[0.06]"
+            style={{
+              backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 23px, rgba(255,255,255,0.5) 23px, rgba(255,255,255,0.5) 24px), repeating-linear-gradient(90deg, transparent, transparent 23px, rgba(255,255,255,0.5) 23px, rgba(255,255,255,0.5) 24px)`,
+            }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
           <div className="relative flex flex-col gap-[8px]">
             <h3 className="text-[18px] font-medium leading-[1.2] text-white desktop-sm:text-[20px]">{title}</h3>
-            <p className="text-[14px] leading-[1.4] text-white/80 desktop-sm:text-[16px]">{body}</p>
-            <LearnMoreLink href="#products" />
+            <p className="text-[14px] leading-[1.4] text-white/70 desktop-sm:text-[16px]">{body}</p>
+            <LearnMoreLink href="#contact" label="Get in touch" />
           </div>
           <div className="t-tilt-glare" />
         </Card>
@@ -184,11 +177,9 @@ const MobileCard = ({ title, body, image, alt }: {
 
 // ─── Desktop Card ───────────────────────────────────────────────────────────
 
-const DesktopCard = ({ title, body, image, alt }: {
+const DesktopCard = ({ title, body }: {
   title: string;
   body: string;
-  image: string;
-  alt: string;
 }) => {
   const { wrapperRef, cardRef } = useCardTilt();
   return (
@@ -196,18 +187,19 @@ const DesktopCard = ({ title, body, image, alt }: {
       <div ref={cardRef} className="t-tilt-card h-full">
         <Card
           outerClassName="desktop-sm:h-full"
-          innerClassName="relative flex-col justify-end overflow-hidden p-[20px] desktop-sm:min-h-px desktop-sm:flex-1 desktop-sm:p-[32px]"
+          innerClassName="relative flex-col justify-end overflow-hidden p-[20px] bg-[#121212] desktop-sm:min-h-px desktop-sm:flex-1 desktop-sm:p-[32px]"
         >
-          <img
-            src={image}
-            alt={alt}
-            className="absolute inset-0 h-full w-full object-cover"
+          <div
+            aria-hidden
+            className="absolute inset-0 opacity-[0.06]"
+            style={{
+              backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 23px, rgba(255,255,255,0.5) 23px, rgba(255,255,255,0.5) 24px), repeating-linear-gradient(90deg, transparent, transparent 23px, rgba(255,255,255,0.5) 23px, rgba(255,255,255,0.5) 24px)`,
+            }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
           <div className="relative flex flex-col gap-[8px]">
             <h3 className="text-[18px] font-medium leading-[1.2] text-white desktop-sm:text-[20px]">{title}</h3>
-            <p className="text-[14px] leading-[1.4] text-white/80 desktop-sm:text-[16px]">{body}</p>
-            <LearnMoreLink href="#products" />
+            <p className="text-[14px] leading-[1.4] text-white/70 desktop-sm:text-[16px]">{body}</p>
+            <LearnMoreLink href="#contact" label="Get in touch" />
           </div>
           <div className="t-tilt-glare" />
         </Card>
@@ -337,20 +329,6 @@ const PhoneCorners = () => (
   </Fragment>
 );
 
-// ─── Avatar placeholder ─────────────────────────────────────────────────────
-
-const AvatarPlaceholder = ({ index }: { index: number }) => {
-  const colors = ["#c8ff00", "#121212", "#666666"];
-  return (
-    <div
-      className="size-[32px] shrink-0 rounded-full desktop-sm:size-[42px] flex items-center justify-center text-[11px] font-bold text-white desktop-sm:text-[14px]"
-      style={{ backgroundColor: colors[index % colors.length] }}
-    >
-      {["A", "M", "S"][index]}
-    </div>
-  );
-};
-
 // ─── Main Section ───────────────────────────────────────────────────────────
 
 export function FeaturesSection() {
@@ -379,17 +357,17 @@ export function FeaturesSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
                 </svg>
                 <span className="font-lato text-[14px] leading-[1.5] font-bold tracking-[-0.42px] text-[#121212]">
-                  Why FieldOS
+                  What I Do
                 </span>
               </span>
             </div>
 
             <div className="flex w-full flex-col items-center gap-[12px] text-center leading-[1.2] text-[#121212]">
               <h2 className="max-w-[282px] font-instrument-serif text-[24px] tracking-[-0.48px] ipad:max-w-none ipad:text-[32px] ipad:tracking-[-0.64px] desktop-sm:text-[42px] desktop-sm:tracking-[-0.84px] ultrawide:text-[52px] ultrawide:tracking-[-1.04px]">
-                Built for Environmental Fieldwork.
+                Websites, experiences, and AI-assisted builds.
               </h2>
               <p className="max-w-[238px] font-tight text-[16px] tracking-[-0.32px] opacity-60 ipad:max-w-none ipad:text-[18px] ipad:tracking-[-0.36px] ipad:whitespace-nowrap desktop-sm:text-[21px] desktop-sm:tracking-[-0.42px] ultrawide:text-[25px] ultrawide:tracking-[-0.5px]">
-                Plan visits, capture evidence, and generate reports.
+                Designed and built through Sayyad Studio.
               </p>
             </div>
           </header>
@@ -400,18 +378,11 @@ export function FeaturesSection() {
             <div className="flex flex-col gap-[12px] ipad:flex-row ipad:items-center ipad:gap-[16px] desktop-sm:contents">
               <div className="flex flex-col gap-[12px] ipad:w-[286px] ipad:shrink-0 ipad:gap-[16px] desktop-sm:w-auto">
                 <Card innerClassName="h-[76px] items-center gap-[10px] px-[20px] py-[12px]">
-                  <div className="flex shrink-0 items-center">
-                    {[0, 1, 2].map((i) => (
-                      <div
-                        key={i}
-                        className={`size-[32px] shrink-0 rounded-full desktop-sm:size-[42px] ${i < 2 ? "mr-[-15.238px] desktop-sm:mr-[-20px]" : ""}`}
-                      >
-                        <AvatarPlaceholder index={i} />
-                      </div>
-                    ))}
-                  </div>
+                  <span className="flex size-[32px] shrink-0 items-center justify-center rounded-full bg-[#121212] text-[14px] text-white desktop-sm:size-[42px]">
+                    &#x2726;
+                  </span>
                   <p className="w-[154px] font-tight text-[16px] leading-[1.2] font-medium text-black desktop-sm:w-auto desktop-sm:text-[18px] desktop-sm:whitespace-nowrap">
-                    Built for Consultants
+                    Sayyad Studio
                   </p>
                 </Card>
                 <MobileCard {...featureData.fieldVisits} />
@@ -424,7 +395,7 @@ export function FeaturesSection() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" />
                   </svg>
                   <p className="font-tight text-[16px] leading-[1.2] font-medium whitespace-nowrap text-black desktop-sm:text-[18px]">
-                    99.9% Uptime
+                    Currently building
                   </p>
                 </Card>
               </div>

@@ -3,16 +3,12 @@
 import Link from "next/link";
 
 const footerLinks = [
-  { label: "FieldOS", href: "https://fieldos.adeelsayyad.tech" },
-  { label: "App", href: "https://app.adeelsayyad.tech" },
   { label: "GitHub", href: "https://github.com/adeelsayyad" },
+  { label: "Email", href: "mailto:hello@adeelsayyad.tech" },
 ];
 
 const seoLinks = [
   { label: "Blog", href: "/blog" },
-  { label: "Use Cases", href: "/use-cases" },
-  { label: "Glossary", href: "/glossary" },
-  { label: "Compare", href: "/compare" },
 ];
 
 export function Footer() {
@@ -29,7 +25,7 @@ export function Footer() {
               </span>
             </div>
             <p className="font-tight text-[14px] text-black/40">
-              Independent builder creating intelligent software for real-world work.
+              Independent builder designing and building websites and digital experiences with AI. Currently building Sayyad Studio.
             </p>
           </div>
 
