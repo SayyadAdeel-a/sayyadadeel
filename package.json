@@ -14,6 +14,7 @@
     "admin:test-codemod": "node --experimental-strip-types scripts/test-codemod.ts",
     "admin:test-codemod-all": "node --experimental-strip-types scripts/test-codemod-all.ts",
     "admin:test-e2e": "node --experimental-strip-types scripts/test-admin.mjs",
+    "admin:test-routes": "node --experimental-strip-types scripts/test-admin-routes.mjs",
     "verify": "node scripts/qa-all.mjs",
     "verify:all": "node scripts/qa-all.mjs",
     "verify:navigation": "node scripts/verify-navigation.mjs",

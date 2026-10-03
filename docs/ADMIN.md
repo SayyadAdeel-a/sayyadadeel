@@ -1,11 +1,62 @@
 # The admin editor
 
-`/admin` is a password-only visual editor for the site. You sign in, pick a page,
+`/admin` is a password-only visual editor for the site. Sign in, pick a page,
 click any heading, paragraph, image or link, change it, and save. Saving commits
 the change to GitHub; Vercel rebuilds the site from that commit.
 
+| URL | What it is |
+| --- | --- |
+| `/admin` | The page list, and the sign-in form when signed out. |
+| `/admin/edit` | The homepage, in the editor. |
+| `/admin/edit/<route>` | Any other page, e.g. `/admin/edit/case-studies`. |
+
 It is **additive**. The 25 public routes are byte-for-byte unchanged — verified by
 `npm run verify`, which still reports 72/72.
+
+---
+
+## Using it
+
+Hover anything editable and it gets a dashed blue outline plus a small label
+naming what it is and which file it lives in. Click it and the outline turns solid
+while the inspector opens on the right.
+
+| You want to | Do this |
+| --- | --- |
+| Change a heading or a small label | Click the words, type in the **Text** box |
+| Swap an image | Click it, paste a new address, or use **Upload from this computer** |
+| Write alt text | Click the image, edit **Alt text** |
+| Change where a link goes | Click anywhere in the link, edit **Link address** |
+| Get rid of a selection | Press <kbd>Esc</kbd> |
+| Review what you have changed | Click the **N unsaved edits** button |
+| Throw everything away | **Discard** |
+| Publish | **Save & publish** |
+| See the page as visitors do | **Editing off**, or **View live ↗** |
+
+A button label and the link it sits in are *different* elements, so clicking a
+button's text gives you both a **Text** box and a **Link address** box. The panel
+names the file and address each one saves to, at the bottom.
+
+**Editing off** stops the editor intercepting clicks, so the page behaves exactly
+as a visitor sees it — hover states, sliders, tabs, marquees.
+
+### What is editable
+
+Everything in the page body: headings, paragraphs, list items, spans, small
+labels, form labels and option text, buttons, links, images, alt text, and
+elements nested inside cards and sliders.
+
+Two things are deliberately not offered:
+
+* **Page titles and meta descriptions.** They live in the `metadata` object of the
+  page module, and the edit engine reads JSX, not JavaScript objects.
+* **Anything whose text or address is computed in code** rather than written as a
+  literal — a `className` built with a template literal, an `href` derived from a
+  prop. Editing those would be silently overwritten at render time, so the editor
+  declines rather than pretending.
+
+If a section turns out not to match its source file, the editor says so in an
+amber bar and leaves that section alone. Everything else on the page still works.
 
 ---
 
@@ -49,27 +100,43 @@ into the public render path.
 
 ### A click becomes a source edit
 
-The generated components hard-code their copy as literal JSX, so when you click a
-headline the browser has to work out which line of which file to rewrite:
+The generated components hard-code their copy as literal JSX, so when you click
+a headline the browser has to work out which line of which file to rewrite. Three
+tables in `src/generated/admin-registry.ts`, all produced from the site's own
+source by `npm run admin:registry`:
 
-1. **Which file.** Walk up from the clicked element until an ancestor's *first*
-   CSS class matches a component root. That class is how a section is identified
-   (`about-hero-section` → `AboutHeroSection.tsx`).
-2. **Which element.** Count the elements before it, in the same subtree, with the
-   same tag and first class. That count is the ordinal.
-3. **The address** is `tag|class|ordinal` — the identical form
-   `lib/admin/codemod.ts` builds from the file itself.
+1. **`FILE_ROOTS`** — the CSS classes that can begin a component, e.g.
+   `about-hero-section` maps to `AboutHeroSection.tsx`.
+2. **`FILE_ELEMENTS`** — every addressable element in each file, as
+   `tag|first-class|ordinal`, with the properties that can be edited on it.
+3. **`FILE_TOTALS`** — how many elements of each shape each file declares. All of
+   them, not only the editable ones.
 
-The first class is used rather than the whole class string because Webflow's
-runtime appends `w--current`, `w--tab-active` and `gsap_split_*` classes at
-runtime. The first class is the only part that stays stable between the source and
-the live DOM.
+On load the editor walks the live DOM once and resolves each element to its
+address, mirroring the source scan exactly, then answers every click from that
+map. Only elements present in `FILE_ELEMENTS` are hoverable, so the editor can
+never offer something the save would then refuse.
 
-`scripts/test-admin.mjs` asserts this round trip: it clicks a real headline in a
-real browser, reads the address the editor computed, then resolves that address
-in the actual file and requires it to be the same headline. Nothing else in the
-suite would catch a mismatch here, and a mismatch means a save rewrites the wrong
-element.
+Three details, each of which fixes a real failure:
+
+* **First class, not the whole class string.** Webflow's runtime appends
+  `w--current`, `w--tab-active` and `gsap_split_*`, and SplitText replaces
+  button labels with per-character spans. Those spans exist in the DOM and not in
+  the source, so counting them would shift every ordinal after them.
+* **Template literals are read as far as their static prefix.** A className like
+  `` className={`nav-link w-inline-block${…}`} `` is computed, but the browser
+  still shows `nav-link` first, so that is the identity used. Without this, all
+  twelve header nav links were invisible to the editor.
+* **The DOM must account for exactly what the file declares.** If React rendered
+  conditionally the counts would disagree, and every ordinal after the divergence
+  would aim a save at the wrong element. A file that disagrees is dropped from
+  the index and reported in an amber bar.
+
+`scripts/test-admin.mjs` asserts the whole round trip: it clicks a real headline
+in a real browser, reads the address, resolves it in the actual file, patches it,
+and requires the patch to land on that element with that text.
+`admin:test-routes` does the same on all 25 pages and requires every address to
+be unique.
 
 ### Saving
 
@@ -131,17 +198,22 @@ close to the data source.
 ## Limits, stated plainly
 
 * **Page titles and meta descriptions are not editable.** They live in the
-  `metadata` object of the page module, which the codemod does not scan — it reads
-  JSX. Everything in the page body is editable.
-* **A conditionally rendered element is not safely editable.** The address is
-  derived from DOM order; if React rendered only some of them, the ordinal would
-  not match the file. The publish step re-resolves against the file and fails
-  loudly rather than writing to the wrong element, but the edit will not apply.
+  `metadata` object of the page module, and the edit engine reads JSX, not
+  JavaScript objects. Everything in the page body is editable.
+* **A section that does not match its source file is refused, not patched.** If
+  React rendered conditionally, DOM order would no longer line up with source
+  order and a save could rewrite the wrong element. The editor detects that by
+  comparing element counts, drops that section from the index, and says so in an
+  amber bar. The publish route re-checks independently and fails loudly rather
+  than writing.
+* **Computed values are not editable.** A label whose text comes from an
+  expression, or a link whose `href` comes from a prop, is left alone: editing it
+  would be silently overwritten at render time.
 * **Editing a split-text label shows the new words unstyled until reload.**
   SplitText replaces button labels with per-character spans at runtime, so the
   preview cannot re-split without a full re-initialisation. The panel says so.
-* **Discard reloads the page.** It is the only fully faithful restore: undoing each
-  mutation by hand would leave behind everything the site's runtime did in
+* **Discard reloads the page.** It is the only fully faithful restore: undoing
+  each mutation by hand would leave behind everything the site's runtime did in
   response — SplitText spans, a moved slider, a re-measured marquee.
 * **An abandoned upload leaves an orphan file** in `public/uploads/`. Harmless,
   and easy to delete.
@@ -151,16 +223,25 @@ close to the data source.
 ## Tests
 
 ```bash
-npm run admin:test-codemod      # the edit engine, against a real section
-npm run admin:test-codemod-all  # every JSX file in the repo (4,799 elements)
-npm run admin:test-e2e          # auth, gating, and a real browser edit
+npm run admin:registry           # regenerate the element index from the source
+npm run admin:test-codemod       # the edit engine, against a real section
+npm run admin:test-codemod-all   # every JSX file in the repo
+npm run admin:test-e2e           # auth, gating, and a real browser edit
+npm run admin:test-routes        # all 25 pages, in a real browser
 ```
 
-`admin:test-e2e` needs the server running (`npx next start --port 3100`) and a
-`.env.local`.
+The two browser tests need the server running (`npx next start --port 3100`) and
+a `.env.local`.
 
-Current state: 26/26 codemod checks, 63/63 text nodes round-tripping across the
-shared header, footer and CTA, and 25/25 end-to-end checks.
+Current state: 29/29 codemod checks; 4,968 elements across 116 files with unique
+addresses and 63/63 text nodes round-tripping through the shared header, footer
+and CTA; 67/67 end-to-end checks; and 25/25 routes (129 assertions), each opening at its own URL,
+rendering the real page, exposing 103–520 editable elements, and resolving every
+address unambiguously in its source file.
+
+Run `npm run admin:registry` after adding or renaming a page. The editor reads
+the site's own page modules, so it picks the page up either way — but the index
+is what says which of its elements are editable.
 
 ---
 

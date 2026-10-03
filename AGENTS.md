@@ -15,19 +15,32 @@ A pixel-perfect clone of <https://relab-template.webflow.io/>. Read
 
 ## The admin editor
 
-`/admin` is a password-only visual editor. It renders the real page components as
-children of the editor and rewrites the generated `.tsx` source when you save,
-committing to GitHub for Vercel to deploy. **Read `docs/ADMIN.md` before touching
+`/admin` is a password-only visual editor. It renders the real page
+components as children of the editor and rewrites the generated `.tsx` source
+when you save, committing to GitHub for Vercel to deploy. Routes: `/admin` is the
+page list, `/admin/edit` is the homepage, `/admin/edit/<route>` is any other
+page. They come from `editorUrl()` in the generated registry, never from string
+surgery on the route. **Read `docs/ADMIN.md` before touching
 `lib/admin/`, `src/components/admin/` or `proxy.ts`.**
 
-Adding a page? Run `npm run admin:registry` so the editor knows about it.
+Adding a page? Run `npm run admin:registry`.
 
-`lib/admin/codemod.ts` rewrites production source on every save. It resolves an
-element by identity (`tag|first-class|ordinal`), never by position, and refuses the
-whole file when an address does not match exactly one element. If you change it,
-run `npm run admin:test` — the tests exercise it against the real generated
-components, because a wrong match would quietly replace the wrong headline on a
-live page.
+`lib/admin/codemod.ts` rewrites production source on every save. It resolves
+an element by identity (`tag|first-class|ordinal`), never by position, and
+refuses the whole file when an address does not match exactly one element. If you
+change it, run `npm run admin:test` — the tests exercise it against the
+real generated components, because a wrong match would quietly replace the wrong
+headline on a live page.
+
+Two things that look like bugs but are not:
+
+* **The tag scanner is hand-written, not a regex.** Attribute values can contain
+  nested braces, as in a className built from a template literal, and a
+  single-level pattern silently drops every element in such a tag. It did, until a
+  test asked for the header's nav links and came back empty.
+* **A template-literal className is not editable, but it is still addressable.** Its
+  static prefix is used for identity so it can be matched against the live DOM; its
+  value is still treated as computed, so patching it is refused.
 
 ## Do not
 

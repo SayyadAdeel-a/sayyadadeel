@@ -115,6 +115,23 @@
   background: #2e2e38;
 }
 
+.adm-live {
+  color: #b9b9c6;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 6px 8px;
+  border-radius: 7px;
+}
+
+.adm-live:hover {
+  color: #fff;
+  background: #23232b;
+}
+
+.adm-btn-on {
+  background: var(--adm-accent);
+}
+
 .adm-route {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   color: #b9b9c6;
@@ -177,6 +194,11 @@
   color: #d6ffe6;
 }
 
+.adm-hint + .adm-changes,
+.adm-status + .adm-hint {
+  top: 96px;
+}
+
 .adm-status-bad {
   background: #4a1216;
   color: #ffe0e0;
@@ -229,15 +251,86 @@
 
 /* ------------------------------------------------------------ hover box */
 
-.adm-hover {
+/**
+ * Edit affordances are applied as attributes on the site element itself, not as
+ * a floating overlay.
+ *
+ * An overlay has to be recomputed on every scroll frame and still lags behind
+ * smooth scrolling; an outline drawn on the element moves with it for free and
+ * cannot drift away from what it is describing. `outline` is used rather than a
+ * border because it takes no space and so cannot shift the layout — which would
+ * defeat the point of previewing the real page.
+ *
+ * `!important` is required: `webflow.css` is loaded alongside this file and is
+ * free to set outlines on anything.
+ */
+.adm-editing [data-adm-hover] {
+  outline: 2px dashed var(--adm-accent) !important;
+  outline-offset: -2px !important;
+  cursor: crosshair !important;
+}
+
+.adm-editing [data-adm-selected] {
+  outline: 2px solid var(--adm-accent) !important;
+  outline-offset: -2px !important;
+  box-shadow: 0 0 0 4px rgba(47, 107, 255, 0.18) !important;
+}
+
+.adm-badge {
   position: fixed;
-  z-index: 2147482900;
+  z-index: 2147483200;
   pointer-events: none;
-  outline: 2px solid var(--adm-accent);
-  outline-offset: -1px;
-  background: rgba(47, 107, 255, 0.09);
-  border-radius: 2px;
-  transition: none;
+  display: grid;
+  gap: 1px;
+  padding: 5px 8px;
+  border-radius: 7px;
+  background: var(--adm-accent);
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.35;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+  max-width: 260px;
+}
+
+.adm-badge b {
+  font-weight: 600;
+}
+
+.adm-badge span {
+  opacity: 0.82;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.adm-hint {
+  position: fixed;
+  z-index: 2147483000;
+  top: 52px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #16161cf2;
+  border: 1px solid #2e2e38;
+  color: #d9d9e2;
+  font-size: 13px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  max-width: min(640px, 92vw);
+}
+
+.adm-hint-count {
+  color: #8f8f9d;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.adm-status-warn {
+  background: #3a2a08;
+  color: #ffe9c2;
 }
 
 /* ---------------------------------------------------------------- stage */

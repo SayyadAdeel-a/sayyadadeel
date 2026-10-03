@@ -1,4 +1,4 @@
-import { ROUTES } from "@/generated/admin-registry";
+import { ROUTES, editorUrl } from "@/generated/admin-registry";
 import LogoutButton from "@/components/admin/LogoutButton";
 import { isConfigured, repoConfig } from "@/lib/admin/github";
 
@@ -51,9 +51,9 @@ export default function AdminDashboard() {
       <ul className="adm-grid">
         {ROUTES.map((route) => (
           <li key={route.route}>
-            <a className="adm-card" href={"/admin" + route.route.slice(1)}>
+            <a className="adm-card" href={editorUrl(route.route)}>
               <span className="adm-card-name">{route.label}</span>
-              <span className="adm-card-path">{route.route}</span>
+              <span className="adm-card-path">{editorUrl(route.route)}</span>
               <span className="adm-card-files">
                 {route.files.length} {route.files.length === 1 ? "file" : "files"}
               </span>
