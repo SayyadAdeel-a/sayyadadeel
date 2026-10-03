@@ -1,288 +1,62 @@
-@import "tailwindcss";
-@import "./originkit-section-themes.css";
-@import "./originkit-section-theme.css";
+/*
+ * Project stylesheet.
+ *
+ * The reference site is a Webflow export: its entire visual design lives in
+ * app/webflow.css, which is imported immediately before this file. This file
+ * only contains the two things Webflow cannot ship as static CSS:
+ *
+ *  1. The lenis smooth-scroll stylesheet (verbatim from lenis@1.1.14).
+ *  2. Font-family token rewiring, so the `next/font` copies of the four Google
+ *     families the site uses are resolved from the custom properties Webflow
+ *     declares.
+ *
+ * Tailwind is intentionally not imported: its preflight would reset the
+ * Webflow base styles that this clone depends on.
+ */
 
-:root {
-  /* ── transitions.dev motion tokens ─────────────────────────── */
-  /* Durations */
-  --duration-stagger: 40ms;
-  --duration-micro: 80ms;
-  --duration-quick: 150ms;
-  --duration-fast: 250ms;
-  --duration-medium: 350ms;
-  --duration-slow: 400ms;
-  --duration-very-slow: 500ms;
-  /* Easings */
-  --ease-smooth-out: cubic-bezier(0.22, 1, 0.36, 1);
-  --ease-in-out: ease-in-out;
-  --ease-out: ease-out;
-  --ease-linear: linear;
-  --ease-bounce: cubic-bezier(0.34, 1.36, 0.64, 1);
-  --ease-bounce-strong: cubic-bezier(0.34, 3.85, 0.64, 1);
-  /* Distances */
-  --distance-micro: 4px;
-  --distance-small: 6px;
-  --distance-base: 8px;
-  --distance-medium: 12px;
-  --distance-large: 30px;
-  /* Scales */
-  --scale-large: 0.96;
-  --scale-medium: 0.97;
-  --scale-small: 0.98;
-  --scale-tiny: 0.99;
-  /* Blur */
-  --blur-small: 2px;
-  --blur-medium: 3px;
-  --blur-large: 8px;
-  /* Card hover tilt */
-  --tilt-perspective: 1000px;
-  --tilt-return: 1000ms;
-  --tilt-return-ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --tilt-follow: 400ms;
-  --tilt-follow-ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --tilt-glare-opacity: 0.32;
-  --tilt-glare-fade: 300ms;
-  --tilt-glare-ease: cubic-bezier(0.22, 1, 0.36, 1);
-  /* Learn-more hover */
-  --learn-shift: 2px;
-  --learn-spread: 8deg;
-  --learn-in: 350ms;
-  --learn-out: 350ms;
-  --learn-ease: cubic-bezier(0.22, 1, 0.36, 1);
-  /* Texts reveal */
-  --stagger-dur: 500ms;
-  --stagger-distance: 12px;
-  --stagger-stagger: 40ms;
-  --stagger-blur: 3px;
-  --stagger-ease: cubic-bezier(0.22, 1, 0.36, 1);
-
-  /* ── Project theme tokens ──────────────────────────────────── */
-  --background: #f5f5f2;
-  --foreground: #121212;
-  --surface: #ffffff;
-  --surface-2: #f0f0ed;
-  --border: #e5e5e2;
-  --border-hover: #d0d0cd;
-  --text-primary: #121212;
-  --text-secondary: #666666;
-  --text-tertiary: #999999;
-  --accent: #121212;
-  --accent-hover: #333333;
+/* lenis@1.1.14/dist/lenis.css */
+html.lenis,
+html.lenis body {
+  height: auto;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-surface: var(--surface);
-  --color-surface-2: var(--surface-2);
-  --color-border: var(--border);
-  --color-border-hover: var(--border-hover);
-  --color-text-primary: var(--text-primary);
-  --color-text-secondary: var(--text-secondary);
-  --color-text-tertiary: var(--text-tertiary);
-  --color-accent: var(--accent);
-  --color-accent-hover: var(--accent-hover);
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-tight: var(--font-inter-tight), ui-sans-serif, system-ui, sans-serif;
-  --font-lato: var(--font-lato), ui-sans-serif, system-ui, sans-serif;
-  --font-instrument-serif: var(--font-instrument-serif), Georgia, serif;
-  --font-geist-sans: var(--font-geist-sans), "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-geist-mono: var(--font-geist-mono), "Geist Mono", ui-monospace, monospace;
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
 }
-
-* {
-  box-sizing: border-box;
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
 }
-
-html {
-  scroll-behavior: smooth;
-}
-
-/* Anchored sections clear the sticky header when navigated to */
-section[id] {
-  scroll-margin-top: 72px;
-}
-
-/* Keyboard focus — visible but quiet, matching the site's dashed-corner language */
-:focus-visible {
-  outline: 2px solid rgba(18, 18, 18, 0.5);
-  outline-offset: 3px;
-  border-radius: 4px;
-}
-
-/* Instant press feedback on every interactive element (Apple: respond on
-   pointer-down, not release). 100ms ease-out scale on press. */
-a:active,
-button:active:not(:disabled) {
-  transition-duration: 100ms;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-}
-
-/* Site header as a translucent material — content scrolls underneath.
-   Slight saturation lift keeps ink text legible over blurred content. */
-.site-header {
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-}
-
-@media (prefers-reduced-transparency: reduce) {
-  .site-header {
-    background: #f5f5f2;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-  }
-}
-
-@media (prefers-contrast: more) {
-  .site-header {
-    background: #ffffff;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-    border-bottom-color: rgba(18, 18, 18, 0.35);
-  }
-  :focus-visible {
-    outline-color: #121212;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-::selection {
-  background: rgba(18, 18, 18, 0.15);
-  color: #121212;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f5f5f2;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #cccccc;
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #aaaaaa;
-}
-
-/* hero-06 ring rotation */
-@keyframes ring-rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("/sections/hero-06/assets/helvetica-medium.ttf") format("truetype");
-  font-weight: 400 700;
-  font-display: swap;
-}
-
-/* ── Card hover tilt (transitions.dev #19) ─────────────────────────────────── */
-.t-tilt { touch-action: none; }
-.t-tilt-card {
-  position: relative;
-  border-radius: 16px;
+.lenis.lenis-stopped {
   overflow: hidden;
-  transform:
-    perspective(var(--tilt-perspective))
-    rotateX(var(--tilt-rx, 0deg))
-    rotateY(var(--tilt-ry, 0deg));
-  transform-style: preserve-3d;
-  transition: transform var(--tilt-return) var(--tilt-return-ease);
-  will-change: transform;
 }
-.t-tilt-card.is-tilting {
-  transition: transform var(--tilt-follow) var(--tilt-follow-ease);
-}
-.t-tilt-glare {
-  position: absolute;
-  inset: 0;
+.lenis.lenis-smooth iframe {
   pointer-events: none;
-  opacity: 0;
-  mix-blend-mode: screen;
-  background:
-    radial-gradient(circle 95px at var(--tilt-gx, 50%) var(--tilt-gy, 50%),
-      rgba(255,255,255,0.48), rgba(255,255,255,0.06) 52%, rgba(255,255,255,0) 84%),
-    radial-gradient(circle 200px at var(--tilt-gx, 50%) var(--tilt-gy, 50%),
-      rgba(255,255,255,0.22), rgba(255,255,255,0.04) 58%, rgba(255,255,255,0) 78%),
-    radial-gradient(circle 360px at var(--tilt-gx, 50%) var(--tilt-gy, 50%),
-      rgba(255,255,255,0.10), rgba(255,255,255,0) 88%);
-  transition: opacity var(--tilt-glare-fade) var(--tilt-glare-ease);
-}
-.t-tilt.is-hover .t-tilt-glare { opacity: var(--tilt-glare-opacity); }
-
-@media (prefers-reduced-motion: reduce) {
-  .t-tilt-card { transform: none !important; transition: none !important; }
 }
 
-/* ── Learn more hover (transitions.dev #24) ────────────────────────────────── */
-.t-learn-chevron {
-  display: inline-flex;
-  transform: translateX(0);
-  transition: transform var(--learn-out) var(--learn-ease);
-}
-.t-learn-arm {
-  transform-box: view-box;
-  transform-origin: 10px 8px;
-  vector-effect: non-scaling-stroke;
-  transition: transform var(--learn-out) var(--learn-ease);
-}
-.t-learn:hover .t-learn-chevron { transform: translateX(var(--learn-shift)); transition-duration: var(--learn-in); }
-.t-learn:hover .t-learn-arm { transition-duration: var(--learn-in); }
-.t-learn:hover .t-learn-arm-top { transform: rotate(var(--learn-spread)); }
-.t-learn:hover .t-learn-arm-bot { transform: rotate(calc(var(--learn-spread) * -1)); }
-
-@media (prefers-reduced-motion: reduce) {
-  .t-learn-chevron, .t-learn-arm { transition: none !important; }
+/*
+ * Webflow declares its type families by their Google Fonts names. The selector
+ * is doubled so these declarations outrank the plain `:root` blocks inside
+ * webflow.css (including the ones repeated in its media queries).
+ */
+:root:root {
+  --_typography---font-family--body-font: var(--font-hanken-grotesk),
+    sans-serif;
+  --_typography---font-family--headding-font: var(--font-averia-sans-libre),
+    sans-serif;
+  --_typography---font-family--four-font: var(--font-geist), sans-serif;
+  --_typography---font-family--third-font: var(--font-inter-tight), sans-serif;
 }
 
-/* ── Texts reveal (transitions.dev #18) ────────────────────────────────────── */
-.t-stagger-line {
-  display: block;
-  opacity: 0;
-  transform: translateY(var(--stagger-distance));
-  filter: blur(var(--stagger-blur));
-  transition:
-    opacity   var(--stagger-dur) var(--stagger-ease),
-    transform var(--stagger-dur) var(--stagger-ease),
-    filter    var(--stagger-dur) var(--stagger-ease);
-  will-change: transform, opacity, filter;
-}
-.t-stagger-line--2 { transition-delay: var(--stagger-stagger); }
-.t-stagger-line--3 { transition-delay: calc(var(--stagger-stagger) * 2); }
-
-.t-stagger.is-shown .t-stagger-line {
-  opacity: 1;
-  transform: translateY(0);
-  filter: blur(0);
-}
-.t-stagger.is-hiding .t-stagger-line {
-  opacity: 0;
-  transform: translateY(0);
-  filter: blur(0);
-  transition:
-    opacity 200ms ease,
-    transform 0s linear,
-    filter 0s linear;
-  transition-delay: 0s;
+/* Runtime state written by the interaction layer in
+   src/components/sites/relab-0c02b053/shared/interactions.ts */
+.hero-intro-card-box {
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .t-stagger-line { transition: none !important; }
+.hero-intro-card-box.is-active {
+  border-color: #000 !important;
+}
+
+.single-image-wrap.is-tab-hidden {
+  visibility: hidden !important;
+  pointer-events: none !important;
 }

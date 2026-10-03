@@ -1,0 +1,126 @@
+﻿viewport 768x1024
+scrollHeight  reference=16141  clone=16141
+body font    reference="Hanken Grotesk", sans-serif
+body font    clone    ="Hanken Grotesk", sans-serif
+
+[styles] .agency-hero-image-wrap.one
+  transform: ref=matrix(0.988967, 0.148134, -0.148134, 0.988967, 0, 0) | clone=matrix(0.953612, 0.301039, -0.301039, 0.953612, 0, 0)
+
+[rect] .agency-hero-image-wrap.one.x: ref=216.7 clone=218.26 (delta 1.56)
+
+[rect] .agency-hero-image-wrap.one.y: ref=122.06 clone=116.89 (delta -5.17)
+
+[rect] .agency-hero-image-wrap.one.w: ref=50.03 clone=55.2 (delta 5.17)
+
+[rect] .agency-hero-image-wrap.one.h: ref=50.03 clone=55.2 (delta 5.17)
+
+[rect] .contain-size-image.x: ref=216.7 clone=218.26 (delta 1.56)
+
+[rect] .contain-size-image.y: ref=122.06 clone=116.89 (delta -5.17)
+
+[rect] .contain-size-image.w: ref=50.03 clone=55.2 (delta 5.17)
+
+[rect] .contain-size-image.h: ref=50.03 clone=55.2 (delta 5.17)
+
+[styles] .agency-hero-image-wrap.two
+  transform: ref=matrix(1, 0, 0, 1, 0, -8.5188) | clone=matrix(1, 0, 0, 1, 0, -17.52)
+
+[rect] .agency-hero-image-wrap.two.y: ref=195.78 clone=186.78 (delta -9.00)
+
+[styles] .hero-intro-meddle-bg-image
+  transform: ref=matrix(0.526417, -0.850226, 0.850226, 0.526417, 0, 0) | clone=matrix(0.551646, -0.834078, 0.834078, 0.551646, 0, 0)
+
+[rect] .hero-intro-meddle-bg-image.x: ref=39.84 clone=37.57 (delta -2.27)
+
+[rect] .hero-intro-meddle-bg-image.y: ref=456.78 clone=454.51 (delta -2.27)
+
+[rect] .hero-intro-meddle-bg-image.w: ref=688.32 clone=692.86 (delta 4.54)
+
+[rect] .hero-intro-meddle-bg-image.h: ref=688.32 clone=692.86 (delta 4.54)
+
+[styles] .our-creators-section
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .text-icon
+  opacity: ref=0.5287 | clone=0.686
+  transform: ref=matrix(0.7644, 0, 0, 0.7644, 0, 0) | clone=matrix(0.843, 0, 0, 0.843, 0, 0)
+
+[styles] .services-mask
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .slide-creators-image-left-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 4.0513) | clone=matrix(1, 0, 0, 1, 0, 33.72)
+
+[rect] .slide-creators-image-left-wrap.y: ref=3209.61 clone=3239.28 (delta 29.67)
+
+[styles] .slide-creators-image-text-wrap
+  transform: ref=matrix(0.993978, 0.109578, -0.109578, 0.993978, 0, 0) | clone=matrix(0.999816, 0.01918, -0.01918, 0.999816, 0, 0)
+
+[rect] .slide-creators-image-text-wrap.y: ref=3190.6 clone=3197.18 (delta 6.58)
+
+[rect] .slide-creators-image-text-wrap.w: ref=151.54 clone=148.79 (delta -2.75)
+
+[rect] .slide-creators-image-text-wrap.h: ref=55.98 clone=42.83 (delta -13.15)
+
+[styles] .love-icon
+  transform: ref=matrix(0.8116, 0, 0, 0.8116, 0, 0) | clone=matrix(0.8253, 0, 0, 0.8253, 0, 0)
+
+[styles] .slide-creators-image-right-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, -4.0513) | clone=matrix(1, 0, 0, 1, 0, -33.72)
+
+[rect] .slide-creators-image-right-wrap.y: ref=3479.42 clone=3449.75 (delta -29.67)
+
+[rect] .font-three.y: ref=3202.73 clone=3207.56 (delta 4.83)
+
+[rect] .font-three.w: ref=40.52 clone=38.94 (delta -1.58)
+
+[rect] .font-three.h: ref=24.11 clone=20.74 (delta -3.37)
+
+[rect] .meddel-blod.y: ref=3202.73 clone=3207.56 (delta 4.83)
+
+[rect] .meddel-blod.w: ref=40.52 clone=38.94 (delta -1.58)
+
+[rect] .meddel-blod.h: ref=24.11 clone=20.74 (delta -3.37)
+
+[text] .meet-creators-wrapper
+  ref  : UGC VideosProduct Reviews<style> [data-wf-bgvideo-fallback-img] { display: none; } @media 
+  clone: UGC VideosProduct ReviewsDay In Life
+
+[text] .meet-creators-meddle-wrapper
+  ref  : Product Reviews<style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-r
+  clone: Product ReviewsDay In Life
+
+[text] .meet-creators-meddle-two-wrapper
+  ref  : <style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-reduced-motion: 
+  clone: 
+
+[styles] .background-video-left-icon-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 4.0513) | clone=matrix(1, 0, 0, 1, 0, 33.72)
+
+[rect] .background-video-left-icon-wrap.y: ref=4742.05 clone=4771.72 (delta 29.67)
+
+[text] .background-video-wrap
+  ref  : <style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-reduced-motion: 
+  clone: 
+
+[text] .background-video
+  ref  : <style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-reduced-motion: 
+  clone: 
+
+[styles] .background-video-right-icon-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, -4.0513) | clone=matrix(1, 0, 0, 1, 0, -33.72)
+
+[rect] .background-video-right-icon-wrap.y: ref=5185.95 clone=5156.28 (delta -29.67)
+
+[styles] .featured-work-card-image-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .our-work-image-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .worked-image-wrap
+  transform: ref=matrix(1, 0, 0, 1, -13.254, 0) | clone=matrix(1, 0, 0, 1, -6.74399, 0)
+
+[rect] .worked-image-wrap.x: ref=6.75 clone=13.26 (delta 6.51)
+
+47 issue group(s) across 214 selectors

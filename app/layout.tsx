@@ -1,181 +1,106 @@
-import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono, Inter, Inter_Tight, Instrument_Serif, Lato } from "next/font/google";
-import { Header } from "@/components/layout/header";
-import { Footer } from "@/components/layout/footer";
+import type { Metadata } from "next";
+import {
+  Averia_Sans_Libre,
+  Geist,
+  Hanken_Grotesk,
+  Inter_Tight,
+} from "next/font/google";
+import "./webflow.css";
 import "./globals.css";
+import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// The source site loads these four families through Google's WebFont loader.
+// next/font self-hosts the identical font files, so metrics and glyph shapes
+// match the reference exactly.
+const hankenGrotesk = Hanken_Grotesk({
+  variable: "--font-hanken-grotesk",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
   display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const averiaSansLibre = Averia_Sans_Libre({
+  variable: "--font-averia-sans-libre",
   subsets: ["latin"],
+  weight: ["300", "400", "700"],
   display: "swap",
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const geist = Geist({
+  variable: "--font-geist",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
   display: "swap",
 });
 
 const interTight = Inter_Tight({
   variable: "--font-inter-tight",
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
 });
 
-const instrumentSerif = Instrument_Serif({
-  variable: "--font-instrument-serif",
-  subsets: ["latin"],
-  weight: "400",
-  display: "swap",
-});
+const SITE = "relab-0c02b053/root-8a5edab2";
 
-const lato = Lato({
-  variable: "--font-lato",
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  display: "swap",
-});
-
-export const viewport: Viewport = {
-  themeColor: "#f5f5f2",
-  width: "device-width",
-  initialScale: 1,
-};
+/**
+ * Absolute base for Open Graph / Twitter card URLs.
+ *
+ * Next resolves the relative `openGraph.images` and `icons` entries against this.
+ * It was hardcoded to the reference site, so on any real deployment every share
+ * image URL pointed at Webflow's CDN instead of ours. Set `NEXT_PUBLIC_SITE_URL`
+ * in the deployment environment; the fallback keeps local builds working.
+ */
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://relab-template.webflow.io";
 
 export const metadata: Metadata = {
-  title: {
-    default: "Sayyad Adeel — Independent Builder & Designer",
-    template: "%s | Sayyad Adeel",
-  },
+  metadataBase: new URL(SITE_URL),
+  title: "Relab - Webflow HTML Website Template",
   description:
-    "I design and build websites and digital experiences with AI — combining design, modern workflows, automation, and rapid iteration. Currently building Sayyad Studio.",
-  keywords: [
-    "Sayyad Adeel",
-    "independent builder",
-    "web design",
-    "AI-assisted development",
-    "Sayyad Studio",
-    "digital experiences",
-    "creative technology",
-  ],
-  authors: [{ name: "Sayyad Adeel" }],
-  creator: "Sayyad Adeel",
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://adeelsayyad.tech",
-    siteName: "Sayyad Adeel",
-    title: "Sayyad Adeel — Independent Builder & Designer",
-    description:
-      "I design and build websites and digital experiences with AI — combining design, modern workflows, automation, and rapid iteration.",
-    images: [
+    "Build a modern and professional website with Relab, a polished Webflow template designed for showcasing services, case studies, blogs, and your brand.",
+  icons: {
+    icon: [
       {
-        url: "https://adeelsayyad.tech/og.png",
-        width: 1200,
-        height: 630,
-        alt: "Sayyad Adeel — Independent Builder & Designer",
+        url: `/sites/${SITE}/6a97fefd59fd4ab25cf4dff3_Favicon.png`,
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: `/sites/${SITE}/6a97fefda3777e169510390b_Favicon.png`,
+        sizes: "48x48",
+        type: "image/png",
+      },
+      {
+        url: `/sites/${SITE}/6a97fefd2d54802470f7e9e6_Favicon.png`,
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        url: `/sites/${SITE}/6a97fefdc7a2f616fcb1903a_Favicon.png`,
+        sizes: "512x512",
+        type: "image/png",
       },
     ],
+    apple: `/sites/${SITE}/6a97fefd1db1932cf683d363_Favicon.png`,
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Sayyad Adeel — Independent Builder & Designer",
+  openGraph: {
+    title: "Relab - Webflow HTML Website Template",
     description:
-      "I design and build websites and digital experiences with AI — combining design, modern workflows, automation, and rapid iteration.",
-    images: ["https://adeelsayyad.tech/og.png"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  alternates: {
-    canonical: "https://adeelsayyad.tech",
+      "Build a modern and professional website with Relab, a polished Webflow template designed for showcasing services, case studies, blogs, and your brand.",
+    images: [`/sites/${SITE}/6aad1684503d1bf2692ca802_Thumbnail.jpg`],
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
-  const personSchema = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Sayyad Adeel",
-    url: "https://adeelsayyad.tech",
-    jobTitle: "Independent Builder & Designer",
-    description:
-      "Designs and builds websites and digital experiences with AI — combining design, modern workflows, automation, and rapid iteration. Currently building Sayyad Studio.",
-    knowsAbout: [
-      "Web design",
-      "UI/UX",
-      "AI-assisted development",
-      "AI agents",
-      "Automation",
-      "Motion & interaction design",
-      "Rapid prototyping",
-      "Digital products",
-    ],
-    sameAs: ["https://github.com/SayyadAdeel-a"],
-  };
-
-  const websiteSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "Sayyad Adeel",
-    url: "https://adeelsayyad.tech",
-    description:
-      "Portfolio of Sayyad Adeel — independent builder designing and building websites and digital experiences with AI.",
-    author: { "@type": "Person", name: "Sayyad Adeel" },
-  };
-
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${interTight.variable} ${instrumentSerif.variable} ${lato.variable} h-full antialiased`}
+      className={`${hankenGrotesk.variable} ${averiaSansLibre.variable} ${geist.variable} ${interTight.variable}`}
     >
-      <head>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-G4C4YM1RPX"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-G4C4YM1RPX');`,
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-        />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preload" as="image" href="/originkit/hero-20/building.webp" imageSizes="(max-width: 768px) 100vw, 50vw" />
-        <link rel="preload" as="image" href="/originkit/hero-20/mobile-hero.webp" imageSizes="(max-width: 768px) 100vw, 50vw" />
-      </head>
-      <body className="min-h-full flex flex-col bg-[#f5f5f2] text-[#121212]">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+      <body>
+        <SmoothScrollProvider>{children}</SmoothScrollProvider>
       </body>
     </html>
   );

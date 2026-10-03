@@ -40,14 +40,18 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# originkit
-.originkit/
+# local QA server / build logs
+/build.log
+/start.log
+/start.err
 
-# agent configs (not project source)
-.agents/
-.claude/
-CLAUDE.md
-AGENTS.md
-skills-lock.json
-.ideavo/project
+# audit / dev-server logs
 *.log
+
+# research artefacts: captured reference HTML, IX payloads, QA pixel dumps and
+# reference screenshots. The markdown write-ups are committed; the binaries
+# (~260 MB) are regenerated locally by the audit scripts.
+docs/research/**/qa/
+docs/research/**/live-page.html
+docs/research/**/webflow-ix2.json
+docs/design-references/

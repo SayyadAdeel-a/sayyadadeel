@@ -1,0 +1,149 @@
+export default function FooterSection() {
+  return (
+    <section className={"footer-section"}>
+      <div className={"w-layout-blockcontainer container w-container"}>
+        <div className={"footer-wrapper"}>
+          <div className={"footer-wrap"}>
+            <div fade-up={"true"} className={"footer-top-text-wrapper"}>
+              <div className={"footer-logo-wrap"}>
+                <a href={"/"} aria-current={"page"} className={"footer-logo w-inline-block w--current"}>
+                  <img loading={"lazy"} src={"/sites/relab-0c02b053/root-8a5edab2/6a97ffdf201d029d91db3ff5_relab.svg"} alt={"Image"} className={"all-image"} />
+                </a>
+              </div>
+              <div className={"footer-top-text-wrap"}>
+                <div className={"text-footer-header-wrap"}>Content That Drives Real Growth.</div>
+                <div className={"footer-from-button-wrap footer-from-buttom-wrap"}>
+                  <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>
+                    <div className={"button-text-wrap"}>
+                      <div className={"button-hover-text"}>Fill The Form</div>
+                      <div className={"button-normal-text"}>Fill The Form</div>
+                    </div>
+                    <div className={"button-icon-box"}>
+                      <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
+                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div fade-up={"true"} className={"footer-icon-link-wrapper"}>
+              <div className={"footer-social-wrapper"}>
+                <div className={"footer-social-wrap"}>
+                  <div className={"footer-social-link-wrap"}>
+                    <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://www.instagram.com/"} target={"_blank"} className={"icon-button w-inline-block"}>
+                      <img loading={"lazy"} src={"/sites/relab-0c02b053/root-8a5edab2/6a993e534ba570adec01f9c2_Original.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                    </a>
+                  </div>
+                  <div className={"footer-social-link-wrap"}>
+                    <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://x.com/"} target={"_blank"} className={"icon-button w-inline-block"}>
+                      <img loading={"lazy"} src={"/sites/relab-0c02b053/root-8a5edab2/6a993e85894568fd53c1bf39_Original.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                    </a>
+                  </div>
+                  <div className={"footer-social-link-wrap"}>
+                    <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://www.tiktok.com/en/"} target={"_blank"} className={"icon-button w-inline-block"}>
+                      <img loading={"lazy"} src={"/sites/relab-0c02b053/root-8a5edab2/6a992bd512b43d612c3c471b_Negative.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                    </a>
+                  </div>
+                </div>
+                <div>
+                  <div className={"w-form"}>
+                    <form id={"email-form"} name={"email-form"} data-name={"Email Form"} method={"get"} data-wf-page-id={"6a97e757adfa59f93a890071"} data-wf-element-id={"6ca6d7b4-4f3d-39bb-3623-536092c536ed"}>
+                      <div>
+                        <label htmlFor={"email"} className={"header-six"}>Newsletter</label>
+                        <div className={"emal-field-wrapper"}>
+                          <input className={"emal-text-field w-input"} maxLength={256} name={"email"} data-name={"Email"} placeholder={"Email Address"} type={"email"} id={"email"} required />
+                          <div className={"submit-button-wrapper"}>
+                            <input type={"submit"} data-wait={"Please wait..."} className={"submit-button w-button"} value={" "} />
+                            <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"#"} className={"icon-button w-inline-block"}>
+                              <img loading={"lazy"} src={"/sites/relab-0c02b053/root-8a5edab2/6a97e757adfa59f93a8901c0_Frame__1_.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <div className={"w-form-done"}>
+                      <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div className={"w-form-fail"}>
+                      <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className={"footer-link-wrapper"}>
+                <div id={"w-node-_6ca6d7b4-4f3d-39bb-3623-536092c536fc-92c536d4"} className={"link-wrapper"}>
+                  <div className={"text-name-link"}>Contact</div>
+                  <div className={"link-wrap"}>
+                    <a data-wf--text-button--variant={"style-two"} href={"mailto:hello@relabstudio.com"} className={"text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block"}>
+                      <div className={"text-button-normal-text"}>hello@relabstudio.com</div>
+                      <div className={"text-button-hover-text"}>hello@relabstudio.com</div>
+                    </a>
+                    <a data-wf--text-button--variant={"style-two"} href={"tel:+1(415)9023814"} className={"text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block"}>
+                      <div className={"text-button-normal-text"}>+1 (415) 902 3814</div>
+                      <div className={"text-button-hover-text"}>+1 (415) 902 3814</div>
+                    </a>
+                  </div>
+                </div>
+                <div className={"link-wrapper"}>
+                  <div className={"text-name-link"}>Links</div>
+                  <div className={"link-wrap"}>
+                    <a data-wf--text-button--variant={"base"} href={"/"} aria-current={"page"} className={"text-button w-inline-block w--current"}>
+                      <div className={"text-button-normal-text"}>Home</div>
+                      <div className={"text-button-hover-text"}>Home</div>
+                    </a>
+                    <a data-wf--text-button--variant={"base"} href={"/about"} className={"text-button w-inline-block"}>
+                      <div className={"text-button-normal-text"}>About</div>
+                      <div className={"text-button-hover-text"}>About</div>
+                    </a>
+                    <a data-wf--text-button--variant={"base"} href={"/services"} className={"text-button w-inline-block"}>
+                      <div className={"text-button-normal-text"}>Services</div>
+                      <div className={"text-button-hover-text"}>Services</div>
+                    </a>
+                    <a data-wf--text-button--variant={"base"} href={"/case-studies"} className={"text-button w-inline-block"}>
+                      <div className={"text-button-normal-text"}>Case Studies</div>
+                      <div className={"text-button-hover-text"}>Case Studies</div>
+                    </a>
+                    <a data-wf--text-button--variant={"base"} href={"/blogs"} className={"text-button w-inline-block"}>
+                      <div className={"text-button-normal-text"}>Blog</div>
+                      <div className={"text-button-hover-text"}>Blog</div>
+                    </a>
+                    <a data-wf--text-button--variant={"base"} href={"/pricing"} className={"text-button w-inline-block"}>
+                      <div className={"text-button-normal-text"}>Pricing</div>
+                      <div className={"text-button-hover-text"}>Pricing</div>
+                    </a>
+                  </div>
+                </div>
+                <div className={"link-wrapper"}>
+                  <div className={"text-name-link"}>Utility</div>
+                  <div className={"link-wrap"}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
+                      <div className={"text-button-normal-text"}>Contact</div>
+                      <div className={"text-button-hover-text"}>Contact</div>
+                    </a>
+                    <a data-wf--text-button--variant={"base"} href={"/style-guide"} className={"text-button w-inline-block"}>
+                      <div className={"text-button-normal-text"}>Style Guide</div>
+                      <div className={"text-button-hover-text"}>Style Guide</div>
+                    </a>
+                    <a data-wf--text-button--variant={"base"} href={"/licenses"} className={"text-button w-inline-block"}>
+                      <div className={"text-button-normal-text"}>License</div>
+                      <div className={"text-button-hover-text"}>License</div>
+                    </a>
+                    <a data-wf--text-button--variant={"base"} href={"/changelog"} className={"text-button w-inline-block"}>
+                      <div className={"text-button-normal-text"}>Changelog</div>
+                      <div className={"text-button-hover-text"}>Changelog</div>
+                    </a>
+                    <a data-wf--text-button--variant={"base"} href={"/404"} className={"text-button w-inline-block"}>
+                      <div className={"text-button-normal-text"}>404</div>
+                      <div className={"text-button-hover-text"}>404</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

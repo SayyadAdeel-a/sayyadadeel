@@ -1,0 +1,99 @@
+﻿viewport 390x1024
+scrollHeight  reference=14079  clone=14079
+body font    reference="Hanken Grotesk", sans-serif
+body font    clone    ="Hanken Grotesk", sans-serif
+
+[styles] .agency-hero-image-wrap.one
+  transform: ref=matrix(0.984267, 0.176688, -0.176688, 0.984267, 0, 0) | clone=matrix(0.955964, 0.293485, -0.293485, 0.955964, 0, 0)
+
+[rect] .agency-hero-image-wrap.one.y: ref=109.09 clone=106.44 (delta -2.65)
+
+[rect] .agency-hero-image-wrap.one.w: ref=34.83 clone=37.48 (delta 2.65)
+
+[rect] .agency-hero-image-wrap.one.h: ref=34.83 clone=37.48 (delta 2.65)
+
+[rect] .contain-size-image.y: ref=109.09 clone=106.44 (delta -2.65)
+
+[rect] .contain-size-image.w: ref=34.83 clone=37.48 (delta 2.65)
+
+[rect] .contain-size-image.h: ref=34.83 clone=37.48 (delta 2.65)
+
+[styles] .agency-hero-image-wrap.two
+  transform: ref=matrix(1, 0, 0, 1, 0, -10.1769) | clone=matrix(1, 0, 0, 1, 0, -17.0667)
+
+[rect] .agency-hero-image-wrap.two.y: ref=153.59 clone=146.7 (delta -6.89)
+
+[styles] .hero-intro-meddle-bg-image
+  transform: ref=matrix(0.999985, -0.00542795, 0.00542795, 0.999985, 0, 0) | clone=matrix(0.637424, -0.770513, 0.770513, 0.637424, 0, 0)
+
+[rect] .hero-intro-meddle-bg-image.x: ref=23.07 clone=-45.76 (delta -68.83)
+
+[rect] .hero-intro-meddle-bg-image.y: ref=413.42 clone=344.59 (delta -68.83)
+
+[rect] .hero-intro-meddle-bg-image.w: ref=343.85 clone=481.51 (delta 137.66)
+
+[rect] .hero-intro-meddle-bg-image.h: ref=343.85 clone=481.51 (delta 137.66)
+
+[styles] .our-creators-section
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .text-icon
+  opacity: ref=0.9856 | clone=0.72
+  transform: ref=matrix(0.9928, 0, 0, 0.9928, 0, 0) | clone=matrix(0.86, 0, 0, 0.86, 0, 0)
+
+[styles] .services-mask
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .slide-creators-image-left-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 39.856) | clone=matrix(1, 0, 0, 1, 0, 34.4)
+
+[rect] .slide-creators-image-left-wrap.y: ref=3790.18 clone=3784.73 (delta -5.45)
+
+[styles] .slide-creators-image-text-wrap
+  transform: ref=matrix(1, 0.000439823, -0.000439823, 1, 0, 0) | clone=matrix(0.999854, 0.0171034, -0.0171034, 0.999854, 0, 0)
+
+[rect] .slide-creators-image-text-wrap.h: ref=38.81 clone=41.03 (delta 2.22)
+
+[styles] .love-icon
+  transform: ref=matrix(0.8536, 0, 0, 0.8536, 0, 0) | clone=matrix(0.8178, 0, 0, 0.8178, 0, 0)
+
+[styles] .slide-creators-image-right-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, -39.856) | clone=matrix(1, 0, 0, 1, 0, -34.4)
+
+[rect] .slide-creators-image-right-wrap.y: ref=3882.08 clone=3887.54 (delta 5.46)
+
+[text] .meet-creators-wrapper
+  ref  : UGC VideosProduct Reviews<style> [data-wf-bgvideo-fallback-img] { display: none; } @media 
+  clone: UGC VideosProduct ReviewsDay In Life
+
+[text] .meet-creators-meddle-wrapper
+  ref  : Product Reviews<style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-r
+  clone: Product ReviewsDay In Life
+
+[text] .meet-creators-meddle-two-wrapper
+  ref  : <style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-reduced-motion: 
+  clone: 
+
+[text] .background-video-wrap
+  ref  : <style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-reduced-motion: 
+  clone: 
+
+[text] .background-video
+  ref  : <style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-reduced-motion: 
+  clone: 
+
+[styles] .background-video-right-icon-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, -39.856) | clone=matrix(1, 0, 0, 1, 0, -34.4)
+
+[rect] .background-video-right-icon-wrap.y: ref=4768.88 clone=4774.33 (delta 5.45)
+
+[styles] .featured-work-card-image-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .our-work-image-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .worked-image-wrap
+  transform: ref=matrix(1, 0, 0, 1, -7.52, 0) | clone=matrix(1, 0, 0, 1, -6.88, 0)
+
+34 issue group(s) across 214 selectors

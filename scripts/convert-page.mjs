@@ -1,0 +1,280 @@
+// Convert captured Webflow page HTML into React (TSX) section components plus
+// the App Router page file for each route.
+//
+// The shell sections Webflow repeats on every page (header, cta, footer) differ
+// only by which anchors it marked `aria-current="page"`; those three are
+// emitted once as shared components that take a `currentPath` prop, so the
+// marking stays exact on all 25 routes.
+//
+// Usage: node scripts/convert-page.mjs [--home] [page-key ...]
+import fs from "node:fs";
+import path from "node:path";
+import {
+  ART_ROOT,
+  SITE_KEY,
+  allRoutes,
+  pageKey,
+  parseFragment,
+  primaryClass,
+  readPage,
+} from "./lib/page-pipeline.mjs";
+import { createEmitter } from "./lib/jsx-emit.mjs";
+
+const args = process.argv.slice(2);
+const INCLUDE_HOME = args.includes("--home");
+const rest = args.filter((a) => !a.startsWith("--"));
+
+const SHELL = {
+  "header-section": "SiteHeader",
+  "cta-section": "SiteCta",
+  "footer-section": "SiteFooter",
+  "template-buttons-wrapper": "SiteTemplateButtons",
+};
+
+const SHARED_DIR = `src/components/sites/${SITE_KEY}/shared`;
+
+const routes = allRoutes();
+const targets = rest.length
+  ? rest.map((k) => routes.find((r) => r.pageKey === k) ?? { route: k, pageKey: k })
+  : routes.filter((r) => r.isHome === INCLUDE_HOME);
+
+if (!targets.length) {
+  console.log("no targets");
+  process.exit(0);
+}
+
+const missingAssets = new Set();
+const shellSources = new Map();
+let shellWritten = false;
+
+for (const target of targets) {
+  const { route, pageKey: key } = target;
+  const artDir = `${ART_ROOT}/${key}`;
+  if (!fs.existsSync(`${artDir}/live-page.html`)) {
+    console.log(`skip ${route} (no capture)`);
+    continue;
+  }
+  const assetMap = JSON.parse(
+    fs.readFileSync(`${artDir}/asset-map.json`, "utf8")
+  );
+  const { body } = readPage(key);
+  const { emit } = createEmitter({ assetMap, missingAssets });
+
+  const nodes = parseFragment(body).filter((n) => n.type === "el");
+  const sections = [];
+  for (const node of nodes) {
+    if (node.tag === "script" || node.tag === "noscript") continue;
+    sections.push({ cls: primaryClass(node), node });
+  }
+
+  const outDir = `src/components/sites/${SITE_KEY}/${key}`;
+  // Remove previously generated section components so renames cannot leave
+  // stale files behind (the homepage's own directory is never touched).
+  fs.rmSync(outDir, { recursive: true, force: true });
+  fs.mkdirSync(outDir, { recursive: true });
+
+  // The decoded interaction payload travels with the page so its animations are
+  // replayed from the same data the reference ships.
+  fs.writeFileSync(
+    path.join(outDir, "ix.json"),
+    `${JSON.stringify(
+      JSON.parse(fs.readFileSync(`${artDir}/webflow-ix2.json`, "utf8")),
+      null,
+      0
+    )}\n`
+  );
+
+  const usedNames = new Set();
+  const imports = [];
+  const parts = [];
+
+  for (const { cls, node } of sections) {
+    if (SHELL[cls]) {
+      // Remember the shell markup; it is emitted once for the whole site.
+      const html = renderToHtml(node);
+      if (!shellSources.has(cls)) shellSources.set(cls, html);
+      const cmp = SHELL[cls];
+      imports.push(
+        `import ${cmp} from "@/components/sites/${SITE_KEY}/shared/${cmp}";`
+      );
+      parts.push(`      <${cmp} currentPath={${JSON.stringify(route)}} />`);
+      continue;
+    }
+
+    const name = componentName(cls, usedNames);
+    const lines = [];
+    emit(node, 2, lines);
+    const file = path.join(outDir, `${name}.tsx`);
+    fs.writeFileSync(
+      file,
+      `export default function ${name}() {\n  return (\n${lines.join("\n")}\n  );\n}\n`
+    );
+    imports.push(`import ${name} from "@/components/sites/${SITE_KEY}/${key}/${name}";`);
+    parts.push(`      <${name} />`);
+  }
+
+  imports.push(
+    `import PageInteractions from "@/components/sites/${SITE_KEY}/shared/PageInteractions";`
+  );
+  imports.push(`import ixPayload from "@/components/sites/${SITE_KEY}/${key}/ix.json";`);
+  parts.push(
+    `      <PageInteractions payload={ixPayload} route={${JSON.stringify(route)}} />`
+  );
+
+  const appDir = route === "/" ? "app" : `app${route}`;
+  fs.mkdirSync(appDir, { recursive: true });
+
+  // Webflow inlines a critical stylesheet per page that keeps IX-driven
+  // elements hidden until the engine has taken over (see `runWidgets`/
+  // `runInteractions` adding `w-mod-js` + `w-mod-ix3` to <html>). It is the
+  // only per-page CSS the reference ships, so it becomes the page's stylesheet.
+  const critical = path.join(artDir, "critical.css");
+  let cssImport = "";
+  if (route !== "/" && fs.existsSync(critical)) {
+    const css = fs
+      .readFileSync(critical, "utf8")
+      .replace(/^\s*\/\*[\s\S]*?\*\//g, "")
+      .trim();
+    fs.writeFileSync(
+      path.join(appDir, "critical.css"),
+      `/*\n * Webflow's per-page critical stylesheet, captured verbatim from\n * <head> of ${route} on the reference site. It hides IX-driven elements until\n * the interaction engine sets w-mod-ix3 on <html>.\n *\n * Generated by scripts/convert-page.mjs from\n * docs/research/relab-0c02b053/${key}/critical.css\n */\n${css}\n`
+    );
+    cssImport = `import "./critical.css";\n`;
+  }
+
+  const meta = [];
+  if (target.title) meta.push(`  title: ${JSON.stringify(unescapeHtml(target.title))},`);
+  if (target.description)
+    meta.push(`  description: ${JSON.stringify(unescapeHtml(target.description))},`);
+  if (target.ogTitle || target.ogDescription || target.ogImage) {
+    meta.push("  openGraph: {");
+    if (target.ogTitle)
+      meta.push(`    title: ${JSON.stringify(unescapeHtml(target.ogTitle))},`);
+    if (target.ogDescription)
+      meta.push(
+        `    description: ${JSON.stringify(unescapeHtml(target.ogDescription))},`
+      );
+    if (target.ogImage) {
+      const img = target.ogImage.startsWith("http")
+        ? target.ogImage
+        : target.ogImage;
+      meta.push(`    images: [${JSON.stringify(img)}],`);
+    }
+    meta.push("  },");
+  }
+
+  const metadataBlock = meta.length
+    ? `\nexport const metadata: Metadata = {\n${meta.join("\n")}\n};\n`
+    : "";
+
+  const pageFile = path.join(appDir, "page.tsx");
+  fs.writeFileSync(
+    pageFile,
+    `${route === "/" ? "" : `// Generated by scripts/convert-page.mjs from the captured reference markup.\n`}import type { Metadata } from "next";\n${cssImport}${imports.join("\n")}\n${metadataBlock}\nexport default function Page() {\n  return (\n    <>\n${parts.join("\n")}\n    </>\n  );\n}\n`
+  );
+
+  console.log(
+    `${route.padEnd(56)} sections=${String(sections.length).padStart(2)} -> ${pageFile}`
+  );
+
+  // The reference serves this exact markup for any unmatched URL (verified:
+  // an unknown path returns 404 with the same 30450-byte body as /404), so
+  // Next's not-found boundary renders the same components.
+  if (route === "/404") {
+    fs.writeFileSync(
+      "app/not-found.tsx",
+      `// Generated by scripts/convert-page.mjs. The reference site serves the
+// /404 markup for every unmatched URL, so Next's not-found boundary reuses it.
+import type { Metadata } from "next";
+${imports.join("\n")}
+
+export const metadata: Metadata = {
+  title: "404 - Relab Webflow HTML Website Template",
+};
+
+export default function NotFound() {
+  return (
+    <>
+${parts.join("\n")}
+    </>
+  );
+}
+`
+    );
+    console.log(`not-found.tsx             written from the /404 sections`);
+  }
+}
+
+/* ------------------------------------------------------------------ *
+ * Shared shell components
+ * ------------------------------------------------------------------ */
+if (shellSources.size && (!shellSources.has("header-section") || !shellWritten)) {
+  const first = routes.find((r) => shellSources.size) ?? routes[0];
+  const assetMap = JSON.parse(
+    fs.readFileSync(`${ART_ROOT}/${first.pageKey}/asset-map.json`, "utf8")
+  );
+  const { emit } = createEmitter({ assetMap, missingAssets });
+  fs.mkdirSync(SHARED_DIR, { recursive: true });
+
+  for (const [cls, cmp] of Object.entries(SHELL)) {
+    const html = shellSources.get(cls);
+    if (!html) continue;
+    const nodes = parseFragment(html).filter((n) => n.type === "el");
+    const lines = [];
+    for (const node of nodes) {
+      emit(node, 2, lines, { currentProp: "currentPath" });
+    }
+    const props = `({ currentPath }: { currentPath: string })`;
+    fs.writeFileSync(
+      `${SHARED_DIR}/${cmp}.tsx`,
+      `/**\n * ${cls} — shared by every page of the site.\n *\n * Webflow's only per-page variation is which anchors it marked\n * \`aria-current="page"\` / \`w--current\`, so the marking is derived from\n * \`currentPath\` instead of being duplicated into 25 copies of the markup.\n *\n * Generated by scripts/convert-page.mjs.\n */\nexport default function ${cmp}${props} {\n  return (\n${lines.join("\n")}\n  );\n}\n`
+    );
+    console.log(`shared: ${cmp}.tsx`);
+  }
+}
+
+if (missingAssets.size) {
+  console.log(`\nMISSING ASSETS (${missingAssets.size}):`);
+  for (const u of missingAssets) console.log("  " + u);
+} else {
+  console.log("\nAll remote assets resolved to local files.");
+}
+
+/* ------------------------------------------------------------------ */
+
+function componentName(cls, used) {
+  const cleaned = cls
+    .replace(/^w-node-/, "")
+    .replace(/^wf-node-/, "")
+    .replace(/[^a-zA-Z0-9]+(.)/g, (_, c) => c.toUpperCase())
+    .replace(/[^a-zA-Z0-9]/g, "");
+  const base = cleaned || "Section";
+  let name = /Section$/.test(base) ? base : `${base}Section`;
+  name = name.charAt(0).toUpperCase() + name.slice(1);
+  if (!/^[A-Za-z]/.test(name)) name = `Section${name}`;
+  let candidate = name;
+  let n = 2;
+  while (used.has(candidate)) candidate = `${name}${n++}`;
+  used.add(candidate);
+  return candidate;
+}
+
+/** Re-serialise a parsed node back to HTML (used to inspect shell variants). */
+function renderToHtml(node) {
+  const attrs = node.attrs
+    .map((a) => (a.value === null ? ` ${a.name}` : ` ${a.name}="${a.value}"`))
+    .join("");
+  const inner = node.children
+    .map((c) => (c.type === "text" ? c.value : renderToHtml(c)))
+    .join("");
+  return `<${node.tag}${attrs}>${inner}</${node.tag}>`;
+}
+
+function unescapeHtml(s) {
+  return String(s)
+    .replaceAll("&amp;", "&")
+    .replaceAll("&quot;", '"')
+    .replaceAll("&#39;", "'")
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">");
+}

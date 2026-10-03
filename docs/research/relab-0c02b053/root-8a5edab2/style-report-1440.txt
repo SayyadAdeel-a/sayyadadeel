@@ -1,0 +1,132 @@
+﻿viewport 1440x1024
+scrollHeight  reference=14678  clone=14678
+body font    reference="Hanken Grotesk", sans-serif
+body font    clone    ="Hanken Grotesk", sans-serif
+
+[styles] .agency-hero-image-wrap.one
+  transform: ref=matrix(0.999803, 0.0198274, -0.0198274, 0.999803, 0, 0) | clone=matrix(0.952129, 0.305695, -0.305695, 0.952129, 0, 0)
+
+[rect] .agency-hero-image-wrap.one.x: ref=463.26 clone=466.66 (delta 3.40)
+
+[rect] .agency-hero-image-wrap.one.y: ref=149.41 clone=132.44 (delta -16.97)
+
+[rect] .agency-hero-image-wrap.one.w: ref=72.65 clone=89.62 (delta 16.97)
+
+[rect] .agency-hero-image-wrap.one.h: ref=72.65 clone=89.62 (delta 16.97)
+
+[rect] .contain-size-image.x: ref=463.26 clone=466.66 (delta 3.40)
+
+[rect] .contain-size-image.y: ref=149.41 clone=132.44 (delta -16.97)
+
+[rect] .contain-size-image.w: ref=72.65 clone=89.62 (delta 16.97)
+
+[rect] .contain-size-image.h: ref=72.65 clone=89.62 (delta 16.97)
+
+[styles] .agency-hero-image-wrap.two
+  transform: ref=matrix(1, 0, 0, 1, 0, -1.1361) | clone=matrix(1, 0, 0, 1, 0, -17.8)
+
+[rect] .agency-hero-image-wrap.two.y: ref=266.68 clone=250.01 (delta -16.67)
+
+[styles] .hero-intro-meddle-bg-image
+  transform: ref=matrix(0.793989, 0.607932, -0.607932, 0.793989, 0, 0) | clone=matrix(0.495459, -0.868632, 0.868632, 0.495459, 0, 0)
+
+[rect] .hero-intro-meddle-bg-image.x: ref=439.62 clone=447.18 (delta 7.56)
+
+[rect] .hero-intro-meddle-bg-image.y: ref=541.49 clone=549.06 (delta 7.57)
+
+[rect] .hero-intro-meddle-bg-image.w: ref=560.77 clone=545.64 (delta -15.13)
+
+[rect] .hero-intro-meddle-bg-image.h: ref=560.77 clone=545.64 (delta -15.13)
+
+[styles] .our-creators-section
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .text-icon
+  opacity: ref=0.6489 | clone=0.665
+  transform: ref=matrix(0.8245, 0, 0, 0.8245, 0, 0) | clone=matrix(0.8325, 0, 0, 0.8325, 0, 0)
+
+[styles] .services-mask
+  marginRight: ref=286px | clone=0px
+  marginLeft: ref=286px | clone=0px
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .slide-creators-image-left-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 18.4281) | clone=matrix(1, 0, 0, 1, 0, 33.3)
+
+[rect] .slide-creators-image-left-wrap.y: ref=4192.65 clone=4207.52 (delta 14.87)
+
+[styles] .slide-creators-image-text-wrap
+  transform: ref=matrix(0.99783, 0.0658403, -0.0658403, 0.99783, 0, 0) | clone=matrix(0.999791, 0.0204626, -0.0204626, 0.999791, 0, 0)
+
+[rect] .slide-creators-image-text-wrap.y: ref=4162.59 clone=4165.91 (delta 3.32)
+
+[rect] .slide-creators-image-text-wrap.w: ref=150.36 clone=148.83 (delta -1.53)
+
+[rect] .slide-creators-image-text-wrap.h: ref=49.66 clone=43.02 (delta -6.64)
+
+[styles] .love-icon
+  transform: ref=matrix(0.9992, 0, 0, 0.9992, 0, 0) | clone=matrix(0.83, 0, 0, 0.83, 0, 0)
+
+[rect] .love-icon.w: ref=9.99 clone=8.3 (delta -1.69)
+
+[rect] .love-icon.h: ref=9.99 clone=8.3 (delta -1.69)
+
+[styles] .slide-creators-image-right-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, -18.4281) | clone=matrix(1, 0, 0, 1, 0, -33.3)
+
+[rect] .slide-creators-image-right-wrap.y: ref=4459.38 clone=4444.51 (delta -14.87)
+
+[rect] .font-three.y: ref=4173.89 clone=4176.32 (delta 2.43)
+
+[rect] .font-three.h: ref=22.5 clone=20.79 (delta -1.71)
+
+[rect] .meddel-blod.y: ref=4173.89 clone=4176.32 (delta 2.43)
+
+[rect] .meddel-blod.h: ref=22.5 clone=20.79 (delta -1.71)
+
+[styles] .meet-creators-wrapper
+  marginRight: ref=0px | clone=110px
+  marginLeft: ref=0px | clone=110px
+
+[text] .meet-creators-wrapper
+  ref  : UGC VideosProduct Reviews<style> [data-wf-bgvideo-fallback-img] { display: none; } @media 
+  clone: UGC VideosProduct ReviewsDay In Life
+
+[text] .meet-creators-meddle-wrapper
+  ref  : Product Reviews<style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-r
+  clone: Product ReviewsDay In Life
+
+[text] .meet-creators-meddle-two-wrapper
+  ref  : <style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-reduced-motion: 
+  clone: 
+
+[styles] .background-video-left-icon-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 18.4281) | clone=matrix(1, 0, 0, 1, 0, 33.3)
+
+[rect] .background-video-left-icon-wrap.y: ref=5377.1 clone=5391.97 (delta 14.87)
+
+[text] .background-video-wrap
+  ref  : <style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-reduced-motion: 
+  clone: 
+
+[text] .background-video
+  ref  : <style> [data-wf-bgvideo-fallback-img] { display: none; } @media (prefers-reduced-motion: 
+  clone: 
+
+[styles] .background-video-right-icon-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, -18.4281) | clone=matrix(1, 0, 0, 1, 0, -33.3)
+
+[rect] .background-video-right-icon-wrap.y: ref=5869.02 clone=5854.15 (delta -14.87)
+
+[styles] .featured-work-card-image-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .our-work-image-wrap
+  transform: ref=matrix(1, 0, 0, 1, 0, 0) | clone=none
+
+[styles] .worked-image-wrap
+  transform: ref=matrix(1, 0, 0, 1, -10.37, 0) | clone=matrix(1, 0, 0, 1, -6.66, 0)
+
+[rect] .worked-image-wrap.x: ref=13.63 clone=17.34 (delta 3.71)
+
+48 issue group(s) across 214 selectors
