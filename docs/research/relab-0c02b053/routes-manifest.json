@@ -1,0 +1,66 @@
+[
+  {
+    "route": "/case-studies/brew-blend-launch",
+    "pageKey": "case-studies-brew-blend-launch-bb3d83b2",
+    "bytes": 45240,
+    "title": "Brew &amp; Blend Launch",
+    "interactions": 18,
+    "timelines": 20
+  },
+  {
+    "route": "/case-studies/glowskin-launch",
+    "pageKey": "case-studies-glowskin-launch-7768a6cf",
+    "bytes": 45110,
+    "title": "GlowSkin Launch",
+    "interactions": 18,
+    "timelines": 20
+  },
+  {
+    "route": "/case-studies/movefit-challenge",
+    "pageKey": "case-studies-movefit-challenge-596acd2d",
+    "bytes": 44994,
+    "title": "MoveFit Challenge",
+    "interactions": 18,
+    "timelines": 20
+  },
+  {
+    "route": "/case-studies/nova-ai-assistant",
+    "pageKey": "case-studies-nova-ai-assistant-c78a9cc4",
+    "bytes": 45170,
+    "title": "Nova AI Assistant",
+    "interactions": 18,
+    "timelines": 20
+  },
+  {
+    "route": "/case-studies/urban-streetwear",
+    "pageKey": "case-studies-urban-streetwear-72d50848",
+    "bytes": 44986,
+    "title": "Urban Streetwear",
+    "interactions": 18,
+    "timelines": 20
+  },
+  {
+    "route": "/services/campaign-management",
+    "pageKey": "services-campaign-management-338c55b0",
+    "bytes": 41924,
+    "title": "Campaign Management",
+    "interactions": 18,
+    "timelines": 20
+  },
+  {
+    "route": "/services/creator-partnerships",
+    "pageKey": "services-creator-partnerships-0af462f4",
+    "bytes": 41935,
+    "title": "Creator Partnerships",
+    "interactions": 18,
+    "timelines": 20
+  },
+  {
+    "route": "/services/short-form-video-production",
+    "pageKey": "services-short-form-video-production-10486cad",
+    "bytes": 42180,
+    "title": "Short-Form Video Production",
+    "interactions": 18,
+    "timelines": 20
+  }
+]

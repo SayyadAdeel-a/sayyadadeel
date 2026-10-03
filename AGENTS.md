@@ -13,6 +13,22 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 A pixel-perfect clone of <https://relab-template.webflow.io/>. Read
 `README.md` first, then `docs/research/relab-0c02b053/README.md`.
 
+## The admin editor
+
+`/admin` is a password-only visual editor. It renders the real page components as
+children of the editor and rewrites the generated `.tsx` source when you save,
+committing to GitHub for Vercel to deploy. **Read `docs/ADMIN.md` before touching
+`lib/admin/`, `src/components/admin/` or `proxy.ts`.**
+
+Adding a page? Run `npm run admin:registry` so the editor knows about it.
+
+`lib/admin/codemod.ts` rewrites production source on every save. It resolves an
+element by identity (`tag|first-class|ordinal`), never by position, and refuses the
+whole file when an address does not match exactly one element. If you change it,
+run `npm run admin:test` — the tests exercise it against the real generated
+components, because a wrong match would quietly replace the wrong headline on a
+live page.
+
 ## Do not
 
 * **Do not regenerate the homepage.** `src/components/sites/relab-0c02b053/root-8a5edab2/`
@@ -22,6 +38,12 @@ A pixel-perfect clone of <https://relab-template.webflow.io/>. Read
 * **Do not edit generated components by hand.** Change
   `scripts/convert-page.mjs` / `scripts/lib/jsx-emit.mjs` and re-run
   `npm run pipeline:convert`. It wipes and rewrites each page's directory.
+  (The admin editor writes to these files, but only through
+  `lib/admin/codemod.ts`, which verifies every patch.)
+* **Do not add props to generated components for the editor's benefit.** The
+  editor edits the page in place precisely so the public render path stays
+  untouched. `npm run verify` compares all 25 routes against the reference and is
+  the gate that this stays true.
 * **Do not import Tailwind.** `app/webflow.css` is Webflow's own stylesheet and
   Tailwind's preflight would reset the base styles the clone depends on.
 * **Do not "fix" `aria-current`, `w--current`, `w--tab-active` or the
@@ -63,6 +85,7 @@ on port 3100 and network access to the reference.
 | What animates, where? | `docs/research/relab-0c02b053/BEHAVIORS.md` |
 | What was measured? | `docs/research/relab-0c02b053/QA_REPORT.md` |
 | What animates, and what was wrong with it? | `docs/research/relab-0c02b053/ANIMATION_AUDIT.md` |
+| How does the admin editor work? | `docs/ADMIN.md` |
 | Why does the code look like this? | `scripts/legacy/README.md` |
 
 ## Webflow gotchas already hit
