@@ -132,12 +132,12 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a97e757adfa59f93a8901c0_Frame__1_.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a97ffdf201d029d91db3ff5_relab.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a992bd512b43d612c3c471b_Negative.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a993e534ba570adec01f9c2_Original.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a993e85894568fd53c1bf39_Original.svg`
+- `/assets/home/17-footer/frame-1.svg`
+- `/assets/home/_shared/relab.svg`
+- `/assets/home/_shared/arrow-1.svg`
+- `/assets/home/17-footer/negative.svg`
+- `/assets/home/17-footer/original.svg`
+- `/assets/home/17-footer/original-2.svg`
 
 ## Responsive behaviour
 

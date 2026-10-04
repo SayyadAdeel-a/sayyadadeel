@@ -5,16 +5,16 @@ export default function OurTalentSection() {
         <div className={"our-talent-wrapper"}>
           <div fade-up={"true"} className={"our-talent-image-wrapper"}>
             <div className={"our-talent-image-box color-one-box"}>
-              <img src={"/sites/relab-0c02b053/_pool/6aa62e0ac8e3decbefd53407_Frame_2147262899.avif"} loading={"lazy"} alt={"Worker Images"} className={"cover-size-image"} />
+              <img src={"/assets/shared/cover-size-image-frame-2147262899.avif"} loading={"lazy"} alt={"Worker Images"} className={"cover-size-image"} />
             </div>
             <div className={"our-talent-image-box color-two-box"}>
-              <img src={"/sites/relab-0c02b053/_pool/6aa62e0fed5eeea13b5246ae_Frame_2147262900.avif"} loading={"lazy"} alt={"Worker Images"} className={"cover-size-image"} />
+              <img src={"/assets/shared/cover-size-image-frame-2147262900.avif"} loading={"lazy"} alt={"Worker Images"} className={"cover-size-image"} />
             </div>
             <div className={"our-talent-image-box color-three-box"}>
-              <img src={"/sites/relab-0c02b053/_pool/6aa62e14d36b309d88d68cad_Frame_2147262898.avif"} loading={"lazy"} alt={"Worker Images"} className={"cover-size-image"} />
+              <img src={"/assets/shared/cover-size-image-frame-2147262898.avif"} loading={"lazy"} alt={"Worker Images"} className={"cover-size-image"} />
             </div>
             <div className={"our-talent-image-box color-four-box"}>
-              <img src={"/sites/relab-0c02b053/_pool/6aa62e19c81d5cd55b6d98dd_Frame_2147262901.avif"} loading={"lazy"} alt={"Worker Images"} className={"cover-size-image"} />
+              <img src={"/assets/shared/cover-size-image-frame-2147262901.avif"} loading={"lazy"} alt={"Worker Images"} className={"cover-size-image"} />
             </div>
           </div>
           <div fade-up={"true"} className={"our-talent-text-wrapper"}>
@@ -41,12 +41,12 @@ export default function OurTalentSection() {
               <div role={"list"} className={"cas-studies-decti-collection-lists w-dyn-items"}>
                 <div role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
                   <div className={"our-talent-card-image-wrap"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa62e56c8e3decbefd53936_image_19274.avif"} loading={"lazy"} alt={"Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/sites/relab-0c02b053/_pool/6aa62e56c8e3decbefd53936_image_19274-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa62e56c8e3decbefd53936_image_19274-p-800.avif 800w, /sites/relab-0c02b053/_pool/6aa62e56c8e3decbefd53936_image_19274-p-1080.avif 1080w, /sites/relab-0c02b053/_pool/6aa62e56c8e3decbefd53936_image_19274.avif 1228w"} className={"cover-size-image"} />
+                    <img src={"/assets/shared/cover-size-image-image-19274.avif"} loading={"lazy"} alt={"Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/assets/shared/image-19274-p-500.avif 500w, /assets/shared/image-19274-p-800.avif 800w, /assets/shared/image-19274-p-1080.avif 1080w, /assets/shared/cover-size-image-image-19274.avif 1228w"} className={"cover-size-image"} />
                   </div>
                 </div>
                 <div role={"listitem"} className={"w-dyn-item w-dyn-repeater-item"}>
                   <div className={"our-talent-card-image-wrap"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa62e5b8a03456c2a486103_image_19283.avif"} loading={"lazy"} alt={"Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/sites/relab-0c02b053/_pool/6aa62e5b8a03456c2a486103_image_19283-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa62e5b8a03456c2a486103_image_19283-p-800.avif 800w, /sites/relab-0c02b053/_pool/6aa62e5b8a03456c2a486103_image_19283-p-1080.avif 1080w, /sites/relab-0c02b053/_pool/6aa62e5b8a03456c2a486103_image_19283.avif 1228w"} className={"cover-size-image"} />
+                    <img src={"/assets/shared/cover-size-image-image-19283.avif"} loading={"lazy"} alt={"Image"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/assets/shared/image-19283-p-500.avif 500w, /assets/shared/image-19283-p-800.avif 800w, /assets/shared/image-19283-p-1080.avif 1080w, /assets/shared/cover-size-image-image-19283.avif 1228w"} className={"cover-size-image"} />
                   </div>
                 </div>
               </div>

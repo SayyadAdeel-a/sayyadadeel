@@ -8,7 +8,7 @@ export default function CaseStudiesSection() {
               <div group-fade-up-item={"true"} className={"section-text-wrap"}>
                 <div data-wf--section-label--variant={"base"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"base"} className={"section-label"}>
                   <div className={"text-icon-box"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                    <img src={"/assets/shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                   </div>
                   <div className={"text-block-name"}>Case Studies</div>
                 </div>
@@ -33,7 +33,7 @@ export default function CaseStudiesSection() {
                             </div>
                           </div>
                           <div className={"featured-work-header-text-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/_pool/6aa53cb2a0a0a0b60d99c8fa_sparkles-01.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
+                            <img src={"/assets/case-studies/01-case-studies/sparkles-01.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-work-name-dectlies-wrap"}>
@@ -53,7 +53,7 @@ export default function CaseStudiesSection() {
                           </div>
                           <div className={"button-icon-box"}>
                             <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                              <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                             </div>
                           </div>
                         </a>
@@ -61,7 +61,7 @@ export default function CaseStudiesSection() {
                     </div>
                     <div className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/_pool/6aad102413c5186ac57b343a_Frame_2147262233_2_.avif"} loading={"lazy"} alt={"Case Studies Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/sites/relab-0c02b053/_pool/6aad102413c5186ac57b343a_Frame_2147262233_2_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aad102413c5186ac57b343a_Frame_2147262233_2_.avif 620w"} className={"cover-size-image"} />
+                        <img src={"/assets/case-studies/01-case-studies/frame-2147262233-2.avif"} loading={"lazy"} alt={"Case Studies Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/assets/case-studies/01-case-studies/frame-2147262233-2-p-500.avif 500w, /assets/case-studies/01-case-studies/frame-2147262233-2.avif 620w"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>
@@ -80,7 +80,7 @@ export default function CaseStudiesSection() {
                             </div>
                           </div>
                           <div className={"featured-work-header-text-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/_pool/6aa53cc749fe53fce8fc7983_swatch-02.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
+                            <img src={"/assets/shared/swatch-02.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-work-name-dectlies-wrap"}>
@@ -100,7 +100,7 @@ export default function CaseStudiesSection() {
                           </div>
                           <div className={"button-icon-box"}>
                             <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                              <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                             </div>
                           </div>
                         </a>
@@ -108,7 +108,7 @@ export default function CaseStudiesSection() {
                     </div>
                     <div className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/_pool/6aad1109ef9322d53f42b675_Frame_2147262233_3_1_.avif"} loading={"lazy"} alt={"Case Studies Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/sites/relab-0c02b053/_pool/6aad1109ef9322d53f42b675_Frame_2147262233_3_1_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aad1109ef9322d53f42b675_Frame_2147262233_3_1_.avif 620w"} className={"cover-size-image"} />
+                        <img src={"/assets/case-studies/01-case-studies/frame-2147262233-3-1.avif"} loading={"lazy"} alt={"Case Studies Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/assets/case-studies/01-case-studies/frame-2147262233-3-1-p-500.avif 500w, /assets/case-studies/01-case-studies/frame-2147262233-3-1.avif 620w"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>
@@ -127,7 +127,7 @@ export default function CaseStudiesSection() {
                             </div>
                           </div>
                           <div className={"featured-work-header-text-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/_pool/6aa53cd66e6e05b105594401_bolt.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
+                            <img src={"/assets/shared/bolt.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-work-name-dectlies-wrap"}>
@@ -147,7 +147,7 @@ export default function CaseStudiesSection() {
                           </div>
                           <div className={"button-icon-box"}>
                             <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                              <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                             </div>
                           </div>
                         </a>
@@ -155,7 +155,7 @@ export default function CaseStudiesSection() {
                     </div>
                     <div className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/_pool/6aad104d6262875e79d8e93a_Frame_2147262233_4_.avif"} loading={"lazy"} alt={"Case Studies Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/sites/relab-0c02b053/_pool/6aad104d6262875e79d8e93a_Frame_2147262233_4_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aad104d6262875e79d8e93a_Frame_2147262233_4_.avif 620w"} className={"cover-size-image"} />
+                        <img src={"/assets/case-studies/01-case-studies/frame-2147262233-4.avif"} loading={"lazy"} alt={"Case Studies Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/assets/case-studies/01-case-studies/frame-2147262233-4-p-500.avif 500w, /assets/case-studies/01-case-studies/frame-2147262233-4.avif 620w"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>
@@ -174,7 +174,7 @@ export default function CaseStudiesSection() {
                             </div>
                           </div>
                           <div className={"featured-work-header-text-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/_pool/6aa53cd66e6e05b105594401_bolt.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
+                            <img src={"/assets/shared/bolt.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-work-name-dectlies-wrap"}>
@@ -194,7 +194,7 @@ export default function CaseStudiesSection() {
                           </div>
                           <div className={"button-icon-box"}>
                             <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                              <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                             </div>
                           </div>
                         </a>
@@ -202,7 +202,7 @@ export default function CaseStudiesSection() {
                     </div>
                     <div className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/_pool/6aad105d949e67bdf38b054c_Frame_2147262233_5_.avif"} loading={"lazy"} alt={"Case Studies Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/sites/relab-0c02b053/_pool/6aad105d949e67bdf38b054c_Frame_2147262233_5_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aad105d949e67bdf38b054c_Frame_2147262233_5_.avif 620w"} className={"cover-size-image"} />
+                        <img src={"/assets/case-studies/01-case-studies/frame-2147262233-5.avif"} loading={"lazy"} alt={"Case Studies Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/assets/case-studies/01-case-studies/frame-2147262233-5-p-500.avif 500w, /assets/case-studies/01-case-studies/frame-2147262233-5.avif 620w"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>
@@ -221,7 +221,7 @@ export default function CaseStudiesSection() {
                             </div>
                           </div>
                           <div className={"featured-work-header-text-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/_pool/6aa53cd66e6e05b105594401_bolt.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
+                            <img src={"/assets/shared/bolt.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-work-name-dectlies-wrap"}>
@@ -241,7 +241,7 @@ export default function CaseStudiesSection() {
                           </div>
                           <div className={"button-icon-box"}>
                             <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                              <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                             </div>
                           </div>
                         </a>
@@ -249,7 +249,7 @@ export default function CaseStudiesSection() {
                     </div>
                     <div className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/_pool/6aad106baf4b67d2946bfce7_Frame_2147262233_6_.avif"} loading={"lazy"} alt={"Case Studies Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/sites/relab-0c02b053/_pool/6aad106baf4b67d2946bfce7_Frame_2147262233_6_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aad106baf4b67d2946bfce7_Frame_2147262233_6_.avif 620w"} className={"cover-size-image"} />
+                        <img src={"/assets/case-studies/01-case-studies/frame-2147262233-6.avif"} loading={"lazy"} alt={"Case Studies Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 727px, 939px"} srcSet={"/assets/case-studies/01-case-studies/frame-2147262233-6-p-500.avif 500w, /assets/case-studies/01-case-studies/frame-2147262233-6.avif 620w"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>

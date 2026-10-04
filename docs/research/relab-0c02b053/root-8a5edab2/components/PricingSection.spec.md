@@ -172,9 +172,9 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a982a5cacb93b89817e14cf_Ellipse_2469.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9e96908025ef423eea419a_Arrow_1.svg`
+- `/assets/home/_shared/ellipse-2469.svg`
+- `/assets/home/13-pricing/plus-solid.svg`
+- `/assets/home/13-pricing/arrow-1.svg`
 
 ## Responsive behaviour
 

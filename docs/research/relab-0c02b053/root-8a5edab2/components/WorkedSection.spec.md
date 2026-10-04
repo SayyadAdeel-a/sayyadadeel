@@ -153,14 +153,14 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e6f720b792bbbf4a7503d_image_2042_1_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e6f720b792bbbf4a7503d_image_2042_1_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e6f7248aca47bbda4d0fa_image_2042-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e6f7248aca47bbda4d0fa_image_2042.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e6f725c8a01af43736137_image_2040-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e6f725c8a01af43736137_image_2040.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e6f72ab90d4766cd318cc_image_2043-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e6f72ab90d4766cd318cc_image_2043.avif`
+- `/assets/home/12-worked/image-2042-1-p-500.avif`
+- `/assets/home/12-worked/image-2042-1.avif`
+- `/assets/home/12-worked/image-2042-p-500.avif`
+- `/assets/home/12-worked/cover-size-image-image-2042.avif`
+- `/assets/home/12-worked/image-2040-p-500.avif`
+- `/assets/home/12-worked/cover-size-image-image-2040.avif`
+- `/assets/home/12-worked/image-2043-p-500.avif`
+- `/assets/home/12-worked/cover-size-image-image-2043.avif`
 
 ## Responsive behaviour
 

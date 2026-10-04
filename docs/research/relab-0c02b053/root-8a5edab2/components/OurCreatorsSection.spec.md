@@ -188,27 +188,27 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a9bf1cf4b05f6e1007fb9d8_laptop-code-solid.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9bf1cf9e9b0b12e670e5a2_magic-solid.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9bf1cfc4f250946c6faa4a_plane-departure-solid.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9bf1cfde67bdefa6c21c63_coffee-solid.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6aacba1252be1b17f0f609a1_Vector__5_.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbd5708df2512c96e85ab_Muti-BG-Image-p-1080.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbd5708df2512c96e85ab_Muti-BG-Image-p-1600.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbd5708df2512c96e85ab_Muti-BG-Image-p-2000.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbd5708df2512c96e85ab_Muti-BG-Image-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbd5708df2512c96e85ab_Muti-BG-Image-p-800.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbd5708df2512c96e85ab_Muti-BG-Image.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbef929b487b08266110d_image_2070-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbef929b487b08266110d_image_2070.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbef9438c66dfaba1179c_Rectangle_1727-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbef9438c66dfaba1179c_Rectangle_1727.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefa7e5bcf9a2f383211_image_19278-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefa7e5bcf9a2f383211_image_19278.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037-p-1080.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037-p-800.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037.avif`
+- `/assets/home/04-our-creators/laptop-code-solid.svg`
+- `/assets/home/04-our-creators/magic-solid.svg`
+- `/assets/home/04-our-creators/plane-departure-solid.svg`
+- `/assets/home/04-our-creators/coffee-solid.svg`
+- `/assets/home/04-our-creators/vector-5.svg`
+- `/assets/home/04-our-creators/muti-bg-image-p-1080.avif`
+- `/assets/home/04-our-creators/muti-bg-image-p-1600.avif`
+- `/assets/home/04-our-creators/muti-bg-image-p-2000.avif`
+- `/assets/home/04-our-creators/muti-bg-image-p-500.avif`
+- `/assets/home/04-our-creators/muti-bg-image-p-800.avif`
+- `/assets/home/04-our-creators/muti-bg-image.avif`
+- `/assets/home/04-our-creators/image-2070-p-500.avif`
+- `/assets/home/04-our-creators/cover-size-image-image-2070.avif`
+- `/assets/home/04-our-creators/rectangle-1727-p-500.avif`
+- `/assets/home/04-our-creators/cover-size-image-rectangle-1727.avif`
+- `/assets/home/04-our-creators/image-19278-p-500.avif`
+- `/assets/home/04-our-creators/cover-size-image-image-19278.avif`
+- `/assets/home/_shared/image-2037-p-1080.avif`
+- `/assets/home/_shared/image-2037-p-500.avif`
+- `/assets/home/_shared/image-2037-p-800.avif`
+- `/assets/home/_shared/cover-size-image-image-2037.avif`
 
 ## Responsive behaviour
 

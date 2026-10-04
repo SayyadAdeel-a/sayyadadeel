@@ -18,7 +18,7 @@ export default function StudyInfoSection() {
             <div className={"study-info-dectlies-wrapper"}>
               <div className={"study-info-dectlies-box"}>
                 <div className={"study-info-image-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6aa549cdc81d5cd55b4932e4_image_641.avif"} loading={"lazy"} alt={"Client Images"} className={"contain-size-image"} />
+                  <img src={"/assets/shared/contain-size-image-image-641.avif"} loading={"lazy"} alt={"Client Images"} className={"contain-size-image"} />
                 </div>
                 <div className={"study-info-dectlies-text-box"}>
                   <div className={"text-default rbg10"}>Client</div>
@@ -27,7 +27,7 @@ export default function StudyInfoSection() {
               </div>
               <div className={"study-info-dectlies-box"}>
                 <div className={"study-info-image-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6aa549cd208043f28258460c_image_969.avif"} loading={"lazy"} alt={"Industry Images"} className={"contain-size-image"} />
+                  <img src={"/assets/shared/contain-size-image-image-969.avif"} loading={"lazy"} alt={"Industry Images"} className={"contain-size-image"} />
                 </div>
                 <div className={"study-info-dectlies-text-box"}>
                   <div className={"text-default rbg10"}>Industry</div>
@@ -36,7 +36,7 @@ export default function StudyInfoSection() {
               </div>
               <div className={"study-info-dectlies-box"}>
                 <div className={"study-info-image-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6aa549cdd36b309d88b45a79_image_958.avif"} loading={"lazy"} alt={"Year Images"} className={"contain-size-image"} />
+                  <img src={"/assets/shared/contain-size-image-image-958.avif"} loading={"lazy"} alt={"Year Images"} className={"contain-size-image"} />
                 </div>
                 <div className={"study-info-dectlies-text-box"}>
                   <div className={"text-default rbg10"}>Year</div>
@@ -45,7 +45,7 @@ export default function StudyInfoSection() {
               </div>
               <div className={"study-info-dectlies-box"}>
                 <div className={"study-info-image-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6aa549cd6076712b81fad0d1_image_1759.avif"} loading={"lazy"} alt={"Services Images"} className={"contain-size-image"} />
+                  <img src={"/assets/shared/contain-size-image-image-1759.avif"} loading={"lazy"} alt={"Services Images"} className={"contain-size-image"} />
                 </div>
                 <div className={"study-info-dectlies-text-box"}>
                   <div className={"text-default rbg10"}>Services</div>
@@ -55,7 +55,7 @@ export default function StudyInfoSection() {
             </div>
           </div>
           <div group-fade-up-item={"true"} className={"study-info-image-wrap"}>
-            <img src={"/sites/relab-0c02b053/_pool/6aa5606355fa3ec24a83caa0_Frame_2147262414_3_.avif"} loading={"lazy"} alt={"Case Studies Banner Images"} sizes={"100vw"} srcSet={"/sites/relab-0c02b053/_pool/6aa5606355fa3ec24a83caa0_Frame_2147262414_3_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa5606355fa3ec24a83caa0_Frame_2147262414_3_-p-800.avif 800w, /sites/relab-0c02b053/_pool/6aa5606355fa3ec24a83caa0_Frame_2147262414_3_-p-1080.avif 1080w, /sites/relab-0c02b053/_pool/6aa5606355fa3ec24a83caa0_Frame_2147262414_3_-p-1600.avif 1600w, /sites/relab-0c02b053/_pool/6aa5606355fa3ec24a83caa0_Frame_2147262414_3_-p-2000.avif 2000w, /sites/relab-0c02b053/_pool/6aa5606355fa3ec24a83caa0_Frame_2147262414_3_-p-2600.avif 2600w, /sites/relab-0c02b053/_pool/6aa5606355fa3ec24a83caa0_Frame_2147262414_3_.avif 2782w"} className={"cover-size-image"} />
+            <img src={"/assets/case-studies/nova-ai-assistant/01-study-info/frame-2147262414-3.avif"} loading={"lazy"} alt={"Case Studies Banner Images"} sizes={"100vw"} srcSet={"/assets/case-studies/nova-ai-assistant/01-study-info/frame-2147262414-3-p-500.avif 500w, /assets/case-studies/nova-ai-assistant/01-study-info/frame-2147262414-3-p-800.avif 800w, /assets/case-studies/nova-ai-assistant/01-study-info/frame-2147262414-3-p-1080.avif 1080w, /assets/case-studies/nova-ai-assistant/01-study-info/frame-2147262414-3-p-1600.avif 1600w, /assets/case-studies/nova-ai-assistant/01-study-info/frame-2147262414-3-p-2000.avif 2000w, /assets/case-studies/nova-ai-assistant/01-study-info/frame-2147262414-3-p-2600.avif 2600w, /assets/case-studies/nova-ai-assistant/01-study-info/frame-2147262414-3.avif 2782w"} className={"cover-size-image"} />
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function BlogSection() {
             <div group-fade-up-item={"true"} className={"section-text-wrap"}>
               <div data-wf--section-label--variant={"base"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"base"} className={"section-label"}>
                 <div className={"text-icon-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                  <img src={"/assets/shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                 </div>
                 <div className={"text-block-name"}>Blog</div>
               </div>
@@ -32,7 +32,7 @@ export default function BlogSection() {
                       </div>
                     </div>
                     <div className={"insights-ideas-right-card-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/_pool/6aa634e661c149577fcae2b9_Frame_2147262476.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/sites/relab-0c02b053/_pool/6aa634e661c149577fcae2b9_Frame_2147262476-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa634e661c149577fcae2b9_Frame_2147262476.avif 582w"} className={"cover-size-image"} />
+                      <img src={"/assets/blogs/01-blog/cover-size-image-frame-2147262476.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/assets/blogs/01-blog/frame-2147262476-p-500.avif 500w, /assets/blogs/01-blog/cover-size-image-frame-2147262476.avif 582w"} className={"cover-size-image"} />
                     </div>
                   </a>
                 </div>
@@ -47,7 +47,7 @@ export default function BlogSection() {
                       </div>
                     </div>
                     <div className={"insights-ideas-right-card-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/_pool/6aa634cddb3c69b57e16e508_Frame_2147262476_1_.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/sites/relab-0c02b053/_pool/6aa634cddb3c69b57e16e508_Frame_2147262476_1_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa634cddb3c69b57e16e508_Frame_2147262476_1_.avif 582w"} className={"cover-size-image"} />
+                      <img src={"/assets/blogs/01-blog/frame-2147262476-1.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/assets/blogs/01-blog/frame-2147262476-1-p-500.avif 500w, /assets/blogs/01-blog/frame-2147262476-1.avif 582w"} className={"cover-size-image"} />
                     </div>
                   </a>
                 </div>
@@ -62,7 +62,7 @@ export default function BlogSection() {
                       </div>
                     </div>
                     <div className={"insights-ideas-right-card-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/_pool/6aa634ac8a03456c2a490dc9_Frame_2147262476_2_.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/sites/relab-0c02b053/_pool/6aa634ac8a03456c2a490dc9_Frame_2147262476_2_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa634ac8a03456c2a490dc9_Frame_2147262476_2_.avif 582w"} className={"cover-size-image"} />
+                      <img src={"/assets/shared/frame-2147262476-2-2.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/assets/shared/frame-2147262476-2-p-500.avif 500w, /assets/shared/frame-2147262476-2-2.avif 582w"} className={"cover-size-image"} />
                     </div>
                   </a>
                 </div>
@@ -77,7 +77,7 @@ export default function BlogSection() {
                       </div>
                     </div>
                     <div className={"insights-ideas-right-card-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/_pool/6aa63490df53d8544603abca_image_19269.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/sites/relab-0c02b053/_pool/6aa63490df53d8544603abca_image_19269-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa63490df53d8544603abca_image_19269.avif 582w"} className={"cover-size-image"} />
+                      <img src={"/assets/shared/cover-size-image-image-19269.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/assets/shared/image-19269-p-500.avif 500w, /assets/shared/cover-size-image-image-19269.avif 582w"} className={"cover-size-image"} />
                     </div>
                   </a>
                 </div>
@@ -92,7 +92,7 @@ export default function BlogSection() {
                       </div>
                     </div>
                     <div className={"insights-ideas-right-card-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/_pool/6aa634709d6eda94f1a41ab4_image_19271.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/sites/relab-0c02b053/_pool/6aa634709d6eda94f1a41ab4_image_19271-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa634709d6eda94f1a41ab4_image_19271.avif 582w"} className={"cover-size-image"} />
+                      <img src={"/assets/blogs/01-blog/cover-size-image-image-19271.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/assets/blogs/01-blog/image-19271-p-500.avif 500w, /assets/blogs/01-blog/cover-size-image-image-19271.avif 582w"} className={"cover-size-image"} />
                     </div>
                   </a>
                 </div>
@@ -107,7 +107,7 @@ export default function BlogSection() {
                       </div>
                     </div>
                     <div className={"insights-ideas-right-card-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/_pool/6aa634567b55c753b1614ad0_image_19287.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/sites/relab-0c02b053/_pool/6aa634567b55c753b1614ad0_image_19287-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa634567b55c753b1614ad0_image_19287.avif 580w"} className={"cover-size-image"} />
+                      <img src={"/assets/blogs/01-blog/cover-size-image-image-19287.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/assets/blogs/01-blog/image-19287-p-500.avif 500w, /assets/blogs/01-blog/cover-size-image-image-19287.avif 580w"} className={"cover-size-image"} />
                     </div>
                   </a>
                 </div>

@@ -121,11 +121,11 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037-p-1080.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037-p-800.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037.avif`
+- `/assets/home/_shared/arrow-1.svg`
+- `/assets/home/_shared/image-2037-p-1080.avif`
+- `/assets/home/_shared/image-2037-p-500.avif`
+- `/assets/home/_shared/image-2037-p-800.avif`
+- `/assets/home/_shared/cover-size-image-image-2037.avif`
 
 ## Responsive behaviour
 

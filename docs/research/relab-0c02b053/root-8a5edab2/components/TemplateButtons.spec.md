@@ -94,27 +94,27 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6abde47d789ae43102faecb8_thunder.png`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecb2_Slide_207-p-1080.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecb2_Slide_207-p-1600.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecb2_Slide_207-p-500.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecb2_Slide_207-p-800.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecb2_Slide_7.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecbe_Slide_206-p-1080.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecbe_Slide_206-p-1600.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecbe_Slide_206-p-500.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecbe_Slide_206-p-800.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecbe_Slide_6.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecc7_Slide_208-p-1080.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecc7_Slide_208-p-1600.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecc7_Slide_208-p-500.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecc7_Slide_208-p-800.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecc7_Slide_8.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecd0_Slide_205-p-1080.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecd0_Slide_205-p-1600.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecd0_Slide_205-p-500.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecd0_Slide_205-p-800.webp`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6abde47d789ae43102faecd0_Slide_5.webp`
+- `/assets/home/18-template-buttons/thunder.png`
+- `/assets/home/18-template-buttons/slide-207-p-1080.webp`
+- `/assets/home/18-template-buttons/slide-207-p-1600.webp`
+- `/assets/home/18-template-buttons/slide-207-p-500.webp`
+- `/assets/home/18-template-buttons/slide-207-p-800.webp`
+- `/assets/home/18-template-buttons/template-promotional-image-slide-7.webp`
+- `/assets/home/18-template-buttons/slide-206-p-1080.webp`
+- `/assets/home/18-template-buttons/slide-206-p-1600.webp`
+- `/assets/home/18-template-buttons/slide-206-p-500.webp`
+- `/assets/home/18-template-buttons/slide-206-p-800.webp`
+- `/assets/home/18-template-buttons/template-promotional-image-slide-6.webp`
+- `/assets/home/18-template-buttons/slide-208-p-1080.webp`
+- `/assets/home/18-template-buttons/slide-208-p-1600.webp`
+- `/assets/home/18-template-buttons/slide-208-p-500.webp`
+- `/assets/home/18-template-buttons/slide-208-p-800.webp`
+- `/assets/home/18-template-buttons/template-promotional-image-slide-8.webp`
+- `/assets/home/18-template-buttons/slide-205-p-1080.webp`
+- `/assets/home/18-template-buttons/slide-205-p-1600.webp`
+- `/assets/home/18-template-buttons/slide-205-p-500.webp`
+- `/assets/home/18-template-buttons/slide-205-p-800.webp`
+- `/assets/home/18-template-buttons/template-promotional-image-slide-5.webp`
 
 ## Responsive behaviour
 

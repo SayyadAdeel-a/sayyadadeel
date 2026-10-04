@@ -8,7 +8,7 @@ export default function CapabilitiesSection() {
               <div fade-up={"true"} className={"section-labbal-text-wrap"}>
                 <div data-wf--section-label--variant={"base"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"base"} className={"section-label"}>
                   <div className={"text-icon-box"}>
-                    <img src={"/sites/relab-0c02b053/root-8a5edab2/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                    <img src={"/assets/home/_shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                   </div>
                   <div className={"text-block-name"}>Creative Capabilities</div>
                 </div>
@@ -19,7 +19,7 @@ export default function CapabilitiesSection() {
               <div className={"our-work-fast-wrapper"}>
                 <div fade-up={"true"} card-image-hover-priend={"ture"} className={"our-work-image-text-wrapper"}>
                   <div card-image-hover-child={"ture"} className={"our-work-image-wrap"}>
-                    <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9d73bbbde9c565bbaa5cc1_Frame_2147262414.avif"} loading={"lazy"} alt={"Work Image"} className={"cover-size-image"} />
+                    <img src={"/assets/home/08-capabilities/cover-size-image-frame-2147262414.avif"} loading={"lazy"} alt={"Work Image"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-text-wrap"}>
                     <h3 className={"h5 white"}>Creator-Led Content</h3>
@@ -29,7 +29,7 @@ export default function CapabilitiesSection() {
                 </div>
                 <div fade-up={"true"} move-scroll-card-box={"ture"} className={"our-work-grdden-image-text-wrapper"}>
                   <div className={"our-work-grdden-image-wrap"}>
-                    <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9d73b9d761e43072896e26_Frame_2147262240__1_.svg"} loading={"lazy"} className={"cover-size-image"} />
+                    <img src={"/assets/home/08-capabilities/frame-2147262240-1.svg"} loading={"lazy"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-grdden-text-wrapper"}>
                     <div className={"item-wrapper fast-items"}>
@@ -57,7 +57,7 @@ export default function CapabilitiesSection() {
               <div className={"our-work-last-wrapper"}>
                 <div fade-up={"true"} move-scroll-card-box={"ture"} className={"our-work-grdden-image-text-wrapper"}>
                   <div className={"our-work-grdden-image-wrap"}>
-                    <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9d73b9d761e43072896e26_Frame_2147262240__1_.svg"} loading={"lazy"} className={"cover-size-image"} />
+                    <img src={"/assets/home/08-capabilities/frame-2147262240-1.svg"} loading={"lazy"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-grdden-text-wrapper"}>
                     <div className={"item-wrapper"}>
@@ -83,7 +83,7 @@ export default function CapabilitiesSection() {
                 </div>
                 <div fade-up={"true"} card-image-hover-priend={"ture"} className={"our-work-image-text-wrapper"}>
                   <div card-image-hover-child={"ture"} className={"our-work-image-wrap"}>
-                    <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9d73bbee781270c31f9663_Frame_2147262416.avif"} loading={"lazy"} alt={"Work Image"} className={"cover-size-image"} />
+                    <img src={"/assets/home/08-capabilities/cover-size-image-frame-2147262416.avif"} loading={"lazy"} alt={"Work Image"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-text-wrap"}>
                     <h3 className={"h5 white"}>Campaign Strategy</h3>

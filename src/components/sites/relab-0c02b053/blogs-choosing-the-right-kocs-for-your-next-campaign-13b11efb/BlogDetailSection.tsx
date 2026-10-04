@@ -4,7 +4,7 @@ export default function BlogDetailSection() {
       <div className={"w-layout-blockcontainer container w-container"}>
         <div className={"blog-detail-wrapper"}>
           <div group-fade-up-item={"true"} className={"blog-detail-header-image-wrap"}>
-            <img src={"/sites/relab-0c02b053/_pool/6aa64b347b55c753b163a7a5_image_19269_1_.avif"} loading={"lazy"} alt={"Image"} sizes={"100vw"} srcSet={"/sites/relab-0c02b053/_pool/6aa64b347b55c753b163a7a5_image_19269_1_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa64b347b55c753b163a7a5_image_19269_1_-p-800.avif 800w, /sites/relab-0c02b053/_pool/6aa64b347b55c753b163a7a5_image_19269_1_-p-1080.avif 1080w, /sites/relab-0c02b053/_pool/6aa64b347b55c753b163a7a5_image_19269_1_-p-1600.avif 1600w, /sites/relab-0c02b053/_pool/6aa64b347b55c753b163a7a5_image_19269_1_-p-2000.avif 2000w, /sites/relab-0c02b053/_pool/6aa64b347b55c753b163a7a5_image_19269_1_-p-2600.avif 2600w, /sites/relab-0c02b053/_pool/6aa64b347b55c753b163a7a5_image_19269_1_.avif 2784w"} className={"cover-size-image"} />
+            <img src={"/assets/blogs/choosing-the-right-kocs-for-your-next-campaign/01-blog-detail/image-19269-1.avif"} loading={"lazy"} alt={"Image"} sizes={"100vw"} srcSet={"/assets/blogs/choosing-the-right-kocs-for-your-next-campaign/01-blog-detail/image-19269-1-p-500.avif 500w, /assets/blogs/choosing-the-right-kocs-for-your-next-campaign/01-blog-detail/image-19269-1-p-800.avif 800w, /assets/blogs/choosing-the-right-kocs-for-your-next-campaign/01-blog-detail/image-19269-1-p-1080.avif 1080w, /assets/blogs/choosing-the-right-kocs-for-your-next-campaign/01-blog-detail/image-19269-1-p-1600.avif 1600w, /assets/blogs/choosing-the-right-kocs-for-your-next-campaign/01-blog-detail/image-19269-1-p-2000.avif 2000w, /assets/blogs/choosing-the-right-kocs-for-your-next-campaign/01-blog-detail/image-19269-1-p-2600.avif 2600w, /assets/blogs/choosing-the-right-kocs-for-your-next-campaign/01-blog-detail/image-19269-1.avif 2784w"} className={"cover-size-image"} />
           </div>
           <div className={"blog-detail-wrap"}>
             <div className={"blog-detail-text-wrapper"}>
@@ -22,7 +22,7 @@ export default function BlogDetailSection() {
               <div group-fade-up-item={"true"} className={"blog-detail-autor-box"}>
                 <div className={"blog-detail-autor-text-wrapper"}>
                   <div className={"blog-detail-autor-image-wrap"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa64a78a4d74f5f7708648a_Rectangle_1742.avif"} loading={"lazy"} alt={"Autor Image"} className={"cover-size-image"} />
+                    <img src={"/assets/shared/cover-size-image-rectangle-1742.avif"} loading={"lazy"} alt={"Autor Image"} className={"cover-size-image"} />
                   </div>
                   <div className={"blog-detail-autor-text-wrap"}>
                     <div className={"text-default blold-meddle"}>Dev Martinez</div>
@@ -46,7 +46,7 @@ export default function BlogDetailSection() {
                 <p>The most successful digital products are built around real-world problems rather than assumptions. By studying how people interact with technology, designers can create experiences that feel intuitive, familiar, and genuinely useful from the very first interaction.</p>
                 <figure style={{ maxWidth: "1644pxpx" }} className={"w-richtext-align-fullwidth w-richtext-figure-type-image"}>
                   <div>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa64d50d36b309d88d974af_image_19273.avif"} loading={"lazy"} />
+                    <img src={"/assets/shared/image-19273.avif"} loading={"lazy"} />
                   </div>
                 </figure>
                 <h6>

@@ -21,7 +21,7 @@ export default function OurClientsSection() {
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                      <img src={"/assets/home/_shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                     </div>
                   </div>
                 </a>
@@ -46,22 +46,22 @@ export default function OurClientsSection() {
                       <div group-fedup-move={"ture"} className={"featured-brands-image-wrapper"}>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60add5457a941f52fe16_logo.svg"} loading={"lazy"} className={"cover-size-banner"} />
+                            <img src={"/assets/home/10-our-clients/logo.svg"} loading={"lazy"} className={"cover-size-banner"} />
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60ade26234b20c2489a8_logo__1_.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo-1.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60ad3812883238ca795d_Logo__2_.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo-2.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60ad3812883238ca791d_Logo__3_.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo-3.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                       </div>
@@ -71,7 +71,7 @@ export default function OurClientsSection() {
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e62ede26234b20c25a416_Ellipse_2468.avif"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/ellipse-2468.avif"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                           <div className={"featured-brands-autor-declies-wrap"}>
                             <div className={"text-default blold-meddle"}>Alex Carter</div>
@@ -89,22 +89,22 @@ export default function OurClientsSection() {
                       <div group-fedup-move={"ture"} className={"featured-brands-image-wrapper"}>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60ad3812883238ca795d_Logo__2_.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo-2.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60ade26234b20c2489a8_logo__1_.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo-1.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60add5457a941f52fe16_logo.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60ad3812883238ca791d_Logo__3_.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo-3.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                       </div>
@@ -114,7 +114,7 @@ export default function OurClientsSection() {
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6aa25a61f4068703fc2b17c0_Ellipse_2468__3_.avif"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/ellipse-2468-3.avif"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                           <div className={"featured-brands-autor-declies-wrap"}>
                             <div className={"text-default blold-meddle"}>Virgil Caffier</div>
@@ -132,22 +132,22 @@ export default function OurClientsSection() {
                       <div group-fedup-move={"ture"} className={"featured-brands-image-wrapper"}>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60ad3812883238ca791d_Logo__3_.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo-3.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60ade26234b20c2489a8_logo__1_.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo-1.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60ad3812883238ca795d_Logo__2_.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo-2.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e60add5457a941f52fe16_logo.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/logo.svg"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                         </div>
                       </div>
@@ -160,7 +160,7 @@ export default function OurClientsSection() {
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
-                            <img src={"/sites/relab-0c02b053/root-8a5edab2/6aa25a61e5426cd7f84f51c5_Ellipse_2468__1_.avif"} loading={"lazy"} className={"contain-size-image"} />
+                            <img src={"/assets/home/10-our-clients/ellipse-2468-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                           <div className={"featured-brands-autor-declies-wrap"}>
                             <div className={"text-default blold-meddle"}>

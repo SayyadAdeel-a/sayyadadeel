@@ -21,7 +21,7 @@ export default function BrandsMarqueeSection() {
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                      <img src={"/assets/home/_shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                     </div>
                   </div>
                 </a>

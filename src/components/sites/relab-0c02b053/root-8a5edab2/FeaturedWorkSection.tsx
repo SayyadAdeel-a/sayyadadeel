@@ -19,7 +19,7 @@ export default function FeaturedWorkSection() {
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
-                          <img src={"/sites/relab-0c02b053/root-8a5edab2/6aa53cb2a0a0a0b60d99c8fa_sparkles-01.svg"} loading={"lazy"} className={"contain-size-image"} />
+                          <img src={"/assets/home/07-featured-work/sparkles-01.svg"} loading={"lazy"} className={"contain-size-image"} />
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
@@ -31,7 +31,7 @@ export default function FeaturedWorkSection() {
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/variants/6aa531dae24fcce9483ab513_Frame_2147262233.avif"} loading={"lazy"} alt={"Team Member Card Images"} sizes={"100vw"} srcSet={"/sites/relab-0c02b053/root-8a5edab2/variants/6aa531dae24fcce9483ab513_Frame_2147262233-p-500.avif 500w, /sites/relab-0c02b053/root-8a5edab2/variants/6aa531dae24fcce9483ab513_Frame_2147262233.avif 811w"} className={"cover-size-image"} />
+                        <img src={"/assets/home/07-featured-work/cover-size-image-frame-2147262233.avif"} loading={"lazy"} alt={"Team Member Card Images"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/frame-2147262233-p-500.avif 500w, /assets/home/07-featured-work/cover-size-image-frame-2147262233.avif 811w"} className={"cover-size-image"} />
                       </div>
                       <div className={"featured-work-card-button-wrap"}>
                         <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/case-studies/glowskin-launch"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
@@ -41,7 +41,7 @@ export default function FeaturedWorkSection() {
                           </div>
                           <div className={"button-icon-box w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>
                             <div button-icon-anin-two={"ture"} className={"button-icon-wrap"}>
-                              <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9d62e8c1a2b5123a02ed40_Vector.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"} />
+                              <img src={"/assets/home/07-featured-work/vector.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"} />
                             </div>
                           </div>
                         </a>
@@ -62,7 +62,7 @@ export default function FeaturedWorkSection() {
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
-                          <img src={"/sites/relab-0c02b053/root-8a5edab2/6aa53cc749fe53fce8fc7983_swatch-02.svg"} loading={"lazy"} className={"contain-size-image"} />
+                          <img src={"/assets/home/07-featured-work/swatch-02.svg"} loading={"lazy"} className={"contain-size-image"} />
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
@@ -74,7 +74,7 @@ export default function FeaturedWorkSection() {
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/variants/6aa531adac93082b8a677f55_Frame_2147262233_1_.avif"} loading={"lazy"} alt={"Team Member Card Images"} sizes={"100vw"} srcSet={"/sites/relab-0c02b053/root-8a5edab2/variants/6aa531adac93082b8a677f55_Frame_2147262233_1_-p-500.avif 500w, /sites/relab-0c02b053/root-8a5edab2/variants/6aa531adac93082b8a677f55_Frame_2147262233_1_.avif 811w"} className={"cover-size-image"} />
+                        <img src={"/assets/home/07-featured-work/frame-2147262233-1.avif"} loading={"lazy"} alt={"Team Member Card Images"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/frame-2147262233-1-p-500.avif 500w, /assets/home/07-featured-work/frame-2147262233-1.avif 811w"} className={"cover-size-image"} />
                       </div>
                       <div className={"featured-work-card-button-wrap"}>
                         <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/case-studies/urban-streetwear"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
@@ -84,7 +84,7 @@ export default function FeaturedWorkSection() {
                           </div>
                           <div className={"button-icon-box w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>
                             <div button-icon-anin-two={"ture"} className={"button-icon-wrap"}>
-                              <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9d62e8c1a2b5123a02ed40_Vector.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"} />
+                              <img src={"/assets/home/07-featured-work/vector.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"} />
                             </div>
                           </div>
                         </a>
@@ -105,7 +105,7 @@ export default function FeaturedWorkSection() {
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
-                          <img src={"/sites/relab-0c02b053/root-8a5edab2/6aa53cd66e6e05b105594401_bolt.svg"} loading={"lazy"} className={"contain-size-image"} />
+                          <img src={"/assets/home/07-featured-work/bolt.svg"} loading={"lazy"} className={"contain-size-image"} />
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
@@ -117,7 +117,7 @@ export default function FeaturedWorkSection() {
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/variants/6aa53173d36b309d88b07d33_Frame_2147262233_2_.avif"} loading={"lazy"} alt={"Team Member Card Images"} sizes={"100vw"} srcSet={"/sites/relab-0c02b053/root-8a5edab2/variants/6aa53173d36b309d88b07d33_Frame_2147262233_2_-p-500.avif 500w, /sites/relab-0c02b053/root-8a5edab2/variants/6aa53173d36b309d88b07d33_Frame_2147262233_2_.avif 811w"} className={"cover-size-image"} />
+                        <img src={"/assets/home/07-featured-work/frame-2147262233-2.avif"} loading={"lazy"} alt={"Team Member Card Images"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/frame-2147262233-2-p-500.avif 500w, /assets/home/07-featured-work/frame-2147262233-2.avif 811w"} className={"cover-size-image"} />
                       </div>
                       <div className={"featured-work-card-button-wrap"}>
                         <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/case-studies/movefit-challenge"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
@@ -127,7 +127,7 @@ export default function FeaturedWorkSection() {
                           </div>
                           <div className={"button-icon-box w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>
                             <div button-icon-anin-two={"ture"} className={"button-icon-wrap"}>
-                              <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9d62e8c1a2b5123a02ed40_Vector.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"} />
+                              <img src={"/assets/home/07-featured-work/vector.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"} />
                             </div>
                           </div>
                         </a>

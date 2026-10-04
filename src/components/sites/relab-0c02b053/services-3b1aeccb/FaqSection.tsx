@@ -9,7 +9,7 @@ export default function FaqSection() {
                 <div fade-up={"true"} className={"section-labbal-text-wrap"}>
                   <div data-wf--section-label--variant={"base"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"base"} className={"section-label"}>
                     <div className={"text-icon-box"}>
-                      <img src={"/sites/relab-0c02b053/_pool/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                      <img src={"/assets/shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                     </div>
                     <div className={"text-block-name"}>FAQS</div>
                   </div>
@@ -25,7 +25,7 @@ export default function FaqSection() {
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                      <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                      <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                     </div>
                   </div>
                 </a>
@@ -37,7 +37,7 @@ export default function FaqSection() {
                   <div className={"faq-item-head"}>
                     <div className={"text-medium blold-meddle"}>Which social media platforms do you support?</div>
                     <div className={"faq-icon-box-wrap"}>
-                      <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a97e757adfa59f93a890129_plus.svg"} alt={"Icon"} className={"faq-item-icon"} />
+                      <img loading={"lazy"} src={"/assets/shared/plus.svg"} alt={"Icon"} className={"faq-item-icon"} />
                     </div>
                   </div>
                   <div className={"faq-toggle-content"}>
@@ -52,7 +52,7 @@ export default function FaqSection() {
                   <div className={"faq-item-head"}>
                     <div className={"text-medium blold-meddle"}>How do you choose the right creators for a campaign?</div>
                     <div className={"faq-icon-box-wrap"}>
-                      <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a97e757adfa59f93a890129_plus.svg"} alt={"Icon"} className={"faq-item-icon"} />
+                      <img loading={"lazy"} src={"/assets/shared/plus.svg"} alt={"Icon"} className={"faq-item-icon"} />
                     </div>
                   </div>
                   <div className={"faq-toggle-content"}>
@@ -67,7 +67,7 @@ export default function FaqSection() {
                   <div className={"faq-item-head"}>
                     <div className={"text-medium blold-meddle"}>How long does a campaign usually take?</div>
                     <div className={"faq-icon-box-wrap"}>
-                      <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a97e757adfa59f93a890129_plus.svg"} alt={"Icon"} className={"faq-item-icon"} />
+                      <img loading={"lazy"} src={"/assets/shared/plus.svg"} alt={"Icon"} className={"faq-item-icon"} />
                     </div>
                   </div>
                   <div className={"faq-toggle-content"}>
@@ -82,7 +82,7 @@ export default function FaqSection() {
                   <div className={"faq-item-head"}>
                     <div className={"text-medium blold-meddle"}>Can we approve content before it goes live?</div>
                     <div className={"faq-icon-box-wrap"}>
-                      <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a97e757adfa59f93a890129_plus.svg"} alt={"Icon"} className={"faq-item-icon"} />
+                      <img loading={"lazy"} src={"/assets/shared/plus.svg"} alt={"Icon"} className={"faq-item-icon"} />
                     </div>
                   </div>
                   <div className={"faq-toggle-content"}>
@@ -97,7 +97,7 @@ export default function FaqSection() {
                   <div className={"faq-item-head"}>
                     <div className={"text-medium blold-meddle"}>Do you work with brands of all sizes?</div>
                     <div className={"faq-icon-box-wrap"}>
-                      <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a97e757adfa59f93a890129_plus.svg"} alt={"Icon"} className={"faq-item-icon"} />
+                      <img loading={"lazy"} src={"/assets/shared/plus.svg"} alt={"Icon"} className={"faq-item-icon"} />
                     </div>
                   </div>
                   <div className={"faq-toggle-content"}>

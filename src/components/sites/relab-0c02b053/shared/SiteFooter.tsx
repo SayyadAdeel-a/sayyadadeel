@@ -16,7 +16,7 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
             <div fade-up={"true"} className={"footer-top-text-wrapper"}>
               <div className={"footer-logo-wrap"}>
                 <a href={"/"} className={`footer-logo w-inline-block${currentPath === "/" ? " w--current" : ""}`} aria-current={currentPath === "/" ? "page" : undefined}>
-                  <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a97ffdf201d029d91db3ff5_relab.svg"} alt={"Image"} className={"all-image"} />
+                  <img loading={"lazy"} src={"/assets/shared/relab.svg"} alt={"Image"} className={"all-image"} />
                 </a>
               </div>
               <div className={"footer-top-text-wrap"}>
@@ -29,7 +29,7 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                     </div>
                     <div className={"button-icon-box"}>
                       <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                        <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                       </div>
                     </div>
                   </a>
@@ -41,17 +41,17 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                 <div className={"footer-social-wrap"}>
                   <div className={"footer-social-link-wrap"}>
                     <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://www.instagram.com/"} target={"_blank"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
-                      <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a993e534ba570adec01f9c2_Original.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                      <img loading={"lazy"} src={"/assets/shared/original.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
                     </a>
                   </div>
                   <div className={"footer-social-link-wrap"}>
                     <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://x.com/"} target={"_blank"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
-                      <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a993e85894568fd53c1bf39_Original.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                      <img loading={"lazy"} src={"/assets/shared/original-2.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
                     </a>
                   </div>
                   <div className={"footer-social-link-wrap"}>
                     <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://www.tiktok.com/en/"} target={"_blank"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
-                      <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a992bd512b43d612c3c471b_Negative.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                      <img loading={"lazy"} src={"/assets/shared/negative.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
                     </a>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                           <div className={"submit-button-wrapper"}>
                             <input type={"submit"} data-wait={"Please wait..."} className={"submit-button w-button"} value={" "} />
                             <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"#"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
-                              <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a97e757adfa59f93a8901c0_Frame_1_.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                              <img loading={"lazy"} src={"/assets/shared/frame-1.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
                             </a>
                           </div>
                         </div>

@@ -8,7 +8,7 @@ export default function HeaderSection() {
           <div className={"container w-container"}>
             <div className={"nav-inner"}>
               <a href={"/"} aria-current={"page"} className={"nav-logo-link w-nav-brand w--current"}>
-                <img loading={"lazy"} src={"/sites/relab-0c02b053/root-8a5edab2/6a97ffdf201d029d91db3ff5_relab.svg"} alt={"Brand Logo"} className={"nav-logo"} />
+                <img loading={"lazy"} src={"/assets/home/_shared/relab.svg"} alt={"Brand Logo"} className={"nav-logo"} />
               </a>
               <div className={"nav-manus-wrapper"}>
                 <a href={"/about"} className={"nav-link w-inline-block"}>
@@ -68,7 +68,7 @@ export default function HeaderSection() {
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                      <img src={"/assets/home/_shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                     </div>
                   </div>
                 </a>

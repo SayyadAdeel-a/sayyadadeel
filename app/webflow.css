@@ -6524,7 +6524,7 @@ figure {
   height: var(--_responsive---full-size);
   padding: var(--_responsive---element-spacing--spacing-17x) var(--_responsive---element-spacing--spacing-12x);
   border-radius: var(--_responsive---border-radius--radius-14x);
-  background-image: url("/sites/relab-0c02b053/root-8a5edab2/6aa1462f1e3a81c9679dd5bf_3.avif");
+  background-image: url("/assets/shared/3.avif");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6537,11 +6537,11 @@ figure {
 }
 
 .our-values-card-image-box.card-image-box-one {
-  background-image: url("/sites/relab-0c02b053/root-8a5edab2/6aa146309e73301d9d65a822_2.avif");
+  background-image: url("/assets/shared/2.avif");
 }
 
 .our-values-card-image-box.card-image-box-two {
-  background-image: url("/sites/relab-0c02b053/root-8a5edab2/6aa14630da8a7a1a8766b89d_1.avif");
+  background-image: url("/assets/shared/1.avif");
 }
 
 .our-values-card-image-text-box {
@@ -6852,7 +6852,7 @@ figure {
 }
 
 .our-influencers-image-text-box.image-one-box {
-  background-image: url("/sites/relab-0c02b053/root-8a5edab2/6aa253ab47fb2cc739b4e461_image_19285.avif");
+  background-image: url("/assets/shared/image-19285.avif");
 }
 
 .our-influencers-autor-box {
@@ -8342,7 +8342,7 @@ figure {
   height: var(--_responsive---full-size);
   border-radius: var(--_responsive---border-radius--radius-14x);
   pointer-events: none;
-  background-image: url("/sites/relab-0c02b053/root-8a5edab2/6a9e68131b15ad76c786d250_Frame_2147262441.svg");
+  background-image: url("/assets/shared/frame-2147262441.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;

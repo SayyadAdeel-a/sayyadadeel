@@ -149,25 +149,25 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a996f0558138b416a86d6c2_fdb310f5b0035d0fbf2c0ff6620dca75_Group_37381.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a997517da4b1f9c6031f140_image_235.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9978203b272a01c1e262db_Frame_13__1_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a99782104a9a7bc2c481dfb_Frame_13__3_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9978216be8199e5baa9bcf_Frame_13__2_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a997898e72a386ea9f237e1_music_25.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9d40178425ed54cd3199ac_5b8d29ed202f8fcf39f0a11139982243_donut_al.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6ab602cb112ddd132175de56_Group_37385.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6ab602cb51ffe9924d6badd3_Image.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6ab602cb9eca10f6ce5be362_Group_37384.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6ab6031e003b85ae10ea7f06_Frame-1.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6ab6031e17b9e5b0b68d3b1a_Frame-2.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6ab6031e277ca773faacf56c_Frame.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a996fb85aae79bd1c595e1e_Frame_13-p-1080.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a996fb85aae79bd1c595e1e_Frame_13-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a996fb85aae79bd1c595e1e_Frame_13-p-800.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a996fb85aae79bd1c595e1e_Frame_13.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d3fd4c1e7334b7e96e2bc_6eaf063adf651c42f459272b64839b71_object_4_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d3fd4c1e7334b7e96e2bc_6eaf063adf651c42f459272b64839b71_object_4_.avif`
+- `/assets/home/03-hero-intro/contain-size-image-group-37381.svg`
+- `/assets/home/_shared/contain-size-image-image-235.svg`
+- `/assets/home/03-hero-intro/frame-13-1.avif`
+- `/assets/home/03-hero-intro/frame-13-3.avif`
+- `/assets/home/03-hero-intro/frame-13-2.avif`
+- `/assets/home/03-hero-intro/music-25.svg`
+- `/assets/home/_shared/donut-al.avif`
+- `/assets/home/03-hero-intro/contain-size-image-group-37385.svg`
+- `/assets/home/03-hero-intro/contain-size-image-image.svg`
+- `/assets/home/03-hero-intro/contain-size-image-group-37384.svg`
+- `/assets/home/03-hero-intro/contain-size-image-frame-1.svg`
+- `/assets/home/03-hero-intro/contain-size-image-frame-2.svg`
+- `/assets/home/03-hero-intro/contain-size-image-frame.svg`
+- `/assets/home/03-hero-intro/frame-13-p-1080.avif`
+- `/assets/home/03-hero-intro/frame-13-p-500.avif`
+- `/assets/home/03-hero-intro/frame-13-p-800.avif`
+- `/assets/home/03-hero-intro/cover-size-image-frame-13.avif`
+- `/assets/home/_shared/object-4-p-500.avif`
+- `/assets/home/_shared/object-4.avif`
 
 ## Responsive behaviour
 

@@ -40,8 +40,6 @@ const interTight = Inter_Tight({
   display: "swap",
 });
 
-const SITE = "relab-0c02b053/root-8a5edab2";
-
 /**
  * Absolute base for Open Graph / Twitter card URLs.
  *
@@ -61,33 +59,33 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: `/sites/${SITE}/6a97fefd59fd4ab25cf4dff3_Favicon.png`,
+        url: `/assets/shared/favicon-2.png`,
         sizes: "32x32",
         type: "image/png",
       },
       {
-        url: `/sites/${SITE}/6a97fefda3777e169510390b_Favicon.png`,
+        url: `/assets/shared/favicon-2.png`,
         sizes: "48x48",
         type: "image/png",
       },
       {
-        url: `/sites/${SITE}/6a97fefd2d54802470f7e9e6_Favicon.png`,
+        url: `/assets/shared/favicon-2.png`,
         sizes: "192x192",
         type: "image/png",
       },
       {
-        url: `/sites/${SITE}/6a97fefdc7a2f616fcb1903a_Favicon.png`,
+        url: `/assets/shared/favicon-2.png`,
         sizes: "512x512",
         type: "image/png",
       },
     ],
-    apple: `/sites/${SITE}/6a97fefd1db1932cf683d363_Favicon.png`,
+    apple: `/assets/shared/favicon.png`,
   },
   openGraph: {
     title: "Relab - Webflow HTML Website Template",
     description:
       "Build a modern and professional website with Relab, a polished Webflow template designed for showcasing services, case studies, blogs, and your brand.",
-    images: [`/sites/${SITE}/6aad1684503d1bf2692ca802_Thumbnail.jpg`],
+    images: [`/assets/shared/thumbnail.jpg`],
   },
 };
 

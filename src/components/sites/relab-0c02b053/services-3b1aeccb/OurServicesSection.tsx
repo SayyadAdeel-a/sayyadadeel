@@ -7,7 +7,7 @@ export default function OurServicesSection() {
             <div group-fade-up-item={"true"} className={"section-text-wrap"}>
               <div data-wf--section-label--variant={"base"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"base"} className={"section-label"}>
                 <div className={"text-icon-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                  <img src={"/assets/shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                 </div>
                 <div className={"text-block-name"}>Our Services</div>
               </div>
@@ -44,7 +44,7 @@ export default function OurServicesSection() {
                               </div>
                               <div className={"button-icon-box"}>
                                 <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                                  <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                                  <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                                 </div>
                               </div>
                             </a>
@@ -54,27 +54,27 @@ export default function OurServicesSection() {
                       <div className={"slide-creators-image-wrapper"}>
                         <div className={"slide-creators-image-wrap coll-bg-image"}>
                           <div className={"slide-creators-image-bg-wrap"}>
-                            <img src={"/sites/relab-0c02b053/_pool/6aa290ac086ce204a64bb361_BG-Two.svg"} loading={"lazy"} alt={"Icon BG"} className={"cover-size-image"} />
+                            <img src={"/assets/services/01-our-services/bg-two.svg"} loading={"lazy"} alt={"Icon BG"} className={"cover-size-image"} />
                           </div>
                           <div className={"slide-creators-image-priend-wrapper"}>
                             <div contain-left-move-child={"ture"} className={"slide-creators-image-left-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6aa289f15bad1f633cbab42c_noodle_al-Photoroom_1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                              <img src={"/assets/services/01-our-services/noodle-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                             </div>
                             <div text-box-child={"ture"} className={"slide-creators-image-text-wrap card-text-one flex"}>
                               <div className={"text-default font-three blold-meddle"}>+320</div>
                               <div className={"text-default font-three"}>Followers</div>
                             </div>
                             <div className={"slide-creators-image-priend-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6aa28c56f09a69f4dccdd83c_Frame_2147238602_3_.avif"} loading={"lazy"} alt={"Services Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/sites/relab-0c02b053/_pool/6aa28c56f09a69f4dccdd83c_Frame_2147238602_3_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa28c56f09a69f4dccdd83c_Frame_2147238602_3_.avif 652w"} className={"cover-size-image"} />
+                              <img src={"/assets/services/01-our-services/frame-2147238602-3.avif"} loading={"lazy"} alt={"Services Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/assets/services/01-our-services/frame-2147238602-3-p-500.avif 500w, /assets/services/01-our-services/frame-2147238602-3.avif 652w"} className={"cover-size-image"} />
                             </div>
                             <div className={"slide-creators-image-love-wrap love-text-one"}>
                               <div love-child={"ture"} className={"love-icon"}>
-                                <img src={"/sites/relab-0c02b053/_pool/6aa28a38d8d1f5135775485d_image_235.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                <img src={"/assets/services/01-our-services/contain-size-image-image-235.avif"} loading={"lazy"} className={"contain-size-image"} />
                               </div>
                               <div className={"display-six"}>Cool!</div>
                             </div>
                             <div contain-right-move-child={"ture"} className={"slide-creators-image-right-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6aa28b475eee4c05ba430984_ring_al-Photoroom_1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                              <img src={"/assets/services/01-our-services/ring-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                             </div>
                           </div>
                         </div>
@@ -113,7 +113,7 @@ export default function OurServicesSection() {
                               </div>
                               <div className={"button-icon-box"}>
                                 <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                                  <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                                  <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                                 </div>
                               </div>
                             </a>
@@ -123,27 +123,27 @@ export default function OurServicesSection() {
                       <div className={"slide-creators-image-wrapper"}>
                         <div className={"slide-creators-image-wrap coll-bg-image"}>
                           <div className={"slide-creators-image-bg-wrap"}>
-                            <img src={"/sites/relab-0c02b053/_pool/6aa28baf7b88640a5996b332_BG-Three.svg"} loading={"lazy"} alt={"Icon BG"} className={"cover-size-image"} />
+                            <img src={"/assets/services/01-our-services/bg-three.svg"} loading={"lazy"} alt={"Icon BG"} className={"cover-size-image"} />
                           </div>
                           <div className={"slide-creators-image-priend-wrapper"}>
                             <div contain-left-move-child={"ture"} className={"slide-creators-image-left-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6aa28b475eee4c05ba430984_ring_al-Photoroom_1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                              <img src={"/assets/services/01-our-services/ring-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                             </div>
                             <div text-box-child={"ture"} className={"slide-creators-image-text-wrap card-text-one flex two-boxs"}>
                               <div className={"text-default font-three blold-meddle"}>{"120+ "}</div>
                               <div className={"text-default font-three"}>Clients</div>
                             </div>
                             <div className={"slide-creators-image-priend-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6aa28b33a6836f0d1c8ff74d_Frame_2147238602.avif"} loading={"lazy"} alt={"Services Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/sites/relab-0c02b053/_pool/6aa28b33a6836f0d1c8ff74d_Frame_2147238602-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa28b33a6836f0d1c8ff74d_Frame_2147238602.avif 652w"} className={"cover-size-image"} />
+                              <img src={"/assets/services/01-our-services/cover-size-image-frame-2147238602.avif"} loading={"lazy"} alt={"Services Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/assets/services/01-our-services/frame-2147238602-p-500.avif 500w, /assets/services/01-our-services/cover-size-image-frame-2147238602.avif 652w"} className={"cover-size-image"} />
                             </div>
                             <div className={"slide-creators-image-love-wrap love-text-one lov-two-boxs"}>
                               <div love-child={"ture"} className={"love-icon"}>
-                                <img src={"/sites/relab-0c02b053/_pool/6aa28a38d8d1f5135775485d_image_235.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                <img src={"/assets/services/01-our-services/contain-size-image-image-235.avif"} loading={"lazy"} className={"contain-size-image"} />
                               </div>
                               <div className={"display-six"}>Let’s Collab</div>
                             </div>
                             <div contain-right-move-child={"ture"} className={"slide-creators-image-right-wrap two-icon-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6aa28aaf4307c5dd688ca6f7_tknot_3-Photoroom_1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                              <img src={"/assets/services/01-our-services/tknot-3-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                             </div>
                           </div>
                         </div>
@@ -182,7 +182,7 @@ export default function OurServicesSection() {
                               </div>
                               <div className={"button-icon-box"}>
                                 <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                                  <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                                  <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                                 </div>
                               </div>
                             </a>
@@ -192,27 +192,27 @@ export default function OurServicesSection() {
                       <div className={"slide-creators-image-wrapper"}>
                         <div className={"slide-creators-image-wrap coll-bg-image"}>
                           <div className={"slide-creators-image-bg-wrap"}>
-                            <img src={"/sites/relab-0c02b053/_pool/6aa289d12672b1868d1a151a_BG-one.svg"} loading={"lazy"} alt={"Icon BG"} className={"cover-size-image"} />
+                            <img src={"/assets/services/01-our-services/bg-one.svg"} loading={"lazy"} alt={"Icon BG"} className={"cover-size-image"} />
                           </div>
                           <div className={"slide-creators-image-priend-wrapper"}>
                             <div contain-left-move-child={"ture"} className={"slide-creators-image-left-wrap three-icon-one-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6aa289f15bad1f633cbab42c_noodle_al-Photoroom_1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                              <img src={"/assets/services/01-our-services/noodle-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                             </div>
                             <div text-box-child={"ture"} className={"slide-creators-image-text-wrap card-text-one flex three-boxs"}>
                               <div className={"text-default font-three blold-meddle"}>200+</div>
                               <div className={"text-default font-three"}>{" Projects"}</div>
                             </div>
                             <div className={"slide-creators-image-priend-wrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6aa28aa3a168d28d08a316b2_Frame_2147238602_1_.avif"} loading={"lazy"} alt={"Services Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/sites/relab-0c02b053/_pool/6aa28aa3a168d28d08a316b2_Frame_2147238602_1_-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa28aa3a168d28d08a316b2_Frame_2147238602_1_.avif 652w"} className={"cover-size-image"} />
+                              <img src={"/assets/services/01-our-services/frame-2147238602-1.avif"} loading={"lazy"} alt={"Services Images"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 95vw, 940px"} srcSet={"/assets/services/01-our-services/frame-2147238602-1-p-500.avif 500w, /assets/services/01-our-services/frame-2147238602-1.avif 652w"} className={"cover-size-image"} />
                             </div>
                             <div className={"slide-creators-image-love-wrap love-text-one lov-three-wrap"}>
                               <div love-child={"ture"} className={"love-icon"}>
-                                <img src={"/sites/relab-0c02b053/_pool/6aa28a38d8d1f5135775485d_image_235.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                <img src={"/assets/services/01-our-services/contain-size-image-image-235.avif"} loading={"lazy"} className={"contain-size-image"} />
                               </div>
                               <div className={"display-six"}>Let’s Collab</div>
                             </div>
                             <div contain-right-move-child={"ture"} className={"slide-creators-image-right-wrap three-icon-twowrap"}>
-                              <img src={"/sites/relab-0c02b053/_pool/6aa28aaf4307c5dd688ca6f7_tknot_3-Photoroom_1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                              <img src={"/assets/services/01-our-services/tknot-3-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                             </div>
                           </div>
                         </div>

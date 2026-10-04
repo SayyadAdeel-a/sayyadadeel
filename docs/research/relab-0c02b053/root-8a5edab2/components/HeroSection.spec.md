@@ -213,11 +213,11 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a99503139bdd2820cf2424c_e7158b4595e5702f155662b80a846e63_grid__1_.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9952da586a2d690f16ff9a_image_278.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9952dbdd2e23a42fefe6c3_image_297.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6aacb8716e9522859c4a0bc1_Vector__4_.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6aacb8717fa8f963ef1ff2bf_Vector__3_.svg`
+- `/assets/home/02-hero/grid-1.svg`
+- `/assets/home/_shared/contain-size-image-image-278.svg`
+- `/assets/home/02-hero/contain-size-image-image-297.svg`
+- `/assets/home/02-hero/vector-4.svg`
+- `/assets/home/02-hero/vector-3.svg`
 
 ## Responsive behaviour
 

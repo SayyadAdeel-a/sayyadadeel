@@ -8,7 +8,7 @@ export default function PricingSection() {
               <div fade-up={"true"} className={"section-labbal-text-wrap"}>
                 <div data-wf--section-label--variant={"base"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"base"} className={"section-label"}>
                   <div className={"text-icon-box"}>
-                    <img src={"/sites/relab-0c02b053/root-8a5edab2/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                    <img src={"/assets/home/_shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                   </div>
                   <div className={"text-block-name"}>Pricing Plans</div>
                 </div>
@@ -40,7 +40,7 @@ export default function PricingSection() {
                   <div className={"plans-pricing-item-wrap"}>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Creator sourcing (3–5 creators)</div>
@@ -48,7 +48,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>3–5 vetted creators</div>
@@ -56,7 +56,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Campaign strategy</div>
@@ -64,7 +64,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Creative brief</div>
@@ -72,7 +72,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Content coordination</div>
@@ -80,7 +80,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Performance report</div>
@@ -95,7 +95,7 @@ export default function PricingSection() {
                       </div>
                       <div className={"button-icon-box w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3"}>
                         <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                          <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e96908025ef423eea419a_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                          <img src={"/assets/home/13-pricing/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                         </div>
                       </div>
                     </a>
@@ -122,7 +122,7 @@ export default function PricingSection() {
                   <div className={"plans-pricing-item-wrap"}>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Everything in Starter</div>
@@ -130,7 +130,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>10–15 creators</div>
@@ -138,7 +138,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>TikTok, Instagram & YouTube</div>
@@ -146,7 +146,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Campaign management</div>
@@ -154,7 +154,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Weekly reporting</div>
@@ -162,7 +162,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Content optimization</div>
@@ -177,7 +177,7 @@ export default function PricingSection() {
                       </div>
                       <div className={"button-icon-box w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3"}>
                         <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                          <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e96908025ef423eea419a_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                          <img src={"/assets/home/13-pricing/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                         </div>
                       </div>
                     </a>
@@ -203,7 +203,7 @@ export default function PricingSection() {
                   <div className={"plans-pricing-item-wrap"}>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Unlimited creator sourcing</div>
@@ -211,7 +211,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Dedicated account manager</div>
@@ -219,7 +219,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Full campaign strategy</div>
@@ -227,7 +227,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Paid media support</div>
@@ -235,7 +235,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Advanced analytics</div>
@@ -243,7 +243,7 @@ export default function PricingSection() {
                     </div>
                     <div className={"plans-pricing-item-box"}>
                       <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e930a5ce36d46f51ac673_plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
                         <div className={"text-default opactiy-70"}>Priority support</div>
@@ -258,7 +258,7 @@ export default function PricingSection() {
                       </div>
                       <div className={"button-icon-box w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3"}>
                         <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                          <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9e96908025ef423eea419a_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                          <img src={"/assets/home/13-pricing/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                         </div>
                       </div>
                     </a>

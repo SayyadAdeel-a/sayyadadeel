@@ -250,24 +250,24 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a982a5cacb93b89817e14cf_Ellipse_2469.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a997517da4b1f9c6031f140_image_235.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9c14aeaaf1ba57b97a404e_Group_37388.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9c23c3a86641bfcf710852_long-arrow-alt-left-solid.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9c256ef9146d40be4e7c53_long-arrow-alt-right-solid.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9d018ca9f1a4c80dd3a575_Group_37389.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9d018caa3bb2bea2c45e9b_Group_37390.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6aa289f15bad1f633cbab42c_noodle_al-Photoroom_1.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6aa28a38d8d1f5135775485d_image_235.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6aa28aaf4307c5dd688ca6f7_tknot_3-Photoroom_1.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6aa28b475eee4c05ba430984_ring_al-Photoroom_1.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa28aa3a168d28d08a316b2_Frame_2147238602_1_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa28aa3a168d28d08a316b2_Frame_2147238602_1_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa28b33a6836f0d1c8ff74d_Frame_2147238602-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa28b33a6836f0d1c8ff74d_Frame_2147238602.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa28c56f09a69f4dccdd83c_Frame_2147238602_3_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa28c56f09a69f4dccdd83c_Frame_2147238602_3_.avif`
+- `/assets/home/_shared/arrow-1.svg`
+- `/assets/home/_shared/ellipse-2469.svg`
+- `/assets/home/_shared/contain-size-image-image-235.svg`
+- `/assets/home/05-solutions-slider/contain-size-image-group-37388.svg`
+- `/assets/home/_shared/long-arrow-alt-left-solid.svg`
+- `/assets/home/_shared/long-arrow-alt-right-solid.svg`
+- `/assets/home/05-solutions-slider/contain-size-image-group-37389.svg`
+- `/assets/home/05-solutions-slider/contain-size-image-group-37390.svg`
+- `/assets/home/05-solutions-slider/noodle-al-photoroom-1.avif`
+- `/assets/home/05-solutions-slider/contain-size-image-image-235.avif`
+- `/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif`
+- `/assets/home/05-solutions-slider/ring-al-photoroom-1.avif`
+- `/assets/home/05-solutions-slider/frame-2147238602-1-p-500.avif`
+- `/assets/home/05-solutions-slider/frame-2147238602-1.avif`
+- `/assets/home/05-solutions-slider/frame-2147238602-p-500.avif`
+- `/assets/home/05-solutions-slider/cover-size-image-frame-2147238602.avif`
+- `/assets/home/05-solutions-slider/frame-2147238602-3-p-500.avif`
+- `/assets/home/05-solutions-slider/frame-2147238602-3.avif`
 
 ## Responsive behaviour
 

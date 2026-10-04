@@ -12,7 +12,7 @@ export default function OurProcessSection() {
                   <div className={"section-labbal-text-wrap"}>
                     <div data-wf--section-label--variant={"style-one"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"0e6766d8-b805-913b-d4e9-8050c5c31653"} className={"section-label w-variant-0e6766d8-b805-913b-d4e9-8050c5c31653"}>
                       <div className={"text-icon-box"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                        <img src={"/assets/home/_shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                       </div>
                       <div className={"text-block-name w-variant-0e6766d8-b805-913b-d4e9-8050c5c31653"}>Our Process</div>
                     </div>
@@ -41,7 +41,7 @@ export default function OurProcessSection() {
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/variants/6a9e5355eb4856bd2a825030_Glasses_and_Desk_Items_1_1_.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/sites/relab-0c02b053/root-8a5edab2/variants/6a9e5355eb4856bd2a825030_Glasses_and_Desk_Items_1_1_-p-500.avif 500w, /sites/relab-0c02b053/root-8a5edab2/variants/6a9e5355eb4856bd2a825030_Glasses_and_Desk_Items_1_1_-p-800.avif 800w, /sites/relab-0c02b053/root-8a5edab2/variants/6a9e5355eb4856bd2a825030_Glasses_and_Desk_Items_1_1_.avif 810w"} alt={"Slider Image"} className={"cover-size-image"} />
+                        <img src={"/assets/home/09-our-process/glasses-and-desk-items-1-1.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/09-our-process/glasses-and-desk-items-1-1-p-500.avif 500w, /assets/home/09-our-process/glasses-and-desk-items-1-1-p-800.avif 800w, /assets/home/09-our-process/glasses-and-desk-items-1-1.avif 810w"} alt={"Slider Image"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>
@@ -58,7 +58,7 @@ export default function OurProcessSection() {
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/variants/6a9e5354e26234b20c1de9d3_Office_Collaboration_1_1_1_.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/sites/relab-0c02b053/root-8a5edab2/variants/6a9e5354e26234b20c1de9d3_Office_Collaboration_1_1_1_-p-500.avif 500w, /sites/relab-0c02b053/root-8a5edab2/variants/6a9e5354e26234b20c1de9d3_Office_Collaboration_1_1_1_.avif 810w"} alt={"Slider Image"} className={"cover-size-image"} />
+                        <img src={"/assets/home/09-our-process/office-collaboration-1-1-1.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/09-our-process/office-collaboration-1-1-1-p-500.avif 500w, /assets/home/09-our-process/office-collaboration-1-1-1.avif 810w"} alt={"Slider Image"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>
@@ -75,14 +75,14 @@ export default function OurProcessSection() {
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
-                        <img src={"/sites/relab-0c02b053/root-8a5edab2/variants/6a9e53552a3101e6e4d16c5a_Windowsill_Still_Life_1_1_.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/sites/relab-0c02b053/root-8a5edab2/variants/6a9e53552a3101e6e4d16c5a_Windowsill_Still_Life_1_1_-p-500.avif 500w, /sites/relab-0c02b053/root-8a5edab2/variants/6a9e53552a3101e6e4d16c5a_Windowsill_Still_Life_1_1_.avif 810w"} alt={"Slider Image"} className={"cover-size-image"} />
+                        <img src={"/assets/home/09-our-process/windowsill-still-life-1-1.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/09-our-process/windowsill-still-life-1-1-p-500.avif 500w, /assets/home/09-our-process/windowsill-still-life-1-1.avif 810w"} alt={"Slider Image"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>
                 </div>
                 <div slider-click-btn={"ture"} className={"perigon-button-wrap w-slider-arrow-left"}>
                   <div className={"perigon-button-icon-wrap"}>
-                    <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9c23c3a86641bfcf710852_long-arrow-alt-left-solid.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
+                    <img src={"/assets/home/_shared/long-arrow-alt-left-solid.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
                   </div>
                   <div className={"perigon-button-text-wrap"}>
                     <div className={"text-medium blod-meddle"}>Prev</div>
@@ -93,7 +93,7 @@ export default function OurProcessSection() {
                     <div className={"text-medium blod-meddle"}>Next</div>
                   </div>
                   <div className={"perigon-button-icon-wrap"}>
-                    <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9c256ef9146d40be4e7c53_long-arrow-alt-right-solid.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
+                    <img src={"/assets/home/_shared/long-arrow-alt-right-solid.svg"} loading={"lazy"} alt={"Icon"} className={"contain-size-image"} />
                   </div>
                 </div>
                 <div className={"display-none w-slider-nav w-round w-num"} />

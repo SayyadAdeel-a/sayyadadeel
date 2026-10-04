@@ -91,16 +91,16 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a982a5cacb93b89817e14cf_Ellipse_2469.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9c23c3a86641bfcf710852_long-arrow-alt-left-solid.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9c256ef9146d40be4e7c53_long-arrow-alt-right-solid.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e5354e26234b20c1de9d3_Office_Collaboration_1_1_1_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e5354e26234b20c1de9d3_Office_Collaboration_1_1_1_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e53552a3101e6e4d16c5a_Windowsill_Still_Life_1_1_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e53552a3101e6e4d16c5a_Windowsill_Still_Life_1_1_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e5355eb4856bd2a825030_Glasses_and_Desk_Items_1_1_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e5355eb4856bd2a825030_Glasses_and_Desk_Items_1_1_-p-800.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9e5355eb4856bd2a825030_Glasses_and_Desk_Items_1_1_.avif`
+- `/assets/home/_shared/ellipse-2469.svg`
+- `/assets/home/_shared/long-arrow-alt-left-solid.svg`
+- `/assets/home/_shared/long-arrow-alt-right-solid.svg`
+- `/assets/home/09-our-process/office-collaboration-1-1-1-p-500.avif`
+- `/assets/home/09-our-process/office-collaboration-1-1-1.avif`
+- `/assets/home/09-our-process/windowsill-still-life-1-1-p-500.avif`
+- `/assets/home/09-our-process/windowsill-still-life-1-1.avif`
+- `/assets/home/09-our-process/glasses-and-desk-items-1-1-p-500.avif`
+- `/assets/home/09-our-process/glasses-and-desk-items-1-1-p-800.avif`
+- `/assets/home/09-our-process/glasses-and-desk-items-1-1.avif`
 
 ## Responsive behaviour
 

@@ -7,7 +7,7 @@ export default function ContactSection() {
             <div group-fade-up-item={"true"} className={"section-text-wrap"}>
               <div data-wf--section-label--variant={"base"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"base"} className={"section-label"}>
                 <div className={"text-icon-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                  <img src={"/assets/shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                 </div>
                 <div className={"text-block-name"}>Contact Form</div>
               </div>
@@ -51,7 +51,7 @@ export default function ContactSection() {
                         <input type={"submit"} data-wait={" "} className={"submit-button w-button"} value={" "} />
                         <div className={"submit-icon-wrap"}>
                           <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"#"} className={"icon-button w-inline-block"}>
-                            <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a97e757adfa59f93a8901c0_Frame_1_.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                            <img loading={"lazy"} src={"/assets/shared/frame-1.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
                           </a>
                         </div>
                       </div>
@@ -68,14 +68,14 @@ export default function ContactSection() {
               </div>
             </div>
             <div className={"contact-form-image-wrap"}>
-              <img src={"/sites/relab-0c02b053/_pool/6aa68c39f88c12410a069dca_Frame_2147262809.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/sites/relab-0c02b053/_pool/6aa68c39f88c12410a069dca_Frame_2147262809-p-500.avif 500w, /sites/relab-0c02b053/_pool/6aa68c39f88c12410a069dca_Frame_2147262809.avif 810w"} alt={"Image"} className={"cover-size-image"} />
+              <img src={"/assets/contact/01-contact/cover-size-image-frame-2147262809.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/contact/01-contact/frame-2147262809-p-500.avif 500w, /assets/contact/01-contact/cover-size-image-frame-2147262809.avif 810w"} alt={"Image"} className={"cover-size-image"} />
             </div>
           </div>
           <div className={"conact-text-icon-wrapper"}>
             <div group-fade-up-item={"true"} className={"contact-form-icon-text-wrapper"}>
               <div id={"w-node-b8d122ea-e261-f78d-3c17-3aef6e1e139e-3a890076"} className={"contact-form-icon-text-box"}>
                 <div className={"contact-form-icon-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6aa6927024ac5a67c54460de_image_1196.avif"} loading={"lazy"} className={"contain-size-image"} />
+                  <img src={"/assets/contact/01-contact/contain-size-image-image-1196.avif"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
                 <div className={"contact-form-text-box"}>
                   <h2 className={"h6 center"}>WhatsApp</h2>
@@ -84,7 +84,7 @@ export default function ContactSection() {
               </div>
               <div id={"w-node-e9d58148-473f-05f9-a8c3-61315bb96930-3a890076"} className={"contact-form-icon-text-box"}>
                 <div className={"contact-form-icon-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6aa692696e6e05b1058cde6c_image_1442.avif"} loading={"lazy"} className={"contain-size-image"} />
+                  <img src={"/assets/contact/01-contact/contain-size-image-image-1442.avif"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
                 <div className={"contact-form-text-box"}>
                   <h2 className={"h6 center"}>Working Hour</h2>
@@ -97,7 +97,7 @@ export default function ContactSection() {
               </div>
               <div id={"w-node-bc284ac0-0a56-ba37-8f9b-16cb6e82ba35-3a890076"} className={"contact-form-icon-text-box"}>
                 <div className={"contact-form-icon-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6aa69269d36b309d88e41fed_image_994.avif"} loading={"lazy"} className={"contain-size-image"} />
+                  <img src={"/assets/contact/01-contact/contain-size-image-image-994.avif"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
                 <div className={"contact-form-text-box"}>
                   <h2 className={"h6 center"}>Mail to Us</h2>

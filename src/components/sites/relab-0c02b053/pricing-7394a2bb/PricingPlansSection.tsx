@@ -7,7 +7,7 @@ export default function PricingPlansSection() {
             <div group-fade-up-item={"true"} className={"section-text-wrap"}>
               <div data-wf--section-label--variant={"base"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"base"} className={"section-label"}>
                 <div className={"text-icon-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                  <img src={"/assets/shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                 </div>
                 <div className={"text-block-name"}>Pricing Plans</div>
               </div>
@@ -130,13 +130,13 @@ export default function PricingPlansSection() {
                     <div className={"text-default blold-meddle opactiy"}>Priority Support</div>
                   </div>
                   <div id={"w-node-_9a2db955-649c-c783-a25e-89d82360100f-3a890075"} className={"pricing-plans-dectlies-text-wrap"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa67ee78a03456c2a541734_minus-solid.svg"} loading={"lazy"} className={"pricing-image"} />
+                    <img src={"/assets/pricing/01-pricing-plans/minus-solid.svg"} loading={"lazy"} className={"pricing-image"} />
                   </div>
                   <div id={"w-node-_9a2db955-649c-c783-a25e-89d823601012-3a890075"} className={"pricing-plans-dectlies-text-wrap"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa67ee78a03456c2a541738_check-solid.svg"} loading={"lazy"} className={"pricing-image"} />
+                    <img src={"/assets/pricing/01-pricing-plans/check-solid.svg"} loading={"lazy"} className={"pricing-image"} />
                   </div>
                   <div id={"w-node-_9a2db955-649c-c783-a25e-89d823601015-3a890075"} className={"pricing-plans-dectlies-text-wrap"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa67ee78a03456c2a541738_check-solid.svg"} loading={"lazy"} className={"pricing-image"} />
+                    <img src={"/assets/pricing/01-pricing-plans/check-solid.svg"} loading={"lazy"} className={"pricing-image"} />
                   </div>
                 </div>
                 <div fade-up={"true"} className={"pricing-plans-dectlies-box"}>
@@ -177,7 +177,7 @@ export default function PricingPlansSection() {
                       </div>
                       <div className={"button-icon-box"}>
                         <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                          <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                          <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                         </div>
                       </div>
                     </a>
@@ -190,7 +190,7 @@ export default function PricingPlansSection() {
                       </div>
                       <div className={"button-icon-box"}>
                         <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                          <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                          <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                         </div>
                       </div>
                     </a>
@@ -203,7 +203,7 @@ export default function PricingPlansSection() {
                       </div>
                       <div className={"button-icon-box"}>
                         <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                          <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                          <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                         </div>
                       </div>
                     </a>

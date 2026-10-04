@@ -7,7 +7,7 @@ export default function CaseDetailSection() {
             <div className={"case-detail-left-wrap"}>
               <div data-wf--section-label--variant={"base"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"base"} className={"section-label"}>
                 <div className={"text-icon-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                  <img src={"/assets/shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                 </div>
                 <div className={"text-block-name"}>Case Detail</div>
               </div>

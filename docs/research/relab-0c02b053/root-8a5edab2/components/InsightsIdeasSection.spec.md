@@ -80,12 +80,12 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a982a5cacb93b89817e14cf_Ellipse_2469.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa63490df53d8544603abca_image_19269-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa63490df53d8544603abca_image_19269.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa634ac8a03456c2a490dc9_Frame_2147262476_2_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa634ac8a03456c2a490dc9_Frame_2147262476_2_.avif`
+- `/assets/home/_shared/arrow-1.svg`
+- `/assets/home/_shared/ellipse-2469.svg`
+- `/assets/home/15-insights-ideas/image-19269-p-500.avif`
+- `/assets/home/15-insights-ideas/cover-size-image-image-19269.avif`
+- `/assets/home/15-insights-ideas/frame-2147262476-2-p-500.avif`
+- `/assets/home/15-insights-ideas/frame-2147262476-2.avif`
 
 ## Responsive behaviour
 

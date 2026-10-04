@@ -103,7 +103,7 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg`
+- `/assets/home/_shared/arrow-1.svg`
 
 ## Responsive behaviour
 

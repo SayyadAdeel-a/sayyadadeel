@@ -134,10 +134,10 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a982a5cacb93b89817e14cf_Ellipse_2469.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9d73b9d761e43072896e26_Frame_2147262240__1_.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9d73bbbde9c565bbaa5cc1_Frame_2147262414.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9d73bbee781270c31f9663_Frame_2147262416.avif`
+- `/assets/home/_shared/ellipse-2469.svg`
+- `/assets/home/08-capabilities/frame-2147262240-1.svg`
+- `/assets/home/08-capabilities/cover-size-image-frame-2147262414.avif`
+- `/assets/home/08-capabilities/cover-size-image-frame-2147262416.avif`
 
 ## Responsive behaviour
 

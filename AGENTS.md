@@ -13,6 +13,32 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 A pixel-perfect clone of <https://relab-template.webflow.io/>. Read
 `README.md` first, then `docs/research/relab-0c02b053/README.md`.
 
+## Assets
+
+Everything the site serves lives under `public/assets/`, grouped by page and then
+by numbered section in render order (`home/03-hero-intro`, `about/01-about-hero`).
+Cross-page assets are in `shared/`; assets several sections of one page share are
+in that page's `_shared/`.
+
+`ASSETS.md` is the inventory: new path, original path, what uses each file, and
+duplicate status by SHA-256.
+
+* **Do not hand-move an asset.** Run `npm run assets:migrate`, which rewrites every
+  reference in the same pass. A file moved without its references is a silent 404.
+* **Do not delete a duplicate on the strength of a hash alone.** Several of them
+  are still referenced from different pages. `ASSETS.md` lists, for each group,
+  which copies are referenced and which are not.
+* The captured Webflow runtime (gsap, lenis, ScrollTrigger, the `webflow.*.js`
+  chunks) is not a page asset and is still under `public/sites/relab-0c02b053/_pool/`.
+
+Verify an asset change with:
+
+```bash
+npm run assets:integrity      # nothing lost, added or altered
+npm run verify:asset-loads    # load every page, fail on any 404
+npm run verify                # full parity against the reference
+```
+
 ## Do not
 
 * **Do not regenerate the homepage.** `src/components/sites/relab-0c02b053/root-8a5edab2/`

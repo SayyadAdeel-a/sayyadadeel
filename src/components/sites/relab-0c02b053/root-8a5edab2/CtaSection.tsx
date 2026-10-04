@@ -17,14 +17,14 @@ export default function CtaSection() {
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                      <img src={"/assets/home/_shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                     </div>
                   </div>
                 </a>
               </div>
             </div>
             <div className={"cta-image-wrap"}>
-              <img sizes={"100vw"} srcSet={"/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037-p-500.avif 500w, /sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037-p-800.avif 800w, /sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037-p-1080.avif 1080w, /sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037.avif 1320w"} alt={"CTA Card Image"} src={"/sites/relab-0c02b053/root-8a5edab2/variants/6a9bbefb3fdfdc7b3059f77e_2b8e97ce3ee27275770f618478fb035b_image_2037.avif"} loading={"lazy"} className={"cover-size-image"} />
+              <img sizes={"100vw"} srcSet={"/assets/home/_shared/image-2037-p-500.avif 500w, /assets/home/_shared/image-2037-p-800.avif 800w, /assets/home/_shared/image-2037-p-1080.avif 1080w, /assets/home/_shared/cover-size-image-image-2037.avif 1320w"} alt={"CTA Card Image"} src={"/assets/home/_shared/cover-size-image-image-2037.avif"} loading={"lazy"} className={"cover-size-image"} />
             </div>
           </div>
         </div>

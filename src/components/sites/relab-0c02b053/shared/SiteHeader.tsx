@@ -15,7 +15,7 @@ export default function SiteHeader({ currentPath }: { currentPath: string }) {
           <div className={"container w-container"}>
             <div className={"nav-inner"}>
               <a href={"/"} className={`nav-logo-link w-nav-brand${currentPath === "/" ? " w--current" : ""}`} aria-current={currentPath === "/" ? "page" : undefined}>
-                <img loading={"lazy"} src={"/sites/relab-0c02b053/_pool/6a97ffdf201d029d91db3ff5_relab.svg"} alt={"Brand Logo"} className={"nav-logo"} />
+                <img loading={"lazy"} src={"/assets/shared/relab.svg"} alt={"Brand Logo"} className={"nav-logo"} />
               </a>
               <div className={"nav-manus-wrapper"}>
                 <a href={"/about"} className={`nav-link w-inline-block${currentPath === "/about" ? " w--current" : ""}`} aria-current={currentPath === "/about" ? "page" : undefined}>
@@ -75,7 +75,7 @@ export default function SiteHeader({ currentPath }: { currentPath: string }) {
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                      <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                      <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                     </div>
                   </div>
                 </a>

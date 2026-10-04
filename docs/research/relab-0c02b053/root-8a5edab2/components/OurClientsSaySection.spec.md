@@ -94,16 +94,16 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a9ea09e1e63867793c6bbab_Rectangle_1742__4_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9ea09e60ed565111acaa5b_Rectangle_1742__5_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9ea09e7436cd15029b9da1_Rectangle_1742__7_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9ea09eb5fdf498c9663bbf_Rectangle_1742__6_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9ea0a077ebb129cf84c276_Rectangle_1742__2_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9ea0a08c88ce908594da3c_Rectangle_1742__3_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9ea0a0ad2bc6356a647323_Rectangle_1742.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9ea0a0fa68864c1a4bc7a3_Rectangle_1742__1_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9ea0a1181738baed1d49ac_Group_37387.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9ea1b4a1674256292179c1_Frame_2147262259.svg`
+- `/assets/home/14-our-clients-say/rectangle-1742-4.avif`
+- `/assets/home/14-our-clients-say/rectangle-1742-5.avif`
+- `/assets/home/14-our-clients-say/rectangle-1742-7.avif`
+- `/assets/home/14-our-clients-say/rectangle-1742-6.avif`
+- `/assets/home/14-our-clients-say/rectangle-1742-2.avif`
+- `/assets/home/14-our-clients-say/rectangle-1742-3.avif`
+- `/assets/home/14-our-clients-say/contain-size-image-rectangle-1742.avif`
+- `/assets/home/14-our-clients-say/rectangle-1742-1.avif`
+- `/assets/home/14-our-clients-say/contain-size-image-group-37387.svg`
+- `/assets/home/14-our-clients-say/contain-size-image-frame-2147262259.svg`
 
 ## Responsive behaviour
 

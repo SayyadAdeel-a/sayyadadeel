@@ -141,29 +141,29 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a97e757adfa59f93a89009c_6a9d14081c9ddcceb78cfdf6_6194923-uhd_2160_3840_25fps_mp4.mp4`
-- `/sites/relab-0c02b053/root-8a5edab2/6a97e757adfa59f93a89009c_6a9d14081c9ddcceb78cfdf6_6194923-uhd_2160_3840_25fps_poster.0000000.jpg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a97e757adfa59f93a89009c_6a9d14081c9ddcceb78cfdf6_6194923-uhd_2160_3840_25fps_poster.0000000.jpg\`
-- `/sites/relab-0c02b053/root-8a5edab2/6a97e757adfa59f93a89009c_6a9d14081c9ddcceb78cfdf6_6194923-uhd_2160_3840_25fps_webm.webm`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9952da586a2d690f16ff9a_image_278.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9d40178425ed54cd3199ac_5b8d29ed202f8fcf39f0a11139982243_donut_al.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9d57c28ee8b6a8e9d0d750_pause-1006-svgrepo-com_1.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9d57c2a3c413ee4bec3e71_play-1003-svgrepo-com_1.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6ab603f4190608bdb7bfd0b1_Video.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6ab603f4e1ecabf92771b4e1_Image.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6ab603f4e1ecabf92771b4e4_Audio.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d13f11c9ddcceb78cfb5e_image_2038-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d13f11c9ddcceb78cfb5e_image_2038.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d13f5babd2d89b51206c9_image_19280-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d13f5babd2d89b51206c9_image_19280.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d13f8fc68284afd3623b2_image_19279-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d13f8fc68284afd3623b2_image_19279.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d13fdc43fc4573e5b79ff_image_2070_1_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d13fdc43fc4573e5b79ff_image_2070_1_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d14b2a8bc9403cd5b8ae0_10px_Flip_White-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d14b2a8bc9403cd5b8ae0_10px_Flip_White.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d3fd4c1e7334b7e96e2bc_6eaf063adf651c42f459272b64839b71_object_4_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6a9d3fd4c1e7334b7e96e2bc_6eaf063adf651c42f459272b64839b71_object_4_.avif`
+- `/assets/home/06-meet/6194923-uhd-2160-3840-25fps-mp4.mp4`
+- `/assets/home/06-meet/6194923-uhd-2160-3840-25fps-poster.0000000.jpg`
+- `/assets/home/06-meet/6194923-uhd-2160-3840-25fps-poster.0000000.jpg\`
+- `/assets/home/06-meet/6194923-uhd-2160-3840-25fps-webm.webm`
+- `/assets/home/_shared/contain-size-image-image-278.svg`
+- `/assets/home/_shared/donut-al.avif`
+- `/assets/home/06-meet/pause-1006-svgrepo-com-1.svg`
+- `/assets/home/06-meet/play-1003-svgrepo-com-1.svg`
+- `/assets/home/06-meet/video.svg`
+- `/assets/home/06-meet/contain-size-image-image.svg`
+- `/assets/home/06-meet/audio.svg`
+- `/assets/home/06-meet/image-2038-p-500.avif`
+- `/assets/home/06-meet/cover-size-image-image-2038.avif`
+- `/assets/home/06-meet/image-19280-p-500.avif`
+- `/assets/home/06-meet/cover-size-image-image-19280.avif`
+- `/assets/home/06-meet/image-19279-p-500.avif`
+- `/assets/home/06-meet/cover-size-image-image-19279.avif`
+- `/assets/home/06-meet/image-2070-1-p-500.avif`
+- `/assets/home/06-meet/image-2070-1.avif`
+- `/assets/home/06-meet/10px-flip-white-p-500.avif`
+- `/assets/home/06-meet/10px-flip-white.avif`
+- `/assets/home/_shared/object-4-p-500.avif`
+- `/assets/home/_shared/object-4.avif`
 
 ## Responsive behaviour
 

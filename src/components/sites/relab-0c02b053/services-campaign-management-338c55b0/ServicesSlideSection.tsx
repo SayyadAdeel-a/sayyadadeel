@@ -28,7 +28,7 @@ export default function ServicesSlideSection() {
       <div fade-up={"true"} className={"services-slide-text-wrapper"}>
         <div className={"services-slide-left-text-wrap"}>
           <a href={"/"} className={"cms-logo-wrap w-inline-block"}>
-            <img src={"/sites/relab-0c02b053/_pool/6a97ffdf201d029d91db3ff5_relab.svg"} loading={"lazy"} alt={"Logo"} className={"contain-size-image"} />
+            <img src={"/assets/shared/relab.svg"} loading={"lazy"} alt={"Logo"} className={"contain-size-image"} />
           </a>
         </div>
         <div className={"services-slide-right-wrap"}>
@@ -41,7 +41,7 @@ export default function ServicesSlideSection() {
               </div>
               <div className={"button-icon-box"}>
                 <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6a981fcef021f70122389ff5_Arrow_1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
+                  <img src={"/assets/shared/arrow-1.svg"} loading={"lazy"} alt={"Icon"} className={"button-icon"} />
                 </div>
               </div>
             </a>

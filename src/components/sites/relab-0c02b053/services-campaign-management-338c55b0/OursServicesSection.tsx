@@ -7,7 +7,7 @@ export default function OursServicesSection() {
             <div group-fade-up-item={"true"}>
               <div data-wf--section-label--variant={"base"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"base"} className={"section-label"}>
                 <div className={"text-icon-box"}>
-                  <img src={"/sites/relab-0c02b053/_pool/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                  <img src={"/assets/shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                 </div>
                 <div className={"text-block-name"}>Our Services</div>
               </div>
@@ -19,7 +19,7 @@ export default function OursServicesSection() {
               <div className={"ours-services-dectlies-top-left-wrap"}>
                 <div data-wf--section-label--variant={"style-one"} data-wf-component-id={"baea7480-3228-dedc-fd06-20620fd6c93a"} data-wf-variant-state={"0e6766d8-b805-913b-d4e9-8050c5c31653"} className={"section-label w-variant-0e6766d8-b805-913b-d4e9-8050c5c31653"}>
                   <div className={"text-icon-box"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6a982a5cacb93b89817e14cf_Ellipse_2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
+                    <img src={"/assets/shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                   </div>
                   <div className={"text-block-name w-variant-0e6766d8-b805-913b-d4e9-8050c5c31653"}>Overview</div>
                 </div>
@@ -38,7 +38,7 @@ export default function OursServicesSection() {
                     </div>
                   </div>
                   <div className={"ours-services-dectlies-card-icon-wrap"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa9226d7d9665a542774b01_camera.svg"} loading={"lazy"} className={"contain-size-image"} />
+                    <img src={"/assets/shared/camera.svg"} loading={"lazy"} className={"contain-size-image"} />
                   </div>
                 </div>
                 <div className={"ours-services-dectlies-card-text-wrapper"}>
@@ -54,7 +54,7 @@ export default function OursServicesSection() {
                     </div>
                   </div>
                   <div className={"ours-services-dectlies-card-icon-wrap"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa9227b4e5b7ed3cedb27be_user-group.svg"} loading={"lazy"} className={"contain-size-image"} />
+                    <img src={"/assets/shared/user-group.svg"} loading={"lazy"} className={"contain-size-image"} />
                   </div>
                 </div>
                 <div className={"ours-services-dectlies-card-text-wrapper"}>
@@ -70,7 +70,7 @@ export default function OursServicesSection() {
                     </div>
                   </div>
                   <div className={"ours-services-dectlies-card-icon-wrap"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa9228425483970bb44588c_play.svg"} loading={"lazy"} className={"contain-size-image"} />
+                    <img src={"/assets/shared/play.svg"} loading={"lazy"} className={"contain-size-image"} />
                   </div>
                 </div>
                 <div className={"ours-services-dectlies-card-text-wrapper"}>
@@ -86,7 +86,7 @@ export default function OursServicesSection() {
                     </div>
                   </div>
                   <div className={"ours-services-dectlies-card-icon-wrap"}>
-                    <img src={"/sites/relab-0c02b053/_pool/6aa9229bedeebdc673fb7f3f_presentation-chart-line.svg"} loading={"lazy"} className={"contain-size-image"} />
+                    <img src={"/assets/shared/presentation-chart-line.svg"} loading={"lazy"} className={"contain-size-image"} />
                   </div>
                 </div>
                 <div className={"ours-services-dectlies-card-text-wrapper"}>

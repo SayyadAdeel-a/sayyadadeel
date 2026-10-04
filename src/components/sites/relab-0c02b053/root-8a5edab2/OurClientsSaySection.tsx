@@ -5,13 +5,13 @@ export default function OurClientsSaySection() {
         <div className={"our-clients-say-wrapper"}>
           <div className={"our-clients-say-wrap"}>
             <div fade-up={"true"} className={"our-clients-say-icon-wrap"}>
-              <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9ea0a1181738baed1d49ac_Group_37387.svg"} loading={"lazy"} className={"contain-size-image"} />
+              <img src={"/assets/home/14-our-clients-say/contain-size-image-group-37387.svg"} loading={"lazy"} className={"contain-size-image"} />
             </div>
             <div className={"loved-by-creators-wrapper"}>
               <div fade-up={"true"} className={"loved-by-creators-wrap"}>
                 <h2 className={"h5"}>Results</h2>
                 <div className={"loved-by-creators-button-wrap"}>
-                  <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9ea1b4a1674256292179c1_Frame_2147262259.svg"} loading={"lazy"} className={"contain-size-image"} />
+                  <img src={"/assets/home/14-our-clients-say/contain-size-image-frame-2147262259.svg"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
                 <div className={"h5"}>Stories</div>
               </div>
@@ -25,7 +25,7 @@ export default function OurClientsSaySection() {
                   </div>
                   <div className={"client-stories-autor-wrapper"}>
                     <div className={"client-stories-autore-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9ea0a0ad2bc6356a647323_Rectangle_1742.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
+                      <img src={"/assets/home/14-our-clients-say/contain-size-image-rectangle-1742.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-default blold-meddle"}>
                       {"Emma Wilson "}
@@ -40,7 +40,7 @@ export default function OurClientsSaySection() {
                   </div>
                   <div className={"client-stories-autor-wrapper"}>
                     <div className={"client-stories-autore-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9ea0a0fa68864c1a4bc7a3_Rectangle_1742__1_.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
+                      <img src={"/assets/home/14-our-clients-say/rectangle-1742-1.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-default blold-meddle"}>
                       {"David Kim "}
@@ -55,7 +55,7 @@ export default function OurClientsSaySection() {
                   </div>
                   <div className={"client-stories-autor-wrapper"}>
                     <div className={"client-stories-autore-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9ea0a077ebb129cf84c276_Rectangle_1742__2_.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
+                      <img src={"/assets/home/14-our-clients-say/rectangle-1742-2.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-default blold-meddle"}>
                       {"Sophia Martinez "}
@@ -70,7 +70,7 @@ export default function OurClientsSaySection() {
                   </div>
                   <div className={"client-stories-autor-wrapper"}>
                     <div className={"client-stories-autore-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9ea0a08c88ce908594da3c_Rectangle_1742__3_.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
+                      <img src={"/assets/home/14-our-clients-say/rectangle-1742-3.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-default blold-meddle"}>
                       {"John Smith "}
@@ -87,7 +87,7 @@ export default function OurClientsSaySection() {
                   </div>
                   <div className={"client-stories-autor-wrapper"}>
                     <div className={"client-stories-autore-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9ea09e1e63867793c6bbab_Rectangle_1742__4_.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
+                      <img src={"/assets/home/14-our-clients-say/rectangle-1742-4.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-default blold-meddle"}>
                       {"Olivia Brown "}
@@ -102,7 +102,7 @@ export default function OurClientsSaySection() {
                   </div>
                   <div className={"client-stories-autor-wrapper"}>
                     <div className={"client-stories-autore-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9ea09e60ed565111acaa5b_Rectangle_1742__5_.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
+                      <img src={"/assets/home/14-our-clients-say/rectangle-1742-5.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-default blold-meddle"}>
                       {"Ava Thompson "}
@@ -117,7 +117,7 @@ export default function OurClientsSaySection() {
                   </div>
                   <div className={"client-stories-autor-wrapper"}>
                     <div className={"client-stories-autore-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9ea09eb5fdf498c9663bbf_Rectangle_1742__6_.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
+                      <img src={"/assets/home/14-our-clients-say/rectangle-1742-6.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-default blold-meddle"}>
                       {"Noah Anderson "}
@@ -132,7 +132,7 @@ export default function OurClientsSaySection() {
                   </div>
                   <div className={"client-stories-autor-wrapper"}>
                     <div className={"client-stories-autore-image-wrap"}>
-                      <img src={"/sites/relab-0c02b053/root-8a5edab2/6a9ea09e7436cd15029b9da1_Rectangle_1742__7_.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
+                      <img src={"/assets/home/14-our-clients-say/rectangle-1742-7.avif"} loading={"lazy"} alt={"Card Autor Image"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-default blold-meddle"}>
                       {"Liam Walker "}

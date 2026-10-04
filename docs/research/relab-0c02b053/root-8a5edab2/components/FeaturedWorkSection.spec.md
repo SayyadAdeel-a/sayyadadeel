@@ -126,16 +126,16 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a9d62e8c1a2b5123a02ed40_Vector.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6aa53cb2a0a0a0b60d99c8fa_sparkles-01.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6aa53cc749fe53fce8fc7983_swatch-02.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6aa53cd66e6e05b105594401_bolt.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa53173d36b309d88b07d33_Frame_2147262233_2_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa53173d36b309d88b07d33_Frame_2147262233_2_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa531adac93082b8a677f55_Frame_2147262233_1_-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa531adac93082b8a677f55_Frame_2147262233_1_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa531dae24fcce9483ab513_Frame_2147262233-p-500.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/variants/6aa531dae24fcce9483ab513_Frame_2147262233.avif`
+- `/assets/home/07-featured-work/vector.svg`
+- `/assets/home/07-featured-work/sparkles-01.svg`
+- `/assets/home/07-featured-work/swatch-02.svg`
+- `/assets/home/07-featured-work/bolt.svg`
+- `/assets/home/07-featured-work/frame-2147262233-2-p-500.avif`
+- `/assets/home/07-featured-work/frame-2147262233-2.avif`
+- `/assets/home/07-featured-work/frame-2147262233-1-p-500.avif`
+- `/assets/home/07-featured-work/frame-2147262233-1.avif`
+- `/assets/home/07-featured-work/frame-2147262233-p-500.avif`
+- `/assets/home/07-featured-work/cover-size-image-frame-2147262233.avif`
 
 ## Responsive behaviour
 

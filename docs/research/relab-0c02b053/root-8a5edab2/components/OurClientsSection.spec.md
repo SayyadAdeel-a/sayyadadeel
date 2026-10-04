@@ -190,14 +190,14 @@ Probed at 1440x900 after the page settled.
 
 ## Assets
 
-- `/sites/relab-0c02b053/root-8a5edab2/6a981fcef021f70122389ff5_Arrow_1.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9e60ad3812883238ca791d_Logo__3_.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9e60ad3812883238ca795d_Logo__2_.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9e60add5457a941f52fe16_logo.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9e60ade26234b20c2489a8_logo__1_.svg`
-- `/sites/relab-0c02b053/root-8a5edab2/6a9e62ede26234b20c25a416_Ellipse_2468.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6aa25a61e5426cd7f84f51c5_Ellipse_2468__1_.avif`
-- `/sites/relab-0c02b053/root-8a5edab2/6aa25a61f4068703fc2b17c0_Ellipse_2468__3_.avif`
+- `/assets/home/_shared/arrow-1.svg`
+- `/assets/home/10-our-clients/logo-3.svg`
+- `/assets/home/10-our-clients/logo-2.svg`
+- `/assets/home/10-our-clients/logo.svg`
+- `/assets/home/10-our-clients/logo-1.svg`
+- `/assets/home/10-our-clients/ellipse-2468.avif`
+- `/assets/home/10-our-clients/ellipse-2468-1.avif`
+- `/assets/home/10-our-clients/ellipse-2468-3.avif`
 
 ## Responsive behaviour
 
