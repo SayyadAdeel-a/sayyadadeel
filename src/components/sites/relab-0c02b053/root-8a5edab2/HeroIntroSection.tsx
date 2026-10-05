@@ -54,10 +54,10 @@ export default function HeroIntroSection() {
                   <img src={"/assets/home/03-hero-intro/linkedin.svg"} loading={"eager"} hover-child={"ture"} alt={"LinkedIn"} className={"contain-size-image"} />
                 </a>
                 <a hover-priend={"ture"} href={"https://www.instagram.com/adeelsayyad.a/"} target={"_blank"} className={"social-icon-wrap social-icon-one w-inline-block"}>
-                  <img src={"/assets/home/03-hero-intro/github.svg"} loading={"eager"} hover-child={"ture"} alt={"GitHub"} className={"contain-size-image"} />
+                  <img src={"/assets/home/03-hero-intro/instagram.svg"} loading={"eager"} hover-child={"ture"} alt={"Instagram"} className={"contain-size-image"} />
                 </a>
                 <a hover-priend={"ture"} href={"https://github.com/SayyadAdeel-a"} target={"_blank"} className={"social-icon-wrap social-icon-three w-inline-block"}>
-                  <img src={"/assets/home/03-hero-intro/instagram.svg"} loading={"eager"} hover-child={"ture"} alt={"Instagram"} className={"contain-size-image"} />
+                  <img src={"/assets/home/03-hero-intro/github.svg"} loading={"eager"} hover-child={"ture"} alt={"GitHub"} className={"contain-size-image"} />
                 </a>
               </div>
               <div data-wf--text-title-box--variant={"style-three"} className={"text-title-box w-variant-1ce6a300-c56b-b249-976c-c916f0b4e22c"}>
