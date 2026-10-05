@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "404 - Relab Webflow HTML Website Template",
     description: "The page you’re looking for could not be found. Return to the Relab website to explore services, case studies, blogs, pricing, contact information, and more.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009c/6aad1684503d1bf2692ca802_Thumbnail.jpg"],
+    images: ["/assets/shared/thumbnail-2.jpg"],
   },
 };
 

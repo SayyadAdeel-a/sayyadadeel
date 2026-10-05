@@ -990,19 +990,11 @@ export default function InteractionsRuntime() {
 
       /* ================================================================ *
        * 18. Webflow marketplace template bar (hover pop)
-       * ================================================================ */
-      for (const el of $(".template-buttons-wrapper > *")) {
-        const onEnter = () =>
-          g.to(el, { scale: 0.8, duration: 0.6, ease: "power1.out" });
-        const onLeave = () =>
-          g.to(el, { scale: 1, duration: 0.6, ease: "power1.out" });
-        el.addEventListener("mouseenter", onEnter);
-        el.addEventListener("mouseleave", onLeave);
-        track(() => {
-          el.removeEventListener("mouseenter", onEnter);
-          el.removeEventListener("mouseleave", onLeave);
-        });
-      }
+       * ================================================================ *
+       * Removed. The bar linked to the template author's storefront, so the
+       * component went with it and this binding had nothing left to select. Kept
+       * as a note because the numbering of the sections below still refers to
+       * the original Webflow interaction order, and 18 is now a gap. */
 
       ST.refresh();
       triggers.push(...ST.getAll());

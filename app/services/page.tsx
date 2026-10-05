@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Services - Relab Webflow HTML Website Template",
     description: "Present your expertise with the Relab Services page, a modern Webflow layout designed to showcase your services, capabilities, solutions, and value.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009c/6aad1684503d1bf2692ca802_Thumbnail.jpg"],
+    images: ["/assets/shared/thumbnail-2.jpg"],
   },
 };
 

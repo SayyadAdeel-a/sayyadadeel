@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "How To Work Viewers In The First 3 Seconds",
     description: "Dive into insightful articles, industry trends, and proven strategies crafted to spark ideas and drive better decisions.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aa634ac8a03456c2a490dc9_Frame%202147262476%20(2).avif"],
+    images: ["/assets/home/15-insights-ideas/frame-2147262476-2.avif"],
   },
 };
 

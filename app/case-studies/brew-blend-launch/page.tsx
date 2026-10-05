@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Brew & Blend Launch",
     description: "A creator-driven product launch that sparked conversations, increased brand awareness, and generated strong organic engagement on TikTok.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aad105d949e67bdf38b054c_Frame%202147262233%20(5).avif"],
+    images: ["/assets/case-studies/01-case-studies/frame-2147262233-5.avif"],
   },
 };
 

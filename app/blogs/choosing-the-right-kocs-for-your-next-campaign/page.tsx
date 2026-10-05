@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Choosing The Right KOCs For Your Next Campaign",
     description: "Stay ahead with expert perspectives, emerging trends, and practical insights that turn ideas into meaningful opportunities.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aa63490df53d8544603abca_image%2019269.avif"],
+    images: ["/assets/home/15-insights-ideas/cover-size-image-image-19269.avif"],
   },
 };
 

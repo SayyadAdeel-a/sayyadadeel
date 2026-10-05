@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "License - Relab Webflow HTML Website Template",
     description: "Review the Relab license information to understand the permitted use, customization, and distribution terms for this Webflow website template and assets.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009c/6aad1684503d1bf2692ca802_Thumbnail.jpg"],
+    images: ["/assets/shared/thumbnail-2.jpg"],
   },
 };
 

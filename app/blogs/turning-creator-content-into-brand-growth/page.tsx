@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Turning Creator Content Into Brand Growth",
     description: "Discover fresh ideas, expert insights, and practical strategies to help you stay informed, inspired, and ahead of what’s next.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aa634cddb3c69b57e16e508_Frame%202147262476%20(1).avif"],
+    images: ["/assets/blogs/01-blog/frame-2147262476-1.avif"],
   },
 };
 

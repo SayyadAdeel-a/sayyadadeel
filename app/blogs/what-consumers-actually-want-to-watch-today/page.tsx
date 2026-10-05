@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "What Consumers Actually Want To Watch Today",
     description: "Read thoughtful perspectives, uncover new trends, and discover practical strategies to inspire progress and spark new ideas.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aa634709d6eda94f1a41ab4_image%2019271.avif"],
+    images: ["/assets/blogs/01-blog/cover-size-image-image-19271.avif"],
   },
 };
 

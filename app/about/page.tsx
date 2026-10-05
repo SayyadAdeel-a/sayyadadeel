@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About - Relab Webflow HTML Website Template",
     description: "Tell your story with the Relab About page, a clean Webflow layout designed to showcase your brand, team, values, experience, and creative approach.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009c/6aad1684503d1bf2692ca802_Thumbnail.jpg"],
+    images: ["/assets/shared/thumbnail-2.jpg"],
   },
 };
 

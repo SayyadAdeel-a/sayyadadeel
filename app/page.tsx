@@ -15,7 +15,6 @@ import OurClientsSaySection from "@/components/sites/relab-0c02b053/root-8a5edab
 import InsightsIdeasSection from "@/components/sites/relab-0c02b053/root-8a5edab2/InsightsIdeasSection";
 import CtaSection from "@/components/sites/relab-0c02b053/root-8a5edab2/CtaSection";
 import FooterSection from "@/components/sites/relab-0c02b053/root-8a5edab2/FooterSection";
-import TemplateButtons from "@/components/sites/relab-0c02b053/root-8a5edab2/TemplateButtons";
 import InteractionsRuntime from "@/components/sites/relab-0c02b053/shared/InteractionsRuntime";
 
 /**
@@ -43,7 +42,6 @@ export default function Home() {
       <InsightsIdeasSection />
       <CtaSection />
       <FooterSection />
-      <TemplateButtons />
       <InteractionsRuntime />
     </>
   );

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Behind Every High-Performing Influencer Campaign",
     description: "Explore valuable insights, fresh perspectives, and practical ideas that keep you informed, inspired, and ready for what’s ahead.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aa634567b55c753b1614ad0_image%2019287.avif"],
+    images: ["/assets/blogs/01-blog/cover-size-image-image-19287.avif"],
   },
 };
 

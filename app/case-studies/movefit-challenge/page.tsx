@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MoveFit Challenge",
     description: "A multi-platform creator campaign designed to increase community participation and product visibility.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aad104d6262875e79d8e93a_Frame%202147262233%20(4).avif"],
+    images: ["/assets/case-studies/01-case-studies/frame-2147262233-4.avif"],
   },
 };
 

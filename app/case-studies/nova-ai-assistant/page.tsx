@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nova AI Assistant",
     description: "Strategic creator partnerships showcased real product use cases, helping the brand build trust and accelerate user acquisition.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aad106baf4b67d2946bfce7_Frame%202147262233%20(6).avif"],
+    images: ["/assets/case-studies/01-case-studies/frame-2147262233-6.avif"],
   },
 };
 

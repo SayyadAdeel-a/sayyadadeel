@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Short-Form Video Production",
     description: "Create engaging vertical videos tailored for today&#x27;s fastest-growing platforms. From creative direction to final delivery, we produce content that captures attention and drives results.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aa28c56f09a69f4dccdd83c_Frame%202147238602%20(3).avif"],
+    images: ["/assets/home/05-solutions-slider/frame-2147238602-3.avif"],
   },
 };
 

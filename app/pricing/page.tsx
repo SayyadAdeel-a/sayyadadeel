@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pricing - Relab Webflow HTML Website Template",
     description: "Present your plans with the Relab Pricing page, a clean Webflow layout designed to organize packages, features, pricing details, and calls to action.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009c/6aad1684503d1bf2692ca802_Thumbnail.jpg"],
+    images: ["/assets/shared/thumbnail-2.jpg"],
   },
 };
 

@@ -9,15 +9,15 @@ export default function HeroIntroSection() {
             <div id={"w-node-_60d8db18-c147-845d-080a-ad69259b9794-3a890071"} className={"hero-intro-left-wrapper"}>
               <div className={"hero-intro-left-wrap"}>
                 <div className={"redal-text-wrap"}>
-                  <div className={"display-text-two"}>80+</div>
+                  <div className={"display-text-two"}>01</div>
                 </div>
                 <div className={"hero-intro-line"} />
                 <div className={"agency-hero-dectlies-box"}>
-                  <div className={"text-small"}>Creators to help brands scale through authentic short-form content.</div>
+                  <div className={"text-small"}>Just a curious student always exploring ideas still learning.</div>
                 </div>
               </div>
               <div data-wf--text-title-box--variant={"style-three"} className={"text-title-box w-variant-1ce6a300-c56b-b249-976c-c916f0b4e22c"}>
-                <div className={"text-mediums"}>Performance Driven</div>
+                <div className={"text-mediums"}>Curiosity Driven</div>
               </div>
             </div>
             <div className={"hero-intro-meddle-wrap"}>
@@ -45,23 +45,23 @@ export default function HeroIntroSection() {
                 <div love-child={"ture"} className={"love-icon"}>
                   <img src={"/assets/home/_shared/contain-size-image-image-235.svg"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
-                <div className={"text-small"}>Cool!</div>
+                <div className={"text-small"}>Adeel!</div>
               </div>
             </div>
             <div id={"w-node-_76f638c2-031c-84b3-0753-06f4b7309c79-3a890071"} className={"hero-intro-right-wrapper"}>
               <div className={"hero-intro-right-wrap"}>
-                <a hover-priend={"ture"} href={"https://www.tiktok.com/en/"} target={"_blank"} className={"social-icon-wrap w-inline-block"}>
-                  <img src={"/assets/home/03-hero-intro/contain-size-image-image.svg"} loading={"eager"} hover-child={"ture"} alt={"All Image"} className={"contain-size-image"} />
+                <a hover-priend={"ture"} href={"https://www.linkedin.com/in/adeelsayyad/"} target={"_blank"} className={"social-icon-wrap w-inline-block"}>
+                  <img src={"/assets/home/03-hero-intro/linkedin.svg"} loading={"eager"} hover-child={"ture"} alt={"LinkedIn"} className={"contain-size-image"} />
                 </a>
-                <a hover-priend={"ture"} href={"https://www.instagram.com/"} target={"_blank"} className={"social-icon-wrap social-icon-one w-inline-block"}>
-                  <img src={"/assets/home/03-hero-intro/contain-size-image-group-37385.svg"} loading={"eager"} hover-child={"ture"} alt={"All Image"} className={"contain-size-image"} />
+                <a hover-priend={"ture"} href={"https://www.instagram.com/adeelsayyad.a/"} target={"_blank"} className={"social-icon-wrap social-icon-one w-inline-block"}>
+                  <img src={"/assets/home/03-hero-intro/github.svg"} loading={"eager"} hover-child={"ture"} alt={"GitHub"} className={"contain-size-image"} />
                 </a>
-                <a hover-priend={"ture"} href={"https://www.youtube.com/"} target={"_blank"} className={"social-icon-wrap social-icon-three w-inline-block"}>
-                  <img src={"/assets/home/03-hero-intro/contain-size-image-group-37384.svg"} loading={"eager"} hover-child={"ture"} alt={"All Image"} className={"contain-size-image"} />
+                <a hover-priend={"ture"} href={"https://github.com/SayyadAdeel-a"} target={"_blank"} className={"social-icon-wrap social-icon-three w-inline-block"}>
+                  <img src={"/assets/home/03-hero-intro/instagram.svg"} loading={"eager"} hover-child={"ture"} alt={"Instagram"} className={"contain-size-image"} />
                 </a>
               </div>
               <div data-wf--text-title-box--variant={"style-three"} className={"text-title-box w-variant-1ce6a300-c56b-b249-976c-c916f0b4e22c"}>
-                <div className={"text-mediums"}>Multi-Platform Reach</div>
+                <div className={"text-mediums"}>Online Presence</div>
               </div>
             </div>
           </div>
@@ -72,12 +72,12 @@ export default function HeroIntroSection() {
                   <img src={"/assets/home/03-hero-intro/frame-13-1.avif"} loading={"lazy"} className={"cover-size-image"} />
                 </div>
                 <div className={"hero-intro-card-text-wrap"}>
-                  <h2 className={"h6"}>Jack Daniels</h2>
+                  <h2 className={"h6"}>Sayyad Adeel</h2>
                   <div className={"hero-intro-card-icon-text-wrap"}>
                     <div className={"hero-intro-card-icon"}>
                       <img src={"/assets/home/03-hero-intro/music-25.svg"} loading={"lazy"} className={"all-image"} />
                     </div>
-                    <div className={"text-default rgb10"}>285K Followers</div>
+                    <div className={"text-default rgb10"}>Just Me</div>
                   </div>
                 </div>
               </div>
@@ -97,12 +97,12 @@ export default function HeroIntroSection() {
                   <img src={"/assets/home/03-hero-intro/frame-13-2.avif"} loading={"lazy"} className={"cover-size-image"} />
                 </div>
                 <div className={"hero-intro-card-text-wrap"}>
-                  <h3 className={"h6"}>Leo Carter</h3>
+                  <h3 className={"h6"}>Curious Side</h3>
                   <div className={"hero-intro-card-icon-text-wrap"}>
                     <div className={"hero-intro-card-icon"}>
                       <img src={"/assets/home/03-hero-intro/music-25.svg"} loading={"lazy"} className={"all-image"} />
                     </div>
-                    <div className={"text-default rgb10"}>520K Subscribers</div>
+                    <div className={"text-default rgb10"}>Always Exploring</div>
                   </div>
                 </div>
               </div>
@@ -122,12 +122,12 @@ export default function HeroIntroSection() {
                   <img src={"/assets/home/03-hero-intro/frame-13-3.avif"} loading={"lazy"} className={"cover-size-image"} />
                 </div>
                 <div className={"hero-intro-card-text-wrap"}>
-                  <h4 className={"h6"}>Mason Reed</h4>
+                  <h4 className={"h6"}>Casual Side</h4>
                   <div className={"hero-intro-card-icon-text-wrap"}>
                     <div className={"hero-intro-card-icon"}>
                       <img src={"/assets/home/03-hero-intro/music-25.svg"} loading={"lazy"} className={"all-image"} />
                     </div>
-                    <div className={"text-default rgb10"}>168K Followers</div>
+                    <div className={"text-default rgb10"}>Still Learning</div>
                   </div>
                 </div>
               </div>

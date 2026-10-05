@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Changelog - Relab Webflow HTML Website Template",
     description: "View the Relab changelog for a clear record of template updates, improvements, fixes, new features, and other changes across different releases and versions.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009c/6aad1684503d1bf2692ca802_Thumbnail.jpg"],
+    images: ["/assets/shared/thumbnail-2.jpg"],
   },
 };
 

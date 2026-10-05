@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Urban Streetwear",
     description: "Lifestyle creators helped the brand boost engagement and drive awareness with short-form video storytelling.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aad1109ef9322d53f42b675_Frame%202147262233%20(3)%20(1).avif"],
+    images: ["/assets/case-studies/01-case-studies/frame-2147262233-3-1.avif"],
   },
 };
 

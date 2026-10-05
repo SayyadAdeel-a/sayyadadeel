@@ -43,13 +43,20 @@ const interTight = Inter_Tight({
 /**
  * Absolute base for Open Graph / Twitter card URLs.
  *
- * Next resolves the relative `openGraph.images` and `icons` entries against this.
- * It was hardcoded to the reference site, so on any real deployment every share
- * image URL pointed at Webflow's CDN instead of ours. Set `NEXT_PUBLIC_SITE_URL`
- * in the deployment environment; the fallback keeps local builds working.
+ * Next resolves the relative `openGraph.images` and `icons` entries against this,
+ * so it has to be set for them to resolve at all.
+ *
+ * It used to fall back to the reference site, which meant that on any deployment
+ * without `NEXT_PUBLIC_SITE_URL` set, every canonical URL and every share image
+ * resolved to Webflow rather than to us. The fallback is now the local preview
+ * origin that the QA harness uses, so an unset variable fails visibly -- a
+ * localhost canonical in production is obviously wrong -- instead of quietly
+ * sending readers and crawlers to Webflow.
+ *
+ * **Set `NEXT_PUBLIC_SITE_URL` in the Vercel project** to the deployed origin,
+ * with no trailing slash, or the canonical and share URLs will be wrong.
  */
-const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://relab-template.webflow.io";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3100";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

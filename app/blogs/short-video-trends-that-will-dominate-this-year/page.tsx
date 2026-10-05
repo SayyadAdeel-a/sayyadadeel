@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Short Video Trends That Will Dominate This Year",
     description: "Explore insightful blog articles, expert perspectives, and practical ideas designed to inform, inspire, and help you discover new strategies and trends.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aa634e661c149577fcae2b9_Frame%202147262476.avif"],
+    images: ["/assets/blogs/01-blog/cover-size-image-frame-2147262476.avif"],
   },
 };
 

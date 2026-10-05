@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Creator Partnerships",
     description: "We connect your brand with carefully selected creators whose audience, style, and voice align with your campaign objectives.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aa28b33a6836f0d1c8ff74d_Frame%202147238602.avif"],
+    images: ["/assets/home/05-solutions-slider/cover-size-image-frame-2147238602.avif"],
   },
 };
 

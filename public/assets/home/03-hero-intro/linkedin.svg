@@ -1,0 +1,36 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.25" filter="url(#filter0_f_linkedin)">
+<rect x="9.6416" y="31.9999" width="43.5982" height="27.2489" rx="13.6245" fill="url(#paint0_linear_linkedin)"/>
+</g>
+<rect x="8.32031" y="8.31982" width="47.2314" height="47.2314" rx="19.2" fill="url(#paint1_linear_linkedin)"/>
+<g filter="url(#filter1_i_linkedin)">
+<g transform="translate(19 19) scale(1.0833333)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_linkedin" x="6.1472" y="28.5055" width="50.5874" height="34.2377" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.7472" result="effect1_foregroundBlur_linkedin"/>
+</filter>
+<filter id="filter1_i_linkedin" x="17" y="17" width="30" height="30" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.32"/>
+<feGaussianBlur stdDeviation="0.8"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_linkedin"/>
+</filter>
+<linearGradient id="paint0_linear_linkedin" x1="34.4539" y1="60.0614" x2="25.5671" y2="28.7386" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0077B5"/>
+<stop offset="1" stop-color="#0A66C2"/>
+</linearGradient>
+<linearGradient id="paint1_linear_linkedin" x1="35.2003" y1="56.9598" x2="13.1203" y2="8.31982" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0077B5"/>
+<stop offset="1" stop-color="#0A66C2"/>
+</linearGradient>
+</defs>
+</svg>

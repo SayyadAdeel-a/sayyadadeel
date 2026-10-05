@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Campaign Management",
     description: "End-to-end campaign execution including creator outreach, timelines, approvals, publishing, and performance reporting.",
-    images: ["https://cdn.prod.website-files.com/6a97e757adfa59f93a89009e/6aa28aa3a168d28d08a316b2_Frame%202147238602%20(1).avif"],
+    images: ["/assets/home/05-solutions-slider/frame-2147238602-1.avif"],
   },
 };
 
