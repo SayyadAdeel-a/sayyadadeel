@@ -41,7 +41,7 @@ export default function OurCreatorsSection() {
               <div group-fedup-phone={"ture"} id={"w-node-_94dcc96f-70de-ca3e-178c-5287b6060a77-3a890071"} className={"box-three"}>
                 <div className={"our-creators-box flex-round"}>
                   <div className={"our-creators-image-wrap image-three"}>
-                    <img src={"/assets/home/_shared/cover-size-image-image-2037.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/_shared/image-2037-p-500.avif 500w, /assets/home/_shared/image-2037-p-800.avif 800w, /assets/home/_shared/image-2037-p-1080.avif 1080w, /assets/home/_shared/cover-size-image-image-2037.avif 1320w"} alt={"Team Member Images"} className={"cover-size-image"} />
+                    <img src={"/assets/home/04-our-creators/experimenting.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/04-our-creators/experimenting-p-500.avif 500w, /assets/home/04-our-creators/experimenting-p-800.avif 800w, /assets/home/04-our-creators/experimenting-p-1080.avif 1080w, /assets/home/04-our-creators/experimenting.avif 1320w"} alt={"Team Member Images"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-creators-item-box textoy-box"}>
                     <div className={"our-creators-item-icon"}>
