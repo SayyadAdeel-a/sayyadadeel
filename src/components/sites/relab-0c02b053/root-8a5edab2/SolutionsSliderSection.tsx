@@ -68,17 +68,17 @@ export default function SolutionsSliderSection() {
                                     <img src={"/assets/home/05-solutions-slider/noodle-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                                   </div>
                                   <div text-box-child={"ture"} className={"slide-creators-image-text-wrap card-text-one"}>
-                                    <div className={"text-default font-three meddel-blod"}>+320</div>
-                                    <div className={"text-default font-three"}>Followers</div>
+                                    <div className={"text-default font-three meddel-blod"}>{"Sweet UI "}</div>
+                                    <div className={"text-default font-three"}>Fun Build</div>
                                   </div>
                                   <div className={"slide-creators-image-priend-wrap"}>
-                                    <img src={"/assets/home/05-solutions-slider/frame-2147238602-3.avif"} loading={"lazy"} alt={"Slider Image"} sizes={"100vw"} srcSet={"/assets/home/05-solutions-slider/frame-2147238602-3-p-500.avif 500w, /assets/home/05-solutions-slider/frame-2147238602-3.avif 652w"} className={"cover-size-image"} />
+                                    <img src={"/assets/home/05-solutions-slider/donut-website.avif"} loading={"lazy"} alt={"Slider Image"} sizes={"100vw"} srcSet={"/assets/home/05-solutions-slider/donut-website-p-500.avif 500w, /assets/home/05-solutions-slider/donut-website.avif 652w"} className={"cover-size-image"} />
                                   </div>
                                   <div className={"slide-creators-image-love-wrap love-text-one"}>
                                     <div love-child={"ture"} className={"love-icon"}>
                                       <img src={"/assets/home/_shared/contain-size-image-image-235.svg"} loading={"lazy"} className={"contain-size-image"} />
                                     </div>
-                                    <div className={"display-six"}>Cool!</div>
+                                    <div className={"display-six"}>Store Design</div>
                                   </div>
                                   <div contain-right-move-child={"ture"} className={"slide-creators-image-right-wrap"}>
                                     <img src={"/assets/home/05-solutions-slider/ring-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
@@ -139,17 +139,17 @@ export default function SolutionsSliderSection() {
                                     <img src={"/assets/home/05-solutions-slider/ring-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                                   </div>
                                   <div text-box-child={"ture"} className={"slide-creators-image-text-wrap card-text-two"}>
-                                    <div className={"text-default font-three meddel-blod"}>Clients</div>
-                                    <div className={"text-default font-three"}>{"120 "}</div>
+                                    <div className={"text-default font-three meddel-blod"}>{"Clean Layout "}</div>
+                                    <div className={"text-default font-three"}>Store Flow</div>
                                   </div>
                                   <div className={"slide-creators-image-priend-wrap"}>
-                                    <img src={"/assets/home/05-solutions-slider/cover-size-image-frame-2147238602.avif"} loading={"lazy"} alt={"Slider Image"} sizes={"100vw"} srcSet={"/assets/home/05-solutions-slider/frame-2147238602-p-500.avif 500w, /assets/home/05-solutions-slider/cover-size-image-frame-2147238602.avif 652w"} className={"cover-size-image"} />
+                                    <img src={"/assets/home/05-solutions-slider/ecommerce-website.avif"} loading={"lazy"} alt={"Slider Image"} sizes={"100vw"} srcSet={"/assets/home/05-solutions-slider/ecommerce-website-p-500.avif 500w, /assets/home/05-solutions-slider/ecommerce-website.avif 652w"} className={"cover-size-image"} />
                                   </div>
                                   <div className={"slide-creators-image-love-wrap love-text-two"}>
                                     <div love-child={"ture"} className={"love-icon"}>
                                       <img src={"/assets/home/05-solutions-slider/contain-size-image-image-235.avif"} loading={"lazy"} className={"contain-size-image"} />
                                     </div>
-                                    <div className={"display-six"}>Let’s Collab</div>
+                                    <div className={"display-six"}>Product Grid</div>
                                   </div>
                                   <div contain-right-move-child={"ture"} className={"slide-creators-image-right-wrap slide-image-two"}>
                                     <img src={"/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
@@ -210,17 +210,17 @@ export default function SolutionsSliderSection() {
                                     <img src={"/assets/home/05-solutions-slider/noodle-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                                   </div>
                                   <div text-box-child={"ture"} className={"slide-creators-image-text-wrap card-text-three"}>
-                                    <div className={"text-default font-three meddel-blod"}>{"200 "}</div>
-                                    <div className={"text-default font-three"}>Projects</div>
+                                    <div className={"text-default font-three meddel-blod"}>{"Multi-Agent "}</div>
+                                    <div className={"text-default font-three"}>WIP</div>
                                   </div>
                                   <div className={"slide-creators-image-priend-wrap"}>
-                                    <img src={"/assets/home/05-solutions-slider/frame-2147238602-1.avif"} loading={"lazy"} alt={"Slider Image"} sizes={"100vw"} srcSet={"/assets/home/05-solutions-slider/frame-2147238602-1-p-500.avif 500w, /assets/home/05-solutions-slider/frame-2147238602-1.avif 652w"} className={"cover-size-image"} />
+                                    <img src={"/assets/home/05-solutions-slider/agentos.avif"} loading={"lazy"} alt={"Slider Image"} sizes={"100vw"} srcSet={"/assets/home/05-solutions-slider/agentos-p-500.avif 500w, /assets/home/05-solutions-slider/agentos.avif 652w"} className={"cover-size-image"} />
                                   </div>
                                   <div className={"slide-creators-image-love-wrap love-text-three"}>
                                     <div love-child={"ture"} className={"love-icon"}>
                                       <img src={"/assets/home/05-solutions-slider/contain-size-image-image-235.avif"} loading={"lazy"} className={"contain-size-image"} />
                                     </div>
-                                    <div className={"display-six"}>Let’s Collab</div>
+                                    <div className={"display-six"}>CLI Tool</div>
                                   </div>
                                   <div contain-right-move-child={"ture"} className={"slide-creators-image-right-wrap slide-image-right-three"}>
                                     <img src={"/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
