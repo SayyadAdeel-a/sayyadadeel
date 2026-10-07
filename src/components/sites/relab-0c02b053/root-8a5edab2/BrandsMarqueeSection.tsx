@@ -5,19 +5,19 @@ export default function BrandsMarqueeSection() {
         <div fade-up={"true"} className={"our-projects-wrapper"}>
           <div className={"our-projects-wrap"}>
             <div className={"our-projects-text-wrap"}>
-              <div className={"our-projects-name-text display-five"}>relab</div>
+              <div className={"our-projects-name-text display-five"}>adeel.</div>
               <div className={"our-projects-text-declies-wrap"}>
                 <div className={"display-02 white"}>
-                  {"Ready To Grow "}
+                  {"Got A Weird Idea "}
                   <br />
-                  With Short Videos?
+                  To Share?
                 </div>
               </div>
               <div className={"our-projects-text-button-wrap"}>
                 <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>
                   <div className={"button-text-wrap"}>
-                    <div className={"button-hover-text"}>Schedule a Call</div>
-                    <div className={"button-normal-text"}>Schedule a Call</div>
+                    <div className={"button-hover-text"}>Send A Message</div>
+                    <div className={"button-normal-text"}>Send A Message</div>
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
