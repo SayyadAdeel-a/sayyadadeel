@@ -11,12 +11,12 @@ export default function FooterSection() {
                 </a>
               </div>
               <div className={"footer-top-text-wrap"}>
-                <div className={"text-footer-header-wrap"}>Content That Drives Real Growth.</div>
+                <div className={"text-footer-header-wrap"}>Still Learning And Making Things.</div>
                 <div className={"footer-from-button-wrap footer-from-buttom-wrap"}>
                   <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>
                     <div className={"button-text-wrap"}>
-                      <div className={"button-hover-text"}>Fill The Form</div>
-                      <div className={"button-normal-text"}>Fill The Form</div>
+                      <div className={"button-hover-text"}>Explore My Work</div>
+                      <div className={"button-normal-text"}>Explore My Work</div>
                     </div>
                     <div className={"button-icon-box"}>
                       <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
@@ -50,7 +50,7 @@ export default function FooterSection() {
                   <div className={"w-form"}>
                     <form id={"email-form"} name={"email-form"} data-name={"Email Form"} method={"get"} data-wf-page-id={"6a97e757adfa59f93a890071"} data-wf-element-id={"6ca6d7b4-4f3d-39bb-3623-536092c536ed"}>
                       <div>
-                        <label htmlFor={"email"} className={"header-six"}>Newsletter</label>
+                        <label htmlFor={"email"} className={"header-six"}>Say Hello</label>
                         <div className={"emal-field-wrapper"}>
                           <input className={"emal-text-field w-input"} maxLength={256} name={"email"} data-name={"Email"} placeholder={"Email Address"} type={"email"} id={"email"} required />
                           <div className={"submit-button-wrapper"}>
@@ -86,7 +86,7 @@ export default function FooterSection() {
                   </div>
                 </div>
                 <div className={"link-wrapper"}>
-                  <div className={"text-name-link"}>Links</div>
+                  <div className={"text-name-link"}>Explore</div>
                   <div className={"link-wrap"}>
                     <a data-wf--text-button--variant={"base"} href={"/"} aria-current={"page"} className={"text-button w-inline-block w--current"}>
                       <div className={"text-button-normal-text"}>Home</div>
@@ -115,7 +115,7 @@ export default function FooterSection() {
                   </div>
                 </div>
                 <div className={"link-wrapper"}>
-                  <div className={"text-name-link"}>Utility</div>
+                  <div className={"text-name-link"}>More</div>
                   <div className={"link-wrap"}>
                     <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Contact</div>
