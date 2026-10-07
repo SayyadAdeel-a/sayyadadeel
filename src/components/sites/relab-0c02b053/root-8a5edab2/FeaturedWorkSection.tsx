@@ -12,10 +12,10 @@ export default function FeaturedWorkSection() {
                       <div className={"featured-work-header-text-wrap"}>
                         <div className={"featured-work-header-text-box"}>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>Fitness</div>
+                            <div className={"text-mediums"}>College</div>
                           </div>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>YouTube</div>
+                            <div className={"text-mediums"}>Learning</div>
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
@@ -23,10 +23,10 @@ export default function FeaturedWorkSection() {
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
-                        <h2 className={"h4"}>GlowSkin Launch</h2>
+                        <h2 className={"h4"}>Still Learning</h2>
                       </div>
                       <div className={"featured-work-header-text-dectlies"}>
-                        <div className={"text-medium rbg8"}>A creator-first product launch that generated millions of impressions through authentic beauty content.</div>
+                        <div className={"text-medium rbg8"}>Still a student, still exploring different interests, and slowly figuring out what I actually want to master.</div>
                       </div>
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
@@ -36,8 +36,8 @@ export default function FeaturedWorkSection() {
                       <div className={"featured-work-card-button-wrap"}>
                         <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/case-studies/glowskin-launch"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
                           <div className={"button-text-wrap"}>
-                            <div className={"button-hover-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read More</div>
-                            <div className={"button-normal-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read More</div>
+                            <div className={"button-hover-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
+                            <div className={"button-normal-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
                           </div>
                           <div className={"button-icon-box w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>
                             <div button-icon-anin-two={"ture"} className={"button-icon-wrap"}>
@@ -55,10 +55,10 @@ export default function FeaturedWorkSection() {
                       <div className={"featured-work-header-text-wrap"}>
                         <div className={"featured-work-header-text-box"}>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>Fitness</div>
+                            <div className={"text-mediums"}>Website</div>
                           </div>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>YouTube</div>
+                            <div className={"text-mediums"}>Experience</div>
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
@@ -66,10 +66,10 @@ export default function FeaturedWorkSection() {
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
-                        <h2 className={"h4"}>Urban Streetwear</h2>
+                        <h2 className={"h4"}>Real Work</h2>
                       </div>
                       <div className={"featured-work-header-text-dectlies"}>
-                        <div className={"text-medium rbg8"}>Lifestyle creators helped the brand boost engagement and drive awareness with short-form video storytelling.</div>
+                        <div className={"text-medium rbg8"}>Building real projects taught me how different things feel when an idea has to actually work.</div>
                       </div>
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
@@ -79,8 +79,8 @@ export default function FeaturedWorkSection() {
                       <div className={"featured-work-card-button-wrap"}>
                         <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/case-studies/urban-streetwear"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
                           <div className={"button-text-wrap"}>
-                            <div className={"button-hover-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read More</div>
-                            <div className={"button-normal-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read More</div>
+                            <div className={"button-hover-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
+                            <div className={"button-normal-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
                           </div>
                           <div className={"button-icon-box w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>
                             <div button-icon-anin-two={"ture"} className={"button-icon-wrap"}>
@@ -98,10 +98,10 @@ export default function FeaturedWorkSection() {
                       <div className={"featured-work-header-text-wrap"}>
                         <div className={"featured-work-header-text-box"}>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>Fitness</div>
+                            <div className={"text-mediums"}>Experiments</div>
                           </div>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>YouTube</div>
+                            <div className={"text-mediums"}>Lessons</div>
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
@@ -109,10 +109,10 @@ export default function FeaturedWorkSection() {
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
-                        <h2 className={"h4"}>MoveFit Challenge</h2>
+                        <h2 className={"h4"}>Lessons Learned</h2>
                       </div>
                       <div className={"featured-work-header-text-dectlies"}>
-                        <div className={"text-medium rbg8"}>A multi-platform creator campaign designed to increase community participation and product visibility.</div>
+                        <div className={"text-medium rbg8"}>Some ideas worked, some failed completely, but every attempt taught me something useful along the way.</div>
                       </div>
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
@@ -122,8 +122,8 @@ export default function FeaturedWorkSection() {
                       <div className={"featured-work-card-button-wrap"}>
                         <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/case-studies/movefit-challenge"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
                           <div className={"button-text-wrap"}>
-                            <div className={"button-hover-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read More</div>
-                            <div className={"button-normal-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read More</div>
+                            <div className={"button-hover-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
+                            <div className={"button-normal-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
                           </div>
                           <div className={"button-icon-box w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>
                             <div button-icon-anin-two={"ture"} className={"button-icon-wrap"}>
