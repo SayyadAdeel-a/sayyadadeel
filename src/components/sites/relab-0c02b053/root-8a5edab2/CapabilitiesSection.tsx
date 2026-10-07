@@ -10,10 +10,10 @@ export default function CapabilitiesSection() {
                   <div className={"text-icon-box"}>
                     <img src={"/assets/home/_shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                   </div>
-                  <div className={"text-block-name"}>Creative Capabilities</div>
+                  <div className={"text-block-name"}>Learning Corner</div>
                 </div>
               </div>
-              <h2 fade-up={"true"} className={"h2"}>Content That Converts Audiences</h2>
+              <h2 fade-up={"true"} className={"h2"}>Things I Keep Learning</h2>
             </div>
             <div className={"our-work-wrapper"}>
               <div className={"our-work-fast-wrapper"}>
@@ -22,8 +22,8 @@ export default function CapabilitiesSection() {
                     <img src={"/assets/home/08-capabilities/cover-size-image-frame-2147262414.avif"} loading={"lazy"} alt={"Work Image"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-text-wrap"}>
-                    <h3 className={"h5 white"}>Creator-Led Content</h3>
-                    <p className={"text-default white"}>Authentic short-form videos created by creators your audience already trusts.</p>
+                    <h3 className={"h5 white"}>Learning Through Building</h3>
+                    <p className={"text-default white"}>Most of what I learn comes from trying things myself, building something, and figuring out what breaks.</p>
                   </div>
                   <div className={"our-work-image-bg-wrap"} />
                 </div>
@@ -34,21 +34,21 @@ export default function CapabilitiesSection() {
                   <div className={"our-work-grdden-text-wrapper"}>
                     <div className={"item-wrapper fast-items"}>
                       <div className={"text-title-box item-one"}>
-                        <div className={"text-tab"}>UGC Videos</div>
+                        <div className={"text-tab"}>Claude Code</div>
                       </div>
                       <div className={"text-title-box item-two"}>
-                        <div className={"text-tab"}>Product Reviews</div>
+                        <div className={"text-tab"}>OpenCode Tools</div>
                       </div>
                     </div>
                     <div className={"text-title-box item-three"}>
-                      <div className={"text-tab"}>Unboxing</div>
+                      <div className={"text-tab"}>Supabase</div>
                     </div>
                     <div className={"item-wrapper last"}>
                       <div className={"text-title-box item-four"}>
-                        <div className={"text-tab"}>Day In Life</div>
+                        <div className={"text-tab"}>Git and GitHub</div>
                       </div>
                       <div className={"text-title-box item-five"}>
-                        <div className={"text-tab"}>GRWM</div>
+                        <div className={"text-tab"}>Next.js</div>
                       </div>
                     </div>
                   </div>
@@ -62,21 +62,21 @@ export default function CapabilitiesSection() {
                   <div className={"our-work-grdden-text-wrapper"}>
                     <div className={"item-wrapper"}>
                       <div className={"text-title-box item-one two-one"}>
-                        <div className={"text-tab"}>Awareness</div>
+                        <div className={"text-tab"}>Research</div>
                       </div>
                       <div className={"text-title-box item-two two-two"}>
-                        <div className={"text-tab"}>Conversions</div>
+                        <div className={"text-tab"}>Prototyping</div>
                       </div>
                     </div>
                     <div className={"text-title-box item-three two-three"}>
-                      <div className={"text-tab"}>Engagement</div>
+                      <div className={"text-tab"}>Design</div>
                     </div>
                     <div className={"item-wrapper last fast-items"}>
                       <div className={"text-title-box item-four two-four"}>
-                        <div className={"text-tab"}>Product Launch</div>
+                        <div className={"text-tab"}>Problem Solving</div>
                       </div>
                       <div className={"text-title-box item-five two-five"}>
-                        <div className={"text-tab"}>Community</div>
+                        <div className={"text-tab"}>Learning</div>
                       </div>
                     </div>
                   </div>
@@ -86,8 +86,8 @@ export default function CapabilitiesSection() {
                     <img src={"/assets/home/08-capabilities/cover-size-image-frame-2147262416.avif"} loading={"lazy"} alt={"Work Image"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-text-wrap"}>
-                    <h3 className={"h5 white"}>Campaign Strategy</h3>
-                    <p className={"text-default white"}>We build campaigns around your goals—from awareness to conversions.</p>
+                    <h3 className={"h5 white"}>Always Exploring</h3>
+                    <p className={"text-default white"}>Still learning, testing new tools, and slowly understanding how all the pieces fit together.</p>
                   </div>
                   <div className={"our-work-image-bg-wrap"} />
                 </div>
