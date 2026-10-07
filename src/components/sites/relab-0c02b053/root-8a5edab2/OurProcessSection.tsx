@@ -14,13 +14,13 @@ export default function OurProcessSection() {
                       <div className={"text-icon-box"}>
                         <img src={"/assets/home/_shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                       </div>
-                      <div className={"text-block-name w-variant-0e6766d8-b805-913b-d4e9-8050c5c31653"}>Our Process</div>
+                      <div className={"text-block-name w-variant-0e6766d8-b805-913b-d4e9-8050c5c31653"}>My Process</div>
                     </div>
                   </div>
-                  <h2 className={"h2 white"}>How We Turn Ideas Into Results</h2>
+                  <h2 className={"h2 white"}>How I Turn Ideas Into Projects</h2>
                 </div>
                 <div className={"our-process-text-dectlirs-wrap"}>
-                  <p className={"text-dectlies-card rbg5"}>Using audience insights and niche expertise, we handpick creators whose content style, voice, and community align with your brand.</p>
+                  <p className={"text-dectlies-card rbg5"}>I usually start with curiosity, explore how something works, build a small version, and learn from whatever happens next.</p>
                   <div className={"box-teams-nine-wrapper"} />
                 </div>
               </div>
@@ -36,8 +36,8 @@ export default function OurProcessSection() {
                           <h3 className={"h5 opactiy-10"}>01/03</h3>
                         </div>
                         <div className={"our-process-text-dectlies-wrap"}>
-                          <h4 className={"h5"}>Strategy & Discovery</h4>
-                          <div className={"text-default rgb-8"}>We begin by understanding your brand, audience, campaign goals and market needs.</div>
+                          <h4 className={"h5"}>Curiosity & Research</h4>
+                          <div className={"text-default rgb-8"}>I start by exploring the idea, understanding the problem, and figuring out what I need to learn.</div>
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
@@ -53,8 +53,8 @@ export default function OurProcessSection() {
                           <h3 className={"h5 opactiy-10"}>02/03</h3>
                         </div>
                         <div className={"our-process-text-dectlies-wrap"}>
-                          <h4 className={"h5"}>Creator Collaboration</h4>
-                          <div className={"text-default rgb-8"}>We connect brands with trusted creators who can tell authentic stories.</div>
+                          <h4 className={"h5"}>Build & Experiment</h4>
+                          <div className={"text-default rgb-8"}>I make a small version, test different approaches, break things, and slowly figure out what actually works.</div>
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
@@ -70,8 +70,8 @@ export default function OurProcessSection() {
                           <h3 className={"h5 opactiy-10"}>03/03</h3>
                         </div>
                         <div className={"our-process-text-dectlies-wrap"}>
-                          <h4 className={"h5"}>Performance Growth</h4>
-                          <div className={"text-default rgb-8"}>Campaigns are continuously optimized through data, insights, and platform expertise.</div>
+                          <h4 className={"h5"}>Refine & Learn</h4>
+                          <div className={"text-default rgb-8"}>I improve what worked, fix what did not, and keep the lessons for whatever I try next.</div>
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
