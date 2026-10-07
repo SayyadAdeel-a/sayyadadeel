@@ -3,14 +3,14 @@ export default function WorkedSection() {
     <section className={"worked-section"}>
       <div className={"worked-text-name-wrap"}>
         <h2 fade-up={"true"} className={"h2"}>
-          Creator 
+          Off 
           <br />
-          Community
+          Screen
         </h2>
       </div>
       <div fade-up={"true"} className={"worked-image-text-wrapper"}>
         <div className={"big-text-wrap"}>
-          <div className={"big-text"}>listen($)</div>
+          <div className={"big-text"}>offline</div>
         </div>
         <div className={"worked-image-wrapper"}>
           <div marku-slide={"ture"} className={"worked-image-wrap"}>
@@ -58,7 +58,7 @@ export default function WorkedSection() {
         </div>
         <div className={"text-dectli-wrap"}>
           <div className={"worked-text-dectlies-wrap"}>
-            <div fade-up={"true"} className={"text-medium rbg10"}>Our creators don&#39;t just produce content, they build genuine relationships with audiences through authentic stories and everyday experiences.</div>
+            <div fade-up={"true"} className={"text-medium rbg10"}>A few random moments from life outside the screen — places, everyday memories, and things that caught my eye along the way.</div>
           </div>
         </div>
       </div>
