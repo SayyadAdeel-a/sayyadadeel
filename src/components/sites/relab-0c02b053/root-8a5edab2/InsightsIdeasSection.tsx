@@ -11,16 +11,16 @@ export default function InsightsIdeasSection() {
                     <div className={"text-icon-box"}>
                       <img src={"/assets/home/_shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                     </div>
-                    <div className={"text-block-name"}>Blog</div>
+                    <div className={"text-block-name"}>Notes</div>
                   </div>
                 </div>
-                <h2 fade-up={"true"} className={"h4"}>Insights From  The Creator Economy</h2>
+                <h2 fade-up={"true"} className={"h4"}>Notes From The Rabbit Hole</h2>
               </div>
               <div fade-up={"true"} className={"insights-ideas-left-button-wrap"}>
                 <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/blogs"} className={"button w-inline-block"}>
                   <div className={"button-text-wrap"}>
-                    <div className={"button-hover-text"}>View All Posts</div>
-                    <div className={"button-normal-text"}>View All Posts</div>
+                    <div className={"button-hover-text"}>Read All Notes</div>
+                    <div className={"button-normal-text"}>Read All Notes</div>
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>
@@ -37,10 +37,10 @@ export default function InsightsIdeasSection() {
                     <a fade-up={"true"} card-image-hover-priend={"ture"} href={"/blogs/how-to-work-viewers-in-the-first-3-seconds"} className={"insights-ideas-right-card-box w-inline-block"}>
                       <div className={"insights-ideas-right-card-box-text-wrap"}>
                         <div className={"blog-text-item-box"}>
-                          <div className={"text-default"}>Creator Strategy</div>
+                          <div className={"text-default"}>Build Notes</div>
                         </div>
                         <div className={"insights-ideas-right-card-text-name-wrap"}>
-                          <h3 className={"h6"}>How To Work Viewers In The First 3 Seconds</h3>
+                          <h3 className={"h6"}>Why I Keep Building Things I Don&#39;t Fully Understand</h3>
                         </div>
                       </div>
                       <div className={"insights-ideas-right-card-image-wrap"}>
@@ -52,10 +52,10 @@ export default function InsightsIdeasSection() {
                     <a fade-up={"true"} card-image-hover-priend={"ture"} href={"/blogs/choosing-the-right-kocs-for-your-next-campaign"} className={"insights-ideas-right-card-box w-inline-block"}>
                       <div className={"insights-ideas-right-card-box-text-wrap"}>
                         <div className={"blog-text-item-box"}>
-                          <div className={"text-default"}>Influencer Marketing</div>
+                          <div className={"text-default"}>Learning Notes</div>
                         </div>
                         <div className={"insights-ideas-right-card-text-name-wrap"}>
-                          <h3 className={"h6"}>Choosing The Right KOCs For Your Next Campaign</h3>
+                          <h3 className={"h6"}>Building With Almost No Budget Taught Me More</h3>
                         </div>
                       </div>
                       <div className={"insights-ideas-right-card-image-wrap"}>
