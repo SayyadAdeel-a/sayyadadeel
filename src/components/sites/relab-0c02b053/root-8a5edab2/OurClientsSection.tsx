@@ -46,28 +46,36 @@ export default function OurClientsSection() {
                       <div group-fedup-move={"ture"} className={"featured-brands-image-wrapper"}>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo.svg"} loading={"lazy"} className={"cover-size-banner"} />
+                            <a href={"https://github.com/SayyadAdeel-a/extly"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"extly on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-extly.svg"} loading={"lazy"} alt={"extly"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo-1.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/triage-ai"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"triage-ai on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-triage-ai.svg"} loading={"lazy"} alt={"triage-ai"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo-2.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/Freelancers_CRM"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"Freelancers_CRM on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-Freelancers_CRM.svg"} loading={"lazy"} alt={"Freelancers_CRM"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo-3.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/architects_app"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"architects_app on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-architects_app.svg"} loading={"lazy"} alt={"architects_app"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                       </div>
                       <div group-fedup-move={"ture"} className={"featured-brands-tex-wrapper"}>
                         <div className={"featured-brands-text-dectlies-wrap"}>
-                          <div className={"text-medium"}>&quot;Most of these started as random ideas. Some became real projects, some stayed experiments, and all of them taught me something.&quot;</div>
+                          <div className={"text-medium"}>Projects that made it past the experiment stage and became usable builds.</div>
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
@@ -75,10 +83,7 @@ export default function OurClientsSection() {
                           </div>
                           <div className={"featured-brands-autor-declies-wrap"}>
                             <div className={"text-default blold-meddle"}>Sayyad Adeel</div>
-                            <div className={"text-default"}>
-                              {"Student · "}
-                              <span className={"blold-meddle"}>Explorer</span>
-                            </div>
+                            <div className={"text-default"}>GitHub</div>
                           </div>
                         </div>
                       </div>
@@ -89,39 +94,44 @@ export default function OurClientsSection() {
                       <div group-fedup-move={"ture"} className={"featured-brands-image-wrapper"}>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo-2.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/sayyadadeel"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"sayyadadeel on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-sayyadadeel.svg"} loading={"lazy"} alt={"sayyadadeel"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo-1.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/consultant"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"consultant on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-consultant.svg"} loading={"lazy"} alt={"consultant"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/restaurants"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"restaurants on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-restaurants.svg"} loading={"lazy"} alt={"restaurants"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo-3.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/master-website-template"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"master-website-template on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-master-website-template.svg"} loading={"lazy"} alt={"master-website-template"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                       </div>
                       <div group-fedup-move={"ture"} className={"featured-brands-tex-wrapper"}>
                         <div className={"featured-brands-text-dectlies-wrap"}>
-                          <div className={"text-medium"}>The best campaigns bring together authentic creators, meaningful storytelling, and content audiences choose to watch.</div>
+                          <div className={"text-medium"}>Things I am actively working on, changing, and figuring out right now.</div>
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
                             <img src={"/assets/home/10-our-clients/ellipse-2468-3.avif"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                           <div className={"featured-brands-autor-declies-wrap"}>
-                            <div className={"text-default blold-meddle"}>Virgil Caffier</div>
-                            <div className={"text-default"}>
-                              {"Founder of "}
-                              <span className={"blold-meddle"}>relab</span>
-                            </div>
+                            <div className={"text-default blold-meddle"}>Sayyad Adeel</div>
+                            <div className={"text-default"}>GitHub</div>
                           </div>
                         </div>
                       </div>
@@ -132,45 +142,44 @@ export default function OurClientsSection() {
                       <div group-fedup-move={"ture"} className={"featured-brands-image-wrapper"}>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo-3.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/ThreadShot"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"ThreadShot on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-ThreadShot.svg"} loading={"lazy"} alt={"ThreadShot"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo-1.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/AutoVideo"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"AutoVideo on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-AutoVideo.svg"} loading={"lazy"} alt={"AutoVideo"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo-2.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/CTO.NEW-"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"CTO.NEW- on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-CTO.NEW-.svg"} loading={"lazy"} alt={"CTO.NEW-"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                         <div className={"featured-brands-image-box"}>
                           <div className={"image-icon-wrap"}>
-                            <img src={"/assets/home/10-our-clients/logo.svg"} loading={"lazy"} className={"contain-size-image"} />
+                            <a href={"https://github.com/SayyadAdeel-a/first"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"first on GitHub, opens in a new tab"}>
+                              <img src={"/assets/home/10-our-clients/repo-first.svg"} loading={"lazy"} alt={"first"} className={"contain-size-image"} />
+                            </a>
                           </div>
                         </div>
                       </div>
                       <div group-fedup-move={"ture"} className={"featured-brands-tex-wrapper"}>
                         <div className={"featured-brands-text-dectlies-wrap"}>
-                          <div className={"text-medium"}>
-                            Great campaigns start with authentic voices, meaningful stories, and content that people love to engage with.
-                            <br />
-                          </div>
+                          <div className={"text-medium"}>Small tests, random ideas, and projects I started just to see what would happen.</div>
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
                             <img src={"/assets/home/10-our-clients/ellipse-2468-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                           <div className={"featured-brands-autor-declies-wrap"}>
-                            <div className={"text-default blold-meddle"}>
-                              Sanna Granqvist
-                              <br />
-                            </div>
-                            <div className={"text-default"}>
-                              {"Founder of "}
-                              <span className={"blold-meddle"}>relab</span>
-                            </div>
+                            <div className={"text-default blold-meddle"}>Sayyad Adeel</div>
+                            <div className={"text-default"}>GitHub</div>
                           </div>
                         </div>
                       </div>
