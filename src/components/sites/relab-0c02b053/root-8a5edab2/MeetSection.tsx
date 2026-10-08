@@ -43,7 +43,7 @@ export default function MeetSection() {
                         <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                       </div>
                       <div zome-in-zom-out={"ture"} className={"meet-creators-image-wrapper"}>
-                        <img src={"/assets/home/06-meet/contain-size-image-image.svg"} loading={"lazy"} className={"contain-size-image"} />
+                        <img src={"/assets/home/06-meet/icon-ideas.svg"} loading={"lazy"} className={"contain-size-image"} />
                       </div>
                     </div>
                     <div className={"meet-creators-box overflow"}>
@@ -51,7 +51,7 @@ export default function MeetSection() {
                         <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                       </div>
                       <div className={"meet-creators-image-wrap"}>
-                        <img src={"/assets/home/06-meet/cover-size-image-image-19280.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/image-19280-p-500.avif 500w, /assets/home/06-meet/cover-size-image-image-19280.avif 720w"} alt={"Team Member Images"} className={"cover-size-image"} />
+                        <img src={"/assets/home/06-meet/adeel-portrait.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/adeel-portrait-p-500.avif 500w, /assets/home/06-meet/adeel-portrait.avif 720w"} alt={"Adeel"} className={"cover-size-image"} />
                       </div>
                     </div>
                     <div className={"meet-creators-box"}>
@@ -86,7 +86,7 @@ export default function MeetSection() {
                             <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                           </div>
                           <div className={"meet-creators-image-wrap"}>
-                            <img src={"/assets/home/06-meet/cover-size-image-image-2038.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/image-2038-p-500.avif 500w, /assets/home/06-meet/cover-size-image-image-2038.avif 720w"} alt={"Team Member Images"} className={"cover-size-image"} />
+                            <img src={"/assets/home/06-meet/learning.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/learning-p-500.avif 500w, /assets/home/06-meet/learning.avif 720w"} alt={"An open notebook of notes beside a laptop"} className={"cover-size-image"} />
                           </div>
                         </div>
                       </div>
@@ -130,7 +130,7 @@ export default function MeetSection() {
                           <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                         </div>
                         <div zome-in-zom-out={"ture"} className={"meet-creators-image-wrapper"}>
-                          <img src={"/assets/home/06-meet/audio.svg"} loading={"lazy"} className={"contain-size-image"} />
+                          <img src={"/assets/home/06-meet/icon-code.svg"} loading={"lazy"} className={"contain-size-image"} />
                         </div>
                       </div>
                       <div className={"meet-creators-dolled-wrap"}>
@@ -139,7 +139,7 @@ export default function MeetSection() {
                             <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                           </div>
                           <div className={"meet-creators-image-wrap"}>
-                            <img src={"/assets/home/06-meet/cover-size-image-image-19279.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/image-19279-p-500.avif 500w, /assets/home/06-meet/cover-size-image-image-19279.avif 720w"} alt={"Team Member Images"} className={"cover-size-image"} />
+                            <img src={"/assets/home/06-meet/experimenting.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/experimenting-p-500.avif 500w, /assets/home/06-meet/experimenting.avif 720w"} alt={"A desk with two monitors showing a code editor"} className={"cover-size-image"} />
                           </div>
                         </div>
                         <div className={"meet-creators-box"}>
@@ -166,7 +166,7 @@ export default function MeetSection() {
                         <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                       </div>
                       <div zome-in-zom-out={"ture"} className={"meet-creators-image-wrapper"}>
-                        <img src={"/assets/home/06-meet/video.svg"} loading={"lazy"} className={"contain-size-image"} />
+                        <img src={"/assets/home/06-meet/icon-learning.svg"} loading={"lazy"} className={"contain-size-image"} />
                       </div>
                     </div>
                     <div className={"meet-creators-box overflow"}>
@@ -174,7 +174,7 @@ export default function MeetSection() {
                         <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                       </div>
                       <div className={"meet-creators-image-wrap"}>
-                        <img src={"/assets/home/06-meet/image-2070-1.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/image-2070-1-p-500.avif 500w, /assets/home/06-meet/image-2070-1.avif 716w"} alt={"Team Member Images"} className={"cover-size-image"} />
+                        <img src={"/assets/home/06-meet/offscreen.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/offscreen-p-500.avif 500w, /assets/home/06-meet/offscreen.avif 716w"} alt={"A person sitting on a hillside above a valley at sunset"} className={"cover-size-image"} />
                       </div>
                     </div>
                     <div className={"meet-creators-box none"}>
