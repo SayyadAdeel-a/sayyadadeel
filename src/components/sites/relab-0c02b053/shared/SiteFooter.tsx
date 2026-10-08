@@ -101,23 +101,23 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                       <div className={"text-button-normal-text"}>Home</div>
                       <div className={"text-button-hover-text"}>Home</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/about"} className={`text-button w-inline-block${currentPath === "/about" ? " w--current" : ""}`} aria-current={currentPath === "/about" ? "page" : undefined}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
                       <div className={"text-button-normal-text"}>About</div>
                       <div className={"text-button-hover-text"}>About</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/services"} className={`text-button w-inline-block${currentPath === "/services" ? " w--current" : ""}`} aria-current={currentPath === "/services" ? "page" : undefined}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
                       <div className={"text-button-normal-text"}>Services</div>
                       <div className={"text-button-hover-text"}>Services</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/case-studies"} className={`text-button w-inline-block${currentPath === "/case-studies" ? " w--current" : ""}`} aria-current={currentPath === "/case-studies" ? "page" : undefined}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
                       <div className={"text-button-normal-text"}>Case Studies</div>
                       <div className={"text-button-hover-text"}>Case Studies</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/blogs"} className={`text-button w-inline-block${currentPath === "/blogs" ? " w--current" : ""}`} aria-current={currentPath === "/blogs" ? "page" : undefined}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
                       <div className={"text-button-normal-text"}>Blog</div>
                       <div className={"text-button-hover-text"}>Blog</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/pricing"} className={`text-button w-inline-block${currentPath === "/pricing" ? " w--current" : ""}`} aria-current={currentPath === "/pricing" ? "page" : undefined}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
                       <div className={"text-button-normal-text"}>Pricing</div>
                       <div className={"text-button-hover-text"}>Pricing</div>
                     </a>
@@ -130,15 +130,15 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                       <div className={"text-button-normal-text"}>Contact</div>
                       <div className={"text-button-hover-text"}>Contact</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/style-guide"} className={`text-button w-inline-block${currentPath === "/style-guide" ? " w--current" : ""}`} aria-current={currentPath === "/style-guide" ? "page" : undefined}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
                       <div className={"text-button-normal-text"}>Style Guide</div>
                       <div className={"text-button-hover-text"}>Style Guide</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/licenses"} className={`text-button w-inline-block${currentPath === "/licenses" ? " w--current" : ""}`} aria-current={currentPath === "/licenses" ? "page" : undefined}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
                       <div className={"text-button-normal-text"}>License</div>
                       <div className={"text-button-hover-text"}>License</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/changelog"} className={`text-button w-inline-block${currentPath === "/changelog" ? " w--current" : ""}`} aria-current={currentPath === "/changelog" ? "page" : undefined}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
                       <div className={"text-button-normal-text"}>Changelog</div>
                       <div className={"text-button-hover-text"}>Changelog</div>
                     </a>

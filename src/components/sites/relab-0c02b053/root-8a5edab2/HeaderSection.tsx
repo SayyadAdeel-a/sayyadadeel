@@ -11,16 +11,16 @@ export default function HeaderSection() {
                 <img loading={"lazy"} src={"/assets/home/_shared/relab.svg"} alt={"Brand Logo"} className={"nav-logo"} />
               </a>
               <div className={"nav-manus-wrapper"}>
-                <a href={"/about"} className={"nav-link w-inline-block"}>
+                <a href={"/contact"} className={"nav-link w-inline-block"}>
                   <div>About</div>
                 </a>
-                <a href={"/services"} className={"nav-link w-inline-block"}>
+                <a href={"/contact"} className={"nav-link w-inline-block"}>
                   <div>Services</div>
                 </a>
-                <a href={"/case-studies"} className={"nav-link w-inline-block"}>
+                <a href={"/contact"} className={"nav-link w-inline-block"}>
                   <div>Case Studies</div>
                 </a>
-                <a href={"/blogs"} className={"nav-link w-inline-block"}>
+                <a href={"/contact"} className={"nav-link w-inline-block"}>
                   <div>Blog</div>
                 </a>
               </div>
@@ -32,23 +32,23 @@ export default function HeaderSection() {
                         <div className={"text-button-normal-text"}>Home</div>
                         <div className={"text-button-hover-text"}>Home</div>
                       </a>
-                      <a data-wf--text-button--variant={"base"} href={"/about"} className={"text-button w-inline-block"}>
+                      <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                         <div className={"text-button-normal-text"}>About</div>
                         <div className={"text-button-hover-text"}>About</div>
                       </a>
-                      <a data-wf--text-button--variant={"base"} href={"/services"} className={"text-button w-inline-block"}>
+                      <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                         <div className={"text-button-normal-text"}>Services</div>
                         <div className={"text-button-hover-text"}>Services</div>
                       </a>
-                      <a data-wf--text-button--variant={"base"} href={"/case-studies"} className={"text-button w-inline-block"}>
+                      <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                         <div className={"text-button-normal-text"}>Case Studies</div>
                         <div className={"text-button-hover-text"}>Case Studies</div>
                       </a>
-                      <a data-wf--text-button--variant={"base"} href={"/blogs"} className={"text-button w-inline-block"}>
+                      <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                         <div className={"text-button-normal-text"}>Blog</div>
                         <div className={"text-button-hover-text"}>Blog</div>
                       </a>
-                      <a data-wf--text-button--variant={"base"} href={"/pricing"} className={"text-button w-inline-block"}>
+                      <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                         <div className={"text-button-normal-text"}>Pricing</div>
                         <div className={"text-button-hover-text"}>Pricing</div>
                       </a>

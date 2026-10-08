@@ -17,7 +17,7 @@ export default function InsightsIdeasSection() {
                 <h2 fade-up={"true"} className={"h4"}>Notes From The Rabbit Hole</h2>
               </div>
               <div fade-up={"true"} className={"insights-ideas-left-button-wrap"}>
-                <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/blogs"} className={"button w-inline-block"}>
+                <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>
                   <div className={"button-text-wrap"}>
                     <div className={"button-hover-text"}>Read All Notes</div>
                     <div className={"button-normal-text"}>Read All Notes</div>
@@ -34,7 +34,7 @@ export default function InsightsIdeasSection() {
               <div className={"w-dyn-list"}>
                 <div role={"list"} className={"blog-collection-list w-dyn-items"}>
                   <div role={"listitem"} className={"w-dyn-item"}>
-                    <a fade-up={"true"} card-image-hover-priend={"ture"} href={"/blogs/how-to-work-viewers-in-the-first-3-seconds"} className={"insights-ideas-right-card-box w-inline-block"}>
+                    <a fade-up={"true"} card-image-hover-priend={"ture"} href={"/contact"} className={"insights-ideas-right-card-box w-inline-block"}>
                       <div className={"insights-ideas-right-card-box-text-wrap"}>
                         <div className={"blog-text-item-box"}>
                           <div className={"text-default"}>Build Notes</div>
@@ -49,7 +49,7 @@ export default function InsightsIdeasSection() {
                     </a>
                   </div>
                   <div role={"listitem"} className={"w-dyn-item"}>
-                    <a fade-up={"true"} card-image-hover-priend={"ture"} href={"/blogs/choosing-the-right-kocs-for-your-next-campaign"} className={"insights-ideas-right-card-box w-inline-block"}>
+                    <a fade-up={"true"} card-image-hover-priend={"ture"} href={"/contact"} className={"insights-ideas-right-card-box w-inline-block"}>
                       <div className={"insights-ideas-right-card-box-text-wrap"}>
                         <div className={"blog-text-item-box"}>
                           <div className={"text-default"}>Learning Notes</div>

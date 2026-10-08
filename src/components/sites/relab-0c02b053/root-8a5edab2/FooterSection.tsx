@@ -92,23 +92,23 @@ export default function FooterSection() {
                       <div className={"text-button-normal-text"}>Home</div>
                       <div className={"text-button-hover-text"}>Home</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/about"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>About</div>
                       <div className={"text-button-hover-text"}>About</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/services"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Services</div>
                       <div className={"text-button-hover-text"}>Services</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/case-studies"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Case Studies</div>
                       <div className={"text-button-hover-text"}>Case Studies</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/blogs"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Blog</div>
                       <div className={"text-button-hover-text"}>Blog</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/pricing"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Pricing</div>
                       <div className={"text-button-hover-text"}>Pricing</div>
                     </a>
@@ -121,15 +121,15 @@ export default function FooterSection() {
                       <div className={"text-button-normal-text"}>Contact</div>
                       <div className={"text-button-hover-text"}>Contact</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/style-guide"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Style Guide</div>
                       <div className={"text-button-hover-text"}>Style Guide</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/licenses"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>License</div>
                       <div className={"text-button-hover-text"}>License</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/changelog"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Changelog</div>
                       <div className={"text-button-hover-text"}>Changelog</div>
                     </a>
