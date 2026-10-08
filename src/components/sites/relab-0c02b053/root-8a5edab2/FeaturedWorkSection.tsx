@@ -31,7 +31,7 @@ export default function FeaturedWorkSection() {
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/assets/home/07-featured-work/cover-size-image-frame-2147262233.avif"} loading={"lazy"} alt={"Team Member Card Images"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/frame-2147262233-p-500.avif 500w, /assets/home/07-featured-work/cover-size-image-frame-2147262233.avif 811w"} className={"cover-size-image"} />
+                        <img src={"/assets/home/07-featured-work/still-learning.avif"} loading={"lazy"} alt={"A student reading notes at a desk"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/still-learning-p-500.avif 500w, /assets/home/07-featured-work/still-learning.avif 811w"} className={"cover-size-image"} />
                       </div>
                       <div className={"featured-work-card-button-wrap"}>
                         <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/contact"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
@@ -74,7 +74,7 @@ export default function FeaturedWorkSection() {
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/assets/home/07-featured-work/frame-2147262233-1.avif"} loading={"lazy"} alt={"Team Member Card Images"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/frame-2147262233-1-p-500.avif 500w, /assets/home/07-featured-work/frame-2147262233-1.avif 811w"} className={"cover-size-image"} />
+                        <img src={"/assets/home/07-featured-work/real-work.avif"} loading={"lazy"} alt={"A monitor showing a code editor and a build log"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/real-work-p-500.avif 500w, /assets/home/07-featured-work/real-work.avif 811w"} className={"cover-size-image"} />
                       </div>
                       <div className={"featured-work-card-button-wrap"}>
                         <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/contact"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
@@ -117,7 +117,7 @@ export default function FeaturedWorkSection() {
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
                       <div card-image-hover-child={"ture"} className={"featured-work-card-image-wrap"}>
-                        <img src={"/assets/home/07-featured-work/frame-2147262233-2.avif"} loading={"lazy"} alt={"Team Member Card Images"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/frame-2147262233-2-p-500.avif 500w, /assets/home/07-featured-work/frame-2147262233-2.avif 811w"} className={"cover-size-image"} />
+                        <img src={"/assets/home/07-featured-work/lessons-learned.avif"} loading={"lazy"} alt={"A student working at a desk lit by a desk lamp"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/lessons-learned-p-500.avif 500w, /assets/home/07-featured-work/lessons-learned.avif 811w"} className={"cover-size-image"} />
                       </div>
                       <div className={"featured-work-card-button-wrap"}>
                         <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/contact"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
