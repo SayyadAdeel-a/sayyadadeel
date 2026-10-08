@@ -19,7 +19,7 @@ export default function CapabilitiesSection() {
               <div className={"our-work-fast-wrapper"}>
                 <div fade-up={"true"} card-image-hover-priend={"ture"} className={"our-work-image-text-wrapper"}>
                   <div card-image-hover-child={"ture"} className={"our-work-image-wrap"}>
-                    <img src={"/assets/home/08-capabilities/cover-size-image-frame-2147262414.avif"} loading={"lazy"} alt={"Work Image"} className={"cover-size-image"} />
+                    <img src={"/assets/home/08-capabilities/learning-through-building.avif"} loading={"lazy"} alt={"A student working at a laptop beside a second monitor"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-text-wrap"}>
                     <h3 className={"h5 white"}>Learning Through Building</h3>
@@ -83,7 +83,7 @@ export default function CapabilitiesSection() {
                 </div>
                 <div fade-up={"true"} card-image-hover-priend={"ture"} className={"our-work-image-text-wrapper"}>
                   <div card-image-hover-child={"ture"} className={"our-work-image-wrap"}>
-                    <img src={"/assets/home/08-capabilities/cover-size-image-frame-2147262416.avif"} loading={"lazy"} alt={"Work Image"} className={"cover-size-image"} />
+                    <img src={"/assets/home/08-capabilities/always-exploring.avif"} loading={"lazy"} alt={"A student at a desk with an open notebook and a mug"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-text-wrap"}>
                     <h3 className={"h5 white"}>Always Exploring</h3>
