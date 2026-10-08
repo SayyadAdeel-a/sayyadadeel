@@ -41,7 +41,7 @@ export default function OurProcessSection() {
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
-                        <img src={"/assets/home/09-our-process/glasses-and-desk-items-1-1.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/09-our-process/glasses-and-desk-items-1-1-p-500.avif 500w, /assets/home/09-our-process/glasses-and-desk-items-1-1-p-800.avif 800w, /assets/home/09-our-process/glasses-and-desk-items-1-1.avif 810w"} alt={"Slider Image"} className={"cover-size-image"} />
+                        <img src={"/assets/home/09-our-process/curiosity-research-810.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/09-our-process/curiosity-research-500.avif 500w, /assets/home/09-our-process/curiosity-research-800.avif 800w, /assets/home/09-our-process/curiosity-research-810.avif 810w"} alt={"A student sketching a diagram in a notebook beside a laptop"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>
@@ -58,7 +58,7 @@ export default function OurProcessSection() {
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
-                        <img src={"/assets/home/09-our-process/office-collaboration-1-1-1.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/09-our-process/office-collaboration-1-1-1-p-500.avif 500w, /assets/home/09-our-process/office-collaboration-1-1-1.avif 810w"} alt={"Slider Image"} className={"cover-size-image"} />
+                        <img src={"/assets/home/09-our-process/build-experiment-810.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/09-our-process/build-experiment-500.avif 500w, /assets/home/09-our-process/build-experiment-810.avif 810w"} alt={"A student at a desk with a code editor and a website open on a second monitor"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>
@@ -75,7 +75,7 @@ export default function OurProcessSection() {
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
-                        <img src={"/assets/home/09-our-process/windowsill-still-life-1-1.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/09-our-process/windowsill-still-life-1-1-p-500.avif 500w, /assets/home/09-our-process/windowsill-still-life-1-1.avif 810w"} alt={"Slider Image"} className={"cover-size-image"} />
+                        <img src={"/assets/home/09-our-process/refine-learn-810.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/09-our-process/refine-learn-500.avif 500w, /assets/home/09-our-process/refine-learn-810.avif 810w"} alt={"A student revising notes in a notebook beside an open laptop"} className={"cover-size-image"} />
                       </div>
                     </div>
                   </div>
