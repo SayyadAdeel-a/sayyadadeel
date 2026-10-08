@@ -44,7 +44,7 @@ export default function InsightsIdeasSection() {
                         </div>
                       </div>
                       <div className={"insights-ideas-right-card-image-wrap"}>
-                        <img src={"/assets/home/15-insights-ideas/frame-2147262476-2.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Image"} sizes={"100vw"} srcSet={"/assets/home/15-insights-ideas/frame-2147262476-2-p-500.avif 500w, /assets/home/15-insights-ideas/frame-2147262476-2.avif 582w"} className={"cover-size-image"} />
+                        <img src={"/assets/home/15-insights-ideas/note-building-without-knowing.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Working at a desk with code on one monitor and a paper prototype open beside it"} sizes={"100vw"} srcSet={"/assets/home/15-insights-ideas/note-building-without-knowing-p-500.avif 500w, /assets/home/15-insights-ideas/note-building-without-knowing.avif 582w"} className={"cover-size-image"} />
                       </div>
                     </a>
                   </div>
@@ -59,7 +59,7 @@ export default function InsightsIdeasSection() {
                         </div>
                       </div>
                       <div className={"insights-ideas-right-card-image-wrap"}>
-                        <img src={"/assets/home/15-insights-ideas/cover-size-image-image-19269.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Blog Card Image"} sizes={"100vw"} srcSet={"/assets/home/15-insights-ideas/image-19269-p-500.avif 500w, /assets/home/15-insights-ideas/cover-size-image-image-19269.avif 582w"} className={"cover-size-image"} />
+                        <img src={"/assets/home/15-insights-ideas/note-building-on-budget.avif"} loading={"lazy"} card-image-hover-child={"ture"} alt={"Building a project at a tidy desk with a notebook, a mug and a code editor"} sizes={"100vw"} srcSet={"/assets/home/15-insights-ideas/note-building-on-budget-p-500.avif 500w, /assets/home/15-insights-ideas/note-building-on-budget.avif 582w"} className={"cover-size-image"} />
                       </div>
                     </a>
                   </div>
