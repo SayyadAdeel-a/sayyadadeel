@@ -24,7 +24,7 @@ export default function CtaSection() {
               </div>
             </div>
             <div className={"cta-image-wrap"}>
-              <img sizes={"100vw"} srcSet={"/assets/home/_shared/image-2037-p-500.avif 500w, /assets/home/_shared/image-2037-p-800.avif 800w, /assets/home/_shared/image-2037-p-1080.avif 1080w, /assets/home/_shared/cover-size-image-image-2037.avif 1320w"} alt={"CTA Card Image"} src={"/assets/home/_shared/cover-size-image-image-2037.avif"} loading={"lazy"} className={"cover-size-image"} />
+              <img sizes={"100vw"} srcSet={"/assets/home/_shared/final-cta-p-500.avif 500w, /assets/home/_shared/final-cta-p-800.avif 800w, /assets/home/_shared/final-cta-p-1080.avif 1080w, /assets/home/_shared/final-cta.avif 1320w"} alt={"CTA Card Image"} src={"/assets/home/_shared/final-cta.avif"} loading={"lazy"} className={"cover-size-image"} />
             </div>
           </div>
         </div>
