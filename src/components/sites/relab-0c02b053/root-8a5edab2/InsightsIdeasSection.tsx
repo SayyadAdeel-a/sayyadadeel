@@ -1,6 +1,6 @@
 export default function InsightsIdeasSection() {
   return (
-    <section className={"insights-ideas-section"}>
+    <section id={"notes"} className={"insights-ideas-section"}>
       <div className={"w-layout-blockcontainer container w-container"}>
         <div className={"insights-ideas-wrapper"}>
           <div className={"insights-ideas-wrap"}>

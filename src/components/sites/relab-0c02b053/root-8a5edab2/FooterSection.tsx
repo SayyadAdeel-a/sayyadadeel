@@ -13,7 +13,7 @@ export default function FooterSection() {
               <div className={"footer-top-text-wrap"}>
                 <div className={"text-footer-header-wrap"}>Still Learning And Making Things.</div>
                 <div className={"footer-from-button-wrap footer-from-buttom-wrap"}>
-                  <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>
+                  <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"#work"} className={"button w-inline-block"}>
                     <div className={"button-text-wrap"}>
                       <div className={"button-hover-text"}>Explore My Work</div>
                       <div className={"button-normal-text"}>Explore My Work</div>
@@ -55,7 +55,7 @@ export default function FooterSection() {
                           <input className={"emal-text-field w-input"} maxLength={256} name={"email"} data-name={"Email"} placeholder={"Email Address"} type={"email"} id={"email"} required />
                           <div className={"submit-button-wrapper"}>
                             <input type={"submit"} data-wait={"Please wait..."} className={"submit-button w-button"} value={" "} />
-                            <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"#"} className={"icon-button w-inline-block"}>
+                            <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"/contact"} className={"icon-button w-inline-block"}>
                               <img loading={"lazy"} src={"/assets/home/17-footer/frame-1.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
                             </a>
                           </div>
@@ -92,23 +92,23 @@ export default function FooterSection() {
                       <div className={"text-button-normal-text"}>Home</div>
                       <div className={"text-button-hover-text"}>Home</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"#about"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>About</div>
                       <div className={"text-button-hover-text"}>About</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"#work"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Services</div>
                       <div className={"text-button-hover-text"}>Services</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"#featured-work"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Case Studies</div>
                       <div className={"text-button-hover-text"}>Case Studies</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"#notes"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Blog</div>
                       <div className={"text-button-hover-text"}>Blog</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
+                    <a data-wf--text-button--variant={"base"} href={"#pricing"} className={"text-button w-inline-block"}>
                       <div className={"text-button-normal-text"}>Pricing</div>
                       <div className={"text-button-hover-text"}>Pricing</div>
                     </a>

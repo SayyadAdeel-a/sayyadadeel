@@ -2,7 +2,7 @@
 
 export default function SolutionsSliderSection() {
   return (
-    <section className={"selider-section"}>
+    <section id={"work"} className={"selider-section"}>
       <div className={"w-layout-blockcontainer container w-container"}>
         <div className={"creators-wrapper"}>
           <div className={"creators-wrap"}>
@@ -44,7 +44,7 @@ export default function SolutionsSliderSection() {
                                   <p className={"text-default rbg8"}>A playful storefront experiment focused on colorful visuals, products, and a simple shopping experience.</p>
                                 </div>
                                 <div className={"slide-creators-button-wrap"}>
-                                  <a btn-anim={"true"} data-wf--button--variant={"style-four"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"0cf5b68d-ba2c-c2d9-8662-c17e91483685"} href={"/contact"} className={"button w-inline-block"}>
+                                  <a btn-anim={"true"} data-wf--button--variant={"style-four"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"0cf5b68d-ba2c-c2d9-8662-c17e91483685"} href={"#featured-work"} className={"button w-inline-block"}>
                                     <div className={"button-text-wrap"}>
                                       <div className={"button-hover-text w-variant-0cf5b68d-ba2c-c2d9-8662-c17e91483685"}>View Project</div>
                                       <div className={"button-normal-text w-variant-0cf5b68d-ba2c-c2d9-8662-c17e91483685"}>View Project</div>
@@ -115,7 +115,7 @@ export default function SolutionsSliderSection() {
                                   <p className={"text-default rbg8"}>An online store project exploring product presentation, browsing, and a clean shopping experience.</p>
                                 </div>
                                 <div className={"slide-creators-button-wrap"}>
-                                  <a btn-anim={"true"} data-wf--button--variant={"style-four"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"0cf5b68d-ba2c-c2d9-8662-c17e91483685"} href={"/contact"} className={"button w-inline-block"}>
+                                  <a btn-anim={"true"} data-wf--button--variant={"style-four"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"0cf5b68d-ba2c-c2d9-8662-c17e91483685"} href={"#featured-work"} className={"button w-inline-block"}>
                                     <div className={"button-text-wrap"}>
                                       <div className={"button-hover-text w-variant-0cf5b68d-ba2c-c2d9-8662-c17e91483685"}>View Project</div>
                                       <div className={"button-normal-text w-variant-0cf5b68d-ba2c-c2d9-8662-c17e91483685"}>View Project</div>
@@ -186,7 +186,7 @@ export default function SolutionsSliderSection() {
                                   <p className={"text-default rbg8"}>An experiment exploring how multiple coding agents can plan, divide tasks, and work together.</p>
                                 </div>
                                 <div className={"slide-creators-button-wrap"}>
-                                  <a btn-anim={"true"} data-wf--button--variant={"style-four"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"0cf5b68d-ba2c-c2d9-8662-c17e91483685"} href={"/contact"} className={"button w-inline-block"}>
+                                  <a btn-anim={"true"} data-wf--button--variant={"style-four"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"0cf5b68d-ba2c-c2d9-8662-c17e91483685"} href={"#featured-work"} className={"button w-inline-block"}>
                                     <div className={"button-text-wrap"}>
                                       <div className={"button-hover-text w-variant-0cf5b68d-ba2c-c2d9-8662-c17e91483685"}>View Project</div>
                                       <div className={"button-normal-text w-variant-0cf5b68d-ba2c-c2d9-8662-c17e91483685"}>View Project</div>

@@ -1,6 +1,6 @@
 export default function FeaturedWorkSection() {
   return (
-    <section className={"featured-work-section"}>
+    <section id={"featured-work"} className={"featured-work-section"}>
       <div className={"w-layout-blockcontainer container w-container"}>
         <div className={"featured-work-wrapper"}>
           <div className={"featured-work-wrap"}>
@@ -34,7 +34,7 @@ export default function FeaturedWorkSection() {
                         <img src={"/assets/home/07-featured-work/still-learning.avif"} loading={"lazy"} alt={"A student reading notes at a desk"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/still-learning-p-500.avif 500w, /assets/home/07-featured-work/still-learning.avif 811w"} className={"cover-size-image"} />
                       </div>
                       <div className={"featured-work-card-button-wrap"}>
-                        <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/contact"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
+                        <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"#work"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
                           <div className={"button-text-wrap"}>
                             <div className={"button-hover-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
                             <div className={"button-normal-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
@@ -77,7 +77,7 @@ export default function FeaturedWorkSection() {
                         <img src={"/assets/home/07-featured-work/real-work.avif"} loading={"lazy"} alt={"A monitor showing a code editor and a build log"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/real-work-p-500.avif 500w, /assets/home/07-featured-work/real-work.avif 811w"} className={"cover-size-image"} />
                       </div>
                       <div className={"featured-work-card-button-wrap"}>
-                        <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/contact"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
+                        <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"#work"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
                           <div className={"button-text-wrap"}>
                             <div className={"button-hover-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
                             <div className={"button-normal-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
@@ -120,7 +120,7 @@ export default function FeaturedWorkSection() {
                         <img src={"/assets/home/07-featured-work/lessons-learned.avif"} loading={"lazy"} alt={"A student working at a desk lit by a desk lamp"} sizes={"100vw"} srcSet={"/assets/home/07-featured-work/lessons-learned-p-500.avif 500w, /assets/home/07-featured-work/lessons-learned.avif 811w"} className={"cover-size-image"} />
                       </div>
                       <div className={"featured-work-card-button-wrap"}>
-                        <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"/contact"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
+                        <a btn-anim={"true"} data-wf--button--variant={"style-two"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"5e1376fd-1aff-7805-c501-b8c717e99b6c"} href={"#work"} className={"button w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c w-inline-block"}>
                           <div className={"button-text-wrap"}>
                             <div className={"button-hover-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>
                             <div className={"button-normal-text w-variant-5e1376fd-1aff-7805-c501-b8c717e99b6c"}>Read Story</div>

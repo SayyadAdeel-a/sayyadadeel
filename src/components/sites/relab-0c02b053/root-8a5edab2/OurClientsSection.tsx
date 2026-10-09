@@ -2,7 +2,7 @@
 
 export default function OurClientsSection() {
   return (
-    <section className={"our-clients-section"}>
+    <section id={"github"} className={"our-clients-section"}>
       <div className={"w-layout-blockcontainer container w-container"}>
         <div className={"our-clients-wrapper"}>
           <div className={"our-clients-wrap"}>
@@ -14,7 +14,7 @@ export default function OurClientsSection() {
                 <h2 group-fedup-move={"ture"} className={"h2"}>GitHub Repositories</h2>
               </div>
               <div className={"our-partners-button-wrap"}>
-                <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>
+                <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"https://github.com/SayyadAdeel-a"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"Adeel Sayyad on GitHub, opens in a new tab"} className={"button w-inline-block"}>
                   <div className={"button-text-wrap"}>
                     <div className={"button-hover-text"}>Explore My GitHub</div>
                     <div className={"button-normal-text"}>Explore My GitHub</div>

@@ -1,6 +1,6 @@
 export default function PricingSection() {
   return (
-    <section className={"pricing-section"}>
+    <section id={"pricing"} className={"pricing-section"}>
       <div className={"w-layout-blockcontainer container w-container"}>
         <div className={"pricing-wrapper"}>
           <div className={"pricing-wrap"}>
@@ -88,7 +88,7 @@ export default function PricingSection() {
                     </div>
                   </div>
                   <div className={"plans-pricing-item-button-wrap"}>
-                    <a btn-anim={"true"} data-wf--button--variant={"style-three"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"75370518-7638-b5c8-7f07-5f1acf3dd3e3"} href={"/contact"} className={"button w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3 w-inline-block"}>
+                    <a btn-anim={"true"} data-wf--button--variant={"style-three"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"75370518-7638-b5c8-7f07-5f1acf3dd3e3"} href={"#work"} className={"button w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3 w-inline-block"}>
                       <div className={"button-text-wrap"}>
                         <div className={"button-hover-text w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3"}>Explore My Work</div>
                         <div className={"button-normal-text w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3"}>Explore My Work</div>
@@ -170,7 +170,7 @@ export default function PricingSection() {
                     </div>
                   </div>
                   <div className={"plans-pricing-item-button-wrap"}>
-                    <a btn-anim={"true"} data-wf--button--variant={"style-three"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"75370518-7638-b5c8-7f07-5f1acf3dd3e3"} href={"/contact"} className={"button w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3 w-inline-block"}>
+                    <a btn-anim={"true"} data-wf--button--variant={"style-three"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"75370518-7638-b5c8-7f07-5f1acf3dd3e3"} href={"#notes"} className={"button w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3 w-inline-block"}>
                       <div className={"button-text-wrap"}>
                         <div className={"button-hover-text w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3"}>Read My Notes</div>
                         <div className={"button-normal-text w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3"}>Read My Notes</div>

@@ -2,7 +2,7 @@
 
 export default function HeroIntroSection() {
   return (
-    <section className={"hero-intro-section"}>
+    <section id={"about"} className={"hero-intro-section"}>
       <div className={"w-layout-blockcontainer container w-container"}>
         <div className={"hero-intro-wrapper"}>
           <div className={"hero-intro-wrap"}>

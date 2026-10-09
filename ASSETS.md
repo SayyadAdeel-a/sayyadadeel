@@ -458,10 +458,10 @@ Groups of files whose SHA-256 is identical. These are the same image stored more
 | `/assets/home/_shared/cover-size-image-image-2037.avif` | `/assets/home/_shared/cover-size-image-image-2037.avif` | 30.3 KB | _unreferenced_ | 1 identical |
 | `/assets/home/_shared/donut-al.avif` | `/assets/home/_shared/donut-al.avif` | 7.8 KB | `src/components/sites/relab-0c02b053/root-8a5edab2/HeroIntroSection.tsx:42`<br>`src/components/sites/relab-0c02b053/root-8a5edab2/MeetSection.tsx:123` | 1 identical |
 | `/assets/home/_shared/ellipse-2469.svg` | `/assets/home/_shared/ellipse-2469.svg` | 0.4 KB | `src/components/sites/relab-0c02b053/root-8a5edab2/CapabilitiesSection.tsx:11`<br>`src/components/sites/relab-0c02b053/root-8a5edab2/InsightsIdeasSection.tsx:12`<br>`src/components/sites/relab-0c02b053/root-8a5edab2/OurProcessSection.tsx:15`<br>`src/components/sites/relab-0c02b053/root-8a5edab2/PricingSection.tsx:11`<br>`src/components/sites/relab-0c02b053/root-8a5edab2/SolutionsSliderSection.tsx:14` | 1 identical |
-| `/assets/home/_shared/final-cta-p-1080.avif` | _not in git_ | 43.7 KB | `src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx:27` | -- |
-| `/assets/home/_shared/final-cta-p-500.avif` | _not in git_ | 16.4 KB | `src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx:27` | -- |
-| `/assets/home/_shared/final-cta-p-800.avif` | _not in git_ | 29.8 KB | `src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx:27` | -- |
-| `/assets/home/_shared/final-cta.avif` | _not in git_ | 55.2 KB | `src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx:27`<br>`src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx:27` | -- |
+| `/assets/home/_shared/final-cta-p-1080.avif` | `/assets/home/_shared/final-cta-p-1080.avif` | 43.7 KB | `src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx:27` | -- |
+| `/assets/home/_shared/final-cta-p-500.avif` | `/assets/home/_shared/final-cta-p-500.avif` | 16.4 KB | `src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx:27` | -- |
+| `/assets/home/_shared/final-cta-p-800.avif` | `/assets/home/_shared/final-cta-p-800.avif` | 29.8 KB | `src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx:27` | -- |
+| `/assets/home/_shared/final-cta.avif` | `/assets/home/_shared/final-cta.avif` | 55.2 KB | `src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx:27`<br>`src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx:27` | -- |
 | `/assets/home/_shared/image-2037-p-1080.avif` | `/assets/home/_shared/image-2037-p-1080.avif` | 24.7 KB | _unreferenced_ | 1 identical |
 | `/assets/home/_shared/image-2037-p-500.avif` | `/assets/home/_shared/image-2037-p-500.avif` | 9.7 KB | _unreferenced_ | 1 identical |
 | `/assets/home/_shared/image-2037-p-800.avif` | `/assets/home/_shared/image-2037-p-800.avif` | 17.3 KB | _unreferenced_ | 1 identical |
