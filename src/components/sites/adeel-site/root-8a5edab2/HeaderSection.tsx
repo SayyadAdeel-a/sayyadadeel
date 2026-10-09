@@ -1,5 +1,7 @@
 "use client";
 
+import { bookingAttrs } from "@/lib/contact";
+
 export default function HeaderSection() {
   return (
     <section data-wf--header-section--variant={"base"} data-wf-component-id={"24ca57b6-65bd-90cf-29f6-88f79a1acfa1"} data-wf-variant-state={"base"} className={"header-section"}>
@@ -46,7 +48,7 @@ export default function HeaderSection() {
                 </div>
               </div>
               <div className={"nav-button-wrap"}>
-                <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>
+                <a {...bookingAttrs()} btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} className={"button w-inline-block"}>
                   <div className={"button-text-wrap"}>
                       <div className={"button-hover-text"}>Let's Talk</div>
                       <div className={"button-normal-text"}>Let's Talk</div>

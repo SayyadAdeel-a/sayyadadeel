@@ -60,3 +60,60 @@ html.lenis body {
   visibility: hidden !important;
   pointer-events: none !important;
 }
+
+/* ---------------------------------------------------------------- contact form
+   Appended here rather than to webflow.css, which is frozen. Everything below
+   supports elements the contact form added; no existing rule is overridden. */
+
+/* Visibility helper. webflow.css has no `.hidden`, and `.w-form-done` /
+   `.w-form-fail` are `display: none` there -- rules that Webflow's own runtime
+   would toggle. That runtime never boots on this build, so the form component
+   toggles them itself and needs a way to hide and show an element. */
+.hidden {
+  display: none !important;
+}
+
+/* Honeypot. The field is submitted with the form but must be invisible and
+   unfocusable by keyboard. `left: -9999px` rather than `display: none`, because
+   some bots skip hidden inputs entirely. */
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Inline validation messages, shown under the field they belong to. Coloured
+   to match the token the stylesheet already uses for `.w-form-fail`, so a
+   per-field error and the form-level one look the same. */
+.field-error {
+  color: #b3261e;
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: 6px;
+}
+
+/* The submit control dims while a submission is in flight, so a double-click
+   cannot fire two requests. */
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+/* Reveal the form's success and failure blocks.
+   webflow.css sets `.w-form-done` and `.w-form-fail` to `display: none`
+   unconditionally, and relies on its own runtime to write an inline
+   `display: block` when a submission settles. That runtime never boots on this
+   build -- window.Webflow is undefined -- so toggling a class was not enough:
+   removing the `hidden` class still left the block at `display: none`, and with
+   the form hidden on success the visitor would have been shown a blank page.
+
+   These rules restore the intended behaviour. `!important` is needed because
+   webflow.css is imported before globals.css and its rule matches the class
+   alone, so specificity alone would not settle it. */
+.w-form-done:not(.hidden),
+.w-form-fail:not(.hidden) {
+  display: block !important;
+}

@@ -1,3 +1,5 @@
+import ContactForm from "@/components/ContactForm";
+
 export default function ContactSection() {
   return (
     <section group-fade-up-parent={"true"} className={"contact-section"}>
@@ -17,48 +19,7 @@ export default function ContactSection() {
           <div className={"contact-form-wrapper"}>
             <div className={"contact-form-wrap"}>
               <div className={"form-block w-form"}>
-                <form id={"wf-form-Contact-Form"} name={"wf-form-Contact-Form"} data-name={"Contact Form"} method={"get"} data-wf-page-id={"6a97e757adfa59f93a890076"} data-wf-element-id={"14f8f832-6ec0-19bc-d714-4c12f3fd4610"}>
-                  <div className={"form"}>
-                    <div className={"from-box-wrapper"}>
-                      <div className={"from-box"}>
-                        <label htmlFor={"name"} className={"text-default blold-meddle"}>Name</label>
-                        <input className={"text-field w-input"} maxLength={256} name={"name"} data-name={"Name"} placeholder={"Your full name"} type={"text"} id={"name"} required />
-                      </div>
-                      <div className={"from-box"}>
-                        <label htmlFor={"Service"} className={"text-default blold-meddle"}>Service</label>
-                        <select id={"Service"} name={"Service"} data-name={"Service"} required className={"text-field w-select"}>
-                          <option>Short-Form Content</option>
-                          <option value={"First"}>First choice</option>
-                          <option value={"Second"}>Second choice</option>
-                          <option value={"Third"}>Third choice</option>
-                        </select>
-                      </div>
-                      <div className={"from-box"}>
-                        <label htmlFor={"Phone-Number"} className={"text-default blold-meddle"}>Phone Number</label>
-                        <input className={"text-field w-input"} maxLength={256} name={"Phone"} data-name={"Phone"} placeholder={"Your Phone Number"} type={"tel"} id={"Phone-Number"} required />
-                      </div>
-                      <div className={"from-box"}>
-                        <label htmlFor={"Email"} className={"text-default blold-meddle"}>Email</label>
-                        <input className={"text-field w-input"} maxLength={256} name={"email"} data-name={"Email"} placeholder={"Your Email"} type={"email"} id={"Email"} required />
-                      </div>
-                    </div>
-                    <div className={"from-box"}>
-                      <label htmlFor={"message"} className={"text-default blold-meddle"}>Project Brief</label>
-                      <textarea required placeholder={"Tell us about any ideas you'd like to discuss."} maxLength={5000} id={"message"} name={"message"} data-name={"message"} className={"text-area w-input"} />
-                    </div>
-                    <div className={"submit-wrapper"}>
-                      <div className={"submit-button-icon-wrapper"}>
-                        <input type={"submit"} data-wait={" "} className={"submit-button w-button"} value={" "} />
-                        <div className={"submit-icon-wrap"}>
-                          <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"#"} className={"icon-button w-inline-block"}>
-                            <img loading={"lazy"} src={"/assets/shared/frame-1.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
-                          </a>
-                        </div>
-                      </div>
-                      <div className={"text-medium blold-meddle"}>Submit</div>
-                    </div>
-                  </div>
-                </form>
+                <ContactForm />
                 <div className={"message w-form-done"}>
                   <div>Thank you! Your submission has been received!</div>
                 </div>

@@ -1,3 +1,4 @@
+import { bookingAttrs } from "@/lib/contact";
 /**
  * cta-section — shared by every page of the site.
  *
@@ -19,7 +20,7 @@ export default function SiteCta({ currentPath }: { currentPath: string }) {
                 <p className={"text-default rgb-5"}>Have an idea, a question, or something interesting to talk about? I'm always open to a good conversation.</p>
               </div>
               <div className={"cta-text-button-wrap"}>
-                <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={`button w-inline-block${currentPath === "/contact" ? " w--current" : ""}`} aria-current={currentPath === "/contact" ? "page" : undefined}>
+                <a {...bookingAttrs()} btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} className={`button w-inline-block${currentPath === "/contact" ? " w--current" : ""}`} aria-current={currentPath === "/contact" ? "page" : undefined}>
                   <div className={"button-text-wrap"}>
                     <div className={"button-hover-text"}>Let's Talk</div>
                     <div className={"button-normal-text"}>Let's Talk</div>

@@ -39,6 +39,24 @@ canonical origin and social profiles. `src/lib/metadata.ts` builds every route's
 metadata from it, so rebranding is one edit rather than a sweep through the page
 files. `public/assets/brand/` holds the wordmark, icons and share image.
 
+## Configuration
+
+Two environment variables, both optional. The site builds, runs and passes
+`npm run check` without either; they only decide where the contact form
+delivers and where its booking buttons point. See `.env.example`.
+
+| Variable | Effect when unset |
+| --- | --- |
+| `FORMSPREE_FORM_ID` | `POST /api/contact` answers 503 and tells the visitor to email instead. It never reports a submission as sent when it was not. |
+| `NEXT_PUBLIC_CALENDAR_BOOKING_URL` | The "Let's Talk" buttons fall back to `/contact` and withhold `target="_blank"`. |
+
+Submissions are validated, length-capped and relayed to Formspree by
+`app/api/contact/route.ts`. Nothing is stored: no database, no submission log.
+`src/lib/contact-validation.ts` holds the field rules and the spam checks, and
+comments there explain which signals reject a submission outright and which are
+only logged — the split exists because a false rejection silently loses a real
+enquiry.
+
 ## Provenance
 
 The clone's history -- what was captured from where, and which Webflow
