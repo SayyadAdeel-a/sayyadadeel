@@ -19,7 +19,7 @@
  * 200 KB "message" is never a person filling in a form.
  */
 
-export type FieldName = "name" | "email" | "phone" | "service" | "message";
+export type FieldName = "name" | "email" | "phone" | "reason" | "message";
 
 export type FieldErrors = Partial<Record<FieldName, string>>;
 
@@ -27,7 +27,7 @@ export type ValidSubmission = {
   name: string;
   email: string;
   phone: string;
-  service: string;
+  reason: string;
   message: string;
 };
 
@@ -36,7 +36,7 @@ export const LIMITS = {
   name: 120,
   email: 254,
   phone: 40,
-  service: 80,
+  reason: 80,
   message: 4000,
   /** Ceiling for the whole request body, before any field is looked at. */
   requestBytes: 16 * 1024,
@@ -56,7 +56,7 @@ export function validateSubmission(input: Record<string, unknown>): {
   const name = clean(input.name);
   const email = clean(input.email).toLowerCase();
   const phone = clean(input.phone);
-  const service = clean(input.service);
+  const reason = clean(input.reason);
   const message = clean(input.message);
 
   if (!name) errors.name = "Please add your name.";
@@ -70,12 +70,16 @@ export function validateSubmission(input: Record<string, unknown>): {
   // longer publishes a number, and nothing requires the visitor to give one.
   if (phone.length > LIMITS.phone) errors.phone = `Keep this under ${LIMITS.phone} characters.`;
 
-  if (service.length > LIMITS.service) errors.service = `Keep this under ${LIMITS.service} characters.`;
+  // Reason is a convenience picker, not a requirement: an empty answer says
+  // nothing about whether the message is worth reading, so rejecting it would
+  // turn away a real enquiry over a field the visitor can see is optional.
+  // Only the cap is enforced, and a <select> cannot realistically reach it.
+  if (reason.length > LIMITS.reason) errors.reason = `Keep this under ${LIMITS.reason} characters.`;
 
   if (!message) errors.message = "Tell me a little about what you have in mind.";
   else if (message.length > LIMITS.message) errors.message = `Keep this under ${LIMITS.message} characters.`;
 
-  return { data: { name, email, phone, service, message }, errors };
+  return { data: { name, email, phone, reason, message }, errors };
 }
 
 export function hasErrors(errors: FieldErrors): boolean {

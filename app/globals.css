@@ -102,7 +102,7 @@ html.lenis body {
   cursor: progress;
 }
 
-/* Reveal the form's success and failure blocks.
+/* Reveal the contact form's success and failure blocks.
    webflow.css sets `.w-form-done` and `.w-form-fail` to `display: none`
    unconditionally, and relies on its own runtime to write an inline
    `display: block` when a submission settles. That runtime never boots on this
@@ -110,10 +110,33 @@ html.lenis body {
    removing the `hidden` class still left the block at `display: none`, and with
    the form hidden on success the visitor would have been shown a blank page.
 
-   These rules restore the intended behaviour. `!important` is needed because
-   webflow.css is imported before globals.css and its rule matches the class
-   alone, so specificity alone would not settle it. */
-.w-form-done:not(.hidden),
-.w-form-fail:not(.hidden) {
+   Scoped to `.contact-form-done` / `.contact-form-fail`, which only
+   src/components/ContactForm.tsx applies. An earlier version of this rule
+   targeted `.w-form-done` / `.w-form-fail` directly and so also revealed the
+   footer's newsletter blocks on every page -- "Thank you! Your submission has
+   been received!" and "Oops! Something went wrong..." both sat permanently
+   visible in the footer of /, /contact and /404.
+
+   `!important` is needed because webflow.css is imported before globals.css and
+   its rule matches the class alone, so specificity alone would not settle it. */
+.contact-form-done:not(.hidden),
+.contact-form-fail:not(.hidden) {
   display: block !important;
+}
+
+/* Room for the longer submit label.
+   `.submit-wrapper` is a fixed 150x50 pill: 24px left padding, 4px right, with
+   the arrow icon absolutely positioned at `inset: 4% 2% 0% auto` so it sits 48px
+   from the right. That leaves 75px between the start of the label and the start
+   of the icon. "Submit" measured 55px and fitted with 20px to spare; "Send
+   Message" measures 112px, which overruns the icon by 37px and spills past the
+   pill entirely.
+
+   Widened to 208px, which puts the icon's left edge 20px after the label -- the
+   same gap "Submit" had. Height, padding, radius, gap, shadow, font size, icon
+   size and every animation are untouched; only the width changes, and only
+   because the label changed. `.submit-wrapper` appears only in ContactForm.tsx,
+   so nothing else is affected. */
+.submit-wrapper {
+  width: 208px;
 }

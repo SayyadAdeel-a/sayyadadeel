@@ -108,7 +108,7 @@ export async function POST(request: Request) {
         name: data.name,
         email: data.email,
         phone: data.phone || undefined,
-        service: data.service || undefined,
+        reason: data.reason || undefined,
         message: data.message,
         // `replyTo` makes Reply go to the sender rather than to you.
         replyTo: data.email,

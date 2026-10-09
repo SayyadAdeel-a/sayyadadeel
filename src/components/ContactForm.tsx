@@ -136,26 +136,29 @@ export default function ContactForm() {
               {err("name")}
             </div>
             <div className={"from-box"}>
-              <label htmlFor={"Service"} className={"text-default blold-meddle"}>
-                Service
+              <label htmlFor={"Reason"} className={"text-default blold-meddle"}>
+                Reason
               </label>
               <select
-                id={"Service"}
-                name={"Service"}
-                data-name={"Service"}
-                required
+                id={"Reason"}
+                name={"reason"}
+                data-name={"Reason"}
                 defaultValue={""}
                 className={"text-field w-select"}
               >
-                <option value={""} disabled>
-                  Pick one
-                </option>
-                <option>Short-Form Content</option>
-                <option value={"First"}>First choice</option>
-                <option value={"Second"}>Second choice</option>
-                <option value={"Third"}>Third choice</option>
+                {/* No `required`, and the empty option is selectable rather than
+                    disabled: a disabled first option is how the template signalled
+                    "pick one", which fights an optional field. Leaving it
+                    enabled means the form submits with no reason instead of
+                    being blocked by the browser. The styling and the dropdown's
+                    native behaviour are untouched. */}
+                <option value={""}>No reason, just saying hi</option>
+                <option value={"Website / Project"}>Website / Project</option>
+                <option value={"Just Asking"}>Just Asking</option>
+                <option value={"Want To Connect"}>Want To Connect</option>
+                <option value={"Something Else"}>Something Else</option>
               </select>
-              {err("service")}
+              {err("reason")}
             </div>
             <div className={"from-box"}>
               <label htmlFor={"Phone-Number"} className={"text-default blold-meddle"}>
@@ -191,11 +194,11 @@ export default function ContactForm() {
           </div>
           <div className={"from-box"}>
             <label htmlFor={"message"} className={"text-default blold-meddle"}>
-              Project Brief
+              Your Message
             </label>
             <textarea
               required
-              placeholder={"Tell us about any ideas you'd like to discuss."}
+              placeholder={"Tell me what’s on your mind."}
               maxLength={4000}
               id={"message"}
               name={"message"}
@@ -214,7 +217,7 @@ export default function ContactForm() {
           <input type={"hidden"} name={"renderedAt"} ref={renderedAtField} defaultValue={""} readOnly />
 
           {problem ? (
-            <div className={"w-form-fail"} role="alert">
+            <div className={"w-form-fail contact-form-fail"} role="alert">
               <div>{problem}</div>
             </div>
           ) : null}
@@ -240,14 +243,15 @@ export default function ContactForm() {
                 </a>
               </div>
             </div>
-            <div className={"text-medium blold-meddle"}>Submit</div>
+            <div className={"text-medium blold-meddle"}>Send Message</div>
           </div>
         </div>
       </form>
 
       {/* Revealed by className because the Webflow runtime that would normally
-          do this never boots on this build. */}
-      <div className={`message w-form-done${status === "sent" ? "" : " hidden"}`} role="status">
+          do this never boots on this build. The `contact-form-*` classes scope
+          the reveal to this form -- see app/globals.css. */}
+      <div className={`message w-form-done contact-form-done${status === "sent" ? "" : " hidden"}`} role="status">
         <div>Thank you! Your submission has been received!</div>
       </div>
     </>

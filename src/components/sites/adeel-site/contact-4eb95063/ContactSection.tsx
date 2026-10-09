@@ -20,16 +20,15 @@ export default function ContactSection() {
             <div className={"contact-form-wrap"}>
               <div className={"form-block w-form"}>
                 <ContactForm />
-                <div className={"message w-form-done"}>
-                  <div>Thank you! Your submission has been received!</div>
-                </div>
-                <div className={"w-form-fail"}>
-                  <div>Oops! Something went wrong while submitting the form.</div>
-                </div>
               </div>
             </div>
             <div className={"contact-form-image-wrap"}>
-              <img src={"/assets/contact/01-contact/cover-size-image-frame-2147262809.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/contact/01-contact/frame-2147262809-p-500.avif 500w, /assets/contact/01-contact/cover-size-image-frame-2147262809.avif 810w"} alt={"Image"} className={"cover-size-image"} />
+              {/* ContactHero, cropped to 810x880 -- the aspect of the file this
+                  replaces, so how much `object-fit: cover` crops at every
+                  breakpoint is unchanged and only the pixels differ. The wrapper
+                  renders 338x550 here and goes near-square once the grid
+                  collapses, which is why the crop was not fitted to the box. */}
+              <img src={"/assets/contact/01-contact/contact-hero.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/contact/01-contact/contact-hero-p-500.avif 500w, /assets/contact/01-contact/contact-hero.avif 810w"} alt={"Adeel at his desk"} className={"cover-size-image"} />
             </div>
           </div>
           <div className={"conact-text-icon-wrapper"}>
