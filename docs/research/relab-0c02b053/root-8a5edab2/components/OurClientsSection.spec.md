@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/OurClientsSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/OurClientsSection.tsx`
 - **Source element:** `<section class="our-clients-section">`
 - **Role:** Client testimonials in tabs
 - **Interaction model:** click-driven tabs + scroll reveal

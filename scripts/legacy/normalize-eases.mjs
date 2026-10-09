@@ -4,7 +4,7 @@ import fs from "node:fs";
 // timelines. Normalise every hand-written interaction to that value, leaving the
 // eases that the page's own script specifies (the hero intro tab switch) alone.
 const file =
-  "src/components/sites/relab-0c02b053/shared/InteractionsRuntime.tsx";
+  "src/components/sites/adeel-site/shared/InteractionsRuntime.tsx";
 const KEEP = [
   "g.to(currentImage, {", // hero intro tab switch: power2.inOut
   "g.to(nextImage, {", // hero intro tab switch: power2.out

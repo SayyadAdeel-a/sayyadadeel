@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import {
   Averia_Sans_Libre,
   Geist,
@@ -8,6 +8,8 @@ import {
 import "./webflow.css";
 import "./globals.css";
 import SmoothScrollProvider from "@/components/SmoothScrollProvider";
+import { siteConfig } from "@/lib/brand";
+import { buildMetadata, personJsonLd, webSiteJsonLd } from "@/lib/metadata";
 
 // The source site loads these four families through Google's WebFont loader.
 // next/font self-hosts the identical font files, so metrics and glyph shapes
@@ -41,69 +43,56 @@ const interTight = Inter_Tight({
 });
 
 /**
- * Absolute base for Open Graph / Twitter card URLs.
+ * Root metadata.
  *
- * Next resolves the relative `openGraph.images` and `icons` entries against this,
- * so it has to be set for them to resolve at all.
+ * `metadataBase` makes every relative URL in the metadata absolute, which is
+ * what lets the share image resolve for LinkedIn, X, WhatsApp and Discord --
+ * each of those scrapers needs an absolute https URL and silently drops a
+ * relative one. Routes inherit this and override only their own fields via
+ * `buildMetadata`.
  *
- * It used to fall back to the reference site, which meant that on any deployment
- * without `NEXT_PUBLIC_SITE_URL` set, every canonical URL and every share image
- * resolved to Webflow rather than to us. The fallback is now the local preview
- * origin that the QA harness uses, so an unset variable fails visibly -- a
- * localhost canonical in production is obviously wrong -- instead of quietly
- * sending readers and crawlers to Webflow.
- *
- * **Set `NEXT_PUBLIC_SITE_URL` in the Vercel project** to the deployed origin,
- * with no trailing slash, or the canonical and share URLs will be wrong.
+ * The homepage title and description live here because `/` is the root route and
+ * its metadata is not defined in `app/page.tsx`.
  */
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3100";
+export const metadata: Metadata = buildMetadata({
+  title: `${siteConfig.fullName} — Learning, Building & Experimenting`,
+  description: siteConfig.description,
+  path: "/",
+});
 
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: "Relab - Webflow HTML Website Template",
-  description:
-    "Build a modern and professional website with Relab, a polished Webflow template designed for showcasing services, case studies, blogs, and your brand.",
-  icons: {
-    icon: [
-      {
-        url: `/assets/shared/favicon-2.png`,
-        sizes: "32x32",
-        type: "image/png",
-      },
-      {
-        url: `/assets/shared/favicon-2.png`,
-        sizes: "48x48",
-        type: "image/png",
-      },
-      {
-        url: `/assets/shared/favicon-2.png`,
-        sizes: "192x192",
-        type: "image/png",
-      },
-      {
-        url: `/assets/shared/favicon-2.png`,
-        sizes: "512x512",
-        type: "image/png",
-      },
-    ],
-    apple: `/assets/shared/favicon.png`,
-  },
-  openGraph: {
-    title: "Relab - Webflow HTML Website Template",
-    description:
-      "Build a modern and professional website with Relab, a polished Webflow template designed for showcasing services, case studies, blogs, and your brand.",
-    images: [`/assets/shared/thumbnail.jpg`],
-  },
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: siteConfig.themeColor,
+  colorScheme: "light",
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const person = personJsonLd();
+  const website = webSiteJsonLd();
+
   return (
     <html
       lang="en"
       className={`${hankenGrotesk.variable} ${averiaSansLibre.variable} ${geist.variable} ${interTight.variable}`}
     >
+      <head>
+        {/* Structured data, emitted once. Keyed so React can dedupe them. */}
+        <script
+          type="application/ld+json"
+          id="ld-person"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(person) }}
+        />
+        <script
+          type="application/ld+json"
+          id="ld-website"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }}
+        />
+        {/* `@id` back-reference so the WebSite node resolves to the Person node. */}
+        <link rel="author" href={`${siteConfig.siteUrl}/#person`} />
+      </head>
       <body>
         <SmoothScrollProvider>{children}</SmoothScrollProvider>
       </body>

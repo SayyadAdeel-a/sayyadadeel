@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/MeetSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/MeetSection.tsx`
 - **Source element:** `<section class="meet-section">`
 - **Role:** Video showcase
 - **Interaction model:** autoplay video + play/pause control

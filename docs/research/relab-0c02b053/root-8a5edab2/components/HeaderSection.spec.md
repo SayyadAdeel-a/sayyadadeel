@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/HeaderSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/HeaderSection.tsx`
 - **Source element:** `<section class="header-section">`
 - **Role:** Sticky brand bar and navigation
 - **Interaction model:** click-driven (mobile menu)

@@ -15,7 +15,7 @@ export default function OurClientsSaySection() {
                 </div>
                 <div className={"h5"}>Failed</div>
               </div>
-              <h3 fade-up={"true"} className={"h2 center"}>Things I&#39;ve Learned While Trying To Build Stuff</h3>
+              <h3 fade-up={"true"} className={"h2 center"}>Things I've Learned While Trying To Build Stuff</h3>
             </div>
             <div className={"client-stories-wrapper"}>
               <div fade-up={"true"} className={"client-stories-wrap"}>
@@ -36,7 +36,7 @@ export default function OurClientsSaySection() {
                 </div>
                 <div group-fedup-move={"ture"} className={"client-stories-card-box client-stories-box-two"}>
                   <div className={"client-stories-card-text-wrap"}>
-                    <div className={"text-medium blold-meddle"}>If I don&#39;t understand something, building a tiny version helps me learn it faster.</div>
+                    <div className={"text-medium blold-meddle"}>If I don't understand something, building a tiny version helps me learn it faster.</div>
                   </div>
                   <div className={"client-stories-autor-wrapper"}>
                     <div className={"client-stories-autore-image-wrap"}>
@@ -128,7 +128,7 @@ export default function OurClientsSaySection() {
                 </div>
                 <div group-fedup-move={"ture"} className={"client-stories-card-box client-stories-box-eight"}>
                   <div className={"client-stories-card-text-wrap"}>
-                    <div className={"text-medium blold-meddle"}>The more I build, the more I realize how much I still don&#39;t know.</div>
+                    <div className={"text-medium blold-meddle"}>The more I build, the more I realize how much I still don't know.</div>
                   </div>
                   <div className={"client-stories-autor-wrapper"}>
                     <div className={"client-stories-autore-image-wrap"}>

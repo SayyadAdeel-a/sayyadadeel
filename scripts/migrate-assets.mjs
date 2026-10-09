@@ -69,7 +69,7 @@ const PAGE_GROUPS = [
   "404",
 ];
 
-const COMPONENT_ROOT = "src/components/sites/relab-0c02b053/";
+const COMPONENT_ROOT = "src/components/sites/adeel-site/";
 /** The directory app/layout.tsx interpolates into its favicon URLs. */
 const SITE_DIR = "relab-0c02b053/root-8a5edab2";
 
@@ -350,7 +350,7 @@ for (const file of walk(ROOT)) {
 const plan = new Map(); // oldUrl -> {newUrl, ...}
 
 for (const asset of audit.assets) {
-  if (!asset.url.startsWith("/sites/relab-0c02b053/")) continue; // starter leftovers
+  if (!asset.url.startsWith("/sites/adeel-site/")) continue; // starter leftovers
 
   const owners = [...new Set(asset.references.map((r) => componentIdOf(r.file)))];
   const folder = folderFor(owners);
@@ -476,7 +476,7 @@ console.log("");
 if (!APPLY && !VERIFY) {
   console.log("sample mapping");
   for (const entry of [...plan.values()].slice(0, 12)) {
-    console.log("  " + entry.oldUrl.replace("/sites/relab-0c02b053/", ""));
+    console.log("  " + entry.oldUrl.replace("/sites/adeel-site/", ""));
     console.log("      -> " + entry.newUrl);
   }
   console.log("\nno changes written. Re-run with --apply.");

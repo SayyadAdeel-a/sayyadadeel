@@ -21,7 +21,7 @@ payloads. The engine semantics behind every entry are documented in
 
 All 24 generated pages carry the same interaction set apart from their own
 content hooks, so these entries are implemented once by
-`src/components/sites/relab-0c02b053/shared/ix/runtime.ts`.
+`src/components/sites/adeel-site/shared/ix/runtime.ts`.
 
 | Trigger | What it animates | Pages |
 | --- | --- | ---: |

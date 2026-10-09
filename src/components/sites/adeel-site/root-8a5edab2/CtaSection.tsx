@@ -7,7 +7,7 @@ export default function CtaSection() {
             <div className={"cta-text-wrapper"}>
               <div className={"cta-text-wrap"}>
                 <h2 className={"h4 white"}>Got Something Interesting To Share?</h2>
-                <p className={"text-default rgb-5"}>Have an idea, a question, or something interesting to talk about? I&#39;m always open to a good conversation.</p>
+                <p className={"text-default rgb-5"}>Have an idea, a question, or something interesting to talk about? I'm always open to a good conversation.</p>
               </div>
               <div className={"cta-text-button-wrap"}>
                 <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>

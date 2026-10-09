@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/BrandsMarqueeSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/BrandsMarqueeSection.tsx`
 - **Source element:** `<section class="brands-section">`
 - **Role:** Brands CTA banner
 - **Interaction model:** button hover

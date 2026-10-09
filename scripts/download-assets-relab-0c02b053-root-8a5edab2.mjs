@@ -5,7 +5,7 @@ import http from 'node:http';
 import { URL } from 'node:url';
 
 const researchDir = path.resolve('docs/research/relab-0c02b053/root-8a5edab2');
-const assetDir = path.resolve('public/sites/relab-0c02b053/root-8a5edab2');
+const assetDir = path.resolve('public/sites/adeel-site/root-8a5edab2');
 const rawAssetsPath = path.join(researchDir, 'raw-assets.json');
 
 if (!fs.existsSync(assetDir)) {
@@ -112,7 +112,7 @@ async function worker() {
       }
 
       const targetPath = path.join(assetDir, filename);
-      const relativePublicPath = `/sites/relab-0c02b053/root-8a5edab2/${filename}`;
+      const relativePublicPath = `/sites/adeel-site/root-8a5edab2/${filename}`;
 
       if (!fs.existsSync(targetPath)) {
         await downloadFile(urlStr, targetPath);

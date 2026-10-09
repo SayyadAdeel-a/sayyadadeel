@@ -135,7 +135,7 @@ lines.push(
   "All 24 generated pages carry the same interaction set apart from their own"
 );
 lines.push("content hooks, so these entries are implemented once by");
-lines.push("`src/components/sites/relab-0c02b053/shared/ix/runtime.ts`.");
+lines.push("`src/components/sites/adeel-site/shared/ix/runtime.ts`.");
 lines.push("");
 lines.push("| Trigger | What it animates | Pages |");
 lines.push("| --- | --- | ---: |");

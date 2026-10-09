@@ -360,7 +360,7 @@ engine initialised.
 ## 6. Widgets the engine does *not* drive
 
 These are separate Webflow scripts, not IX, and are reimplemented in
-`src/components/sites/relab-0c02b053/shared/ix/widgets.ts`.
+`src/components/sites/adeel-site/shared/ix/widgets.ts`.
 
 ### `w-tabs`
 

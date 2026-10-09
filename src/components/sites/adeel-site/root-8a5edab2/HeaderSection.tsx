@@ -8,7 +8,7 @@ export default function HeaderSection() {
           <div className={"container w-container"}>
             <div className={"nav-inner"}>
               <a href={"/"} aria-current={"page"} className={"nav-logo-link w-nav-brand w--current"}>
-                <img loading={"lazy"} src={"/assets/home/_shared/relab.svg"} alt={"Brand Logo"} className={"nav-logo"} />
+                <img loading={"lazy"} src={"/assets/brand/wordmark.svg"} alt={"Adeel Sayyad"} className={"nav-logo"} />
               </a>
               <div className={"nav-manus-wrapper"}>
                 <a href={"#about"} className={"nav-link w-inline-block"}>

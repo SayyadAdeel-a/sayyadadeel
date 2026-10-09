@@ -18,7 +18,7 @@ const wanted = process.argv[2] ?? "root-8a5edab2";
 /** Find the generated ix.json for a page key. */
 function generatedPath(pageKey) {
   const roots = [
-    "src/components/sites/relab-0c02b053",
+    "src/components/sites/adeel-site",
     "src/components/sites",
   ];
   for (const root of roots) {

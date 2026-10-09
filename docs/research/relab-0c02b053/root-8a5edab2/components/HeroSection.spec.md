@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/HeroSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/HeroSection.tsx`
 - **Source element:** `<section class="hero-section">`
 - **Role:** Display hero
 - **Interaction model:** load reveal + infinite ambient loops

@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/CapabilitiesSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/CapabilitiesSection.tsx`
 - **Source element:** `<section class="capabilities-section">`
 - **Role:** Capability list with scroll-driven title stack
 - **Interaction model:** scroll-driven title stack

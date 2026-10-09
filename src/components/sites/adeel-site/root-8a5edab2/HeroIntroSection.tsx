@@ -82,7 +82,7 @@ export default function HeroIntroSection() {
                 </div>
               </div>
               <div className={"hero-intro-card-social-wrap"}>
-                <a href={"https://www.instagram.com/"} target={"_blank"} className={"link-sosal-wrap w-inline-block"}>
+                <a href={"https://www.instagram.com/adeelsayyad.a/"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"Adeel Sayyad on Instagram, opens in a new tab"} className={"link-sosal-wrap w-inline-block"}>
                   <div className={"hero-intro-card-social-box"}>
                     <div className={"hero-intro-card-social-icon"}>
                       <img src={"/assets/home/03-hero-intro/contain-size-image-frame.svg"} loading={"lazy"} className={"contain-size-image"} />

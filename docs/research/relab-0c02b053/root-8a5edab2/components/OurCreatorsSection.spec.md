@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/OurCreatorsSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/OurCreatorsSection.tsx`
 - **Source element:** `<section class="our-creators-section">`
 - **Role:** Sticky scroll-driven creator cards
 - **Interaction model:** scroll-driven (scrubbed convergence)

@@ -29,7 +29,7 @@ duplicate status by SHA-256.
   are still referenced from different pages. `ASSETS.md` lists, for each group,
   which copies are referenced and which are not.
 * The captured Webflow runtime (gsap, lenis, ScrollTrigger, the `webflow.*.js`
-  chunks) is not a page asset and is still under `public/sites/relab-0c02b053/_pool/`.
+  chunks) is not a page asset and is still under `public/sites/adeel-site/_pool/`.
 
 Verify an asset change with:
 
@@ -41,7 +41,7 @@ npm run verify                # full parity against the reference
 
 ## Do not
 
-* **Do not regenerate the homepage.** `src/components/sites/relab-0c02b053/root-8a5edab2/`
+* **Do not regenerate the homepage.** `src/components/sites/adeel-site/root-8a5edab2/`
   and `shared/InteractionsRuntime.tsx` were hand-authored and are frozen.
   `scripts/convert-page.mjs` runs without `--home` and never touches that
   directory. The rest of the site is generated.

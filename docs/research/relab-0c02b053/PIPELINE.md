@@ -82,7 +82,7 @@ page carries 18–20 interactions and 20–22 timelines.
 `scripts/download-page-assets.mjs` collects every remote URL a page references —
 `src`, every `srcset` candidate, `data-poster-url`, `data-video-urls`, `<source>`,
 CSS `url()` and the `og:image` — and downloads it into
-`public/sites/relab-0c02b053/_pool/`.
+`public/sites/adeel-site/_pool/`.
 
 Webflow CDN filenames embed a content hash, so identical assets across pages
 dedupe to the same file: 342 unique URLs, 16 MB, serving all 24 pages (against
@@ -149,7 +149,7 @@ byte-identical to the reference.
 ### Page-specific sections
 
 Everything else becomes a component under
-`src/components/sites/relab-0c02b053/<page-key>/`, named from its first class
+`src/components/sites/adeel-site/<page-key>/`, named from its first class
 (`our-team-section` → `OurTeamSection`). The captured markup is emitted
 verbatim: class names, Webflow hook attributes (`fade="true"`,
 `group-fedup-move="ture"` — note the typo is the hook), inline styles, `srcset`
@@ -166,7 +166,7 @@ no wrapper element is introduced, so the DOM the stylesheet sees is the
 reference's — plus the page's metadata and its interaction runtime:
 
 ```tsx
-import ixPayload from "@/components/sites/relab-0c02b053/about-979bddc4/ix.json";
+import ixPayload from "@/components/sites/adeel-site/about-979bddc4/ix.json";
 …
 <PageInteractions payload={ixPayload} route="/about" />
 ```
@@ -177,7 +177,7 @@ with the same 30 450-byte body as `/404`).
 
 ## 7. The runtime
 
-`src/components/sites/relab-0c02b053/shared/PageInteractions.tsx` loads GSAP,
+`src/components/sites/adeel-site/shared/PageInteractions.tsx` loads GSAP,
 ScrollTrigger and SplitText, sets `w-mod-js` / `w-mod-ix` / `w-mod-ix3` on
 `<html>` (which is what releases the critical stylesheet), then hands the
 page's decoded payload to `shared/ix/runtime.ts`.
@@ -193,7 +193,7 @@ site.
 
 ## 8. What is *not* generated
 
-The homepage (`src/components/sites/relab-0c02b053/root-8a5edab2/`) and its
+The homepage (`src/components/sites/adeel-site/root-8a5edab2/`) and its
 `shared/InteractionsRuntime.tsx` were built before this pipeline existed and are
 frozen: `convert-page.mjs` is invoked without `--home` and never touches that
 directory. The homepage has its own three sliders, its hero-intro tab script,

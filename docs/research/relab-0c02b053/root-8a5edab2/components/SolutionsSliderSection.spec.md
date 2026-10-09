@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/SolutionsSliderSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/SolutionsSliderSection.tsx`
 - **Source element:** `<section class="selider-section">`
 - **Role:** Creator solutions carousel
 - **Interaction model:** click/drag carousel + autoplay

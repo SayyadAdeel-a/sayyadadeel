@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/WorkedSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/WorkedSection.tsx`
 - **Source element:** `<section class="worked-section">`
 - **Role:** Creator community image marquee
 - **Interaction model:** infinite marquee

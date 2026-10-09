@@ -1,7 +1,7 @@
 import fs from "node:fs";
 
 const file =
-  "src/components/sites/relab-0c02b053/shared/InteractionsRuntime.tsx";
+  "src/components/sites/adeel-site/shared/InteractionsRuntime.tsx";
 let text = fs.readFileSync(file, "utf8");
 
 // The Webflow hover host attributes are `card-image-hover-priend` and

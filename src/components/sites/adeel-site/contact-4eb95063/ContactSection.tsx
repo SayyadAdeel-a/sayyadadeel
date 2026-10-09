@@ -44,7 +44,7 @@ export default function ContactSection() {
                     </div>
                     <div className={"from-box"}>
                       <label htmlFor={"message"} className={"text-default blold-meddle"}>Project Brief</label>
-                      <textarea required placeholder={"Tell us about any ideas you&#x27;d like to discuss."} maxLength={5000} id={"message"} name={"message"} data-name={"message"} className={"text-area w-input"} />
+                      <textarea required placeholder={"Tell us about any ideas you'd like to discuss."} maxLength={5000} id={"message"} name={"message"} data-name={"message"} className={"text-area w-input"} />
                     </div>
                     <div className={"submit-wrapper"}>
                       <div className={"submit-button-icon-wrapper"}>
@@ -101,7 +101,7 @@ export default function ContactSection() {
                 </div>
                 <div className={"contact-form-text-box"}>
                   <h2 className={"h6 center"}>Mail to Us</h2>
-                  <a href={"mailto:hello@relabstudio.com"} className={"content-name"}>hello@relabstudio.com</a>
+                  <a href={"mailto:adeelsayyad.a@gmail.com"} className={"content-name"}>adeelsayyad.a@gmail.com</a>
                 </div>
               </div>
             </div>

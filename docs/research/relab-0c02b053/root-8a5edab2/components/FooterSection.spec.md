@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/FooterSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/FooterSection.tsx`
 - **Source element:** `<section class="footer-section">`
 - **Role:** Footer with newsletter form
 - **Interaction model:** link hover, demo form submit

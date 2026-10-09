@@ -49,7 +49,7 @@ for (const cfg of sectionConfigs) {
   const specContent = `# ${cfg.name} Specification
 
 ## Overview
-- **Target file:** \`src/components/sites/relab-0c02b053/root-8a5edab2/${cfg.name}.tsx\`
+- **Target file:** \`src/components/sites/adeel-site/root-8a5edab2/${cfg.name}.tsx\`
 - **Screenshot:** \`docs/design-references/relab-0c02b053/root-8a5edab2/full-page-desktop-1440.png\`
 - **Interaction model:** ${cfg.model}
 

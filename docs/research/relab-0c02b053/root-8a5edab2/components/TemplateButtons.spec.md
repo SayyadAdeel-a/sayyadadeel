@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/TemplateButtons.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/TemplateButtons.tsx`
 - **Source element:** `<div class="template-buttons-wrapper">`
 - **Role:** Webflow marketplace promo overlay
 - **Interaction model:** hover scale (Webflow-owned widget)

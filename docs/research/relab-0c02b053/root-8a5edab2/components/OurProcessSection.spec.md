@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/OurProcessSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/OurProcessSection.tsx`
 - **Source element:** `<section class="our-process-section">`
 - **Role:** Numbered process carousel
 - **Interaction model:** slider

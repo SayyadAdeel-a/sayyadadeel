@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/CtaSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/CtaSection.tsx`
 - **Source element:** `<section class="cta-section">`
 - **Role:** Closing call to action
 - **Interaction model:** scroll reveal + button hover

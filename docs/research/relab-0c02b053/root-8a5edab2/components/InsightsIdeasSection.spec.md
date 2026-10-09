@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/InsightsIdeasSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/InsightsIdeasSection.tsx`
 - **Source element:** `<section class="insights-ideas-section">`
 - **Role:** Blog cards
 - **Interaction model:** scroll reveal + image hover zoom

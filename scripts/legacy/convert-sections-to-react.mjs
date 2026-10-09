@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const sectionsDir = 'docs/research/relab-0c02b053/root-8a5edab2/sections';
-const compDir = 'src/components/sites/relab-0c02b053/root-8a5edab2';
+const compDir = 'src/components/sites/adeel-site/root-8a5edab2';
 const map = JSON.parse(fs.readFileSync('docs/research/relab-0c02b053/root-8a5edab2/asset-map.json', 'utf8'));
 
 if (!fs.existsSync(compDir)) {

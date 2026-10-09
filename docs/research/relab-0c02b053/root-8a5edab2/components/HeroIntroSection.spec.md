@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/HeroIntroSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/HeroIntroSection.tsx`
 - **Source element:** `<section class="hero-intro-section">`
 - **Role:** Tabbed feature explainer with mockup viewport
 - **Interaction model:** click-driven tabs

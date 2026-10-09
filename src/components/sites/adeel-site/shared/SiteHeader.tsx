@@ -15,7 +15,7 @@ export default function SiteHeader({ currentPath }: { currentPath: string }) {
           <div className={"container w-container"}>
             <div className={"nav-inner"}>
               <a href={"/"} className={`nav-logo-link w-nav-brand${currentPath === "/" ? " w--current" : ""}`} aria-current={currentPath === "/" ? "page" : undefined}>
-                <img loading={"lazy"} src={"/assets/shared/relab.svg"} alt={"Brand Logo"} className={"nav-logo"} />
+                <img loading={"lazy"} src={"/assets/brand/wordmark.svg"} alt={"Adeel Sayyad"} className={"nav-logo"} />
               </a>
               <div className={"nav-manus-wrapper"}>
                 <a href={"/contact"} className={`nav-link w-inline-block`}>

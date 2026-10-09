@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/PricingSection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/PricingSection.tsx`
 - **Source element:** `<section class="pricing-section">`
 - **Role:** Three pricing tiers
 - **Interaction model:** scroll reveal + button hover

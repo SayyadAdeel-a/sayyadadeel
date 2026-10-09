@@ -74,7 +74,7 @@ const assets = allFiles.filter(
 const publicFiles = allFiles.filter((file) => file.startsWith(PUBLIC + path.sep));
 
 /** siteRoot is the prefix every site asset shares. */
-const SITE_PREFIX = "/sites/relab-0c02b053/";
+const SITE_PREFIX = "/sites/adeel-site/";
 
 function toUrl(file) {
   return "/" + path.relative(PUBLIC, file).replace(/\\/g, "/");
@@ -86,7 +86,7 @@ for (const file of assets) byUrl.set(toUrl(file), file);
 /* ------------------------------------------------------------ references -- */
 
 /**
- * Every `/sites/relab-0c02b053/...` path mentioned in a source file, with the
+ * Every `/sites/adeel-site/...` path mentioned in a source file, with the
  * line it appears on.
  */
 const referenceHits = new Map(); // url -> [{file, line, column, context}]
@@ -122,7 +122,7 @@ for (const file of sourceFiles) {
       );
       const url = match ? match[0] : null;
 
-      // `@/components/sites/relab-0c02b053/...` is a TypeScript import of a
+      // `@/components/sites/adeel-site/...` is a TypeScript import of a
       // component module, not an asset. It shares the prefix, so it has to be
       // excluded explicitly or every page file reports 6 phantom references.
       const isImport = /@\/components\s*$/.test(line.slice(0, at));

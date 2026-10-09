@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Target file:** `src/components/sites/relab-0c02b053/root-8a5edab2/OurClientsSaySection.tsx`
+- **Target file:** `src/components/sites/adeel-site/root-8a5edab2/OurClientsSaySection.tsx`
 - **Source element:** `<section class="our-clients-say-section">`
 - **Role:** Review grid
 - **Interaction model:** scroll reveal

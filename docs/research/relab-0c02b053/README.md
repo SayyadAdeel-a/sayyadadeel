@@ -62,7 +62,7 @@ app/
   blogs/[…]/page.tsx              │ its own critical.css + ix.json
   pricing|contact|licenses/…      ┘
   not-found.tsx                  renders the /404 markup
-src/components/sites/relab-0c02b053/
+src/components/sites/adeel-site/
   root-8a5edab2/                  homepage sections (hand-authored, frozen)
   <page-key>/                     per-page sections (generated) + ix.json
   shared/
@@ -72,7 +72,7 @@ src/components/sites/relab-0c02b053/
     ix/runtime.ts                 Webflow IX3 interpreter
     ix/widgets.ts                 w-tabs / w-slider / w-form / background video
     ix/ease.ts, ix/types.ts       ease table and payload types
-public/sites/relab-0c02b053/
+public/sites/adeel-site/
   root-8a5edab2/                  the homepage's own asset directory
   _pool/                          342 shared assets for all 24 other pages
 ```

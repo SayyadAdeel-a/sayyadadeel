@@ -40,7 +40,7 @@ export default function InsightsIdeasSection() {
                           <div className={"text-default"}>Build Notes</div>
                         </div>
                         <div className={"insights-ideas-right-card-text-name-wrap"}>
-                          <h3 className={"h6"}>Why I Keep Building Things I Don&#39;t Fully Understand</h3>
+                          <h3 className={"h6"}>Why I Keep Building Things I Don't Fully Understand</h3>
                         </div>
                       </div>
                       <div className={"insights-ideas-right-card-image-wrap"}>

@@ -26,7 +26,7 @@ Consequences worth knowing:
 - `<noscript>` fallbacks are dropped (they only matter with JS disabled).
 - Webflow's Wix-style `w-container` / `w-slider` / `w-tabs` classes are kept and
   their behaviour is reimplemented in
-  `src/components/sites/relab-0c02b053/shared/InteractionsRuntime.tsx`.
+  `src/components/sites/adeel-site/shared/InteractionsRuntime.tsx`.
 
 ## Section order (top to bottom)
 

@@ -16,7 +16,7 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
             <div fade-up={"true"} className={"footer-top-text-wrapper"}>
               <div className={"footer-logo-wrap"}>
                 <a href={"/"} className={`footer-logo w-inline-block${currentPath === "/" ? " w--current" : ""}`} aria-current={currentPath === "/" ? "page" : undefined}>
-                  <img loading={"lazy"} src={"/assets/shared/relab.svg"} alt={"Image"} className={"all-image"} />
+                  <img loading={"lazy"} src={"/assets/brand/wordmark.svg"} alt={"Adeel Sayyad"} className={"all-image"} />
                 </a>
               </div>
               <div className={"footer-top-text-wrap"}>
@@ -40,7 +40,7 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
               <div className={"footer-social-wrapper"}>
                 <div className={"footer-social-wrap"}>
                   <div className={"footer-social-link-wrap"}>
-                    <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://www.instagram.com/"} target={"_blank"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
+                    <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://www.instagram.com/adeelsayyad.a/"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"Adeel Sayyad on Instagram, opens in a new tab"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
                       <img loading={"lazy"} src={"/assets/shared/original.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
                     </a>
                   </div>
@@ -84,9 +84,9 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                 <div id={"w-node-_6ca6d7b4-4f3d-39bb-3623-536092c536fc-92c536d4"} className={"link-wrapper"}>
                   <div className={"text-name-link"}>Contact</div>
                   <div className={"link-wrap"}>
-                    <a data-wf--text-button--variant={"style-two"} href={"mailto:hello@relabstudio.com"} className={`text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
-                      <div className={"text-button-normal-text"}>hello@relabstudio.com</div>
-                      <div className={"text-button-hover-text"}>hello@relabstudio.com</div>
+                    <a data-wf--text-button--variant={"style-two"} href={"mailto:adeelsayyad.a@gmail.com"} className={`text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
+                      <div className={"text-button-normal-text"}>adeelsayyad.a@gmail.com</div>
+                      <div className={"text-button-hover-text"}>adeelsayyad.a@gmail.com</div>
                     </a>
                     <a data-wf--text-button--variant={"style-two"} href={"tel:+1(415)9023814"} className={`text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
                       <div className={"text-button-normal-text"}>+1 (415) 902 3814</div>
