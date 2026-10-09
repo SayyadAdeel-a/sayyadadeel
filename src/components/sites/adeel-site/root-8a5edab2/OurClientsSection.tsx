@@ -79,7 +79,7 @@ export default function OurClientsSection() {
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
-                            <img src={"/assets/home/10-our-clients/ellipse-2468.avif"} loading={"lazy"} className={"contain-size-image"} />
+                            <img alt={""} src={"/assets/home/10-our-clients/ellipse-2468.avif"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                           <div className={"featured-brands-autor-declies-wrap"}>
                             <div className={"text-default blold-meddle"}>Sayyad Adeel</div>
@@ -127,7 +127,7 @@ export default function OurClientsSection() {
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
-                            <img src={"/assets/home/10-our-clients/ellipse-2468-3.avif"} loading={"lazy"} className={"contain-size-image"} />
+                            <img alt={""} src={"/assets/home/10-our-clients/ellipse-2468-3.avif"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                           <div className={"featured-brands-autor-declies-wrap"}>
                             <div className={"text-default blold-meddle"}>Sayyad Adeel</div>
@@ -175,7 +175,7 @@ export default function OurClientsSection() {
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
-                            <img src={"/assets/home/10-our-clients/ellipse-2468-1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                            <img alt={""} src={"/assets/home/10-our-clients/ellipse-2468-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                           </div>
                           <div className={"featured-brands-autor-declies-wrap"}>
                             <div className={"text-default blold-meddle"}>Sayyad Adeel</div>

@@ -1,0 +1,50 @@
+# Sayyad Adeel Ahmad
+
+> Personal portfolio of Sayyad Adeel Ahmad — a student who learns by building.
+> Projects, experiments, notes and the process that connects them. Everything
+> here is his own work; there is no agency and no client list behind it.
+
+A three-route site. The homepage is the whole portfolio; the other two are the
+contact page and a not-found page.
+
+## Projects
+
+- [Selected work](https://adeelsayyad.tech/#featured-work): Donut Website, an
+  E-commerce Website, and AgentOS — described in his own words, with what each
+  one was for and what he got wrong.
+- [How I turn ideas into projects](https://adeelsayyad.tech/#process): curiosity,
+  research, build, experiment, refine, learn.
+
+## Notes
+
+- [Notes from the rabbit hole](https://adeelsayyad.tech/#notes): short
+  first-person write-ups from building things. Currently two — why he keeps
+  building things he does not fully understand, and what building with almost no
+  budget taught him.
+- [Things I keep learning](https://adeelsawyad.tech/#github): the working notes
+  behind the projects.
+
+## Contact
+
+- [Contact](https://adeelsayyad.tech/contact): a form that emails him, plus his
+  GitHub handle and email address.
+- Email: contact@adeelsayyad.tech
+
+## Elsewhere
+
+- GitHub: https://github.com/SayyadAdeel-a
+- LinkedIn: https://www.linkedin.com/in/adeelsayyad/
+- Instagram: https://www.instagram.com/adeelsayyad.a/
+
+## Optional
+
+- [Sitemap](https://adeelsayyad.tech/sitemap.xml): every indexable URL.
+- [robots.txt](https://adeelsayyad.tech/robots.txt)
+
+## Notes for automated readers
+
+- Content is server-rendered. The text in this file is also present in the HTML
+  of each page; nothing here needs JavaScript to read.
+- Previous URLs from an earlier version of this site are answered: `/about`,
+  `/pricing`, `/case-studies` and `/blogs` redirect to the homepage sections that
+  now carry that content. Other retired URLs return 410 Gone.

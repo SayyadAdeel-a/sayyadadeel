@@ -6,7 +6,7 @@ export default function HeroSection() {
           <div className={"agency-hero-text-wrap"}>
             <div className={"agency-hero-fast-text-wrap"}>
               <div className={"agency-hero-image-wrap one"}>
-                <img src={"/assets/home/02-hero/contain-size-image-image-297.svg"} loading={"lazy"} className={"contain-size-image"} />
+                <img alt={""} src={"/assets/home/02-hero/contain-size-image-image-297.svg"} loading={"lazy"} className={"contain-size-image"} />
               </div>
               <div className={"agency-hero-text"}>
                 <h1 className={"h1"}>Curious</h1>
@@ -18,7 +18,7 @@ export default function HeroSection() {
                   <div className={"h1"}>About New</div>
                 </div>
                 <div className={"agency-hero-image-wrap two"}>
-                  <img src={"/assets/home/_shared/contain-size-image-image-278.svg"} loading={"lazy"} className={"contain-size-image"} />
+                  <img alt={""} src={"/assets/home/_shared/contain-size-image-image-278.svg"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
               </div>
               <div className={"agency-hero-text-samall-wrap"}>
@@ -34,7 +34,7 @@ export default function HeroSection() {
                 </div>
                 <div className={"decorated-title-style-wrap"}>
                   <div className={"decorated-title-style-image-wrap"}>
-                    <img src={"/assets/home/_shared/contain-size-image-image-278.svg"} loading={"lazy"} className={"contain-size-image"} />
+                    <img alt={""} src={"/assets/home/_shared/contain-size-image-image-278.svg"} loading={"lazy"} className={"contain-size-image"} />
                   </div>
                   <div className={"decorated-title-style-text-wrap"}>
                     <div className={"text-small blold-meddle"}>
@@ -51,15 +51,15 @@ export default function HeroSection() {
             <div className={"text-default"}>Just a student who keeps exploring ideas and experimenting. Some work, some don't; I keep learning anyway.</div>
           </div>
           <div fade-up={"ture"} className={"bg-image-right-wrap"}>
-            <img src={"/assets/home/02-hero/vector-3.svg"} loading={"lazy"} className={"bg-image"} />
+            <img alt={""} src={"/assets/home/02-hero/vector-3.svg"} loading={"lazy"} className={"bg-image"} />
           </div>
           <div fade-up={"true"} className={"bg-image-left-wrap"}>
-            <img src={"/assets/home/02-hero/vector-4.svg"} loading={"lazy"} className={"bg-image"} />
+            <img alt={""} src={"/assets/home/02-hero/vector-4.svg"} loading={"lazy"} className={"bg-image"} />
           </div>
         </div>
       </div>
       <div className={"hero-bg-image-wrap"}>
-        <img src={"/assets/home/02-hero/grid-1.svg"} loading={"lazy"} className={"cover-size-banner"} />
+        <img alt={""} src={"/assets/home/02-hero/grid-1.svg"} loading={"lazy"} className={"cover-size-banner"} />
       </div>
     </section>
   );

@@ -9,7 +9,7 @@
  */
 export default function SiteFooter({ currentPath }: { currentPath: string }) {
   return (
-    <section className={"footer-section"}>
+    <footer className={"footer-section"}>
       <div className={"w-layout-blockcontainer container w-container"}>
         <div className={"footer-wrapper"}>
           <div className={"footer-wrap"}>
@@ -133,6 +133,6 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }

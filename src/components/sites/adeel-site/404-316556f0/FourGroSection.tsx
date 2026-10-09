@@ -4,11 +4,11 @@ export default function FourGroSection() {
       <div className={"w-layout-blockcontainer container w-container"}>
         <div group-fade-up-parent={"true"} className={"utility-page-wrap"}>
           <div className={"utility-page-content"}>
-            <img group-fade-up-item={"true"} className={"four-gro-images"} src={"/assets/404/01-four-gro/404.avif"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/404/01-four-gro/404-p-500.avif 500w, /assets/404/01-four-gro/404.avif 981w"} />
+            <img alt={""} group-fade-up-item={"true"} className={"four-gro-images"} src={"/assets/404/01-four-gro/404.avif"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px"} srcSet={"/assets/404/01-four-gro/404-p-500.avif 500w, /assets/404/01-four-gro/404.avif 981w"} />
             <div className={"four-gro-text-button-wrapper"}>
               <div className={"four-gro-text-wrapper"}>
                 <div group-fade-up-item={"true"} className={"image-text-wrapper"}>
-                  <img src={"/assets/404/01-four-gro/four-gro-smaill-image-image-216.avif"} loading={"lazy"} className={"four-gro-smaill-image"} />
+                  <img alt={""} src={"/assets/404/01-four-gro/four-gro-smaill-image-image-216.avif"} loading={"lazy"} className={"four-gro-smaill-image"} />
                   <h1 className={"h6"}>Page Not Found</h1>
                 </div>
                 <div group-fade-up-item={"true"}>The link you followed may be broken, or the page may have been removed.</div>

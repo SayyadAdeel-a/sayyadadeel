@@ -22,7 +22,7 @@ export default function MeetSection() {
                 </div>
                 <div className={"decorated-title-style-wrap style-text-two"}>
                   <div className={"decorated-title-style-image-wrap"}>
-                    <img src={"/assets/home/_shared/contain-size-image-image-278.svg"} loading={"lazy"} className={"contain-size-image"} />
+                    <img alt={""} src={"/assets/home/_shared/contain-size-image-image-278.svg"} loading={"lazy"} className={"contain-size-image"} />
                   </div>
                   <div className={"decorated-title-style-text-wrap"}>
                     <div className={"text-small blold-meddle"}>
@@ -43,7 +43,7 @@ export default function MeetSection() {
                         <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                       </div>
                       <div zome-in-zom-out={"ture"} className={"meet-creators-image-wrapper"}>
-                        <img src={"/assets/home/06-meet/icon-ideas.svg"} loading={"lazy"} className={"contain-size-image"} />
+                        <img alt={""} src={"/assets/home/06-meet/icon-ideas.svg"} loading={"lazy"} className={"contain-size-image"} />
                       </div>
                     </div>
                     <div className={"meet-creators-box overflow"}>
@@ -99,7 +99,7 @@ export default function MeetSection() {
                   </div>
                   <div className={"meet-creators-meddle-two-wrapper"}>
                     <div contain-left-move-child={"ture"} className={"background-video-left-icon-wrap"}>
-                      <img src={"/assets/home/_shared/object-4.avif"} loading={"lazy"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 828px"} srcSet={"/assets/home/_shared/object-4-p-500.avif 500w, /assets/home/_shared/object-4.avif 828w"} className={"contain-size-image"} />
+                      <img alt={""} src={"/assets/home/_shared/object-4.avif"} loading={"lazy"} sizes={"(max-width: 767px) 100vw, (max-width: 991px) 728px, 828px"} srcSet={"/assets/home/_shared/object-4-p-500.avif 500w, /assets/home/_shared/object-4.avif 828w"} className={"contain-size-image"} />
                     </div>
                     <div className={"background-video-wrap"}>
                       <div data-poster-url={"/assets/home/06-meet/6194923-uhd-2160-3840-25fps-poster.0000000.jpg"} data-video-urls={"/assets/home/06-meet/6194923-uhd-2160-3840-25fps-mp4.mp4,/assets/home/06-meet/6194923-uhd-2160-3840-25fps-webm.webm"} data-autoplay={"true"} data-loop={"true"} data-wf-ignore={"true"} className={"background-video w-background-video w-background-video-atom"}>
@@ -120,7 +120,7 @@ export default function MeetSection() {
                       </div>
                     </div>
                     <div contain-right-move-child={"ture"} className={"background-video-right-icon-wrap"}>
-                      <img src={"/assets/home/_shared/donut-al.avif"} loading={"lazy"} className={"contain-size-image"} />
+                      <img alt={""} src={"/assets/home/_shared/donut-al.avif"} loading={"lazy"} className={"contain-size-image"} />
                     </div>
                   </div>
                   <div className={"meet-creators-meddle-three-wrapper"}>
@@ -130,7 +130,7 @@ export default function MeetSection() {
                           <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                         </div>
                         <div zome-in-zom-out={"ture"} className={"meet-creators-image-wrapper"}>
-                          <img src={"/assets/home/06-meet/icon-code.svg"} loading={"lazy"} className={"contain-size-image"} />
+                          <img alt={""} src={"/assets/home/06-meet/icon-code.svg"} loading={"lazy"} className={"contain-size-image"} />
                         </div>
                       </div>
                       <div className={"meet-creators-dolled-wrap"}>
@@ -166,7 +166,7 @@ export default function MeetSection() {
                         <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                       </div>
                       <div zome-in-zom-out={"ture"} className={"meet-creators-image-wrapper"}>
-                        <img src={"/assets/home/06-meet/icon-learning.svg"} loading={"lazy"} className={"contain-size-image"} />
+                        <img alt={""} src={"/assets/home/06-meet/icon-learning.svg"} loading={"lazy"} className={"contain-size-image"} />
                       </div>
                     </div>
                     <div className={"meet-creators-box overflow"}>

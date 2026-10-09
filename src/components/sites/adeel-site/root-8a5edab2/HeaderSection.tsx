@@ -4,7 +4,7 @@ import { bookingAttrs } from "@/lib/contact";
 
 export default function HeaderSection() {
   return (
-    <section data-wf--header-section--variant={"base"} data-wf-component-id={"24ca57b6-65bd-90cf-29f6-88f79a1acfa1"} data-wf-variant-state={"base"} className={"header-section"}>
+    <header data-wf--header-section--variant={"base"} data-wf-component-id={"24ca57b6-65bd-90cf-29f6-88f79a1acfa1"} data-wf-variant-state={"base"} className={"header-section"}>
       <div data-animation={"default"} data-collapse={"medium"} data-duration={"400"} data-easing={"ease"} data-easing2={"ease"} role={"banner"} className={"navbar w-nav"}>
         <div className={"nav-content-wrap"}>
           <div className={"container w-container"}>
@@ -12,7 +12,7 @@ export default function HeaderSection() {
               <a href={"/"} aria-current={"page"} className={"nav-logo-link w-nav-brand w--current"}>
                 <img loading={"lazy"} src={"/assets/brand/wordmark.svg"} alt={"Adeel Sayyad"} className={"nav-logo"} />
               </a>
-              <div className={"nav-manus-wrapper"}>
+              <nav className={"nav-manus-wrapper"}>
                 <a href={"#work"} className={"nav-link w-inline-block"}>
                   <div>Work</div>
                 </a>
@@ -22,7 +22,7 @@ export default function HeaderSection() {
                 <a href={"/contact"} className={"nav-link w-inline-block"}>
                   <div>Contact</div>
                 </a>
-              </div>
+              </nav>
               <div menu-bar-toggle={"true"} className={"nav-menu-wrap"}>
                 <div menu-bar={"true"} className={"menu-wrapper"}>
                   <div className={"menu-wrap"}>
@@ -71,6 +71,6 @@ export default function HeaderSection() {
           </div>
         </div>
       </div>
-    </section>
+    </header>
   );
 }

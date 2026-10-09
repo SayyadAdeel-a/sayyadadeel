@@ -27,8 +27,10 @@ export default function Page() {
   return (
     <>
       <SiteHeader currentPath={"/404"} />
-      <FourGroSection />
-      <SiteCta currentPath={"/404"} />
+      <main>
+        <FourGroSection />
+        <SiteCta currentPath={"/404"} />
+      </main>
       <SiteFooter currentPath={"/404"} />
       <PageInteractions payload={ixPayload} route={"/404"} />
     </>

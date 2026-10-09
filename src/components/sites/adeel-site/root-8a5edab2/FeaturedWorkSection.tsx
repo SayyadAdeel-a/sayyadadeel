@@ -19,7 +19,7 @@ export default function FeaturedWorkSection() {
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
-                          <img src={"/assets/home/07-featured-work/sparkles-01.svg"} loading={"lazy"} className={"contain-size-image"} />
+                          <img alt={""} src={"/assets/home/07-featured-work/sparkles-01.svg"} loading={"lazy"} className={"contain-size-image"} />
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
@@ -62,7 +62,7 @@ export default function FeaturedWorkSection() {
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
-                          <img src={"/assets/home/07-featured-work/swatch-02.svg"} loading={"lazy"} className={"contain-size-image"} />
+                          <img alt={""} src={"/assets/home/07-featured-work/swatch-02.svg"} loading={"lazy"} className={"contain-size-image"} />
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
@@ -105,7 +105,7 @@ export default function FeaturedWorkSection() {
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
-                          <img src={"/assets/home/07-featured-work/bolt.svg"} loading={"lazy"} className={"contain-size-image"} />
+                          <img alt={""} src={"/assets/home/07-featured-work/bolt.svg"} loading={"lazy"} className={"contain-size-image"} />
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>

@@ -29,7 +29,7 @@ export default function CapabilitiesSection() {
                 </div>
                 <div fade-up={"true"} move-scroll-card-box={"ture"} className={"our-work-grdden-image-text-wrapper"}>
                   <div className={"our-work-grdden-image-wrap"}>
-                    <img src={"/assets/home/08-capabilities/frame-2147262240-1.svg"} loading={"lazy"} className={"cover-size-image"} />
+                    <img alt={""} src={"/assets/home/08-capabilities/frame-2147262240-1.svg"} loading={"lazy"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-grdden-text-wrapper"}>
                     <div className={"item-wrapper fast-items"}>
@@ -57,7 +57,7 @@ export default function CapabilitiesSection() {
               <div className={"our-work-last-wrapper"}>
                 <div fade-up={"true"} move-scroll-card-box={"ture"} className={"our-work-grdden-image-text-wrapper"}>
                   <div className={"our-work-grdden-image-wrap"}>
-                    <img src={"/assets/home/08-capabilities/frame-2147262240-1.svg"} loading={"lazy"} className={"cover-size-image"} />
+                    <img alt={""} src={"/assets/home/08-capabilities/frame-2147262240-1.svg"} loading={"lazy"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-grdden-text-wrapper"}>
                     <div className={"item-wrapper"}>

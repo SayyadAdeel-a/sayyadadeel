@@ -35,7 +35,7 @@ export default function ContactSection() {
             <div group-fade-up-item={"true"} className={"contact-form-icon-text-wrapper"}>
               <div id={"w-node-b8d122ea-e261-f78d-3c17-3aef6e1e139e-3a890076"} className={"contact-form-icon-text-box"}>
                 <div className={"contact-form-icon-box"}>
-                  <img src={"/assets/contact/01-contact/contain-size-image-github.avif"} loading={"lazy"} className={"contain-size-image"} />
+                  <img alt={""} src={"/assets/contact/01-contact/contain-size-image-github.avif"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
                 <div className={"contact-form-text-box"}>
                   <h2 className={"h6 center"}>GitHub</h2>
@@ -44,7 +44,7 @@ export default function ContactSection() {
               </div>
               <div id={"w-node-e9d58148-473f-05f9-a8c3-61315bb96930-3a890076"} className={"contact-form-icon-text-box"}>
                 <div className={"contact-form-icon-box"}>
-                  <img src={"/assets/contact/01-contact/contain-size-image-image-1442.avif"} loading={"lazy"} className={"contain-size-image"} />
+                  <img alt={""} src={"/assets/contact/01-contact/contain-size-image-image-1442.avif"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
                 <div className={"contact-form-text-box"}>
                   <h2 className={"h6 center"}>Working Hour</h2>
@@ -57,7 +57,7 @@ export default function ContactSection() {
               </div>
               <div id={"w-node-bc284ac0-0a56-ba37-8f9b-16cb6e82ba35-3a890076"} className={"contact-form-icon-text-box"}>
                 <div className={"contact-form-icon-box"}>
-                  <img src={"/assets/contact/01-contact/contain-size-image-image-994.avif"} loading={"lazy"} className={"contain-size-image"} />
+                  <img alt={""} src={"/assets/contact/01-contact/contain-size-image-image-994.avif"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
                 <div className={"contact-form-text-box"}>
                   <h2 className={"h6 center"}>Mail to Us</h2>

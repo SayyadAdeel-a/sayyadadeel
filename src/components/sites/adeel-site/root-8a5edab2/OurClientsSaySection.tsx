@@ -5,13 +5,13 @@ export default function OurClientsSaySection() {
         <div className={"our-clients-say-wrapper"}>
           <div className={"our-clients-say-wrap"}>
             <div fade-up={"true"} className={"our-clients-say-icon-wrap"}>
-              <img src={"/assets/home/14-our-clients-say/contain-size-image-group-37387.svg"} loading={"lazy"} className={"contain-size-image"} />
+              <img alt={""} src={"/assets/home/14-our-clients-say/contain-size-image-group-37387.svg"} loading={"lazy"} className={"contain-size-image"} />
             </div>
             <div className={"loved-by-creators-wrapper"}>
               <div fade-up={"true"} className={"loved-by-creators-wrap"}>
                 <h2 className={"h5"}>Worked</h2>
                 <div className={"loved-by-creators-button-wrap"}>
-                  <img src={"/assets/home/14-our-clients-say/contain-size-image-frame-2147262259.svg"} loading={"lazy"} className={"contain-size-image"} />
+                  <img alt={""} src={"/assets/home/14-our-clients-say/contain-size-image-frame-2147262259.svg"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
                 <div className={"h5"}>Failed</div>
               </div>

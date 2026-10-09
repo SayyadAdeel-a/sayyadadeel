@@ -65,7 +65,7 @@ export default function SolutionsSliderSection() {
                                 </div>
                                 <div className={"slide-creators-image-priend-wrapper"}>
                                   <div contain-left-move-child={"ture"} className={"slide-creators-image-left-wrap"}>
-                                    <img src={"/assets/home/05-solutions-slider/noodle-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                    <img alt={""} src={"/assets/home/05-solutions-slider/noodle-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                                   </div>
                                   <div text-box-child={"ture"} className={"slide-creators-image-text-wrap card-text-one"}>
                                     <div className={"text-default font-three meddel-blod"}>{"Sweet UI "}</div>
@@ -76,12 +76,12 @@ export default function SolutionsSliderSection() {
                                   </div>
                                   <div className={"slide-creators-image-love-wrap love-text-one"}>
                                     <div love-child={"ture"} className={"love-icon"}>
-                                      <img src={"/assets/home/_shared/contain-size-image-image-235.svg"} loading={"lazy"} className={"contain-size-image"} />
+                                      <img alt={""} src={"/assets/home/_shared/contain-size-image-image-235.svg"} loading={"lazy"} className={"contain-size-image"} />
                                     </div>
                                     <div className={"display-six"}>Store Design</div>
                                   </div>
                                   <div contain-right-move-child={"ture"} className={"slide-creators-image-right-wrap"}>
-                                    <img src={"/assets/home/05-solutions-slider/ring-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                    <img alt={""} src={"/assets/home/05-solutions-slider/ring-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                                   </div>
                                 </div>
                               </div>
@@ -136,7 +136,7 @@ export default function SolutionsSliderSection() {
                                 </div>
                                 <div className={"slide-creators-image-priend-wrapper"}>
                                   <div contain-left-move-child={"ture"} className={"slide-creators-image-left-wrap"}>
-                                    <img src={"/assets/home/05-solutions-slider/ring-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                    <img alt={""} src={"/assets/home/05-solutions-slider/ring-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                                   </div>
                                   <div text-box-child={"ture"} className={"slide-creators-image-text-wrap card-text-two"}>
                                     <div className={"text-default font-three meddel-blod"}>{"Clean Layout "}</div>
@@ -147,12 +147,12 @@ export default function SolutionsSliderSection() {
                                   </div>
                                   <div className={"slide-creators-image-love-wrap love-text-two"}>
                                     <div love-child={"ture"} className={"love-icon"}>
-                                      <img src={"/assets/home/05-solutions-slider/contain-size-image-image-235.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                      <img alt={""} src={"/assets/home/05-solutions-slider/contain-size-image-image-235.avif"} loading={"lazy"} className={"contain-size-image"} />
                                     </div>
                                     <div className={"display-six"}>Product Grid</div>
                                   </div>
                                   <div contain-right-move-child={"ture"} className={"slide-creators-image-right-wrap slide-image-two"}>
-                                    <img src={"/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                    <img alt={""} src={"/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                                   </div>
                                 </div>
                               </div>
@@ -207,7 +207,7 @@ export default function SolutionsSliderSection() {
                                 </div>
                                 <div className={"slide-creators-image-priend-wrapper"}>
                                   <div contain-left-move-child={"ture"} className={"slide-creators-image-left-wrap slide-image-left-three"}>
-                                    <img src={"/assets/home/05-solutions-slider/noodle-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                    <img alt={""} src={"/assets/home/05-solutions-slider/noodle-al-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                                   </div>
                                   <div text-box-child={"ture"} className={"slide-creators-image-text-wrap card-text-three"}>
                                     <div className={"text-default font-three meddel-blod"}>{"Multi-Agent "}</div>
@@ -218,12 +218,12 @@ export default function SolutionsSliderSection() {
                                   </div>
                                   <div className={"slide-creators-image-love-wrap love-text-three"}>
                                     <div love-child={"ture"} className={"love-icon"}>
-                                      <img src={"/assets/home/05-solutions-slider/contain-size-image-image-235.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                      <img alt={""} src={"/assets/home/05-solutions-slider/contain-size-image-image-235.avif"} loading={"lazy"} className={"contain-size-image"} />
                                     </div>
                                     <div className={"display-six"}>CLI Tool</div>
                                   </div>
                                   <div contain-right-move-child={"ture"} className={"slide-creators-image-right-wrap slide-image-right-three"}>
-                                    <img src={"/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
+                                    <img alt={""} src={"/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif"} loading={"lazy"} className={"contain-size-image"} />
                                   </div>
                                 </div>
                               </div>

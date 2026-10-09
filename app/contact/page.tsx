@@ -28,21 +28,23 @@ export default function Page() {
   return (
     <>
       <SiteHeader currentPath={"/contact"} />
-      <ContactSection />
-      {/* This page's own CTA photograph. Passed in rather than hard-coded into
-          the shared SiteCta, so /404 and the homepage keep image-2037. */}
-      <SiteCta
-        currentPath={"/contact"}
-        image={{
-          src: "/assets/contact/02-cta/contact-closing.avif",
-          srcSet:
-            "/assets/contact/02-cta/contact-closing-p-500.avif 500w, " +
-            "/assets/contact/02-cta/contact-closing-p-800.avif 800w, " +
-            "/assets/contact/02-cta/contact-closing-p-1080.avif 1080w, " +
-            "/assets/contact/02-cta/contact-closing.avif 1320w",
-          alt: "Adeel at his desk",
-        }}
-      />
+      <main>
+        <ContactSection />
+        {/* This page's own CTA photograph. Passed in rather than hard-coded into
+            the shared SiteCta, so /404 and the homepage keep image-2037. */}
+        <SiteCta
+          currentPath={"/contact"}
+          image={{
+            src: "/assets/contact/02-cta/contact-closing.avif",
+            srcSet:
+              "/assets/contact/02-cta/contact-closing-p-500.avif 500w, " +
+              "/assets/contact/02-cta/contact-closing-p-800.avif 800w, " +
+              "/assets/contact/02-cta/contact-closing-p-1080.avif 1080w, " +
+              "/assets/contact/02-cta/contact-closing.avif 1320w",
+            alt: "Adeel at his desk",
+          }}
+        />
+      </main>
       <SiteFooter currentPath={"/contact"} />
       <PageInteractions payload={ixPayload} route={"/contact"} />
     </>

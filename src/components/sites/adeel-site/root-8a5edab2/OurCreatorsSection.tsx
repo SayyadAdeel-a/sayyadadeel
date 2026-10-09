@@ -16,7 +16,7 @@ export default function OurCreatorsSection() {
                 <div className={"our-creators-box"}>
                   <div className={"our-creators-item-box left-box-card"}>
                     <div className={"our-creators-item-icon"}>
-                      <img src={"/assets/home/04-our-creators/plane-departure-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
+                      <img alt={""} src={"/assets/home/04-our-creators/plane-departure-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-medium"}>learning</div>
                   </div>
@@ -29,7 +29,7 @@ export default function OurCreatorsSection() {
                 <div className={"our-creators-box"}>
                   <div className={"our-creators-item-box left-box-card"}>
                     <div className={"our-creators-item-icon"}>
-                      <img src={"/assets/home/04-our-creators/magic-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
+                      <img alt={""} src={"/assets/home/04-our-creators/magic-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-medium"}>creating</div>
                   </div>
@@ -45,7 +45,7 @@ export default function OurCreatorsSection() {
                   </div>
                   <div className={"our-creators-item-box textoy-box"}>
                     <div className={"our-creators-item-icon"}>
-                      <img src={"/assets/home/04-our-creators/laptop-code-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
+                      <img alt={""} src={"/assets/home/04-our-creators/laptop-code-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-medium"}>experimenting</div>
                   </div>
@@ -58,7 +58,7 @@ export default function OurCreatorsSection() {
                   </div>
                   <div className={"our-creators-item-box minis"}>
                     <div className={"our-creators-item-icon"}>
-                      <img src={"/assets/home/04-our-creators/coffee-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
+                      <img alt={""} src={"/assets/home/04-our-creators/coffee-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
                     </div>
                     <div className={"text-medium"}>off-screen</div>
                   </div>
