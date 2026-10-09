@@ -63,3 +63,23 @@ The clone's history -- what was captured from where, and which Webflow
 interactions were reverse-engineered -- is kept in `docs/research/` and in the
 `scripts/` QA harness. Those paths still carry the original template's
 identifier because they name where the code came from, not whose site it is.
+
+## Old URLs
+
+The site was a 25-route agency template before it became a three-route
+portfolio, and search engines still hold those URLs. They are answered in
+`next.config.ts`, in two groups:
+
+| Old URL | Response |
+| --- | --- |
+| `/about`, `/pricing`, `/case-studies`, `/blogs` | 301 to the homepage section that now carries that content: `/#about`, `/#pricing`, `/#featured-work`, `/#notes` |
+| `/services`, `/style-guide`, `/licenses`, `/changelog` and their children, the template's 5 case studies and 6 blog posts | 410 Gone, via `app/gone/route.ts` |
+
+The first group moved: the route reduction folded that content into homepage
+sections, so each redirect points at its actual successor. The second group is
+gone -- the template's case studies for brands like Brew Blend and Glowskin and
+its posts about KOC campaigns describe something that no longer exists here, and
+no honest destination can be given them. 410 rather than 404 so crawlers drop
+them sooner than they drop a merely missing page.
+
+A URL that was never part of the template still returns an ordinary 404.
