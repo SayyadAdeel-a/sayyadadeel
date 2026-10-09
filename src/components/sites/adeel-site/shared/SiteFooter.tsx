@@ -41,17 +41,17 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                 <div className={"footer-social-wrap"}>
                   <div className={"footer-social-link-wrap"}>
                     <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://www.instagram.com/adeelsayyad.a/"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"Adeel Sayyad on Instagram, opens in a new tab"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
-                      <img loading={"lazy"} src={"/assets/shared/original.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                      <img loading={"lazy"} src={"/assets/shared/original.svg"} alt={"Instagram"} className={"icon icon-button-icon"} />
                     </a>
                   </div>
                   <div className={"footer-social-link-wrap"}>
-                    <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://x.com/"} target={"_blank"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
-                      <img loading={"lazy"} src={"/assets/shared/original-2.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                    <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://github.com/SayyadAdeel-a"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"Adeel Sayyad on GitHub, opens in a new tab"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
+                      <img loading={"lazy"} src={"/assets/shared/github.svg"} alt={"GitHub"} className={"icon icon-button-icon"} />
                     </a>
                   </div>
                   <div className={"footer-social-link-wrap"}>
-                    <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://www.tiktok.com/en/"} target={"_blank"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
-                      <img loading={"lazy"} src={"/assets/shared/negative.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
+                    <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"https://www.linkedin.com/in/adeelsayyad/"} target={"_blank"} rel={"noopener noreferrer"} aria-label={"Adeel Sayyad on LinkedIn, opens in a new tab"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
+                      <img loading={"lazy"} src={"/assets/shared/linkedin.svg"} alt={"LinkedIn"} className={"icon icon-button-icon"} />
                     </a>
                   </div>
                 </div>
@@ -84,13 +84,9 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                 <div id={"w-node-_6ca6d7b4-4f3d-39bb-3623-536092c536fc-92c536d4"} className={"link-wrapper"}>
                   <div className={"text-name-link"}>Contact</div>
                   <div className={"link-wrap"}>
-                    <a data-wf--text-button--variant={"style-two"} href={"mailto:adeelsayyad.a@gmail.com"} className={`text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
-                      <div className={"text-button-normal-text"}>adeelsayyad.a@gmail.com</div>
-                      <div className={"text-button-hover-text"}>adeelsayyad.a@gmail.com</div>
-                    </a>
-                    <a data-wf--text-button--variant={"style-two"} href={"tel:+1(415)9023814"} className={`text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
-                      <div className={"text-button-normal-text"}>+1 (415) 902 3814</div>
-                      <div className={"text-button-hover-text"}>+1 (415) 902 3814</div>
+                    <a data-wf--text-button--variant={"style-two"} href={"mailto:contact@adeelsayyad.tech"} className={`text-button w-variant-9f695dab-3f92-f1e7-541c-792f1a365a10 w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
+                      <div className={"text-button-normal-text"}>contact@adeelsayyad.tech</div>
+                      <div className={"text-button-hover-text"}>contact@adeelsayyad.tech</div>
                     </a>
                   </div>
                 </div>
@@ -101,25 +97,13 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                       <div className={"text-button-normal-text"}>Home</div>
                       <div className={"text-button-hover-text"}>Home</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
-                      <div className={"text-button-normal-text"}>About</div>
-                      <div className={"text-button-hover-text"}>About</div>
+                    <a data-wf--text-button--variant={"base"} href={"/#github"} className={`text-button w-inline-block`}>
+                      <div className={"text-button-normal-text"}>GitHub</div>
+                      <div className={"text-button-hover-text"}>GitHub</div>
                     </a>
                     <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
-                      <div className={"text-button-normal-text"}>Services</div>
-                      <div className={"text-button-hover-text"}>Services</div>
-                    </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
-                      <div className={"text-button-normal-text"}>Case Studies</div>
-                      <div className={"text-button-hover-text"}>Case Studies</div>
-                    </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
-                      <div className={"text-button-normal-text"}>Blog</div>
-                      <div className={"text-button-hover-text"}>Blog</div>
-                    </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
-                      <div className={"text-button-normal-text"}>Pricing</div>
-                      <div className={"text-button-hover-text"}>Pricing</div>
+                      <div className={"text-button-normal-text"}>Contact</div>
+                      <div className={"text-button-hover-text"}>Contact</div>
                     </a>
                   </div>
                 </div>
@@ -130,21 +114,17 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                       <div className={"text-button-normal-text"}>Contact</div>
                       <div className={"text-button-hover-text"}>Contact</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
-                      <div className={"text-button-normal-text"}>Style Guide</div>
-                      <div className={"text-button-hover-text"}>Style Guide</div>
+                    <a data-wf--text-button--variant={"base"} href={"/#featured-work"} className={`text-button w-inline-block`}>
+                      <div className={"text-button-normal-text"}>Projects</div>
+                      <div className={"text-button-hover-text"}>Projects</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
-                      <div className={"text-button-normal-text"}>License</div>
-                      <div className={"text-button-hover-text"}>License</div>
+                    <a data-wf--text-button--variant={"base"} href={"/#notes"} className={`text-button w-inline-block`}>
+                      <div className={"text-button-normal-text"}>Notes</div>
+                      <div className={"text-button-hover-text"}>Notes</div>
                     </a>
-                    <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block`}>
-                      <div className={"text-button-normal-text"}>Changelog</div>
-                      <div className={"text-button-hover-text"}>Changelog</div>
-                    </a>
-                    <a data-wf--text-button--variant={"base"} href={"/404"} className={`text-button w-inline-block${currentPath === "/404" ? " w--current" : ""}`} aria-current={currentPath === "/404" ? "page" : undefined}>
-                      <div className={"text-button-normal-text"}>404</div>
-                      <div className={"text-button-hover-text"}>404</div>
+                    <a data-wf--text-button--variant={"base"} href={"/#process"} className={`text-button w-inline-block`}>
+                      <div className={"text-button-normal-text"}>Process</div>
+                      <div className={"text-button-hover-text"}>Process</div>
                     </a>
                   </div>
                 </div>

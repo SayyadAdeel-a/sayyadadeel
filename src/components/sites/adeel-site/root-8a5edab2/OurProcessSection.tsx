@@ -2,7 +2,7 @@
 
 export default function OurProcessSection() {
   return (
-    <section className={"our-process-section"}>
+    <section id={"process"} className={"our-process-section"}>
       <div className={"w-layout-blockcontainer container w-container"}>
         <div fade-up={"true"} className={"our-process-wrapper"}>
           <div className={"our-process-wrap"}>

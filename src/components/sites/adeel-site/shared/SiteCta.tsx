@@ -21,8 +21,8 @@ export default function SiteCta({ currentPath }: { currentPath: string }) {
               <div className={"cta-text-button-wrap"}>
                 <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={`button w-inline-block${currentPath === "/contact" ? " w--current" : ""}`} aria-current={currentPath === "/contact" ? "page" : undefined}>
                   <div className={"button-text-wrap"}>
-                    <div className={"button-hover-text"}>Schedule a Call</div>
-                    <div className={"button-normal-text"}>Schedule a Call</div>
+                    <div className={"button-hover-text"}>Let's Talk</div>
+                    <div className={"button-normal-text"}>Let's Talk</div>
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>

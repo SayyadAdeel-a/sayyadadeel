@@ -11,17 +11,14 @@ export default function HeaderSection() {
                 <img loading={"lazy"} src={"/assets/brand/wordmark.svg"} alt={"Adeel Sayyad"} className={"nav-logo"} />
               </a>
               <div className={"nav-manus-wrapper"}>
-                <a href={"#about"} className={"nav-link w-inline-block"}>
-                  <div>About</div>
-                </a>
                 <a href={"#work"} className={"nav-link w-inline-block"}>
-                  <div>Services</div>
+                  <div>Work</div>
                 </a>
-                <a href={"#featured-work"} className={"nav-link w-inline-block"}>
-                  <div>Case Studies</div>
+                <a href={"#github"} className={"nav-link w-inline-block"}>
+                  <div>GitHub</div>
                 </a>
-                <a href={"#notes"} className={"nav-link w-inline-block"}>
-                  <div>Blog</div>
+                <a href={"/contact"} className={"nav-link w-inline-block"}>
+                  <div>Contact</div>
                 </a>
               </div>
               <div menu-bar-toggle={"true"} className={"nav-menu-wrap"}>
@@ -32,25 +29,13 @@ export default function HeaderSection() {
                         <div className={"text-button-normal-text"}>Home</div>
                         <div className={"text-button-hover-text"}>Home</div>
                       </a>
-                      <a data-wf--text-button--variant={"base"} href={"#about"} className={"text-button w-inline-block"}>
-                        <div className={"text-button-normal-text"}>About</div>
-                        <div className={"text-button-hover-text"}>About</div>
-                      </a>
                       <a data-wf--text-button--variant={"base"} href={"#work"} className={"text-button w-inline-block"}>
-                        <div className={"text-button-normal-text"}>Services</div>
-                        <div className={"text-button-hover-text"}>Services</div>
+                        <div className={"text-button-normal-text"}>Work</div>
+                        <div className={"text-button-hover-text"}>Work</div>
                       </a>
-                      <a data-wf--text-button--variant={"base"} href={"#featured-work"} className={"text-button w-inline-block"}>
-                        <div className={"text-button-normal-text"}>Case Studies</div>
-                        <div className={"text-button-hover-text"}>Case Studies</div>
-                      </a>
-                      <a data-wf--text-button--variant={"base"} href={"#notes"} className={"text-button w-inline-block"}>
-                        <div className={"text-button-normal-text"}>Blog</div>
-                        <div className={"text-button-hover-text"}>Blog</div>
-                      </a>
-                      <a data-wf--text-button--variant={"base"} href={"#pricing"} className={"text-button w-inline-block"}>
-                        <div className={"text-button-normal-text"}>Pricing</div>
-                        <div className={"text-button-hover-text"}>Pricing</div>
+                      <a data-wf--text-button--variant={"base"} href={"#github"} className={"text-button w-inline-block"}>
+                        <div className={"text-button-normal-text"}>GitHub</div>
+                        <div className={"text-button-hover-text"}>GitHub</div>
                       </a>
                       <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                         <div className={"text-button-normal-text"}>Contact</div>
@@ -63,8 +48,8 @@ export default function HeaderSection() {
               <div className={"nav-button-wrap"}>
                 <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>
                   <div className={"button-text-wrap"}>
-                    <div className={"button-hover-text"}>Schedule a Call</div>
-                    <div className={"button-normal-text"}>Schedule a Call</div>
+                      <div className={"button-hover-text"}>Let's Talk</div>
+                      <div className={"button-normal-text"}>Let's Talk</div>
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>

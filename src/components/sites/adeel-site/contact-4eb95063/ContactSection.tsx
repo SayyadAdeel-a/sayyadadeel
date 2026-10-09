@@ -75,11 +75,11 @@ export default function ContactSection() {
             <div group-fade-up-item={"true"} className={"contact-form-icon-text-wrapper"}>
               <div id={"w-node-b8d122ea-e261-f78d-3c17-3aef6e1e139e-3a890076"} className={"contact-form-icon-text-box"}>
                 <div className={"contact-form-icon-box"}>
-                  <img src={"/assets/contact/01-contact/contain-size-image-image-1196.avif"} loading={"lazy"} className={"contain-size-image"} />
+                  <img src={"/assets/contact/01-contact/contain-size-image-github.avif"} loading={"lazy"} className={"contain-size-image"} />
                 </div>
                 <div className={"contact-form-text-box"}>
-                  <h2 className={"h6 center"}>WhatsApp</h2>
-                  <a href={"tel:+1(415)9023814"} className={"content-name"}>+1 (415) 902 3814</a>
+                  <h2 className={"h6 center"}>GitHub</h2>
+                  <a href={"https://github.com/SayyadAdeel-a"} target={"_blank"} rel={"noopener noreferrer"} className={"content-name"}>SayyadAdeel-a</a>
                 </div>
               </div>
               <div id={"w-node-e9d58148-473f-05f9-a8c3-61315bb96930-3a890076"} className={"contact-form-icon-text-box"}>
@@ -101,7 +101,7 @@ export default function ContactSection() {
                 </div>
                 <div className={"contact-form-text-box"}>
                   <h2 className={"h6 center"}>Mail to Us</h2>
-                  <a href={"mailto:adeelsayyad.a@gmail.com"} className={"content-name"}>adeelsayyad.a@gmail.com</a>
+                  <a href={"mailto:contact@adeelsayyad.tech"} className={"content-name"}>contact@adeelsayyad.tech</a>
                 </div>
               </div>
             </div>
