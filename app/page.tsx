@@ -16,6 +16,7 @@ import InsightsIdeasSection from "@/components/sites/adeel-site/root-8a5edab2/In
 import CtaSection from "@/components/sites/adeel-site/root-8a5edab2/CtaSection";
 import FooterSection from "@/components/sites/adeel-site/root-8a5edab2/FooterSection";
 import InteractionsRuntime from "@/components/sites/adeel-site/shared/InteractionsRuntime";
+import { HOME_DESCRIPTION, HOME_TITLE, pageJsonLd } from "@/lib/metadata";
 
 /**
  * The content sections are wrapped in a single <main>, with the header and
@@ -33,6 +34,23 @@ import InteractionsRuntime from "@/components/sites/adeel-site/shared/Interactio
 export default function Home() {
   return (
     <>
+      {/* The page node for `/`. The layout emits Person and WebSite for every
+          route; this adds the node that says *which* page they describe, using
+          the same title and description the <title> tag above it uses. */}
+      <script
+        type="application/ld+json"
+        id="ld-page"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            pageJsonLd({
+              path: "/",
+              type: "ProfilePage",
+              name: HOME_TITLE,
+              description: HOME_DESCRIPTION,
+            })
+          ),
+        }}
+      />
       <HeaderSection />
       <main>
         <HeroSection />

@@ -9,7 +9,20 @@ export default function HeroSection() {
                 <img alt={""} src={"/assets/home/02-hero/contain-size-image-image-297.svg"} loading={"lazy"} className={"contain-size-image"} />
               </div>
               <div className={"agency-hero-text"}>
-                <h1 className={"h1"}>Curious</h1>
+                {/* The display word is decoration -- it is not what this page is
+                    about, and leaving it as the only <h1> meant the page's single
+                    top-level heading read "Curious" while the name sat below as an
+                    <h2>. The tag stays because swapping it for a <div> would pick up
+                    `h1 { margin: .67em 0 }` from webflow.css: `.h1` specifies size,
+                    line-height, weight and letter-spacing but not margin, so the
+                    heading would move. The context goes in an out-of-flow span
+                    instead, which clips to 1x1 and contributes nothing to layout. */}
+                <h1 className={"h1"}>
+                  Curious
+                  <span className={"sr-only"}>
+                    {" — Sayyad Adeel Ahmad, a student who learns by building"}
+                  </span>
+                </h1>
               </div>
             </div>
             <div className={"agency-hero-secend-wrapper"}>

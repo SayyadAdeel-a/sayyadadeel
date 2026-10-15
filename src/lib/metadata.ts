@@ -15,6 +15,22 @@ import { siteConfig } from "./brand";
 
 const OG_TYPE = "website";
 
+/**
+ * The homepage title and description, exported so the `<title>` and the
+ * `ProfilePage` node that describes the same page cannot drift apart.
+ *
+ * The homepage's metadata lives in `app/layout.tsx` because `/` is the root
+ * route and `app/page.tsx` does not declare its own, so without these constants
+ * the title would be written in one file and repeated in another.
+ */
+export const HOME_TITLE = `${siteConfig.fullName} — Learning, Building & Experimenting`;
+export const HOME_DESCRIPTION = siteConfig.description;
+
+/** Absolute URL for a route path, `/` meaning the site root. */
+function absoluteUrl(path: string): string {
+  return `${siteConfig.siteUrl}${path === "/" ? "" : path}`;
+}
+
 type RouteMeta = {
   title: string;
   description: string;
@@ -140,11 +156,54 @@ export function webSiteJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    // Without this the node is anonymous and the `isPartOf` references from the
+    // per-route page nodes below resolve to nothing -- Google links a graph
+    // through `@id`, not by guessing that two nodes describe the same site.
+    "@id": `${siteConfig.siteUrl}/#website`,
     name: siteConfig.name,
     alternateName: siteConfig.fullName,
     url: siteConfig.siteUrl,
     description: siteConfig.description,
     inLanguage: siteConfig.language,
     publisher: { "@id": `${siteConfig.siteUrl}/#person` },
+  };
+}
+
+/**
+ * Per-route structured data.
+ *
+ * The root layout emits `Person` and `WebSite` once for every route. These add
+ * the node describing *that* page, so each one carries its own `@id` and points
+ * back at the site and the person rather than standing alone.
+ *
+ * Deliberately modest: this site earns no rich result from schema, so the only
+ * job here is to make the graph unambiguous -- which page, which person, which
+ * site. Nothing is asserted that is not visible on the page.
+ *
+ * `name` and `description` are passed in from the same values given to
+ * `buildMetadata`, so the title tag and the structured data always agree.
+ */
+type PageJsonLd = {
+  path: string;
+  type: "ProfilePage" | "ContactPage";
+  name: string;
+  description: string;
+};
+
+export function pageJsonLd({ path, type, name, description }: PageJsonLd) {
+  const url = absoluteUrl(path);
+
+  return {
+    "@context": "https://schema.org",
+    "@type": type,
+    "@id": `${url}/#page`,
+    url,
+    name,
+    description,
+    inLanguage: siteConfig.language,
+    isPartOf: { "@id": `${siteConfig.siteUrl}/#website` },
+    // One reference rather than `about` as well: for both node types the person
+    // is the subject, and repeating it under two properties reads like padding.
+    mainEntity: { "@id": `${siteConfig.siteUrl}/#person` },
   };
 }

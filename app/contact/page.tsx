@@ -6,7 +6,7 @@ import SiteCta from "@/components/sites/adeel-site/shared/SiteCta";
 import SiteFooter from "@/components/sites/adeel-site/shared/SiteFooter";
 import PageInteractions from "@/components/sites/adeel-site/shared/PageInteractions";
 import ixPayload from "@/components/sites/adeel-site/contact-4eb95063/ix.json";
-import { buildMetadata } from "@/lib/metadata";
+import { buildMetadata, pageJsonLd } from "@/lib/metadata";
 
 /**
  * Metadata for `/contact`.
@@ -17,16 +17,36 @@ import { buildMetadata } from "@/lib/metadata";
  * `images` at `/assets/shared/thumbnail-2.jpg` -- a template placeholder that
  * reads "PLACE YOUR DESIGN HERE".
  */
+const title = "Contact — Sayyad Adeel Ahmad | Portfolio & Enquiries";
+const description =
+  "Get in touch with Sayyad Adeel Ahmad about a project, an idea, or just to say hello. The contact form is the fastest way to reach him.";
+
 export const metadata = buildMetadata({
-  title: "Contact — Sayyad Adeel Ahmad",
-  description:
-    "Get in touch with Sayyad Adeel Ahmad about a project, an idea, or just to say hello. The contact form is the fastest way to reach him.",
+  title,
+  description,
   path: "/contact",
 });
 
 export default function Page() {
   return (
     <>
+      {/* The page node for `/contact`. Hoisted to the same `title` and
+          `description` the metadata above uses, so the structured data cannot
+          describe a different page than the title tag does. */}
+      <script
+        type="application/ld+json"
+        id="ld-page"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            pageJsonLd({
+              path: "/contact",
+              type: "ContactPage",
+              name: title,
+              description,
+            })
+          ),
+        }}
+      />
       <SiteHeader currentPath={"/contact"} />
       <main>
         <ContactSection />

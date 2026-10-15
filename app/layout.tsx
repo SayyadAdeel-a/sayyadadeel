@@ -9,7 +9,13 @@ import "./webflow.css";
 import "./globals.css";
 import SmoothScrollProvider from "@/components/SmoothScrollProvider";
 import { siteConfig } from "@/lib/brand";
-import { buildMetadata, personJsonLd, webSiteJsonLd } from "@/lib/metadata";
+import {
+  buildMetadata,
+  HOME_DESCRIPTION,
+  HOME_TITLE,
+  personJsonLd,
+  webSiteJsonLd,
+} from "@/lib/metadata";
 
 // The source site loads these four families through Google's WebFont loader.
 // next/font self-hosts the identical font files, so metrics and glyph shapes
@@ -55,8 +61,8 @@ const interTight = Inter_Tight({
  * its metadata is not defined in `app/page.tsx`.
  */
 export const metadata: Metadata = buildMetadata({
-  title: `${siteConfig.fullName} — Learning, Building & Experimenting`,
-  description: siteConfig.description,
+  title: HOME_TITLE,
+  description: HOME_DESCRIPTION,
   path: "/",
 });
 

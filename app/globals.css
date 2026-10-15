@@ -140,3 +140,29 @@ html.lenis body {
 .submit-wrapper {
   width: 208px;
 }
+
+/*
+ * Visually hidden but present in the accessibility tree.
+ *
+ * The homepage's display text reads "Curious" -- decorative, and not what the
+ * page is about. Screen readers and search engines get the page's actual
+ * subject from the `.sr-only` span inside it, which costs no pixels because the
+ * box is clipped to 1x1 and taken out of flow.
+ *
+ * `margin: 0` rather than the usual `-1px`: this span sits inside an `<h1>`, and
+ * an unqualified `h1 { margin: .67em 0 }` rule exists in webflow.css. The class
+ * outranks it either way, but `0` is the value that leaves the containing block
+ * untouched rather than nudging it.
+ */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}

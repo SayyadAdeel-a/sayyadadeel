@@ -19,6 +19,7 @@
     "assets:integrity": "node scripts/asset-integrity.mjs",
     "verify:asset-loads": "node --experimental-strip-types scripts/verify-asset-loads.mjs",
     "verify:route": "node scripts/qa-route.mjs",
+    "verify:seo": "node scripts/verify-seo.mjs",
     "verify:behavior": "node scripts/qa-behavior.mjs",
     "verify:motion": "node scripts/audit-motion.mjs",
     "verify:reveals": "node scripts/audit-reveals.mjs",
