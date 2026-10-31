@@ -1,3 +1,25 @@
+import { projects } from "@/lib/projects";
+
+/**
+ * The homepage sections listed alongside the projects in the first Explore box.
+ * These are anchors, not projects, so they stay here rather than in
+ * `projects.ts`; the project names above them come from that file.
+ */
+const exploreSections = ["Project Notes", "Live Previews", "GitHub Links"];
+
+function ExploreItem({ name }: { name: string }) {
+  return (
+    <div className={"plans-pricing-item-box"}>
+      <div className={"plans-pricing-item-icon-wrap"}>
+        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
+      </div>
+      <div className={"plans-pricing-item-text-wrap"}>
+        <div className={"text-default opactiy-70"}>{name}</div>
+      </div>
+    </div>
+  );
+}
+
 export default function PricingSection() {
   return (
     <section id={"pricing"} className={"pricing-section"}>
@@ -38,54 +60,12 @@ export default function PricingSection() {
                     <div className={"text-medium blold-meddle"}>Inside Here</div>
                   </div>
                   <div className={"plans-pricing-item-wrap"}>
-                    <div className={"plans-pricing-item-box"}>
-                      <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
-                      </div>
-                      <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>Donut Website</div>
-                      </div>
-                    </div>
-                    <div className={"plans-pricing-item-box"}>
-                      <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
-                      </div>
-                      <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>E-commerce Website</div>
-                      </div>
-                    </div>
-                    <div className={"plans-pricing-item-box"}>
-                      <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
-                      </div>
-                      <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>AgentOS</div>
-                      </div>
-                    </div>
-                    <div className={"plans-pricing-item-box"}>
-                      <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
-                      </div>
-                      <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>Project Notes</div>
-                      </div>
-                    </div>
-                    <div className={"plans-pricing-item-box"}>
-                      <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
-                      </div>
-                      <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>Live Previews</div>
-                      </div>
-                    </div>
-                    <div className={"plans-pricing-item-box"}>
-                      <div className={"plans-pricing-item-icon-wrap"}>
-                        <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
-                      </div>
-                      <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>GitHub Links</div>
-                      </div>
-                    </div>
+                    {projects.map((project) => (
+                      <ExploreItem key={project.title} name={project.title} />
+                    ))}
+                    {exploreSections.map((name) => (
+                      <ExploreItem key={name} name={name} />
+                    ))}
                   </div>
                   <div className={"plans-pricing-item-button-wrap"}>
                     <a btn-anim={"true"} data-wf--button--variant={"style-three"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"75370518-7638-b5c8-7f07-5f1acf3dd3e3"} href={"#work"} className={"button w-variant-75370518-7638-b5c8-7f07-5f1acf3dd3e3 w-inline-block"}>

@@ -39,6 +39,32 @@ canonical origin and social profiles. `src/lib/metadata.ts` builds every route's
 metadata from it, so rebranding is one edit rather than a sweep through the page
 files. `public/assets/brand/` holds the wordmark, icons and share image.
 
+## Projects
+
+The portfolio's project list is `src/lib/projects.ts`. The homepage shows it in
+two places — the "Selected Projects" slider (`#work`) and the first box of the
+Explore grid — and both map over `projects`, so a new project is one object
+added to that array rather than markup edited in two components.
+
+Each entry supplies content only: two tag words, a title, a description, a link,
+the two lines on the card's floating badge, the heart badge's label, a screenshot
+and the two decorative cut-outs. `layout` picks the card variant; the variants
+differ in where the cut-outs sit and how the badge is sized, so they are not
+interchangeable. `projectLayouts` maps each variant name to its class names and
+background art — that is the only place card styling is declared.
+
+Two things to know before adding one:
+
+* The slider is a Webflow slider with its runtime inert. Its slides sit side by
+  side in a `nowrap`, `overflow: hidden` track, so only the first is on screen
+  and the rest are clipped. A new project renders correctly but is not *visible*
+  until the slider animates. Put the project you most want seen first.
+* Each screenshot needs a full-width file **and** a 500px variant, because the
+  component declares `sizes="100vw"` and lists both in `srcSet`. Without the
+  smaller file every phone downloads the full-size one.
+
+Run `npm run assets:doc` after adding images so `ASSETS.md` picks them up.
+
 ## Configuration
 
 Two environment variables, both optional. The site builds, runs and passes
