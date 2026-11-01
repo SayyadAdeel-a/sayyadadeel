@@ -66,4 +66,6 @@ export const indexableRoutes: IndexableRoute[] = [
  */
 export const excludedRoutes: Record<string, string> = {
   "/404": "Returns HTTP 404 by design and carries noindex.",
+  "/docs":
+    "API reference for the contact relay, surfaced only so /.well-known/api-catalog's service-doc link resolves. Carries noindex; it is not a page worth ranking.",
 };

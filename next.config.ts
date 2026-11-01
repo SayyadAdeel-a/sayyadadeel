@@ -64,6 +64,24 @@ const GONE = [
 ] as const;
 
 const nextConfig: NextConfig = {
+  async headers() {
+    // RFC 8288 Link headers on the homepage, pointing agents at machine-readable
+    // resources: the llms.txt context file and the API catalog. Tied to `/`
+    // so the discovery signal is present exactly where an agent starts.
+    return [
+      {
+        source: "/",
+        headers: [
+          {
+            key: "Link",
+            value:
+              '<https://adeelsayyad.tech/llms.txt>; rel="describedby"; type="text/markdown", <https://adeelsayyad.tech/.well-known/api-catalog>; rel="api-catalog"',
+          },
+        ],
+      },
+    ];
+  },
+
   async redirects() {
     return MOVED.map(({ from, to }) => ({
       source: from,

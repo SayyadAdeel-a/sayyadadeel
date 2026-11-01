@@ -1,0 +1,113 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Adeel Sayyad contact relay API",
+    "version": "1.0.0",
+    "description": "The single public endpoint on this site. POST /api/contact validates a contact message and forwards it to Formspree, which delivers the email. Nothing is stored: there is no database, no log of submissions and no third-party record beyond Formspree's own delivery.",
+    "contact": {
+      "email": "contact@adeelsayyad.tech"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://adeelsayyad.tech/api"
+    }
+  ],
+  "paths": {
+    "/contact": {
+      "post": {
+        "summary": "Send a contact message",
+        "description": "Validates a submission and relays it to Formspree for email delivery. Accepts JSON or form-encoded bodies. Returns the same ok:true shape for legitimate submissions and for silently-dropped spam, so a bot learns nothing from the response.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["name", "email", "message"],
+                "properties": {
+                  "name": { "type": "string", "maxLength": 120, "description": "The sender's name." },
+                  "email": { "type": "string", "format": "email", "maxLength": 254, "description": "The sender's email address." },
+                  "phone": { "type": "string", "maxLength": 40, "description": "Optional phone number." },
+                  "reason": {
+                    "type": "string",
+                    "maxLength": 80,
+                    "enum": ["Website / Project", "Just Asking", "Want To Connect", "Something Else"],
+                    "description": "Optional reason for getting in touch."
+                  },
+                  "message": { "type": "string", "maxLength": 4000, "description": "The message body." }
+                }
+              }
+            },
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "type": "object",
+                "required": ["name", "email", "message"],
+                "properties": {
+                  "name": { "type": "string", "maxLength": 120 },
+                  "email": { "type": "string", "format": "email", "maxLength": 254 },
+                  "phone": { "type": "string", "maxLength": 40 },
+                  "reason": { "type": "string", "maxLength": 80 },
+                  "message": { "type": "string", "maxLength": 4000 }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Accepted. ok:true is also returned for silently-dropped spam submissions.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": ["ok"],
+                  "properties": { "ok": { "type": "boolean", "enum": [true] } }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Malformed body or validation failure. An errors object lists per-field messages when validation failed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "ok": { "type": "boolean", "enum": [false] },
+                    "message": { "type": "string" },
+                    "errors": { "type": "object", "additionalProperties": { "type": "string" } }
+                  }
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request body larger than 16 KB.",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object", "properties": { "ok": { "type": "boolean", "enum": [false] }, "message": { "type": "string" } } }
+              }
+            }
+          },
+          "502": {
+            "description": "The upstream email relay (Formspree) failed.",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object", "properties": { "ok": { "type": "boolean", "enum": [false] }, "message": { "type": "string" } } }
+              }
+            }
+          },
+          "503": {
+            "description": "The contact relay is not configured (FORMSPREE_FORM_ID unset). The visitor is told to email instead.",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object", "properties": { "ok": { "type": "boolean", "enum": [false] }, "message": { "type": "string" } } }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
