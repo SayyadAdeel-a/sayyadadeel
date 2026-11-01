@@ -18,10 +18,28 @@ export default function ContactSection() {
             <p className="text-default" style={{ maxWidth: "600px", textAlign: "center", margin: "0 auto" }}>
               Whether you're starting a project, exploring an idea, or want to
               talk about something you saw here, this form is the quickest way
-              to reach Sayyad Adeel Ahmad. Share what you're working on and
-              he'll get back to you — most enquiries get a reply within a
-              working day. If you prefer, email contact@adeelsayyad.tech
-              directly; every message is read daily, Monday through Friday.
+              to reach Sayyad Adeel Ahmad. Tell him what you're working on and
+              he'll get back to you — most enquiries receive a reply within one
+              working day.
+            </p>
+            <p className="text-default" style={{ maxWidth: "600px", textAlign: "center", margin: "0 auto" }}>
+              The more context you include, the easier it is to give a useful
+              answer. A few sentences on your goal, your timeline, and anything
+              you have already tried is enough to get started. Questions are
+              welcome even at the very beginning of a project — early
+              explorations and rough ideas are part of the process.
+            </p>
+            <p className="text-default" style={{ maxWidth: "600px", textAlign: "center", margin: "0 auto" }}>
+              This form emails him directly, and nothing you submit is stored on
+              this site. Replies come during working hours, Monday through
+              Friday. If you prefer email, writing to
+              contact@adeelsayyad.tech gets the same attention.
+            </p>
+            <p className="text-default" style={{ maxWidth: "600px", textAlign: "center", margin: "0 auto" }}>
+              Common reasons to write include booking a chat about a potential
+              project, asking about the tools and approach behind the work on
+              this site, offering feedback on something you read here, or
+              simply introducing yourself. All of it is genuinely welcome.
             </p>
           </div>
           <div className={"contact-form-wrapper"}>
