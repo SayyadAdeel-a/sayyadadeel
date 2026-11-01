@@ -252,7 +252,11 @@ export default function ContactForm() {
           do this never boots on this build. The `contact-form-*` classes scope
           the reveal to this form -- see app/globals.css. */}
       <div className={`message w-form-done contact-form-done${status === "sent" ? "" : " hidden"}`} role="status">
-        <div>Thank you! Your submission has been received!</div>
+        <div className="contact-form-done-title">Got it — talk soon.</div>
+        <div className="contact-form-done-sub">
+          Your message made it through. {"I'll"} read it properly and reply within
+          a working day.
+        </div>
       </div>
     </>
   );

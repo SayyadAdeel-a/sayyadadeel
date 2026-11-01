@@ -124,6 +124,27 @@ html.lenis body {
   display: block !important;
 }
 
+/* Contact form success state — styled like the site's white cards, in the
+   owner's voice rather than a boilerplate "thank you". */
+.contact-form-done {
+  margin-top: 28px;
+  padding: 24px 28px;
+  border: 1px solid #fff;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0));
+  box-shadow: inset 0 0 64px rgba(255, 255, 255, 0.35);
+}
+.contact-form-done-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1d1d1d;
+  margin-bottom: 6px;
+}
+.contact-form-done-sub {
+  color: #575757;
+  line-height: 1.5;
+}
+
 /* Room for the longer submit label.
    `.submit-wrapper` is a fixed 150x50 pill: 24px left padding, 4px right, with
    the arrow icon absolutely positioned at `inset: 4% 2% 0% auto` so it sits 48px
