@@ -110,8 +110,6 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* Preload the hero background so first paint does not wait on it. */}
-        <link rel="preload" as="image" href="/assets/home/02-hero/grid-1.svg" />
       </head>
       <body>
         <SmoothScrollProvider>{children}</SmoothScrollProvider>
