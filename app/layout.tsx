@@ -98,6 +98,18 @@ export default function RootLayout({
         />
         {/* `@id` back-reference so the WebSite node resolves to the Person node. */}
         <link rel="author" href={`${siteConfig.siteUrl}/#person`} />
+        {/* Google tag (gtag.js) — site-wide analytics. */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4C4YM1RPX" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-G4C4YM1RPX');
+            `,
+          }}
+        />
       </head>
       <body>
         <SmoothScrollProvider>{children}</SmoothScrollProvider>
