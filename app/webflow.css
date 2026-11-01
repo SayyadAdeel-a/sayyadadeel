@@ -11230,3 +11230,8 @@ figure {
   border-radius: 999px;
   background: #fb8626;
 }
+
+/* Site-wide smooth anchor scrolling. */
+html {
+  scroll-behavior: smooth;
+}
