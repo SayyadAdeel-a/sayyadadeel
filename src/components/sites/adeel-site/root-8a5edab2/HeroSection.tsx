@@ -72,7 +72,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div className={"hero-bg-image-wrap"}>
-        <img alt={""} src={"/assets/home/02-hero/grid-1.svg"} loading={"lazy"} className={"cover-size-banner"} />
+        <img alt={""} src={"/assets/home/02-hero/grid-1.svg"} loading={"eager"} fetchPriority={"high"} className={"cover-size-banner"} />
       </div>
     </section>
   );
