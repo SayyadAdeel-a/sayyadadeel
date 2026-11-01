@@ -22,6 +22,12 @@ function Block({ block }: { block: ArticleBlock }) {
       );
     case "quote":
       return <blockquote>{block.x}</blockquote>;
+    case "link":
+      return (
+        <p className="article-inline-link">
+          <a href={block.href}>{block.x}</a>
+        </p>
+      );
     default:
       return <p>{block.x}</p>;
   }

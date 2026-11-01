@@ -1,12 +1,15 @@
 "use client";
 
 import { projects, projectLayouts, type Project } from "@/lib/projects";
+import { getArticle, isLive } from "@/lib/articles";
 
 /** Joins class tokens, skipping the ones a card layout does not override. */
 const cls = (...tokens: (string | undefined)[]) => tokens.filter(Boolean).join(" ");
 
 function ProjectSlide({ project }: { project: Project }) {
   const layout = projectLayouts[project.layout];
+  const guide = project.guideSlug ? getArticle(project.guideSlug) : undefined;
+  const showGuide = guide ? isLive(guide) : false;
 
   return (
     <div className={"services-slide w-slide"}>
@@ -46,6 +49,11 @@ function ProjectSlide({ project }: { project: Project }) {
                           </div>
                         </div>
                       </a>
+                      {showGuide && guide ? (
+                        <a href={`/writing/${guide.slug}`} className="slide-guide-link">
+                          Guide →
+                        </a>
+                      ) : null}
                     </div>
                   </div>
                 </div>

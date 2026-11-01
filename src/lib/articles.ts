@@ -26,7 +26,8 @@ export type ArticleBlock =
   | { t: "p"; x: string }
   | { t: "h2"; x: string }
   | { t: "ul"; x: string[] }
-  | { t: "quote"; x: string };
+  | { t: "quote"; x: string }
+  | { t: "link"; x: string; href: string };
 
 export type Article = {
   slug: string;
@@ -76,6 +77,7 @@ export const articles: Article[] = [
       { t: "h2", x: "How to get a useful number" },
       { t: "p", x: "Send the same brief to two or three developers and compare what they ask. A good brief says what the site must do, who it is for, and what success looks like — not which colours you like. You will learn more from the questions they ask back than from their prices." },
       { t: "p", x: "If you want a feel for what a project like yours involves and what it should cost, I have built a range of projects — from storefronts to fully custom platforms — and I am happy to look at your brief and give you a straight answer, including whether it is a one-person project at all. Reach me through the contact page." },
+      { t: "link", x: "See the projects behind this guide →", href: "/#work" },
     ],
   },
   {
@@ -108,6 +110,7 @@ export const articles: Article[] = [
         "They can show work. Real projects, with real constraints, are the best signal. Anyone can talk; a portfolio shows how they think.",
       ] },
       { t: "p", x: "I build with Next.js and React, and this very site is a Next.js project. If you are evaluating a developer and want to see how one thinks, the projects here are a good starting point — and I am happy to talk through what your project would involve." },
+      { t: "link", x: "See the full-stack projects behind this guide →", href: "/#work" },
     ],
   },
   {
@@ -143,6 +146,7 @@ export const articles: Article[] = [
       ] },
       { t: "quote", x: "The most expensive store is the one that launches with no plan for how you will actually manage it day to day." },
       { t: "p", x: "I have built storefronts and full commerce-adjacent platforms, so I know where the effort really goes. If you are thinking about selling online, tell me a little about what you sell and I will give you an honest read on the simplest path that actually works for you." },
+      { t: "link", x: "See the ecommerce projects behind this guide →", href: "/#work" },
     ],
   },
   {
@@ -178,6 +182,7 @@ export const articles: Article[] = [
       { t: "h2", x: "The honest middle ground" },
       { t: "p", x: "A good freelancer can sometimes feel like a mini-agency, and a small agency can feel like a freelancer with a bigger invoice. The real question is whether you are buying one person's focused work or a team's breadth — and paying accordingly." },
       { t: "p", x: "I work as a solo developer, which suits projects where you want one person who owns the result end to end. If that sounds like your situation, I am happy to look at your project and tell you honestly whether it is a good fit for a freelancer — or whether you would be better served by a team." },
+      { t: "link", x: "See a freelancer's actual output →", href: "/#work" },
     ],
   },
   {
@@ -211,6 +216,7 @@ export const articles: Article[] = [
       { t: "quote", x: "Ask what the site must do in a year, not what it must look like today. That is what decides builder versus developer." },
       { t: "h2", x: "A way to decide" },
       { t: "p", x: "Write down the three things the site absolutely has to do. If all three are standard, start with a builder. If any of them makes you wonder how you would do it in a template, talk to a developer before you invest in the template. I am happy to take a quick look and tell you which side you are really on." },
+      { t: "link", x: "See examples of what custom builds look like →", href: "/#work" },
     ],
   },
   {
@@ -246,6 +252,7 @@ export const articles: Article[] = [
       { t: "p", x: "Automation is usually a fixed project or a small retainer, and the price tracks the complexity of what is being automated. A simple, well-defined script can be quick; a system that has to be reliable, monitored, and resilient is a bigger commitment. Start with one painful, boring task and automate it well before thinking about everything at once." },
       { t: "quote", x: "A good automation is one you forget about because it just works — not one that needs a babysitter." },
       { t: "p", x: "I build exactly this kind of system — I have shipped monitoring and market-intelligence tools that watch sources around the clock and alert on what matters. If you have a task you are tired of doing by hand, tell me what it is and I will give you an honest take on whether it is worth automating, and what it would take." },
+      { t: "link", x: "See the automation projects behind this guide →", href: "/#work" },
     ],
   },
 ];

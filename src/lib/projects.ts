@@ -108,6 +108,11 @@ export type Project = {
   /** The two tag words above the title, rendered in order. */
   tags: [string, string];
   title: string;
+  /**
+   * Slug of a related Writing guide, surfaced as a small link on the card so
+   * the projects and guides cross-link to each other.
+   */
+  guideSlug?: string;
   description: string;
   /**
    * Where "View Project" goes. All three currently jump to `#featured-work`,
@@ -130,6 +135,7 @@ export const projects: Project[] = [
   {
     tags: ["Automation", "Market Intelligence"],
     title: "Cardmarket Intelligence",
+    guideSlug: "when-to-hire-python-automation-developer",
     description:
       "A sophisticated Python-based marketplace monitoring and market intelligence system built for continuous Cardmarket listing surveillance. Features advanced browser automation, Cloudflare challenge handling, intelligent listing extraction, historical price tracking, and instant Discord/Slack alerts when listings match configured price thresholds.",
     href: "https://github.com/SayyadAdeel-a/Cardmarket-scraper",
@@ -148,6 +154,7 @@ export const projects: Project[] = [
   {
     tags: ["Logistics", "Full-Stack"],
     title: "Nexus Logistics",
+    guideSlug: "what-does-a-nextjs-developer-do",
     description:
       "A comprehensive full-stack last-mile courier and parcel delivery platform that connects customers, dispatchers, drivers, and administrators through five specialized role-based portals. Features shipment management, real-time consignment tracking, automated invoicing, mobile driver workflows, secure document storage, and operational analytics.",
     href: "https://nexusogisticss.vercel.app/",
@@ -166,6 +173,7 @@ export const projects: Project[] = [
   {
     tags: ["E-commerce", "Design"],
     title: "Donut Website",
+    guideSlug: "ecommerce-website-development-how-much",
     description:
       "A playful storefront experiment focused on colorful visuals, products, and a simple shopping experience.",
     href: "#featured-work",
@@ -184,6 +192,7 @@ export const projects: Project[] = [
   {
     tags: ["Storefront", "Web"],
     title: "E-commerce Website",
+    guideSlug: "ecommerce-website-development-how-much",
     description:
       "An online store project exploring product presentation, browsing, and a clean shopping experience.",
     href: "#featured-work",
@@ -202,6 +211,7 @@ export const projects: Project[] = [
   {
     tags: ["AI Agents", "Experiment"],
     title: "AgentOS",
+    guideSlug: "when-to-hire-python-automation-developer",
     description:
       "An experiment exploring how multiple coding agents can plan, divide tasks, and work together.",
     href: "#featured-work",

@@ -11235,3 +11235,27 @@ figure {
 html {
   scroll-behavior: smooth;
 }
+
+/* Project-card "read the guide" cross-link (guides <-> projects). */
+.slide-creators-button-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  grid-column-gap: 18px;
+  grid-row-gap: 8px;
+}
+.slide-guide-link {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fb8626;
+  text-decoration: none;
+}
+.slide-guide-link:hover {
+  text-decoration: underline;
+}
+
+/* Inline link paragraphs inside article bodies. */
+.article-inline-link a {
+  font-weight: 600;
+}
