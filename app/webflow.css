@@ -11196,3 +11196,37 @@ figure {
     justify-self: auto;
   }
 }
+
+/* Contact page structured intro (added with the rework of the header copy). */
+.contact-intro {
+  max-width: 620px;
+  margin: 0 auto;
+}
+.contact-intro p {
+  margin: 0 0 12px;
+  text-align: left;
+}
+.contact-goodtoknow {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  text-align: left;
+}
+.contact-goodtoknow li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+.contact-goodtoknow li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.58em;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #fb8626;
+}

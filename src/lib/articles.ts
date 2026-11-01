@@ -50,8 +50,8 @@ export const articles: Article[] = [
       "A realistic guide to web developer pricing in 2026 — hourly rates, project quotes, what they include, and where costs quietly hide.",
     cluster: "web",
     tags: ["web development", "pricing", "hiring"],
-    publishedAt: "2026-12-05T09:00:00Z",
-    status: "scheduled",
+    publishedAt: "2026-10-25T09:00:00Z",
+    status: "published",
     readingMinutes: 6,
     body: [
       { t: "p", x: "If you are reading this, you are probably trying to put a number on something that does not have an obvious price tag. You are not alone. \"How much does it cost to hire a web developer?\" is one of the first questions every business asks, and it is one of the hardest to answer cleanly, because the honest answer is: it depends on what you actually need." },
@@ -85,7 +85,7 @@ export const articles: Article[] = [
       "What a Next.js developer does day to day, why companies hire them, and how to tell a strong one from someone who just knows React.",
     cluster: "web",
     tags: ["next.js", "react", "web development"],
-    publishedAt: "2026-12-12T09:00:00Z",
+    publishedAt: "2026-11-02T09:00:00Z",
     status: "scheduled",
     readingMinutes: 5,
     body: [
@@ -117,7 +117,7 @@ export const articles: Article[] = [
       "The pieces that go into building an online store — platforms, payments, admin, and the costs that surprise people — and how to scope it.",
     cluster: "web",
     tags: ["ecommerce", "web development", "online store"],
-    publishedAt: "2026-12-19T09:00:00Z",
+    publishedAt: "2026-11-03T09:00:00Z",
     status: "scheduled",
     readingMinutes: 7,
     body: [
@@ -152,7 +152,7 @@ export const articles: Article[] = [
       "When a freelancer makes sense over an agency — and when it doesn't. A practical decision framework for hiring web help.",
     cluster: "web",
     tags: ["freelance", "agency", "hiring"],
-    publishedAt: "2026-12-26T09:00:00Z",
+    publishedAt: "2026-11-04T09:00:00Z",
     status: "scheduled",
     readingMinutes: 5,
     body: [
@@ -187,7 +187,7 @@ export const articles: Article[] = [
       "Should you use Wix, Squarespace, or a similar builder — or hire a developer? Honest, practical criteria for small businesses.",
     cluster: "web",
     tags: ["small business", "website builders", "web development"],
-    publishedAt: "2027-01-02T09:00:00Z",
+    publishedAt: "2026-11-05T09:00:00Z",
     status: "scheduled",
     readingMinutes: 5,
     body: [
@@ -220,7 +220,7 @@ export const articles: Article[] = [
       "Signs your manual processes are costing more than a developer would, and what automation projects realistically involve.",
     cluster: "automation",
     tags: ["python", "automation", "ai"],
-    publishedAt: "2027-01-09T09:00:00Z",
+    publishedAt: "2026-11-06T09:00:00Z",
     status: "scheduled",
     readingMinutes: 6,
     body: [

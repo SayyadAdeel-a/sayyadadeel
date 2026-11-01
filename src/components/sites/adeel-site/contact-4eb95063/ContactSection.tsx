@@ -15,32 +15,26 @@ export default function ContactSection() {
               </div>
             </div>
             <h1 group-fade-up-item={"true"} className={"h1 text-wrap"}>Let’s Connect</h1>
-            <p className="text-default" style={{ maxWidth: "600px", textAlign: "center", margin: "0 auto" }}>
-              Whether you're starting a project, exploring an idea, or want to
-              talk about something you saw here, this form is the quickest way
-              to reach Sayyad Adeel Ahmad. Tell him what you're working on and
-              he'll get back to you — most enquiries receive a reply within one
-              working day.
-            </p>
-            <p className="text-default" style={{ maxWidth: "600px", textAlign: "center", margin: "0 auto" }}>
-              The more context you include, the easier it is to give a useful
-              answer. A few sentences on your goal, your timeline, and anything
-              you have already tried is enough to get started. Questions are
-              welcome even at the very beginning of a project — early
-              explorations and rough ideas are part of the process.
-            </p>
-            <p className="text-default" style={{ maxWidth: "600px", textAlign: "center", margin: "0 auto" }}>
-              This form emails him directly, and nothing you submit is stored on
-              this site. Replies come during working hours, Monday through
-              Friday. If you prefer email, writing to
-              contact@adeelsayyad.tech gets the same attention.
-            </p>
-            <p className="text-default" style={{ maxWidth: "600px", textAlign: "center", margin: "0 auto" }}>
-              Common reasons to write include booking a chat about a potential
-              project, asking about the tools and approach behind the work on
-              this site, offering feedback on something you read here, or
-              simply introducing yourself. All of it is genuinely welcome.
-            </p>
+            <div className={"contact-intro"}>
+              <p className="text-default">
+                Whether you're starting a project, exploring an idea, or want to
+                talk about something you saw here, this form is the quickest way
+                to reach Sayyad Adeel Ahmad. Most enquiries get a reply within
+                one working day.
+              </p>
+              <p className="text-default">
+                I'm happy to discuss projects big or small, answer questions
+                before you're ready to commit, or simply connect. If you're not
+                sure whether something is feasible, say so — an honest answer is
+                part of the point of writing.
+              </p>
+              <ul className="contact-goodtoknow">
+                <li>Messages go straight to his inbox — nothing you submit is stored on this site, only delivered as an email.</li>
+                <li>Replies come during working hours, Monday through Friday; most enquiries are answered within a day.</li>
+                <li>You can also email contact@adeelsayyad.tech directly — you'll get the same attention.</li>
+                <li>A couple of sentences on your goal, timeline, and any constraints helps him give a useful answer the first time.</li>
+              </ul>
+            </div>
           </div>
           <div className={"contact-form-wrapper"}>
             <div className={"contact-form-wrap"}>
