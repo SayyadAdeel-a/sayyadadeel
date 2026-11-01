@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/brand";
 import { indexableRoutes } from "@/lib/routes";
+import { liveArticles } from "@/lib/articles";
 
 /**
  * sitemap.xml
@@ -23,10 +24,21 @@ export const dynamic = "force-static";
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  return indexableRoutes.map(({ path, changeFrequency, priority }) => ({
+  const pages = indexableRoutes.map(({ path, changeFrequency, priority }) => ({
     url: path === "/" ? siteConfig.siteUrl : `${siteConfig.siteUrl}${path}`,
     lastModified: now,
     changeFrequency,
     priority,
   }));
+
+  // Only articles that are currently live appear; scheduled/draft ones are
+  // hidden and must not be advertised to crawlers.
+  const articlePages = liveArticles().map((a) => ({
+    url: `${siteConfig.siteUrl}/writing/${a.slug}`,
+    lastModified: new Date(a.publishedAt),
+    changeFrequency: "yearly" as const,
+    priority: 0.5,
+  }));
+
+  return [...pages, ...articlePages];
 }

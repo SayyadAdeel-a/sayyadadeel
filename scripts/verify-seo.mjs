@@ -143,8 +143,15 @@ for (const route of routes) {
   }
 }
 
+// A route with dynamic segments (e.g. `/writing/[slug]`) matches every concrete
+// path that fills those segments, so a sitemap entry for a live article must be
+// matched against the pattern, not the literal page-file string.
+const routePattern = (route) =>
+  new RegExp(`^${route.replace(/\[[^\]]+\]/g, "[^/]+")}$`);
+
 for (const p of smSet) {
-  if (!routes.includes(p)) bad(`sitemap lists ${p}, which has no page file`);
+  const matches = routes.some((r) => r === p || routePattern(r).test(p));
+  if (!matches) bad(`sitemap lists ${p}, which has no page file`);
 }
 
 // 3. per-page on-page ------------------------------------------------------

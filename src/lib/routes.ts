@@ -55,6 +55,13 @@ export const indexableRoutes: IndexableRoute[] = [
     priority: 0.6,
     intent: "\"contact\" is a real query with an intent this page answers directly.",
   },
+  {
+    path: "/writing",
+    changeFrequency: "monthly",
+    priority: 0.5,
+    intent:
+      "Guides on hiring developers, building websites and automation. Targets buyer-research queries that lead to contact.",
+  },
 ];
 
 /**

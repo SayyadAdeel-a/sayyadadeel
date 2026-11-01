@@ -16,6 +16,9 @@ export default function HeaderSection() {
                 <a href={"#work"} className={"nav-link w-inline-block"}>
                   <div>Work</div>
                 </a>
+                <a href={"/writing"} className={"nav-link w-inline-block"}>
+                  <div>Writing</div>
+                </a>
                 <a href={"#github"} className={"nav-link w-inline-block"}>
                   <div>GitHub</div>
                 </a>
@@ -38,6 +41,10 @@ export default function HeaderSection() {
                       <a data-wf--text-button--variant={"base"} href={"#github"} className={"text-button w-inline-block"}>
                         <div className={"text-button-normal-text"}>GitHub</div>
                         <div className={"text-button-hover-text"}>GitHub</div>
+                      </a>
+                      <a data-wf--text-button--variant={"base"} href={"/writing"} className={"text-button w-inline-block"}>
+                        <div className={"text-button-normal-text"}>Writing</div>
+                        <div className={"text-button-hover-text"}>Writing</div>
                       </a>
                       <a data-wf--text-button--variant={"base"} href={"/contact"} className={"text-button w-inline-block"}>
                         <div className={"text-button-normal-text"}>Contact</div>

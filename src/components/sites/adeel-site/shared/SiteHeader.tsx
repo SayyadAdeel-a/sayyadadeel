@@ -22,6 +22,9 @@ export default function SiteHeader({ currentPath }: { currentPath: string }) {
                   <a href={"/#work"} className={`nav-link w-inline-block`}>
                     <div>Work</div>
                   </a>
+                  <a href={"/writing"} className={`nav-link w-inline-block${currentPath === "/writing" || currentPath.startsWith("/writing/") ? " w--current" : ""}`} aria-current={currentPath.startsWith("/writing") ? "page" : undefined}>
+                    <div>Writing</div>
+                  </a>
                   <a href={"/#github"} className={`nav-link w-inline-block`}>
                     <div>GitHub</div>
                   </a>
@@ -44,6 +47,10 @@ export default function SiteHeader({ currentPath }: { currentPath: string }) {
                       <a data-wf--text-button--variant={"base"} href={"/#github"} className={`text-button w-inline-block`}>
                         <div className={"text-button-normal-text"}>GitHub</div>
                         <div className={"text-button-hover-text"}>GitHub</div>
+                      </a>
+                      <a data-wf--text-button--variant={"base"} href={"/writing"} className={`text-button w-inline-block${currentPath.startsWith("/writing") ? " w--current" : ""}`} aria-current={currentPath.startsWith("/writing") ? "page" : undefined}>
+                        <div className={"text-button-normal-text"}>Writing</div>
+                        <div className={"text-button-hover-text"}>Writing</div>
                       </a>
                       <a data-wf--text-button--variant={"base"} href={"/contact"} className={`text-button w-inline-block${currentPath === "/contact" ? " w--current" : ""}`} aria-current={currentPath === "/contact" ? "page" : undefined}>
                         <div className={"text-button-normal-text"}>Contact</div>
