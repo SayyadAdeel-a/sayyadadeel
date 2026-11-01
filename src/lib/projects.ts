@@ -132,7 +132,7 @@ export const projects: Project[] = [
     title: "Cardmarket Intelligence",
     description:
       "A sophisticated Python-based marketplace monitoring and market intelligence system built for continuous Cardmarket listing surveillance. Features advanced browser automation, Cloudflare challenge handling, intelligent listing extraction, historical price tracking, and instant Discord/Slack alerts when listings match configured price thresholds.",
-    href: "#featured-work",
+    href: "https://github.com/SayyadAdeel-a/Cardmarket-scraper",
     note: ["24/7 Monitoring", "Real-Time Price Alerts"],
     loveLabel: "Automation",
     image: {
@@ -144,6 +144,24 @@ export const projects: Project[] = [
     leftCutout: "/assets/home/05-solutions-slider/ring-al-photoroom-1.avif",
     rightCutout: "/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif",
     layout: "two",
+  },
+  {
+    tags: ["Logistics", "Full-Stack"],
+    title: "Nexus Logistics",
+    description:
+      "A comprehensive full-stack last-mile courier and parcel delivery platform that connects customers, dispatchers, drivers, and administrators through five specialized role-based portals. Features shipment management, real-time consignment tracking, automated invoicing, mobile driver workflows, secure document storage, and operational analytics.",
+    href: "https://nexusogisticss.vercel.app/",
+    note: ["5 Role Portals", "35 Application Routes"],
+    loveLabel: "Logistics Platform",
+    image: {
+      src: "/assets/home/05-solutions-slider/nexus-logistics.avif",
+      srcSet:
+        "/assets/home/05-solutions-slider/nexus-logistics-p-500.avif 500w, /assets/home/05-solutions-slider/nexus-logistics.avif 652w",
+      alt: "Nexus Logistics platform showing shipment and consignment tracking",
+    },
+    leftCutout: "/assets/home/05-solutions-slider/noodle-al-photoroom-1.avif",
+    rightCutout: "/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif",
+    layout: "three",
   },
   {
     tags: ["E-commerce", "Design"],

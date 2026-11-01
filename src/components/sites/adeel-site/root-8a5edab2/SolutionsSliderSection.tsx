@@ -35,7 +35,7 @@ function ProjectSlide({ project }: { project: Project }) {
                       <p className={"text-default rbg8"}>{project.description}</p>
                     </div>
                     <div className={"slide-creators-button-wrap"}>
-                      <a btn-anim={"true"} data-wf--button--variant={"style-four"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"0cf5b68d-ba2c-c2d9-8662-c17e91483685"} href={project.href} className={"button w-inline-block"}>
+                      <a btn-anim={"true"} data-wf--button--variant={"style-four"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"0cf5b68d-ba2c-c2d9-8662-c17e91483685"} href={project.href} target={project.href.startsWith("http") ? "_blank" : undefined} rel={project.href.startsWith("http") ? "noopener noreferrer" : undefined} className={"button w-inline-block"}>
                         <div className={"button-text-wrap"}>
                           <div className={"button-hover-text w-variant-0cf5b68d-ba2c-c2d9-8662-c17e91483685"}>View Project</div>
                           <div className={"button-normal-text w-variant-0cf5b68d-ba2c-c2d9-8662-c17e91483685"}>View Project</div>
