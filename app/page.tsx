@@ -15,14 +15,8 @@ import OurClientsSaySection from "@/components/sites/adeel-site/root-8a5edab2/Ou
 import InsightsIdeasSection from "@/components/sites/adeel-site/root-8a5edab2/InsightsIdeasSection";
 import CtaSection from "@/components/sites/adeel-site/root-8a5edab2/CtaSection";
 import FooterSection from "@/components/sites/adeel-site/root-8a5edab2/FooterSection";
+import InteractionsRuntime from "@/components/sites/adeel-site/shared/InteractionsRuntime";
 import { HOME_DESCRIPTION, HOME_TITLE, pageJsonLd } from "@/lib/metadata";
-import dynamic from "next/dynamic";
-
-// Load the interaction runtime as a lazy chunk so its heavy JS is not part of
-// the critical path (it is a client-only effect).
-const InteractionsRuntime = dynamic(
-  () => import("@/components/sites/adeel-site/shared/InteractionsRuntime")
-);
 
 /**
  * The content sections are wrapped in a single <main>, with the header and
