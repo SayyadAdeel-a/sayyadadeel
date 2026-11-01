@@ -27,7 +27,15 @@ export default function WritingIndex() {
             <p className="text-default">
               Honest guides on hiring web developers, building websites, and
               automation — written in the open, from projects I have actually
-              built.
+              built. Each article answers a question people ask before they
+              commission work: what things cost, who to hire, when to build
+              rather than buy, and where the hidden effort really lives.
+            </p>
+            <p className="text-default">
+              New guides are published on a schedule. If one helps you decide,
+              the practical next step is simple: reach out. Every guide here
+              comes from real project experience, and that same experience is
+              available for your project.
             </p>
           </header>
 
