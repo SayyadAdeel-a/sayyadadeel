@@ -15,6 +15,14 @@ export default function ContactSection() {
               </div>
             </div>
             <h1 group-fade-up-item={"true"} className={"h1 text-wrap"}>Let’s Connect</h1>
+            <p className="text-default" style={{ maxWidth: "600px", textAlign: "center", margin: "0 auto" }}>
+              Whether you're starting a project, exploring an idea, or want to
+              talk about something you saw here, this form is the quickest way
+              to reach Sayyad Adeel Ahmad. Share what you're working on and
+              he'll get back to you — most enquiries get a reply within a
+              working day. If you prefer, email contact@adeelsayyad.tech
+              directly; every message is read daily, Monday through Friday.
+            </p>
           </div>
           <div className={"contact-form-wrapper"}>
             <div className={"contact-form-wrap"}>
