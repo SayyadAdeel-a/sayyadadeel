@@ -96,6 +96,12 @@ type ProjectImage = {
    * Candidates go smallest-first, each as `<path> <width>w`.
    */
   srcSet: string;
+  /**
+   * Read by screen readers; the older entries still carry the template's
+   * placeholder so their markup does not change. New projects should describe
+   * what the image actually shows.
+   */
+  alt: string;
 };
 
 export type Project = {
@@ -122,6 +128,24 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    tags: ["Automation", "Market Intelligence"],
+    title: "Cardmarket Intelligence",
+    description:
+      "A sophisticated Python-based marketplace monitoring and market intelligence system built for continuous Cardmarket listing surveillance. Features advanced browser automation, Cloudflare challenge handling, intelligent listing extraction, historical price tracking, and instant Discord/Slack alerts when listings match configured price thresholds.",
+    href: "#featured-work",
+    note: ["24/7 Monitoring", "Real-Time Price Alerts"],
+    loveLabel: "Automation",
+    image: {
+      src: "/assets/home/05-solutions-slider/cardmarket-intelligence.avif",
+      srcSet:
+        "/assets/home/05-solutions-slider/cardmarket-intelligence-p-500.avif 500w, /assets/home/05-solutions-slider/cardmarket-intelligence.avif 652w",
+      alt: "Cardmarket Intelligence market price trend chart and TCG order book",
+    },
+    leftCutout: "/assets/home/05-solutions-slider/ring-al-photoroom-1.avif",
+    rightCutout: "/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif",
+    layout: "two",
+  },
+  {
     tags: ["E-commerce", "Design"],
     title: "Donut Website",
     description:
@@ -133,6 +157,7 @@ export const projects: Project[] = [
       src: "/assets/home/05-solutions-slider/donut-website.avif",
       srcSet:
         "/assets/home/05-solutions-slider/donut-website-p-500.avif 500w, /assets/home/05-solutions-slider/donut-website.avif 652w",
+      alt: "Slider Image",
     },
     leftCutout: "/assets/home/05-solutions-slider/noodle-al-photoroom-1.avif",
     rightCutout: "/assets/home/05-solutions-slider/ring-al-photoroom-1.avif",
@@ -150,6 +175,7 @@ export const projects: Project[] = [
       src: "/assets/home/05-solutions-slider/ecommerce-website.avif",
       srcSet:
         "/assets/home/05-solutions-slider/ecommerce-website-p-500.avif 500w, /assets/home/05-solutions-slider/ecommerce-website.avif 652w",
+      alt: "Slider Image",
     },
     leftCutout: "/assets/home/05-solutions-slider/ring-al-photoroom-1.avif",
     rightCutout: "/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif",
@@ -167,6 +193,7 @@ export const projects: Project[] = [
       src: "/assets/home/05-solutions-slider/agentos.avif",
       srcSet:
         "/assets/home/05-solutions-slider/agentos-p-500.avif 500w, /assets/home/05-solutions-slider/agentos.avif 652w",
+      alt: "Slider Image",
     },
     leftCutout: "/assets/home/05-solutions-slider/noodle-al-photoroom-1.avif",
     rightCutout: "/assets/home/05-solutions-slider/tknot-3-photoroom-1.avif",

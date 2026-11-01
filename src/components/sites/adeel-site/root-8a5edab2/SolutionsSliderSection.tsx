@@ -63,7 +63,7 @@ function ProjectSlide({ project }: { project: Project }) {
                         <div className={"text-default font-three"}>{project.note[1]}</div>
                       </div>
                       <div className={"slide-creators-image-priend-wrap"}>
-                        <img src={project.image.src} loading={"lazy"} alt={"Slider Image"} sizes={"100vw"} srcSet={project.image.srcSet} className={"cover-size-image"} />
+                        <img src={project.image.src} loading={"lazy"} alt={project.image.alt} sizes={"100vw"} srcSet={project.image.srcSet} className={"cover-size-image"} />
                       </div>
                       <div className={cls("slide-creators-image-love-wrap", layout.loveWrapClass)}>
                         <div love-child={"ture"} className={"love-icon"}>
