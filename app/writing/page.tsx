@@ -44,7 +44,9 @@ export default function WritingIndex() {
               New guides are published on a schedule, so it is worth checking
               back. If one helps you decide, the practical next step is simple:
               reach out. Everything here comes from real project experience, and
-              that same experience is available for your own project.
+              that same experience is available for your own project. Whether you
+              are planning your first site or scaling an existing product, the
+              goal is the same: give you enough to make an informed decision.
             </p>
           </header>
 
