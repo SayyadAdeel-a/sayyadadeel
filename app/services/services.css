@@ -11,6 +11,7 @@
 
 .services-prose {
   max-width: 720px;
+  margin-inline: auto;
 }
 
 .service-heading {

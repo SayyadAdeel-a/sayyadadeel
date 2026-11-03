@@ -23,9 +23,10 @@ import type { NextConfig } from "next";
  *     and to anyone who follows an old link, so these return 410 Gone, which
  *     tells a crawler to stop asking sooner than a 404 does.
  *
- * Nothing here invents a destination. `/services` has no honest successor --
- * the homepage has a capabilities section but no anchor for it -- so it is in
- * the gone group rather than being pointed at a loose approximation.
+ * Nothing here invents a destination. `/services` is live again — a hub of
+ * hand-written service pages — but the template's own service slugs have no
+ * successor on this site, so they return 410 Gone, which tells a crawler to
+ * stop asking sooner than a 404 does.
  */
 
 /** Old URL -> the homepage section that now carries that content. */
@@ -43,7 +44,6 @@ const MOVED = [
  * never going to survive a rebrand and were not written by this site's owner.
  */
 const GONE = [
-  "/services",
   "/services/campaign-management",
   "/services/creator-partnerships",
   "/services/short-form-video-production",

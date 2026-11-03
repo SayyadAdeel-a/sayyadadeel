@@ -7,6 +7,8 @@
 
 .writing-index-header {
   max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
 }
 
@@ -86,6 +88,8 @@
 
 .writing-index-cta {
   margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 32px;
   max-width: 720px;
   border: 1px solid #fff;

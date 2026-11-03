@@ -101,7 +101,7 @@ export const services: Service[] = [
   },
   {
     slug: "ai-automation",
-    title: "AI Automation Services for Businesses",
+    title: "AI Automation Services for Businesses & Teams",
     description:
       "AI automation services for businesses: Python automation and AI integrations that remove repetitive manual work from your team.",
     h1: "AI Automation Services",
@@ -272,7 +272,7 @@ export const services: Service[] = [
   },
   {
     slug: "python-automation",
-    title: "Python Automation & Web Data Services",
+    title: "Python Automation, Web Scraping & Data Services",
     description:
       "Python automation and web data services: scraping, monitoring, alerting and reporting that remove repetitive work from your team.",
     h1: "Python Automation & Web Data",

@@ -36,7 +36,7 @@ export const siteConfig = {
    * can build and ship, not what he is still figuring out.
    */
   description:
-    "Freelance web developer Sayyad Adeel Ahmad — builds fast websites, ecommerce stores and AI automation. Clear process, real projects, and a straight answer on what your build takes.",
+    "Freelance web developer Sayyad Adeel Ahmad — fast websites, ecommerce stores and AI automation, with a clear process and a straight quote.",
   keywords: [
     "Sayyad Adeel",
     "Adeel Ahmad",
