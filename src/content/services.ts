@@ -213,6 +213,120 @@ export const services: Service[] = [
     ],
     cta: "Start your project",
   },
+  {
+    slug: "shopify-development",
+    title: "Shopify Website Development & Custom Store Builds",
+    description:
+      "Shopify website development by a freelance developer: custom storefronts, theme and app work that help your store convert.",
+    h1: "Shopify Development",
+    intro:
+      "Shopify handles the plumbing — payments, inventory, hosting. What it does not hand you is a store that looks and converts like yours. I build custom Shopify storefronts and refine themes so your store reflects your brand instead of the default template.",
+    sections: [
+      {
+        heading: "What I do on Shopify",
+        body:
+          "Custom theme work, app integration, and store setup that is scoped to your catalog. I focus on the parts that decide whether a visitor buys: product pages, navigation and a checkout flow without roadblocks.",
+      },
+      {
+        heading: "Custom storefronts, not just theme tweaks",
+        body:
+          "When the default themes are too limiting, I build a headless or custom storefront that talks to Shopify's backend. You keep Shopify's admin and payments, but the store looks and behaves exactly how you want.",
+      },
+      {
+        heading: "Built to keep converting",
+        body:
+          "I optimise for speed and clarity rather than piling on features. A faster store keeps customers on the page, and a clear path to checkout turns that attention into sales.",
+      },
+    ],
+    deliverables: [
+      "Custom Shopify theme or storefront development",
+      "Product page and category layout that sells",
+      "Apps and integrations set up correctly",
+      "Migration or redesign of an existing store",
+      "Checkout and conversion polish",
+      "QA, launch support and a handover you can operate",
+    ],
+    faqs: [
+      {
+        q: "Can you build a store on my existing Shopify plan?",
+        a:
+          "Yes. Custom theme and storefront work stays within Shopify's platform, so you keep the admin and payment setup you already have. I work within what your plan supports and flag anything that needs an upgrade.",
+      },
+      {
+        q: "Do you build custom apps too?",
+        a:
+          "When a store needs behaviour no app provides, I build a custom integration or app that fits your workflow. This is usually scoped separately once the store structure is clear.",
+      },
+      {
+        q: "Will my store still be fast with apps installed?",
+        a:
+          "Apps add JavaScript and requests, which can slow a store down. I review what you actually need and keep performance in mind when choosing and wiring integrations.",
+      },
+      {
+        q: "Can you migrate my store from another platform?",
+        a:
+          "Yes. I plan the migration to preserve your products, SEO and customer history, then rebuild the storefront on Shopify so nothing is lost in the move.",
+      },
+    ],
+    cta: "Get a Shopify quote",
+  },
+  {
+    slug: "python-automation",
+    title: "Python Automation & Web Data Services",
+    description:
+      "Python automation and web data services: scraping, monitoring, alerting and reporting that remove repetitive work from your team.",
+    h1: "Python Automation & Web Data",
+    intro:
+      "Some of the most valuable work is invisible: a script that watches a marketplace, collects data on schedule, and alerts you the moment something changes. I build Python automation and data pipelines that remove repetitive work and give you a reliable, current view of your data.",
+    sections: [
+      {
+        heading: "Data collection done right",
+        body:
+          "Pulling data from websites, marketplaces or internal tools is easy to start and hard to keep reliable. I build collectors that handle pagination, changes in page structure, and polite rate limits — so the data stays accurate after the first run.",
+      },
+      {
+        heading: "Monitoring and alerting",
+        body:
+          "Automation is most useful when it tells you something you would otherwise miss. I build workflows that watch for changes — prices, availability, competitors — and notify you only when there is something worth acting on.",
+      },
+      {
+        heading: "Reports your team can use",
+        body:
+          "Raw data is only useful if it reaches the right people in the right shape. I pipe collected data into clean, scheduled reports and dashboards your team can read without engineering help.",
+      },
+    ],
+    deliverables: [
+      "Custom Python automation scripts and workflows",
+      "Web and marketplace data collection",
+      "Scheduled monitoring and alerting",
+      "Data cleaning and scheduled reporting",
+      "Integrations between tools that do not talk natively",
+      "Documentation and error handling you can maintain",
+    ],
+    faqs: [
+      {
+        q: "Is web scraping okay to use?",
+        a:
+          "Automation must respect the site's terms, robots rules and the law. I scope scraping projects within those limits and prefer official APIs where they exist.",
+      },
+      {
+        q: "How do you keep automation from breaking?",
+        a:
+          "Websites change, so I build with change in mind: clear structure, error handling, and monitoring that flags when a collector needs attention before you notice it is stale.",
+      },
+      {
+        q: "Can you integrate with the tools we already use?",
+        a:
+          "Yes. Most of the value is connecting what you already have — spreadsheets, CRMs, notifications — so the output lands where your team already works.",
+      },
+      {
+        q: "How is this different from AI automation?",
+        a:
+          "AI automation handles judgment tasks like summarizing and classifying. Python automation handles the deterministic work: moving, transforming and monitoring data at scale. Many projects use both.",
+      },
+    ],
+    cta: "Discuss your automation",
+  },
 ];
 
 export const serviceBySlug = (slug: string): Service | undefined =>
