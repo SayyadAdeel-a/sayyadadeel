@@ -107,7 +107,7 @@ export default function HeroIntroSection() {
                 </div>
               </div>
               <div className={"hero-intro-card-social-wrap"}>
-                <a href={"https://www.youtube.com/"} target={"_blank"} className={"link-sosal-wrap w-inline-block"}>
+                <a href={"https://www.youtube.com/"} target={"_blank"} aria-label={"YouTube (placeholder link)"} className={"link-sosal-wrap w-inline-block"}>
                   <div className={"hero-intro-card-social-box"}>
                     <div className={"hero-intro-card-social-icon"}>
                       <img alt={""} src={"/assets/home/03-hero-intro/contain-size-image-frame-1.svg"} loading={"lazy"} className={"contain-size-image"} />
@@ -132,7 +132,7 @@ export default function HeroIntroSection() {
                 </div>
               </div>
               <div className={"hero-intro-card-social-wrap"}>
-                <a href={"https://www.tiktok.com/en/"} target={"_blank"} className={"link-sosal-wrap w-inline-block"}>
+                <a href={"https://www.tiktok.com/en/"} target={"_blank"} aria-label={"TikTok (placeholder link)"} className={"link-sosal-wrap w-inline-block"}>
                   <div className={"hero-intro-card-social-box"}>
                     <div className={"hero-intro-card-social-icon"}>
                       <img alt={""} src={"/assets/home/03-hero-intro/contain-size-image-frame-2.svg"} loading={"lazy"} className={"contain-size-image"} />

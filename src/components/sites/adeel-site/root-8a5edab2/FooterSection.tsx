@@ -54,7 +54,7 @@ export default function FooterSection() {
                         <div className={"emal-field-wrapper"}>
                           <input className={"emal-text-field w-input"} maxLength={256} name={"email"} data-name={"Email"} placeholder={"Email Address"} type={"email"} id={"email"} required />
                           <div className={"submit-button-wrapper"}>
-                            <input type={"submit"} data-wait={"Please wait..."} className={"submit-button w-button"} value={" "} />
+                            <input type={"submit"} data-wait={"Please wait..."} aria-label={"Say hello"} className={"submit-button w-button"} value={" "} />
                             <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"/contact"} className={"icon-button w-inline-block"}>
                               <img loading={"lazy"} src={"/assets/home/17-footer/frame-1.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
                             </a>

@@ -227,6 +227,7 @@ export default function ContactForm() {
               <input
                 type={"submit"}
                 data-wait={" "}
+                aria-label={"Send message"}
                 className={"submit-button w-button"}
                 value={" "}
                 disabled={status === "sending"}

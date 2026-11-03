@@ -63,7 +63,7 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                         <div className={"emal-field-wrapper"}>
                           <input className={"emal-text-field w-input"} maxLength={256} name={"email"} data-name={"Email"} placeholder={"Email Address"} type={"email"} id={"email"} required />
                           <div className={"submit-button-wrapper"}>
-                            <input type={"submit"} data-wait={"Please wait..."} className={"submit-button w-button"} value={" "} />
+                            <input type={"submit"} data-wait={"Please wait..."} aria-label={"Subscribe to the newsletter"} className={"submit-button w-button"} value={" "} />
                             <a icon-btn-anim={"true"} data-wf--icon-button--variant={"base"} href={"#"} className={`icon-button w-inline-block${false ? " w--current" : ""}`} aria-current={false ? "page" : undefined}>
                               <img loading={"lazy"} src={"/assets/shared/frame-1.svg"} alt={"Icon"} className={"icon icon-button-icon"} />
                             </a>
