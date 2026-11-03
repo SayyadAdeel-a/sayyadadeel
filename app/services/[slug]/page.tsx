@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import "../services.css";
 import SiteHeader from "@/components/sites/adeel-site/shared/SiteHeader";
 import SiteFooter from "@/components/sites/adeel-site/shared/SiteFooter";
+import SiteCta from "@/components/sites/adeel-site/shared/SiteCta";
 import { siteConfig } from "@/lib/brand";
 import { buildMetadata, pageJsonLd } from "@/lib/metadata";
 import { serviceBySlug, services } from "@/content/services";
@@ -76,55 +77,80 @@ export default async function ServicePage({
       )}
       <SiteHeader currentPath={path} />
       <main>
-        <div className="services-shell">
-          <p className="services-eyebrow">Services</p>
-          <h1>{service.h1}</h1>
-          <p className="services-intro">{service.intro}</p>
-
-          <div className="services-grid">
-            {service.sections.map((sec) => (
-              <div key={sec.heading} className="services-section">
-                <h2>{sec.heading}</h2>
-                <p>{sec.body}</p>
+        <section className="section">
+          <div className="w-layout-blockcontainer container w-container">
+            <div className="services-prose">
+              <div className="service-heading">
+                <p
+                  className="text-medium"
+                  style={{
+                    color: siteConfig.themeColor,
+                    textTransform: "uppercase",
+                    letterSpacing: "0.06em",
+                  }}
+                >
+                  Services
+                </p>
+                <h1>{service.h1}</h1>
+                <p className="text-default">{service.intro}</p>
               </div>
-            ))}
-          </div>
 
-          <div className="services-card">
-            <h2>What you get</h2>
-            <p>Every {service.h1.toLowerCase()} project includes:</p>
-            <ul className="services-check">
-              {service.deliverables.map((d) => (
-                <li key={d}>{d}</li>
+              {service.sections.map((sec) => (
+                <div key={sec.heading} className="service-block">
+                  <h2 className="h4">{sec.heading}</h2>
+                  <p className="text-default">{sec.body}</p>
+                </div>
               ))}
-            </ul>
-            <div className="services-cta">
-              <p>{service.cta}</p>
-              <a href="/contact">Start the conversation</a>
+
+              <div className="service-card">
+                <h2 className="h4">What you get</h2>
+                <p className="text-default">
+                  Every {service.h1.toLowerCase()} project includes:
+                </p>
+                <ul className="service-check">
+                  {service.deliverables.map((d) => (
+                    <li key={d}>{d}</li>
+                  ))}
+                </ul>
+                <a
+                  btn-anim={"true"}
+                  data-wf--button--variant={"base"}
+                  data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"}
+                  data-wf-variant-state={"base"}
+                  href={"/contact"}
+                  className="button w-inline-block"
+                >
+                  <div className="button-text-wrap">
+                    <div className="button-hover-text">{service.cta}</div>
+                    <div className="button-normal-text">{service.cta}</div>
+                  </div>
+                  <div className="button-icon-box">
+                    <div button-icon-anin-one={"ture"} className="button-icon-wrap">
+                      <img
+                        src={"/assets/shared/arrow-1.svg"}
+                        loading={"lazy"}
+                        alt={"Icon"}
+                        className="button-icon"
+                      />
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div className="service-faq">
+                <h2 className="h4">Common questions</h2>
+                {service.faqs.map((f) => (
+                  <details key={f.q}>
+                    <summary>{f.q}</summary>
+                    <p>{f.a}</p>
+                  </details>
+                ))}
+              </div>
             </div>
           </div>
+        </section>
 
-          <div className="services-faq">
-            <h2>Common questions</h2>
-            {service.faqs.map((f) => (
-              <details key={f.q}>
-                <summary>{f.q}</summary>
-                <p>{f.a}</p>
-              </details>
-            ))}
-          </div>
-
-          <p style={{ marginTop: 48, color: "#8a8a8a" }}>
-            Serving clients worldwide. You can also{" "}
-            <a
-              href="/contact"
-              style={{ color: siteConfig.themeColor, textDecoration: "underline" }}
-            >
-              get in touch
-            </a>{" "}
-            directly to talk through your project.
-          </p>
-        </div>
+        <SiteCta currentPath={path} />
       </main>
       <SiteFooter currentPath={path} />
     </>

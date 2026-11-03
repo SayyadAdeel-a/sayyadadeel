@@ -71,6 +71,38 @@ export default function WritingIndex() {
               ))}
             </div>
           )}
+
+          <div className="writing-index-cta">
+            <h2 className="h4">Want help with your own build?</h2>
+            <p className="text-default">
+              I build websites and automation systems and give straight answers on
+              what projects actually take. If you have a project in mind, let us
+              talk.
+            </p>
+            <a
+              btn-anim={"true"}
+              data-wf--button--variant={"base"}
+              data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"}
+              data-wf-variant-state={"base"}
+              href={"/contact"}
+              className="button w-inline-block"
+            >
+              <div className="button-text-wrap">
+                <div className="button-hover-text">Start a project</div>
+                <div className="button-normal-text">Start a project</div>
+              </div>
+              <div className="button-icon-box">
+                <div button-icon-anin-one={"ture"} className="button-icon-wrap">
+                  <img
+                    src={"/assets/shared/arrow-1.svg"}
+                    loading={"lazy"}
+                    alt={"Icon"}
+                    className="button-icon"
+                  />
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </main>
       <SiteFooter currentPath={"/writing"} />
