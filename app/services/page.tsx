@@ -2,9 +2,9 @@ import "./services.css";
 import SiteHeader from "@/components/sites/adeel-site/shared/SiteHeader";
 import SiteFooter from "@/components/sites/adeel-site/shared/SiteFooter";
 import SiteCta from "@/components/sites/adeel-site/shared/SiteCta";
-import { siteConfig } from "@/lib/brand";
-import { buildMetadata, pageJsonLd } from "@/lib/metadata";
 import { services } from "@/content/services";
+import { buildMetadata, pageJsonLd } from "@/lib/metadata";
+import SectionLabel from "@/components/sites/adeel-site/shared/SectionLabel";
 
 const title = "Services — Web Development, Ecommerce & AI Automation";
 const description =
@@ -39,16 +39,7 @@ export default function ServicesPage() {
           <div className="w-layout-blockcontainer container w-container">
             <div className="services-prose">
               <div className="service-heading">
-                <p
-                  className="text-medium"
-                  style={{
-                    color: siteConfig.themeColor,
-                    textTransform: "uppercase",
-                    letterSpacing: "0.06em",
-                  }}
-                >
-                  Services
-                </p>
+                <SectionLabel>Services</SectionLabel>
                 <h1>What I can build for you</h1>
                 <p className="text-default">
                   Three areas I work in — websites, ecommerce and automation. Each

@@ -3,6 +3,7 @@ import SiteHeader from "@/components/sites/adeel-site/shared/SiteHeader";
 import SiteFooter from "@/components/sites/adeel-site/shared/SiteFooter";
 import { liveArticles } from "@/lib/articles";
 import { siteConfig } from "@/lib/brand";
+import SectionLabel from "@/components/sites/adeel-site/shared/SectionLabel";
 import "./articles.css";
 
 export const dynamic = "force-dynamic";
@@ -23,6 +24,7 @@ export default function WritingIndex() {
       <main className="writing-index">
         <div className="w-layout-blockcontainer container w-container">
           <header className="writing-index-header">
+            <SectionLabel>Writing</SectionLabel>
             <h1>Writing</h1>
             <p className="text-default">
               Honest guides on hiring web developers, building websites, and

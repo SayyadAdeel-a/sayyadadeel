@@ -3,9 +3,9 @@ import "../services.css";
 import SiteHeader from "@/components/sites/adeel-site/shared/SiteHeader";
 import SiteFooter from "@/components/sites/adeel-site/shared/SiteFooter";
 import SiteCta from "@/components/sites/adeel-site/shared/SiteCta";
-import { siteConfig } from "@/lib/brand";
-import { buildMetadata, pageJsonLd } from "@/lib/metadata";
 import { serviceBySlug, services } from "@/content/services";
+import { buildMetadata, pageJsonLd } from "@/lib/metadata";
+import SectionLabel from "@/components/sites/adeel-site/shared/SectionLabel";
 
 // The service pages are static: one page per record in `services`, no runtime
 // data, so the set of paths is known at build time.
@@ -81,16 +81,7 @@ export default async function ServicePage({
           <div className="w-layout-blockcontainer container w-container">
             <div className="services-prose">
               <div className="service-heading">
-                <p
-                  className="text-medium"
-                  style={{
-                    color: siteConfig.themeColor,
-                    textTransform: "uppercase",
-                    letterSpacing: "0.06em",
-                  }}
-                >
-                  Services
-                </p>
+                <SectionLabel>Services</SectionLabel>
                 <h1>{service.h1}</h1>
                 <p className="text-default">{service.intro}</p>
               </div>

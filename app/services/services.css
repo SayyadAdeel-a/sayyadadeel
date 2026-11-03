@@ -113,6 +113,24 @@
   gap: 16px;
 }
 
+/* Section-label pill: the reference sizes .text-icon-box via the IX runtime;
+   server-rendered pages provide that sizing statically. */
+.text-icon-box {
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-icon {
+  width: 10px;
+  height: 10px;
+  display: block;
+}
+
 @media (min-width: 720px) {
   .services-grid {
     grid-template-columns: 1fr 1fr;
