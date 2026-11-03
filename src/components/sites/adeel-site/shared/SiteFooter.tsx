@@ -20,7 +20,7 @@ export default function SiteFooter({ currentPath }: { currentPath: string }) {
                 </a>
               </div>
               <div className={"footer-top-text-wrap"}>
-                <div className={"text-footer-header-wrap"}>Content That Drives Real Growth.</div>
+                <div className={"text-footer-header-wrap"}>Web Development That Drives Real Growth.</div>
                 <div className={"footer-from-button-wrap footer-from-buttom-wrap"}>
                   <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={`button w-inline-block${currentPath === "/contact" ? " w--current" : ""}`} aria-current={currentPath === "/contact" ? "page" : undefined}>
                     <div className={"button-text-wrap"}>

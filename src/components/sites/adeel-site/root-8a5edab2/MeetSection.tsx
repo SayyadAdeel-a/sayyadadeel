@@ -13,12 +13,12 @@ export default function MeetSection() {
                 </div>
                 <div className={"hero-intro-line"} />
                 <div className={"meet-header-dectlies-wrap"}>
-                  <h2 className={"h6"}>One curious mind jumping between ideas and learning by doing.</h2>
+                  <h2 className={"h6"}>A developer who plans, builds and ships — and keeps you in the loop the whole way.</h2>
                 </div>
               </div>
               <div fade-up={"true"} className={"agency-hero-box"}>
                 <div className={"decorated-title"}>
-                  <div className={"display-text-two"}>Ideas Loading</div>
+                  <div className={"display-text-two"}>Projects Ready</div>
                 </div>
                 <div className={"decorated-title-style-wrap style-text-two"}>
                   <div className={"decorated-title-style-image-wrap"}>
@@ -28,7 +28,7 @@ export default function MeetSection() {
                     <div className={"text-small blold-meddle"}>
                       <span className={"spen-style"}>Powered by</span>
                       <br />
-                       Curiosity
+                       Experience
                     </div>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ export default function MeetSection() {
                         <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                       </div>
                       <div move-left-right={"ture"} className={"text-title-box meet-text-one paddes"}>
-                        <div className={"text-medium"}>Random Ideas</div>
+                        <div className={"text-medium"}>Web Development</div>
                       </div>
                     </div>
                   </div>
@@ -72,7 +72,7 @@ export default function MeetSection() {
                           <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                         </div>
                         <div move-left-right={"ture"} className={"text-title-box meet-text-two paddes"}>
-                          <div className={"text-medium"}>Trying Things</div>
+                          <div className={"text-medium"}>Client Projects</div>
                         </div>
                       </div>
                       <div className={"meet-creators-dolled-wrap"}>
@@ -153,7 +153,7 @@ export default function MeetSection() {
                           <img src={"/assets/home/06-meet/10px-flip-white.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/06-meet/10px-flip-white-p-500.avif 500w, /assets/home/06-meet/10px-flip-white.avif 720w"} alt={"Image"} className={"cover-size-image"} />
                         </div>
                         <div move-left-right={"ture"} className={"text-title-box meet-text-three paddes"}>
-                          <div className={"text-medium"}>Learning As I Go</div>
+                          <div className={"text-medium"}>Automation & AI</div>
                         </div>
                       </div>
                     </div>

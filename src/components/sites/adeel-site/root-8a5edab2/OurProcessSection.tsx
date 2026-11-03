@@ -17,10 +17,10 @@ export default function OurProcessSection() {
                       <div className={"text-block-name w-variant-0e6766d8-b805-913b-d4e9-8050c5c31653"}>My Process</div>
                     </div>
                   </div>
-                  <h2 className={"h2 white"}>How I Turn Ideas Into Projects</h2>
+                  <h2 className={"h2 white"}>How We'll Work Together</h2>
                 </div>
                 <div className={"our-process-text-dectlirs-wrap"}>
-                  <p className={"text-dectlies-card rbg5"}>I usually start with curiosity, explore how something works, build a small version, and learn from whatever happens next.</p>
+                  <p className={"text-dectlies-card rbg5"}>I start with your goal, plan the build, keep you updated as I ship, and deliver work that does what you asked.</p>
                   <div className={"box-teams-nine-wrapper"} />
                 </div>
               </div>
@@ -36,8 +36,8 @@ export default function OurProcessSection() {
                           <h3 className={"h5 opactiy-10"}>01/03</h3>
                         </div>
                         <div className={"our-process-text-dectlies-wrap"}>
-                          <h4 className={"h5"}>Curiosity & Research</h4>
-                          <div className={"text-default rgb-8"}>I start by exploring the idea, understanding the problem, and figuring out what I need to learn.</div>
+                          <h4 className={"h5"}>Understand & Plan</h4>
+                          <div className={"text-default rgb-8"}>I start by understanding your goal and requirements, then map the build before writing a line of code.</div>
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
@@ -53,8 +53,8 @@ export default function OurProcessSection() {
                           <h3 className={"h5 opactiy-10"}>02/03</h3>
                         </div>
                         <div className={"our-process-text-dectlies-wrap"}>
-                          <h4 className={"h5"}>Build & Experiment</h4>
-                          <div className={"text-default rgb-8"}>I make a small version, test different approaches, break things, and slowly figure out what actually works.</div>
+                          <h4 className={"h5"}>Build & Review</h4>
+                          <div className={"text-default rgb-8"}>I build the real thing in clear stages and check in with you as it takes shape, so there are no surprises.</div>
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>
@@ -70,8 +70,8 @@ export default function OurProcessSection() {
                           <h3 className={"h5 opactiy-10"}>03/03</h3>
                         </div>
                         <div className={"our-process-text-dectlies-wrap"}>
-                          <h4 className={"h5"}>Refine & Learn</h4>
-                          <div className={"text-default rgb-8"}>I improve what worked, fix what did not, and keep the lessons for whatever I try next.</div>
+                          <h4 className={"h5"}>Deliver & Support</h4>
+                          <div className={"text-default rgb-8"}>I polish what works, hand it over ready for launch, and stay around for fixes and follow-ups.</div>
                         </div>
                       </div>
                       <div className={"our-process-image-wrap"}>

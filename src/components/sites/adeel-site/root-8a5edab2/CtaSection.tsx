@@ -6,14 +6,14 @@ export default function CtaSection() {
           <div fade-up={"true"} className={"cta-wrap"}>
             <div className={"cta-text-wrapper"}>
               <div className={"cta-text-wrap"}>
-                <h2 className={"h4 white"}>Got Something Interesting To Share?</h2>
-                <p className={"text-default rgb-5"}>Have an idea, a question, or something interesting to talk about? I'm always open to a good conversation.</p>
+                <h2 className={"h4 white"}>Have A Project In Mind?</h2>
+                <p className={"text-default rgb-5"}>Let's talk about your website, store or automation. Tell me the goal and I'll give you a straight answer on how to get there.</p>
               </div>
               <div className={"cta-text-button-wrap"}>
                 <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>
                   <div className={"button-text-wrap"}>
-                    <div className={"button-hover-text"}>Say Hello Here</div>
-                    <div className={"button-normal-text"}>Say Hello Here</div>
+                    <div className={"button-hover-text"}>Let's Talk</div>
+                    <div className={"button-normal-text"}>Let's Talk</div>
                   </div>
                   <div className={"button-icon-box"}>
                     <div button-icon-anin-one={"ture"} className={"button-icon-wrap"}>

@@ -24,7 +24,7 @@ export const siteConfig = {
   /** Short form used where the full name will not fit. */
   shortName: "Adeel",
   owner: "Sayyad Adeel Ahmad",
-  role: "Student, builder and tinkerer",
+  role: "Freelance web developer",
   url: "https://adeelsayyad.tech",
   locale: "en_US",
   language: "en",
@@ -32,22 +32,22 @@ export const siteConfig = {
   backgroundColor: "#eee",
   /**
    * One description for the site, used as the default by every route. It reads
-   * as a personal portfolio rather than a studio: the subject is what he does,
-   * not what an agency sells.
+   * as a freelance web developer rather than a student: the subject is what he
+   * can build and ship, not what he is still figuring out.
    */
   description:
-    "Personal portfolio of Sayyad Adeel Ahmad — a student who learns by building. Projects, experiments, notes and the curiosity that connects them.",
+    "Freelance web developer Sayyad Adeel Ahmad — builds fast websites, ecommerce stores and AI automation. Clear process, real projects, and a straight answer on what your build takes.",
   keywords: [
     "Sayyad Adeel",
     "Adeel Ahmad",
-    "personal portfolio",
-    "student developer",
-    "learn by building",
-    "projects",
-    "experiments",
+    "freelance web developer",
+    "Next.js developer",
+    "ecommerce developer",
+    "AI automation",
     "web development",
-    "curiosity",
-    "build notes",
+    "hire a developer",
+    "build a website",
+    "custom web apps",
   ],
   links: {
     github: "https://github.com/SayyadAdeel-a",

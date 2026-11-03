@@ -46,7 +46,7 @@ export default function PricingSection() {
                 <div className={"our-packages-text-wrapper"}>
                   <div className={"our-packages-text-namber-wrap"}>
                     <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                      <div className={"text-mediums"}>Things Built</div>
+                      <div className={"text-mediums"}>Services</div>
                     </div>
                     <h3 className={"h4 gaya"}>01</h3>
                   </div>
@@ -86,7 +86,7 @@ export default function PricingSection() {
                 <div className={"our-packages-text-wrapper"}>
                   <div className={"our-packages-text-namber-wrap"}>
                     <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                      <div className={"text-mediums"}>Things Learned</div>
+                      <div className={"text-mediums"}>Process</div>
                     </div>
                     <h3 className={"h4 gaya"}>02</h3>
                   </div>
@@ -105,7 +105,7 @@ export default function PricingSection() {
                         <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>Learning Notes</div>
+                        <div className={"text-default opactiy-70"}>Project Breakdowns</div>
                       </div>
                     </div>
                     <div className={"plans-pricing-item-box"}>
@@ -113,7 +113,7 @@ export default function PricingSection() {
                         <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>Tool Experiments</div>
+                        <div className={"text-default opactiy-70"}>Services & Pricing</div>
                       </div>
                     </div>
                     <div className={"plans-pricing-item-box"}>
@@ -121,7 +121,7 @@ export default function PricingSection() {
                         <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>Build Process</div>
+                        <div className={"text-default opactiy-70"}>Process & Planning</div>
                       </div>
                     </div>
                     <div className={"plans-pricing-item-box"}>
@@ -129,7 +129,7 @@ export default function PricingSection() {
                         <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>Mistakes & Fixes</div>
+                        <div className={"text-default opactiy-70"}>Client Projects</div>
                       </div>
                     </div>
                     <div className={"plans-pricing-item-box"}>
@@ -137,7 +137,7 @@ export default function PricingSection() {
                         <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>Ideas In Progress</div>
+                        <div className={"text-default opactiy-70"}>Ideas & Scoping</div>
                       </div>
                     </div>
                     <div className={"plans-pricing-item-box"}>
@@ -145,7 +145,7 @@ export default function PricingSection() {
                         <img src={"/assets/home/13-pricing/plus-solid.svg"} loading={"lazy"} alt={"Icon"} className={"icon-image-wrap"} />
                       </div>
                       <div className={"plans-pricing-item-text-wrap"}>
-                        <div className={"text-default opactiy-70"}>Behind The Scenes</div>
+                        <div className={"text-default opactiy-70"}>Behind The Build</div>
                       </div>
                     </div>
                   </div>

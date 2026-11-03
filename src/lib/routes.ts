@@ -47,7 +47,7 @@ export const indexableRoutes: IndexableRoute[] = [
     changeFrequency: "monthly",
     priority: 1,
     intent:
-      "The portfolio: selected work, notes, process and GitHub. Targets the name.",
+      "Freelance web developer: services, selected work and contact. Targets what a client needs to evaluate a developer.",
   },
   {
     path: "/contact",

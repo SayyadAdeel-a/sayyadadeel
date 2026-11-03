@@ -11,7 +11,7 @@ export default function FooterSection() {
                 </a>
               </div>
               <div className={"footer-top-text-wrap"}>
-                <div className={"text-footer-header-wrap"}>Still Learning And Making Things.</div>
+                <div className={"text-footer-header-wrap"}>Building For Clients And Making Things.</div>
                 <div className={"footer-from-button-wrap footer-from-buttom-wrap"}>
                   <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"#work"} className={"button w-inline-block"}>
                     <div className={"button-text-wrap"}>

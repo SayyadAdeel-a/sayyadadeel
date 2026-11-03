@@ -6,9 +6,9 @@ export default function OurCreatorsSection() {
           <div group-fedup-phone-priend={"ture"} className={"our-creators-all-box"}>
             <div className={"our-creators-text-wrap"}>
               <h2 className={"h2"}>
-                {"Curious "}
+                {"Build "}
                 <br />
-                About Everything
+                For Clients
               </h2>
             </div>
             <div className={"crad-all-box"}>
@@ -18,7 +18,7 @@ export default function OurCreatorsSection() {
                     <div className={"our-creators-item-icon"}>
                       <img alt={""} src={"/assets/home/04-our-creators/plane-departure-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
                     </div>
-                    <div className={"text-medium"}>learning</div>
+                    <div className={"text-medium"}>building</div>
                   </div>
                   <div className={"our-creators-image-wrap"}>
                     <img src={"/assets/home/04-our-creators/cover-size-image-image-19278.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/04-our-creators/image-19278-p-500.avif 500w, /assets/home/04-our-creators/cover-size-image-image-19278.avif 800w"} alt={"Team Member Images"} className={"cover-size-image"} />
@@ -31,7 +31,7 @@ export default function OurCreatorsSection() {
                     <div className={"our-creators-item-icon"}>
                       <img alt={""} src={"/assets/home/04-our-creators/magic-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
                     </div>
-                    <div className={"text-medium"}>creating</div>
+                    <div className={"text-medium"}>launching</div>
                   </div>
                   <div className={"our-creators-image-wrap"}>
                     <img src={"/assets/home/04-our-creators/cover-size-image-rectangle-1727.avif"} loading={"lazy"} sizes={"100vw"} srcSet={"/assets/home/04-our-creators/rectangle-1727-p-500.avif 500w, /assets/home/04-our-creators/cover-size-image-rectangle-1727.avif 800w"} alt={"Team Member Images"} className={"cover-size-image"} />
@@ -47,7 +47,7 @@ export default function OurCreatorsSection() {
                     <div className={"our-creators-item-icon"}>
                       <img alt={""} src={"/assets/home/04-our-creators/laptop-code-solid.svg"} loading={"lazy"} className={"contain-size-image"} />
                     </div>
-                    <div className={"text-medium"}>experimenting</div>
+                    <div className={"text-medium"}>optimizing</div>
                   </div>
                 </div>
               </div>

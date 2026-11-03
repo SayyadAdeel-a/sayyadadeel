@@ -1,21 +1,27 @@
 # Sayyad Adeel Ahmad
 
-> Personal portfolio of Sayyad Adeel Ahmad — a student who learns by building.
-> Projects, experiments, notes and the process that connects them. Everything
-> here is his own work; there is no agency and no client list behind it.
+> Freelance web developer — builds fast websites, ecommerce stores and AI
+> automation for clients. Projects, process and the work that connects them.
+> Everything here is his own work, done for real projects.
 
-A small portfolio site. The homepage is the whole portfolio; the other pages
-are contact and not-found. Content is server-rendered, so nothing here needs
-JavaScript to read.
+A small site. The homepage is the portfolio and services; the other pages are
+writing/guides, contact and not-found. Content is server-rendered, so nothing
+here needs JavaScript to read.
+
+## Services
+
+- **Web development** — Next.js/React sites and ecommerce stores, built fast
+  and shipped reliably.
+- **Automation & AI** — Python automation, scraping, and AI integrations that
+  remove repetitive work.
 
 ## Projects
 
 - [Selected work](https://adeelsayyad.tech/#featured-work): Cardmarket
   Intelligence, Nexus Logistics, Donut Website, an E-commerce Website, and
-  AgentOS — described in his own words, with what each one was for and what he
-  got wrong.
-- [How I turn ideas into projects](https://adeelsayyad.tech/#process): curiosity,
-  research, build, experiment, refine, learn.
+  AgentOS — described in his own words, with what each one was for.
+- [How a project goes](https://adeelsayyad.tech/#process): understand and plan,
+  build and review, deliver and support.
 
 ## Notes
 

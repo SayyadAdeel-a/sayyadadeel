@@ -14,7 +14,7 @@ export default function InsightsIdeasSection() {
                     <div className={"text-block-name"}>Notes</div>
                   </div>
                 </div>
-                <h2 fade-up={"true"} className={"h4"}>Notes From The Rabbit Hole</h2>
+                <h2 fade-up={"true"} className={"h4"}>Notes From Real Builds</h2>
               </div>
               <div fade-up={"true"} className={"insights-ideas-left-button-wrap"}>
                 <a btn-anim={"true"} data-wf--button--variant={"base"} data-wf-component-id={"90522a0b-8143-769f-2ad2-e28710708494"} data-wf-variant-state={"base"} href={"/contact"} className={"button w-inline-block"}>
@@ -40,7 +40,7 @@ export default function InsightsIdeasSection() {
                           <div className={"text-default"}>Build Notes</div>
                         </div>
                         <div className={"insights-ideas-right-card-text-name-wrap"}>
-                          <h3 className={"h6"}>Why I Keep Building Things I Don't Fully Understand</h3>
+                          <h3 className={"h6"}>What Delivering For a Client Actually Taught Me</h3>
                         </div>
                       </div>
                       <div className={"insights-ideas-right-card-image-wrap"}>
@@ -52,10 +52,10 @@ export default function InsightsIdeasSection() {
                     <a fade-up={"true"} card-image-hover-priend={"ture"} href={"/contact"} className={"insights-ideas-right-card-box w-inline-block"}>
                       <div className={"insights-ideas-right-card-box-text-wrap"}>
                         <div className={"blog-text-item-box"}>
-                          <div className={"text-default"}>Learning Notes</div>
+                          <div className={"text-default"}>Build Notes</div>
                         </div>
                         <div className={"insights-ideas-right-card-text-name-wrap"}>
-                          <h3 className={"h6"}>Building With Almost No Budget Taught Me More</h3>
+                          <h3 className={"h6"}>How I Scope a Project So It Ships On Time</h3>
                         </div>
                       </div>
                       <div className={"insights-ideas-right-card-image-wrap"}>

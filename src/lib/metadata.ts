@@ -23,7 +23,7 @@ const OG_TYPE = "website";
  * route and `app/page.tsx` does not declare its own, so without these constants
  * the title would be written in one file and repeated in another.
  */
-export const HOME_TITLE = `${siteConfig.fullName} — Learning, Building & Experimenting`;
+export const HOME_TITLE = `${siteConfig.fullName} — Freelance Web Developer & Automation`;
 export const HOME_DESCRIPTION = siteConfig.description;
 
 /** Absolute URL for a route path, `/` meaning the site root. */
@@ -76,7 +76,7 @@ export function buildMetadata({
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: `${siteConfig.fullName} — learning, building, experimenting and following curiosity into real projects.`,
+          alt: `${siteConfig.fullName} — freelance web developer building fast sites, ecommerce stores and AI automation.`,
           type: "image/jpeg",
         },
       ],

@@ -75,7 +75,7 @@ export default function OurClientsSection() {
                       </div>
                       <div group-fedup-move={"ture"} className={"featured-brands-tex-wrapper"}>
                         <div className={"featured-brands-text-dectlies-wrap"}>
-                          <div className={"text-medium"}>Projects that made it past the experiment stage and became usable builds.</div>
+                          <div className={"text-medium"}>Clean, usable builds that solve a real problem and are ready to grow.</div>
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
@@ -123,7 +123,7 @@ export default function OurClientsSection() {
                       </div>
                       <div group-fedup-move={"ture"} className={"featured-brands-tex-wrapper"}>
                         <div className={"featured-brands-text-dectlies-wrap"}>
-                          <div className={"text-medium"}>Things I am actively working on, changing, and figuring out right now.</div>
+                          <div className={"text-medium"}>Projects I am actively building, refining, and shipping for clients right now.</div>
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>
@@ -171,7 +171,7 @@ export default function OurClientsSection() {
                       </div>
                       <div group-fedup-move={"ture"} className={"featured-brands-tex-wrapper"}>
                         <div className={"featured-brands-text-dectlies-wrap"}>
-                          <div className={"text-medium"}>Small tests, random ideas, and projects I started just to see what would happen.</div>
+                          <div className={"text-medium"}>Prototypes and explorations that show how I test ideas before building for real.</div>
                         </div>
                         <div className={"featured-brands-autor-image-text-wrap"}>
                           <div className={"featured-brands-autor-image-wrap"}>

@@ -8,9 +8,9 @@ export default function BrandsMarqueeSection() {
               <div className={"our-projects-name-text display-five"}>adeel.</div>
               <div className={"our-projects-text-declies-wrap"}>
                 <div className={"display-02 white"}>
-                  {"Got A Weird Idea "}
+                  {"Have A Project "}
                   <br />
-                  To Share?
+                  In Mind?
                 </div>
               </div>
               <div className={"our-projects-text-button-wrap"}>

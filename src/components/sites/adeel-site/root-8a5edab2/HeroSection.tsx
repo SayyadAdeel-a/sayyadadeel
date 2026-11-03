@@ -18,9 +18,9 @@ export default function HeroSection() {
                     heading would move. The context goes in an out-of-flow span
                     instead, which clips to 1x1 and contributes nothing to layout. */}
                 <h1 className={"h1"}>
-                  Curious
+                  Build
                   <span className={"sr-only"}>
-                    {" — Sayyad Adeel Ahmad, a student who learns by building"}
+                    {" — Sayyad Adeel Ahmad, freelance web developer & automation"}
                   </span>
                 </h1>
               </div>
@@ -61,7 +61,7 @@ export default function HeroSection() {
             </div>
           </div>
           <div className={"agency-dectlies-wrap"}>
-            <div className={"text-default"}>Just a student who keeps exploring ideas and experimenting. Some work, some don't; I keep learning anyway.</div>
+            <div className={"text-default"}>Freelance web developer — I build fast, reliable websites, ecommerce stores and AI automation. Let's make your next build a good one.</div>
           </div>
           <div fade-up={"ture"} className={"bg-image-right-wrap"}>
             <img alt={""} src={"/assets/home/02-hero/vector-3.svg"} loading={"lazy"} className={"bg-image"} />

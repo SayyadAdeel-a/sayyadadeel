@@ -17,16 +17,16 @@ export default function ContactSection() {
             <h1 group-fade-up-item={"true"} className={"h1 text-wrap"}>Let’s Connect</h1>
             <div className={"contact-intro"}>
               <p className="text-default">
-                Whether you're starting a project, exploring an idea, or want to
-                talk about something you saw here, this form is the quickest way
-                to reach Sayyad Adeel Ahmad. Most enquiries get a reply within
-                one working day.
+                Whether you need a website, an ecommerce store, or automation to
+                save your team hours, this form is the fastest way to reach
+                Sayyad Adeel Ahmad. Most enquiries get a reply within one
+                working day.
               </p>
               <p className="text-default">
-                I'm happy to discuss projects big or small, answer questions
-                before you're ready to commit, or simply connect. If you're not
-                sure whether something is feasible, say so — an honest answer is
-                part of the point of writing.
+                Tell him what you're building and what you want it to do. If
+                you're not sure whether something is feasible or what it should
+                cost, say so — an honest answer is part of how good projects
+                start.
               </p>
               <ul className="contact-goodtoknow">
                 <li>Messages go straight to his inbox — nothing you submit is stored on this site, only delivered as an email.</li>

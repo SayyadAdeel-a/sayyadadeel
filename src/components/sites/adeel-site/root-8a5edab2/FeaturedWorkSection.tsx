@@ -12,10 +12,10 @@ export default function FeaturedWorkSection() {
                       <div className={"featured-work-header-text-wrap"}>
                         <div className={"featured-work-header-text-box"}>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>College</div>
+                            <div className={"text-mediums"}>Web</div>
                           </div>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>Learning</div>
+                            <div className={"text-mediums"}>Development</div>
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
@@ -23,10 +23,10 @@ export default function FeaturedWorkSection() {
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
-                        <h2 className={"h4"}>Still Learning</h2>
+                        <h2 className={"h4"}>Web Development</h2>
                       </div>
                       <div className={"featured-work-header-text-dectlies"}>
-                        <div className={"text-medium rbg8"}>Still a student, still exploring different interests, and slowly figuring out what I actually want to master.</div>
+                        <div className={"text-medium rbg8"}>Fast, reliable websites and ecommerce stores built on Next.js, React and clean, maintainable code.</div>
                       </div>
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
@@ -55,10 +55,10 @@ export default function FeaturedWorkSection() {
                       <div className={"featured-work-header-text-wrap"}>
                         <div className={"featured-work-header-text-box"}>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>Website</div>
+                            <div className={"text-mediums"}>Client</div>
                           </div>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>Experience</div>
+                            <div className={"text-mediums"}>Work</div>
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
@@ -66,10 +66,10 @@ export default function FeaturedWorkSection() {
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
-                        <h2 className={"h4"}>Real Work</h2>
+                        <h2 className={"h4"}>Client Work</h2>
                       </div>
                       <div className={"featured-work-header-text-dectlies"}>
-                        <div className={"text-medium rbg8"}>Building real projects taught me how different things feel when an idea has to actually work.</div>
+                        <div className={"text-medium rbg8"}>Building for real clients taught me how different things feel when an idea has to actually work and ship.</div>
                       </div>
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>
@@ -98,10 +98,10 @@ export default function FeaturedWorkSection() {
                       <div className={"featured-work-header-text-wrap"}>
                         <div className={"featured-work-header-text-box"}>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>Experiments</div>
+                            <div className={"text-mediums"}>Automation</div>
                           </div>
                           <div data-wf--text-title-box--variant={"style-two"} className={"text-title-box w-variant-140bda40-e9e6-59e8-874a-a23dcd055b01"}>
-                            <div className={"text-mediums"}>Lessons</div>
+                            <div className={"text-mediums"}>AI</div>
                           </div>
                         </div>
                         <div className={"featured-work-header-text-icon-wrap"}>
@@ -109,10 +109,10 @@ export default function FeaturedWorkSection() {
                         </div>
                       </div>
                       <div className={"featured-work-header-text-name"}>
-                        <h2 className={"h4"}>Lessons Learned</h2>
+                        <h2 className={"h4"}>Automation & AI</h2>
                       </div>
                       <div className={"featured-work-header-text-dectlies"}>
-                        <div className={"text-medium rbg8"}>Some ideas worked, some failed completely, but every attempt taught me something useful along the way.</div>
+                        <div className={"text-medium rbg8"}>Python automation, scraping and AI integrations that save teams hours of manual work every week.</div>
                       </div>
                     </div>
                     <div card-image-hover-priend={"ture"} className={"featured-work-card-image-box"}>

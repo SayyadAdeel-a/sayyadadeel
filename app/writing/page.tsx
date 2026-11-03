@@ -10,7 +10,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Writing & Guides — Sayyad Adeel Ahmad | Web Dev & Automation",
   description:
-    "Honest guides on hiring developers, building websites, and automation — written by Sayyad Adeel Ahmad, a developer who learns by building.",
+    "Honest guides on hiring developers, building websites, and automation — written by freelance web developer Sayyad Adeel Ahmad.",
   alternates: { canonical: `${siteConfig.siteUrl}/writing` },
 };
 

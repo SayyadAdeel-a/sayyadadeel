@@ -13,11 +13,11 @@ export default function HeroIntroSection() {
                 </div>
                 <div className={"hero-intro-line"} />
                 <div className={"agency-hero-dectlies-box"}>
-                  <div className={"text-small"}>Just a curious student always exploring ideas still learning.</div>
+                  <div className={"text-small"}>Freelance web developer delivering fast, reliable builds.</div>
                 </div>
               </div>
               <div data-wf--text-title-box--variant={"style-three"} className={"text-title-box w-variant-1ce6a300-c56b-b249-976c-c916f0b4e22c"}>
-                <div className={"text-mediums"}>Curiosity Driven</div>
+                <div className={"text-mediums"}>Client Focused</div>
               </div>
             </div>
             <div className={"hero-intro-meddle-wrap"}>
@@ -77,7 +77,7 @@ export default function HeroIntroSection() {
                     <div className={"hero-intro-card-icon"}>
                       <img alt={""} src={"/assets/home/03-hero-intro/music-25.svg"} loading={"lazy"} className={"all-image"} />
                     </div>
-                    <div className={"text-default rgb10"}>Just Me</div>
+                    <div className={"text-default rgb10"}>Web Developer</div>
                   </div>
                 </div>
               </div>
@@ -97,12 +97,12 @@ export default function HeroIntroSection() {
                   <img alt={""} src={"/assets/home/03-hero-intro/frame-13-2.avif"} loading={"lazy"} className={"cover-size-image"} />
                 </div>
                 <div className={"hero-intro-card-text-wrap"}>
-                  <h3 className={"h6"}>Curious Side</h3>
+                  <h3 className={"h6"}>Client Work</h3>
                   <div className={"hero-intro-card-icon-text-wrap"}>
                     <div className={"hero-intro-card-icon"}>
                       <img alt={""} src={"/assets/home/03-hero-intro/music-25.svg"} loading={"lazy"} className={"all-image"} />
                     </div>
-                    <div className={"text-default rgb10"}>Always Exploring</div>
+                    <div className={"text-default rgb10"}>Ship On Time</div>
                   </div>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function HeroIntroSection() {
                     <div className={"hero-intro-card-icon"}>
                       <img alt={""} src={"/assets/home/03-hero-intro/music-25.svg"} loading={"lazy"} className={"all-image"} />
                     </div>
-                    <div className={"text-default rgb10"}>Still Learning</div>
+                    <div className={"text-default rgb10"}>Client First</div>
                   </div>
                 </div>
               </div>

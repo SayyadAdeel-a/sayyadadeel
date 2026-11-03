@@ -10,10 +10,10 @@ export default function CapabilitiesSection() {
                   <div className={"text-icon-box"}>
                     <img src={"/assets/home/_shared/ellipse-2469.svg"} loading={"lazy"} move-opacty={"ture"} alt={"Icon"} className={"text-icon"} />
                   </div>
-                  <div className={"text-block-name"}>Learning Corner</div>
+                  <div className={"text-block-name"}>Services</div>
                 </div>
               </div>
-              <h2 fade-up={"true"} className={"h2"}>Things I Keep Learning</h2>
+              <h2 fade-up={"true"} className={"h2"}>What I Can Build For You</h2>
             </div>
             <div className={"our-work-wrapper"}>
               <div className={"our-work-fast-wrapper"}>
@@ -22,8 +22,8 @@ export default function CapabilitiesSection() {
                     <img src={"/assets/home/08-capabilities/learning-through-building.avif"} loading={"lazy"} alt={"A student working at a laptop beside a second monitor"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-text-wrap"}>
-                    <h3 className={"h5 white"}>Learning Through Building</h3>
-                    <p className={"text-default white"}>Most of what I learn comes from trying things myself, building something, and figuring out what breaks.</p>
+                    <h3 className={"h5 white"}>Websites & Stores</h3>
+                    <p className={"text-default white"}>Fast, responsive websites and ecommerce stores that load quickly and win trust.</p>
                   </div>
                   <div className={"our-work-image-bg-wrap"} />
                 </div>
@@ -76,7 +76,7 @@ export default function CapabilitiesSection() {
                         <div className={"text-tab"}>Problem Solving</div>
                       </div>
                       <div className={"text-title-box item-five two-five"}>
-                        <div className={"text-tab"}>Learning</div>
+                        <div className={"text-tab"}>Shipping</div>
                       </div>
                     </div>
                   </div>
@@ -86,8 +86,8 @@ export default function CapabilitiesSection() {
                     <img src={"/assets/home/08-capabilities/always-exploring.avif"} loading={"lazy"} alt={"A student at a desk with an open notebook and a mug"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-text-wrap"}>
-                    <h3 className={"h5 white"}>Always Exploring</h3>
-                    <p className={"text-default white"}>Still learning, testing new tools, and slowly understanding how all the pieces fit together.</p>
+                    <h3 className={"h5 white"}>Automation & AI</h3>
+                    <p className={"text-default white"}>Python automation and AI integrations that remove repetitive work from your team.</p>
                   </div>
                   <div className={"our-work-image-bg-wrap"} />
                 </div>
