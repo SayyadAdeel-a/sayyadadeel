@@ -1,0 +1,166 @@
+/*
+ * Scoped styling for the `/services` hub and `/services/[slug]` pages.
+ *
+ * These pages are hand-authored (not generated from the Webflow capture), so
+ * they do not share the homepage's component classes. Instead they use a small,
+ * self-contained set of classes defined here, styled with the same font tokens
+ * and accent the rest of the site uses. Scoped by class name so nothing here
+ * leaks into the Webflow-styled pages.
+ */
+
+.services-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 88px 24px 96px;
+  font-family: var(--font-hanken-grotesk), sans-serif;
+  color: #1d1d1d;
+}
+
+.services-shell .services-eyebrow {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fb8626;
+  margin: 0 0 12px;
+}
+
+.services-shell h1 {
+  font-family: var(--font-averia-sans-libre), sans-serif;
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  line-height: 1.05;
+  margin: 0 0 20px;
+  color: #1d1d1d;
+}
+
+.services-shell .services-intro {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #3a3a3a;
+  max-width: 42em;
+  margin: 0 0 40px;
+}
+
+.services-shell .services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+@media (min-width: 720px) {
+  .services-shell .services-grid.two-col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.services-shell .services-section h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.services-shell .services-section p {
+  line-height: 1.65;
+  color: #3a3a3a;
+  margin: 0;
+}
+
+.services-shell .services-card {
+  border: 1px solid #e7e2da;
+  border-radius: 16px;
+  padding: 28px;
+  background: #fff;
+  box-shadow: inset 0 0 48px rgba(255, 255, 255, 0.4);
+}
+
+.services-shell .services-card h2 {
+  font-size: 1.4rem;
+  margin: 0 0 8px;
+}
+
+.services-shell .services-card p {
+  color: #575757;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+.services-shell .services-check {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+}
+
+.services-shell .services-check li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.services-shell .services-check li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fb8626;
+  font-weight: 700;
+}
+
+.services-shell .services-faq {
+  margin-top: 56px;
+}
+
+.services-shell .services-faq h2 {
+  font-size: 1.4rem;
+  margin: 0 0 16px;
+}
+
+.services-shell .services-faq details {
+  border-top: 1px solid #e7e2da;
+  padding: 16px 0;
+}
+
+.services-shell .services-faq summary {
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+.services-shell .services-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.services-shell .services-faq p {
+  margin: 10px 0 0;
+  line-height: 1.6;
+  color: #575757;
+}
+
+.services-shell .services-cta {
+  margin-top: 48px;
+  padding: 32px;
+  border-radius: 16px;
+  background: #1d1d1d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.services-shell .services-cta p {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.services-shell .services-cta a {
+  background: #fb8626;
+  color: #1d1d1d;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 999px;
+  display: inline-block;
+}

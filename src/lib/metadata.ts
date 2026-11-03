@@ -185,7 +185,7 @@ export function webSiteJsonLd() {
  */
 type PageJsonLd = {
   path: string;
-  type: "ProfilePage" | "ContactPage";
+  type: "ProfilePage" | "ContactPage" | "ProfessionalService";
   name: string;
   description: string;
 };

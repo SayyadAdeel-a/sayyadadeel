@@ -18,6 +18,8 @@
  * without, and a sitemap entry for an anchor never gets its own result.
  */
 
+import { services } from "@/content/services";
+
 /** The change frequencies Next accepts in `sitemap.xml`. */
 export type ChangeFrequency =
   | "always"
@@ -62,6 +64,19 @@ export const indexableRoutes: IndexableRoute[] = [
     intent:
       "Guides on hiring developers, building websites and automation. Targets buyer-research queries that lead to contact.",
   },
+  {
+    path: "/services",
+    changeFrequency: "monthly",
+    priority: 0.7,
+    intent:
+      "The services hub. Targets buyers deciding whether to hire a freelance web developer for websites, ecommerce or automation.",
+  },
+  ...services.map((s) => ({
+    path: `/services/${s.slug}`,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+    intent: `${s.h1} service page. Targets commercial search intent for hiring that service.`,
+  })),
 ];
 
 /**
