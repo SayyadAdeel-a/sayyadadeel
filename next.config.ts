@@ -42,6 +42,9 @@ const MOVED = [
  *
  * The nested ones are the template's own articles and case studies; they were
  * never going to survive a rebrand and were not written by this site's owner.
+ * `/home`, `/index.html` and `/default.asp` are not template routes — they are
+ * legacy guesses that intermittent crawlers and link checkers still probe, so
+ * they answer 410 like everything else that is gone for good.
  */
 const GONE = [
   "/services/campaign-management",
@@ -61,7 +64,19 @@ const GONE = [
   "/blogs/short-video-trends-that-will-dominate-this-year",
   "/blogs/turning-creator-content-into-brand-growth",
   "/blogs/what-consumers-actually-want-to-watch-today",
+  "/home",
+  "/index.html",
+  "/default.asp",
 ] as const;
+
+/**
+ * Expand a path list with its trailing-slash variants. Google has indexed
+ * versions of the old URLs both with and without the trailing slash, and the
+ * rewrite/redirect rules must answer both the same way rather than letting one
+ * variant fall through to a 404.
+ */
+const withSlash = <T extends string>(paths: readonly T[]): string[] =>
+  paths.flatMap((p) => [p, `${p}/`]);
 
 const nextConfig: NextConfig = {
   async headers() {
@@ -83,17 +98,23 @@ const nextConfig: NextConfig = {
   },
 
   async redirects() {
-    return MOVED.map(({ from, to }) => ({
-      source: from,
-      destination: to,
-      // 301 rather than `permanent: true`, which Next emits as 308. Both are
-      // permanent and Google consolidates signals for either, but 308 preserves
-      // the request method and 301 is the code every crawler, redirect checker
-      // and SEO report actually recognises. For GET-only page URLs there is
-      // nothing method-preserving to protect, so 301 costs nothing and reads
-      // correctly in Search Console.
-      statusCode: 301,
-    }));
+    // Every moved URL answers identically with and without its trailing slash.
+    return withSlash(MOVED.map(({ from }) => from)).map((source) => {
+      const entry = MOVED.find(
+        (m) => m.from === source || `${m.from}/` === source,
+      );
+      return {
+        source,
+        destination: entry!.to,
+        // 301 rather than `permanent: true`, which Next emits as 308. Both are
+        // permanent and Google consolidates signals for either, but 308 preserves
+        // the request method and 301 is the code every crawler, redirect checker
+        // and SEO report actually recognises. For GET-only page URLs there is
+        // nothing method-preserving to protect, so 301 costs nothing and reads
+        // correctly in Search Console.
+        statusCode: 301,
+      };
+    });
   },
 
   async rewrites() {
@@ -103,7 +124,7 @@ const nextConfig: NextConfig = {
     // Listed as an array of single-source rules rather than one rule with an
     // array `source`: Next only accepts a `source` array in this flat form, and
     // one rule per URL is easier to read in `.next/routes-manifest.json`.
-    return GONE.map((from) => ({ source: from, destination: "/gone" }));
+    return withSlash(GONE).map((source) => ({ source, destination: "/gone" }));
   },
 };
 

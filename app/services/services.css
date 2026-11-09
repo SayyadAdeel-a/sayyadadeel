@@ -106,6 +106,30 @@
   color: #575757;
 }
 
+/* Related-service cross-links: a quiet wrap of text links in the site's
+   accent colour, giving every service page a route to its siblings. */
+.service-related {
+  margin-top: 48px;
+}
+
+.service-related-links {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 8px 24px;
+  margin-top: 12px;
+}
+
+.service-related-link {
+  color: var(--accent-color--accent-5, #ef8c23);
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.service-related-link:hover {
+  text-decoration: underline;
+}
+
 /* Hub: two-column card grid on wide screens. */
 .services-grid {
   display: grid;

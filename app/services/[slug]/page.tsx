@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import "../services.css";
 import SiteHeader from "@/components/sites/adeel-site/shared/SiteHeader";
 import SiteFooter from "@/components/sites/adeel-site/shared/SiteFooter";
@@ -136,6 +137,22 @@ export default async function ServicePage({
                     <p>{f.a}</p>
                   </details>
                 ))}
+              </div>
+
+              <div className="service-related">
+                <h2 className="h4">Related services</h2>
+                <div className="service-related-links">
+                  {services
+                    .filter((s) => s.slug !== service.slug)
+                    .map((s) => (
+                      <a key={s.slug} href={`/services/${s.slug}`} className="service-related-link">
+                        {s.h1}
+                      </a>
+                    ))}
+                  <Link href="/services" className="service-related-link">
+                    All services
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

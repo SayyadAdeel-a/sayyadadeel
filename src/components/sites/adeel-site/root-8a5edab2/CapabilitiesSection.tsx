@@ -17,16 +17,16 @@ export default function CapabilitiesSection() {
             </div>
             <div className={"our-work-wrapper"}>
               <div className={"our-work-fast-wrapper"}>
-                <div fade-up={"true"} card-image-hover-priend={"ture"} className={"our-work-image-text-wrapper"}>
+                <a href={"/services/web-development"} card-image-hover-priend={"ture"} className={"our-work-image-text-wrapper"}>
                   <div card-image-hover-child={"ture"} className={"our-work-image-wrap"}>
-                    <img src={"/assets/home/08-capabilities/learning-through-building.avif"} loading={"lazy"} alt={"A student working at a laptop beside a second monitor"} className={"cover-size-image"} />
+                    <img src={"/assets/home/08-capabilities/learning-through-building.avif"} loading={"lazy"} alt={"Working on a client website build"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-text-wrap"}>
                     <h3 className={"h5 white"}>Websites & Stores</h3>
                     <p className={"text-default white"}>Fast, responsive websites and ecommerce stores that load quickly and win trust.</p>
                   </div>
                   <div className={"our-work-image-bg-wrap"} />
-                </div>
+                </a>
                 <div fade-up={"true"} move-scroll-card-box={"ture"} className={"our-work-grdden-image-text-wrapper"}>
                   <div className={"our-work-grdden-image-wrap"}>
                     <img alt={""} src={"/assets/home/08-capabilities/frame-2147262240-1.svg"} loading={"lazy"} className={"cover-size-image"} />
@@ -81,16 +81,16 @@ export default function CapabilitiesSection() {
                     </div>
                   </div>
                 </div>
-                <div fade-up={"true"} card-image-hover-priend={"ture"} className={"our-work-image-text-wrapper"}>
+                <a href={"/services/ai-automation"} card-image-hover-priend={"ture"} className={"our-work-image-text-wrapper"}>
                   <div card-image-hover-child={"ture"} className={"our-work-image-wrap"}>
-                    <img src={"/assets/home/08-capabilities/always-exploring.avif"} loading={"lazy"} alt={"A student at a desk with an open notebook and a mug"} className={"cover-size-image"} />
+                    <img src={"/assets/home/08-capabilities/always-exploring.avif"} loading={"lazy"} alt={"Reviewing an automation flow on a laptop"} className={"cover-size-image"} />
                   </div>
                   <div className={"our-work-text-wrap"}>
                     <h3 className={"h5 white"}>Automation & AI</h3>
                     <p className={"text-default white"}>Python automation and AI integrations that remove repetitive work from your team.</p>
                   </div>
                   <div className={"our-work-image-bg-wrap"} />
-                </div>
+                </a>
               </div>
             </div>
           </div>
